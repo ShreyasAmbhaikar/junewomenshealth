@@ -6,9 +6,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
+import { siteConfig } from "@/lib/site-config";
 
 const NAV_LINKS = [
-  { label: "Home", href: "/best-gynecologist-in-keshav-nagar/" },
+  { label: "Home", href: "/best-gynecologist-in-lucknow/" },
   { label: "About Us", href: "/about-us" },
   { label: "Services", href: "/services" },
   { label: "Gallery", href: "/gallery/" },
@@ -16,27 +17,27 @@ const NAV_LINKS = [
 ];
 
 const SERVICES_ITEMS = [
-  { label: "Normal Delivery", href: "/normal-delivery-in-keshav-nagar/" },
-  { label: "LSCS (Caesarean Section)", href: "/lscs-caesarean-section-in-keshav-nagar/" },
-  { label: "Infertility, IUI & IVF", href: "/infertility-iui-ivf-in-keshav-nagar/" },
-  { label: "Scarless Hysterectomy (NDVH)", href: "/scarless-hysterectomy-in-keshav-nagar/" },
-  { label: "PCOD / PCOS Care", href: "/pcod-pcos-care-in-keshav-nagar/" },
-  { label: "Cervical Cancer Vaccine", href: "/cervical-cancer-vaccination-screening-in-keshav-nagar/" },
-  { label: "Pre Conceptional Counselling", href: "/pre-conceptional-counselling-in-keshav-nagar/" },
-  { label: "MTP, D & E Services", href: "/mtp-d-e-services-in-keshav-nagar/" },
-  { label: "Tubal Ligation & Reversal", href: "/tubal-ligation-reversal-in-keshav-nagar/" },
-  { label: "Laparoscopic Procedures", href: "/laparoscopic-procedures-in-keshav-nagar/" },
-  { label: "Hysteroscopy", href: "/hysteroscopy-in-keshav-nagar/" },
-  { label: "Pregnancy Care", href: "/pregnancy-care-in-keshav-nagar/" },
-  { label: "High Risk Pregnancy Management", href: "/high-risk-pregnancy-management-in-keshav-nagar/" },
-  { label: "Pubertal Counselling", href: "/pubertal-counselling-in-keshav-nagar/" },
-  { label: "Menstrual Hygiene", href: "/menstrual-hygiene-in-keshav-nagar/" },
-  { label: "Contraception Advice", href: "/contraception-advice-in-keshav-nagar/" },
-  { label: "Lactational Counselling", href: "/lactational-counselling-in-keshav-nagar/" },
-  { label: "Family Planning Center", href: "/family-planning-center-in-keshav-nagar/" },
-  { label: "Pelvic Infections", href: "/pelvic-infections-treatment-in-keshav-nagar/" },
-  { label: "Cancer Screening", href: "/cancer-screening-in-keshav-nagar/" },
-  { label: "Addressing Menstrual Cycle Problems", href: "/menstrual-cycle-problems-in-keshav-nagar/" },
+  { label: "Normal Delivery", href: "/normal-delivery-in-lucknow/" },
+  { label: "LSCS (Caesarean Section)", href: "/lscs-caesarean-section-in-lucknow/" },
+  { label: "Infertility, IUI & IVF", href: "/infertility-iui-ivf-in-lucknow/" },
+  { label: "Scarless Hysterectomy (NDVH)", href: "/scarless-hysterectomy-in-lucknow/" },
+  { label: "PCOD / PCOS Care", href: "/pcod-pcos-care-in-lucknow/" },
+  { label: "Cervical Cancer Vaccine", href: "/cervical-cancer-vaccination-screening-in-lucknow/" },
+  { label: "Pre Conceptional Counselling", href: "/pre-conceptional-counselling-in-lucknow/" },
+  { label: "MTP, D & E Services", href: "/mtp-d-e-services-in-lucknow/" },
+  { label: "Tubal Ligation & Reversal", href: "/tubal-ligation-reversal-in-lucknow/" },
+  { label: "Laparoscopic Procedures", href: "/laparoscopic-procedures-in-lucknow/" },
+  { label: "Hysteroscopy", href: "/hysteroscopy-in-lucknow/" },
+  { label: "Pregnancy Care", href: "/pregnancy-care-in-lucknow/" },
+  { label: "High Risk Pregnancy Management", href: "/high-risk-pregnancy-management-in-lucknow/" },
+  { label: "Pubertal Counselling", href: "/pubertal-counselling-in-lucknow/" },
+  { label: "Menstrual Hygiene", href: "/menstrual-hygiene-in-lucknow/" },
+  { label: "Contraception Advice", href: "/contraception-advice-in-lucknow/" },
+  { label: "Lactational Counselling", href: "/lactational-counselling-in-lucknow/" },
+  { label: "Family Planning Center", href: "/family-planning-center-in-lucknow/" },
+  { label: "Pelvic Infections", href: "/pelvic-infections-treatment-in-lucknow/" },
+  { label: "Cancer Screening", href: "/cancer-screening-in-lucknow/" },
+  { label: "Addressing Menstrual Cycle Problems", href: "/menstrual-cycle-problems-in-lucknow/" },
 ];
 
 export const Header = () => {
@@ -85,18 +86,18 @@ export const Header = () => {
       <div className="container mx-auto max-w-[1300px] px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/best-gynecologist-in-keshav-nagar/" prefetch={false} className="relative z-50 flex items-center shrink-0">
+          <Link href="/best-gynecologist-in-lucknow/" prefetch={false} className="relative z-50 flex items-center gap-3 md:gap-4 shrink-0">
             <Image
-              src="/images/logo-emblem-2.webp"
-              alt="Dr Poonam's Women's Clinic"
-              width={72}
-              height={72}
-              className="w-16 h-16 md:w-[72px] md:h-[72px] object-contain"
+              src={siteConfig.logo}
+              alt={siteConfig.name}
+              width={131}
+              height={172}
+              className="w-[42px] h-[55px] md:w-[50px] md:h-[66px] object-contain"
               priority
             />
             <div className="flex flex-col text-left justify-center">
-              <span className="text-[14px] md:text-[17px] font-extrabold text-primary tracking-wide leading-none font-onest uppercase">DR. POONAM'S</span>
-              <span className="text-[10px] md:text-[12px] font-bold text-accent tracking-wider leading-none mt-1.5 font-onest uppercase">WOMEN'S CLINIC</span>
+              <span className="text-[18px] md:text-[22px] font-black text-primary tracking-wider leading-none font-onest uppercase">JUNE</span>
+              <span className="text-[10px] md:text-[12px] font-bold text-accent tracking-[0.18em] leading-none mt-1.5 font-onest uppercase">WOMEN'S HEALTH</span>
             </div>
           </Link>
 

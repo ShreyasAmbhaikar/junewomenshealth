@@ -1,30 +1,30 @@
 export const siteConfig = {
-  name: "Dr. Poonam's Women's Clinic",
-  shortName: "Dr. Poonam's Clinic",
-  description: "Dr. Poonam's Women's Clinic is a leading gynecologist clinic in Keshav Nagar, Pune. Led by Dr. Poonam (MBBS, DGO, PGDMCH), senior obstetrician-gynecologist, offering expert care in normal delivery, infertility, IUI, PCOD, and laparoscopic procedures.",
+  name: "June Women's Health",
+  shortName: "June Women's Health",
+  description: "June Women's Health is a leading gynecologist clinic in Sushant Golf City, Lucknow. Led by Dr. Shamim Sultana Yashine (MBBS), senior obstetrician-gynecologist, offering expert care in normal delivery, pregnancy care, infertility, IUI, PCOD, and women's health screening.",
   url: "https://yourdomain.com", // update to client domain when active
-  logo: "/images/logo-women-health.svg",
-  footerLogo: "/images/footer-logo.svg",
+  logo: "/images/june-logo-light.svg",
+  footerLogo: "/images/june-logo-dark.svg",
   
   doctor: {
-    name: "Dr. Poonam",
-    qualifications: "MBBS, DGO, PGDMCH",
+    name: "Dr. Shamim Sultana Yashine",
+    qualifications: "MBBS",
     role: "Senior Consultant Obstetrician & Gynecologist",
-    experience: "+15 Years"
+    experience: "10+ Years"
   },
 
   // NAP (Name, Address, Phone) details
   contact: {
-    phone: "097119 29529",
-    phoneRaw: "+919711929529",
-    address: "Shop No 33, Shopping Complex, Mantra Mesmer Rd, in front of Florida River Bank, Keshav Nagar, Mundhwa, Mundhawa, Pune, Maharashtra 411036",
+    phone: "080900 99133",
+    phoneRaw: "+910809009133",
+    address: "Felix Square, 212, above Axis Bank, Golf City, Lucknow, Uttar Pradesh 226030",
     hours: {
-      weekday: "Monday to Saturday (10am - 2pm, 6pm - 9pm)",
-      sunday: "Sunday (Closed)"
+      weekday: "Monday to Sunday",
+      time: "Open 24 Hours"
     },
-    hoursShort: "Mo,Tu,We,Th,Fr,Sa 10:00-14:00 18:00-21:00",
-    mapsLink: "https://www.google.com/maps/place/Dr+Poonam's+Women's+Clinic+%7C+Gynecologist/data=!4m2!3m1!1s0x0:0xd39aed6b8c64a153?sa=X&ved=1t:2428&hl=en&ictx=111",
-    embedMapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.1873138883656!2d73.9392261!3d18.520412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1d9161a0bc5%3A0xd39aed6b8c64a153!2sDr%20Poonam&#39;s%20Women&#39;s%20Clinic%20%7C%20Gynecologist!5e0!3m2!1sen!2sin!4v1716912345678"
+    hoursShort: "Mo,Tu,We,Th,Fr,Sa,Su 00:00-24:00",
+    mapsLink: "https://www.google.com/maps/place/june+WOMEN'S+HEALTH+%7C+Gynecologist/@26.7811482,80.9899801,17.25z/data=!4m6!3m5!1s0x399be53824ea6887:0x861d01492fc9646e!8m2!3d26.781136!4d80.9897343!16s%2Fg%2F11zgqx5f7n?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyOC4wIKXMDSoASAFQAw%3D%3D",
+    embedMapSrc: "https://maps.google.com/maps?q=june%20WOMEN'S%20HEALTH%20Gynecologist%20Lucknow&t=&z=15&ie=UTF8&iwloc=&output=embed"
   },
 
   // Social handles
@@ -38,13 +38,13 @@ export const siteConfig = {
   // Google reviews
   reviews: {
     rating: "5.0",
-    count: "42"
+    count: "9"
   },
 
   // Service Areas
   serviceAreas: {
-    primary: "Keshav Nagar",
-    secondary: ["Mundhwa", "Hadapsar", "Magarpatta", "Kharadi", "Pune"]
+    primary: "Sushant Golf City",
+    secondary: ["Vrindavan Yojna", "Omaxe R1 & R2", "Awadh Vihar", "Arjun Ganj", "Neelmatha", "New Friends Colony", "Lucknow"]
   },
 
   // Core services list from client image flyer
@@ -63,19 +63,20 @@ export const siteConfig = {
 
   // Target SEO Keywords
   keywords: [
-    "gynecologist in keshav nagar",
-    "gynecologist keshav nagar",
-    "gynecologist in mundhwa",
-    "obstetrician gynecologist in pune",
-    "fertility clinic keshav nagar",
-    "women's health center mundhwa",
-    "pregnancy care clinic keshav nagar",
-    "best gynecologist hadapsar",
-    "obstetrician in kharadi",
-    "PCOD treatment keshav nagar",
-    "IUI specialist pune",
-    "normal delivery doctor keshav nagar"
+    "gynecologist in sushant golf city lucknow",
+    "gynecologist sushant golf city",
+    "gynecologist in vrindavan yojna",
+    "obstetrician gynecologist in lucknow",
+    "fertility clinic sushant golf city",
+    "women's health center vrindavan yojna",
+    "pregnancy care clinic sushant golf city",
+    "best gynecologist arjun ganj",
+    "obstetrician in neelmatha",
+    "PCOD treatment sushant golf city",
+    "IUI specialist lucknow",
+    "normal delivery doctor sushant golf city"
   ]
 };
 
 export type SiteConfig = typeof siteConfig;
+

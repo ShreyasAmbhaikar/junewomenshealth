@@ -17,12 +17,11 @@ export const ProcessSection = () => {
             priority
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-[#242736]/40"></div>
+          <div className="absolute inset-0 bg-[#3E4E36]/45"></div>
         </div>
-        
+
         {/* Floating Glassmorphic Card */}
         <div className="relative z-10 w-full max-w-[500px] bg-white/10 backdrop-blur-md border border-white/20 rounded-[30px] p-8 md:p-10 shadow-2xl flex flex-col gap-8 animate-fade-in-up">
-          
           {/* Step 1 */}
           <div className="flex items-start gap-4">
             <div className="w-14 h-14 rounded-[14px] bg-white/10 backdrop-blur-sm border border-white/15 flex items-center justify-center text-white shrink-0">
@@ -94,8 +93,9 @@ export const ProcessSection = () => {
         <div className="max-w-[580px] w-full flex flex-col gap-6">
           
           {/* Subtitle */}
+
           <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#e87c7c]"></span>
+            <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
             <span className="text-[13px] font-bold tracking-[0.15em] text-accent uppercase">
               HOW IT WORK
             </span>
@@ -108,7 +108,7 @@ export const ProcessSection = () => {
 
           {/* Bold Intro Paragraph */}
           <p className="text-[16px] md:text-[17px] font-bold text-primary leading-[1.65em] animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            Starting your healthcare journey with Dr Poonam's Women's Clinic is simple, transparent, and fully guided by experts. We make sure every step is clear and supportive – so you can focus on what matters.
+            Starting your healthcare journey with June Women's Health is simple, transparent, and fully guided by experts. We make sure every step is clear and supportive – so you can focus on what matters.
           </p>
 
           {/* Detailed Paragraph */}
@@ -151,7 +151,7 @@ export const ProcessSection = () => {
                 03
               </span>
               <h3 className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
-                <Counter end={15} suffix="+" />
+                <Counter end={10} suffix="+" />
               </h3>
               <p className="text-[13px] md:text-[14px] text-text font-semibold leading-tight">
                 Years of Experience

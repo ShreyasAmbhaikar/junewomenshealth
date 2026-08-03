@@ -11,13 +11,13 @@ export const FooterCTA = () => {
               Ready to schedule your visit?
             </h2>
             <p className="text-text text-[16px] leading-[1.6em]">
-              BOOK AN APPOINTMENT WITH DR POONAM FOR PERSONALIZED & COMPASSIONATE WOMEN'S HEALTHCARE.
+              BOOK AN APPOINTMENT WITH Dr. Shamim Sultana Yashine FOR PERSONALIZED & COMPASSIONATE WOMEN'S HEALTHCARE.
             </p>
           </div>
           
           <div className="shrink-0 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <RotatingTextPath 
-              text="Dr. Poonam's Women's Clinic • Gynecologist • Dr. Poonam's Women's Clinic • Gynecologist • " 
+              text="June Women's Health • Gynecologist • June Women's Health • Gynecologist • " 
               radius={120} 
               fontSize={14.5}
               letterSpacing="0.09em"

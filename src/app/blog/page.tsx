@@ -4,8 +4,8 @@ import PageHeader from "@/components/landing/PageHeader";
 import BlogListSection from "@/components/landing/BlogListSection";
 
 export const metadata = {
-  title: "Latest Health Articles & Insights | Dr Poonam's Women's Clinic",
-  description: "Stay updated with expert health articles on pregnancy care, gynecological screening, normal delivery, and wellness tips from Dr. Poonam.",
+  title: "Latest Health Articles & Insights | June Women's Health",
+  description: "Stay updated with expert health articles on pregnancy care, gynecological screening, normal delivery, and wellness tips from Dr. Shamim Sultana Yashine.",
   alternates: {
     canonical: "/blog/",
   },

@@ -2,16 +2,17 @@
 
 import React from "react";
 import Accordion from "@/components/ui/Accordion";
+import { siteConfig } from "@/lib/site-config";
 import { AnimatedHeading } from "@/components/ui/AnimatedHeading";
 
 export const FaqMapSection = () => {
   const faqItems = [
     {
-      question: "Who is the best gynecologist in Keshav Nagar & Mundhwa for pregnancy care?",
-      answer: "Dr. Poonam, director of Dr. Poonam's Women's Clinic, is widely trusted for prenatal care. As a Senior Consultant with over 15 years of clinical experience, she specializes in high-safety maternity monitoring, normal deliveries, and high-risk pregnancy care."
+      question: "Who is the best gynecologist in Sushant Golf City & Lucknow for pregnancy care?",
+      answer: "Dr. Shamim Sultana Yashine, director of June Women's Health, is widely trusted for prenatal care. As a Senior Consultant with over 10+ Years of clinical experience, she specializes in high-safety maternity monitoring, normal deliveries, and high-risk pregnancy care."
     },
     {
-      question: "What treatments are offered at Dr. Poonam's Women's Clinic?",
+      question: "What treatments are offered at June Women's Health?",
       answer: "We provide comprehensive women's healthcare, including normal delivery, Caesarean section (LSCS), PCOS/PCOD management, infertility diagnostics & IUI guidance, cervical cancer screening & HPV vaccination, and minimally invasive laparoscopic procedures."
     },
     {
@@ -36,8 +37,9 @@ export const FaqMapSection = () => {
           {/* Left Column: FAQ Accordion */}
           <div className="lg:col-span-6 flex flex-col justify-center animate-fade-in-up">
             {/* Subtitle */}
+
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#e87c7c]"></span>
+              <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
               <span className="text-[13px] font-bold tracking-[0.15em] text-accent uppercase">
                 COMMON QUESTIONS
               </span>
@@ -59,9 +61,9 @@ export const FaqMapSection = () => {
               style={{ animationDelay: "0.2s" }}
             >
               <iframe 
-                src="https://maps.google.com/maps?q=Dr%20Poonam's%20Women's%20Clinic%20Keshav%20Nagar%20Pune&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                title="Dr Poonam's Women's Clinic, Keshav Nagar, Pune" 
-                aria-label="Dr Poonam's Women's Clinic, Keshav Nagar, Pune"
+                src={siteConfig.contact.embedMapSrc} 
+                title={`${siteConfig.name}, Sushant Golf City, Lucknow`} 
+                aria-label={`${siteConfig.name}, Sushant Golf City, Lucknow`}
                 className="w-full h-full border-0 absolute inset-0"
                 allowFullScreen
                 loading="lazy"

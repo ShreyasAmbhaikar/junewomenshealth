@@ -9,58 +9,58 @@ import "swiper/css";
 
 const TESTIMONIALS = [
   {
-    name: "Mayuri Mehta",
+    name: "Gunjan Bhatt",
     role: "Verified Patient",
-    image: "/images/review-1-mayuri.webp",
-    text: "Had a very good experience with Dr. Poonam. She was professional, patient, and explained everything clearly. She listened carefully to my concerns and made me feel comfortable throughout the consultation. Her guidance was very helpful and reassuring. Highly recommend her to anyone looking for a knowledgeable and caring gynac.",
-    rating: 5,
-    isLocalGuide: false
-  },
-  {
-    name: "Kartika Gurjar",
-    role: "Verified Patient",
-    image: "/images/review-5-kartika.webp",
-    text: "I'm taking my treatment from Dr. Poonam and honestly she feels like home very comfortable very kind and a good listener also now a days doctors are not available on call or whatsapp but she is available all the time inbetween you have any query you can reach out to her without any hesitation..\nAnd talking about treatment i personally found very helpful and effective.",
-    rating: 5,
-    isLocalGuide: false
-  },
-  {
-    name: "Govinda Budhvant",
-    role: "Verified Patient",
-    image: "/images/review-3-govinda.webp",
-    text: "I had a wonderful experience with Dr. Poonam. As a new patient, I was a bit nervous, but she made us feel completely at ease. She took the time to listen to all our concerns without rushing and explained everything in a way that was easy to understand. Highly recommend her for anyone looking for a knowledgeable and compassionate doctor.",
+    image: "/images/review-gunjan-bhatt.webp",
+    text: "This clinic and the doctors here are the best. I got the biggest happiness of my life here, so I will tell people to meet or visit the doctors here and they are very good for consultation.",
     rating: 5,
     isLocalGuide: true
   },
   {
-    name: "Amani Borra",
+    name: "Rachana Pankaj Kashyap",
     role: "Verified Patient",
-    image: "/images/review-6-amani.webp",
-    text: "Here is the honest review I am sharing\nDr. Poonam Mam I have never seen a doctor like you.\nMam is very very much friendly and her first priority is the treatment of patient I have consulted her 2 times she is very responsible with her duities and she treated me very well and I suggest Dr.Poonam is the best for any Gynec related problems\nAlso Mam thank you soo much for the best treatment.",
+    image: "/images/review-rachana-kashyap.webp",
+    text: "Best gynecologist I had ever mate.",
     rating: 5,
     isLocalGuide: false
   },
   {
-    name: "Shrutika Bhute",
+    name: "Avnish Kumar Sharma",
     role: "Verified Patient",
-    image: "/images/review-2-shrutika.webp",
-    text: "I had a wonderful experience with Dr. Poonam. From the start, she made me feel completely at ease. She took the time to listen to all my concerns and explained everything in a way that was easy to understand. Highly recommend for anyone looking for a comfortable and supportive environment!",
+    image: "/images/review-avnish-sharma.webp",
+    text: "I had a wonderful experience with Dr. Sultana Mam. The doctor was kind, patient, and took the time to explain everything clearly. I felt comfortable discussing my concerns, and every question was answered with care and professionalism. The clinic was clean, well-organized, and the staff were friendly and supportive.",
     rating: 5,
     isLocalGuide: false
   },
   {
-    name: "Prapti Nirmal",
+    name: "Arbaz Idrisi",
     role: "Verified Patient",
-    image: "/images/review-7-prapti.webp",
-    text: "Best gynacologist in keshav nagar. She guided me well and very caring",
+    image: "/images/review-arbaz-idrisi.webp",
+    text: "Best Docter",
     rating: 5,
-    isLocalGuide: true
+    isLocalGuide: false
   },
   {
-    name: "Shivkanya Dongare",
+    name: "Gudia Singh",
     role: "Verified Patient",
-    image: "/images/review-4-shivkanya.webp",
-    text: "I had a very good experience with Dr. Poonam. She listens carefully to the patient's concerns and provide clear, thoughful guidance for diagnosis. Instead of jumping to conclusions, she follows step by step approach to treatment. She is also available on phone, which is quite rare and truly reassuring.",
+    image: "/images/review-gudia-singh.webp",
+    text: "I am so happy to share my views for Dr Sultana shamim ma'am ….she is a incredibly nice human and a excellent surgeon .. I went to her for my long standing problem for fibroid and ok infertility ... Iwas very well councellwd .. my laptop myomectomy went smoothly and i recovered very fast , now i have a child with me .. all because nof her.",
+    rating: 5,
+    isLocalGuide: false
+  },
+  {
+    name: "Samar Najam",
+    role: "Verified Patient",
+    image: "/images/review-samar-najam.webp",
+    text: "Best doctor and a nice human being",
+    rating: 5,
+    isLocalGuide: false
+  },
+  {
+    name: "Goenka",
+    role: "Verified Patient",
+    image: "/images/review-goenka.webp",
+    text: "I had good experience with Dr.Shamim Sultana...she listen carefully all problems\nAnswer all my questions very politely and make me ease throughout my visit.her love made me feel confident over all I felt that I m in safe nd good hands.",
     rating: 5,
     isLocalGuide: false
   }
@@ -74,9 +74,10 @@ export const TestimonialsSection = () => {
         {/* Header Layout */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-[50px] lg:mb-[60px] animate-fade-in-up">
           {/* Left Column: Subtitle & Heading */}
+
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#e87c7c]"></span>
+              <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
               <span className="text-[13px] md:text-[14px] font-bold tracking-[0.15em] text-white uppercase">
                 TESTIMONIALS
               </span>
@@ -136,7 +137,7 @@ export const TestimonialsSection = () => {
                 <div 
                   className="border rounded-[20px] p-[40px] w-full flex flex-col justify-between"
                   style={{ 
-                    backgroundColor: "#2d303f",
+                    backgroundColor: "#2D3A24",
                     borderColor: "rgba(255, 255, 255, 0.1)"
                   }}
                 >

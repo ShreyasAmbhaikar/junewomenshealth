@@ -16,19 +16,19 @@ export const HeroSection = () => {
           <div className="w-full lg:w-[53%] relative z-10 lg:pr-[60px]">
             <AnimatedHeading 
               as="h1" 
-              text="Trusted Obstetrician & Gynecologist in Keshav Nagar"
+              text="Trusted Obstetrician & Gynecologist in Sushant Golf City"
               className="mb-[30px]"
             />
             
             <p className="text-[16px] text-text mb-[40px] max-w-[500px] leading-[1.6em]">
-              Led by Senior Consultant Dr. Poonam (MBBS, DGO, PGDMCH), we provide compassionate, state-of-the-art women's healthcare services, specializing in normal delivery, pregnancy care, infertility/IUI, PCOD, and laparoscopic procedures.
+              Led by Senior Consultant Dr. Shamim Sultana Yashine (MBBS, DGO, PGDMCH), we provide compassionate, state-of-the-art women's healthcare services, specializing in normal delivery, pregnancy care, infertility/IUI, PCOD, and laparoscopic procedures.
             </p>
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 border-t border-divider pt-[40px] mb-[40px]">
               <div>
                 <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
-                  <Counter end={15} suffix="+" />
+                  <Counter end={10} suffix="+" />
                 </h3>
                 <p className="text-[14px] text-text">Years of experience</p>
               </div>
@@ -40,19 +40,19 @@ export const HeroSection = () => {
               </div>
               <div>
                 <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
-                  <Counter end={42} suffix="+" />
+                  <Counter end={9} />
                 </h3>
                 <p className="text-[14px] text-text">Google reviews</p>
               </div>
             </div>
 
-            {/* Buttons Container */}
             <div className="flex flex-wrap items-center gap-[30px]">
               <Link 
                 href="/contact-us" 
-                className="inline-flex items-center gap-2 bg-accent text-white font-bold text-[15px] px-[28px] py-[15px] rounded-[10px] hover:bg-primary transition-all duration-300 group"
+                className="inline-flex items-center gap-2 bg-primary text-white font-bold text-[15px] px-[28px] py-[15px] rounded-[10px] hover:bg-accent transition-all duration-300 group"
               >
                 Book a Consultation
+
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="16" 
@@ -77,8 +77,8 @@ export const HeroSection = () => {
               {/* Image Container */}
               <div className="relative rounded-[30px] overflow-hidden aspect-[1/1.12] w-full">
                 <Image 
-                  src="/images/doctor-poonam-hero.webp" 
-                  alt="Dr. Poonam consulting in her office at Dr. Poonam's Women's Clinic" 
+                  src="/images/june-gallery-image-1.webp" 
+                  alt="Modern consulting room at June Women's Health" 
                   fill 
                   className="object-cover"
                   priority

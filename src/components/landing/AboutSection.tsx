@@ -26,7 +26,7 @@ export const AboutSection = () => {
 
             {/* Paragraph Description */}
             <p className="text-[16px] text-text leading-[1.65em] max-w-[620px]">
-              At <strong>Dr. Poonam's Women's Clinic</strong>, we provide dedicated, evidence-based obstetric and gynecological care tailored to every stage of a woman's life. Led by <strong>Dr. Poonam</strong>, a board-certified Senior Consultant with <strong>over 15 years of clinical practice</strong>, our clinic serves as a trusted medical sanctuary for patients in <strong>Keshav Nagar, Mundhwa</strong>, and surrounding Pune neighborhoods. We combine advanced clinical safety protocols with compassionate, patient-first care, specializing in high-safety pregnancy care, normal delivery, PCOS management, and ethical fertility support.
+              At <strong>June Women's Health</strong>, we provide dedicated, evidence-based obstetric and gynecological care tailored to every stage of a woman's life. Led by <strong>Dr. Shamim Sultana Yashine</strong>, a board-certified Senior Consultant with <strong>over 10+ years of clinical experience</strong>, our clinic serves as a trusted medical sanctuary for patients in <strong>Sushant Golf City, Golf City</strong>, and surrounding Lucknow neighborhoods. We combine advanced clinical safety protocols with compassionate, patient-first care, specializing in high-safety pregnancy care, normal delivery, PCOS management, and ethical fertility support.
             </p>
 
             {/* List & Trust Card Grid */}
@@ -58,7 +58,7 @@ export const AboutSection = () => {
                     </svg>
                   </div>
                   <span className="font-bold text-primary text-[15px] md:text-[16px]">
-                    Senior Consultant (MBBS, DGO, PGDMCH)
+                    Senior Consultant (MBBS, 10+ Years Experience)
                   </span>
                 </div>
 
@@ -81,7 +81,7 @@ export const AboutSection = () => {
                 <div className="bg-white rounded-[24px] p-6 shadow-[0_15px_40px_rgba(0,0,0,0.04)] border border-divider/15 flex flex-col items-center justify-center text-center w-full max-w-[240px]">
                   {/* Overlapping Avatars */}
                   <div className="flex -space-x-3 mb-4">
-                    {['review-1-mayuri', 'review-2-shrutika', 'review-6-amani', 'review-5-kartika'].map((avatar, i) => (
+                    {['review-gunjan-bhatt', 'review-avnish-sharma', 'review-rachana-kashyap', 'review-gudia-singh'].map((avatar, i) => (
                       <div 
                         key={i} 
                         className="w-[42px] h-[42px] rounded-full border-2 border-white relative overflow-hidden shadow-sm shrink-0"
@@ -107,7 +107,7 @@ export const AboutSection = () => {
 
                   {/* Trust Text */}
                   <p className="text-[13px] font-bold text-text">
-                    5.0 Google Rating (42 Reviews)
+                    5.0 Google Rating (9 Reviews)
                   </p>
                 </div>
               </div>
@@ -151,20 +151,19 @@ export const AboutSection = () => {
               </div>
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                 <RotatingTextPath 
-                  text="Dr. Poonam's Women's Clinic • Gynecologist • " 
+                  text="June Women's Health • Gynecologist • " 
                   radius={52} 
                   fontSize={13}
                   letterSpacing="0.09em"
-                  className="shadow-xl bg-[#3f3747] text-white" 
+                  className="shadow-xl bg-primary text-white" 
                 />
               </div>
             </div>
 
-            {/* Button */}
             <div className="mt-4 flex justify-center lg:justify-start">
               <Link 
                 href="/about-us/" 
-                className="inline-flex items-center justify-center bg-[#3f3747] hover:bg-accent text-white font-bold py-4 px-[30px] rounded-[10px] transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer text-[16px] shadow-sm"
+                className="inline-flex items-center justify-center bg-primary hover:bg-accent text-white font-bold py-4 px-[30px] rounded-[10px] transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer text-[16px] shadow-sm"
               >
                 <span>More About Us</span>
                 <span className="ml-2.5 bg-white/20 w-[24px] h-[24px] rounded-full flex items-center justify-center">
@@ -226,11 +225,11 @@ export const AboutSection = () => {
               {/* Absolute Central Rotating Badge */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                 <RotatingTextPath 
-                  text="Dr. Poonam's Women's Clinic • Gynecologist • " 
+                  text="June Women's Health • Gynecologist • " 
                   radius={52} 
                   fontSize={13}
                   letterSpacing="0.09em"
-                  className="shadow-xl bg-[#3f3747] text-white" 
+                  className="shadow-xl bg-primary text-white" 
                 />
               </div>
             </div>

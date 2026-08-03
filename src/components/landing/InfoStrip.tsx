@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { siteConfig } from "@/lib/site-config";
 
 export const InfoStrip = () => {
   return (
@@ -19,7 +20,7 @@ export const InfoStrip = () => {
                 Need Gynecologist Services?
               </p>
               <div className="text-[15px] font-bold text-primary leading-snug">
-                Call on : <a href="tel:09711929529" className="hover:text-accent transition-colors duration-300 whitespace-nowrap">097119 29529</a> / <a href="tel:08149661830" className="hover:text-accent transition-colors duration-300 whitespace-nowrap">081496 61830</a>
+                Call on : <a href={`tel:${siteConfig.contact.phoneRaw}`} className="hover:text-accent transition-colors duration-300 whitespace-nowrap">{siteConfig.contact.phone}</a>
               </div>
             </div>
           </div>
@@ -37,8 +38,8 @@ export const InfoStrip = () => {
                 Opening Hours
               </p>
               <h4 className="text-[15px] font-bold text-primary leading-tight">
-                Mon to Sat: 10am - 2pm <br />
-                <span>6pm - 9pm</span>
+                Monday to Sunday: <br />
+                <span>Open 24 Hours</span>
               </h4>
             </div>
           </div>
@@ -56,12 +57,12 @@ export const InfoStrip = () => {
                 Clinic Location
               </p>
               <a 
-                href="https://www.google.com/maps/place/Dr+Poonam's+Women's+Clinic+%7C+Gynecologist/data=!4m2!3m1!1s0x0:0xd39aed6b8c64a153?sa=X&ved=1t:2428&hl=en&ictx=111" 
+                href={siteConfig.contact.mapsLink} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-[15px] font-bold text-primary hover:text-accent transition-colors duration-300 leading-snug"
               >
-                Shop No 33, Shopping Complex, Mantra Mesmer Rd, in front of Florida River Bank, Keshav Nagar, Mundhwa, Mundhawa, Pune, Maharashtra 411036
+                {siteConfig.contact.address}
               </a>
             </div>
           </div>

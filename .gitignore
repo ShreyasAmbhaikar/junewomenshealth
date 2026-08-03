@@ -23,6 +23,8 @@
 # misc
 .DS_Store
 *.pem
+/scratch/
+/june-clinic-photos/
 
 # debug
 npm-debug.log*

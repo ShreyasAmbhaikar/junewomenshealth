@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/landing/Header";
 import { Footer } from "@/components/landing/Footer";
 import { FloatingWidgets } from "@/components/landing/FloatingWidgets";
+import { siteConfig } from "@/lib/site-config";
 
 const onest = Onest({
   variable: "--font-onest",
@@ -13,35 +14,25 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Poonam's Women's Clinic | Best Gynecologist in Keshav Nagar & Mundhwa",
-  description: "Dr. Poonam's Women's Clinic is Pune's leading gynecologist clinic in Keshav Nagar & Mundhwa. Expert pregnancy care, delivery, PCOD, and infertility treatments.",
-  keywords: [
-    "gynecologist in keshav nagar",
-    "gynecologist keshav nagar",
-    "gynecologist in mundhwa",
-    "best gynecologist in pune",
-    "obstetrician gynecologist in pune",
-    "pregnancy care clinic keshav nagar",
-    "PCOD treatment keshav nagar",
-    "IUI specialist pune",
-    "normal delivery doctor keshav nagar"
-  ],
-  authors: [{ name: "Dr. Poonam's Women's Clinic" }],
-  creator: "Dr. Poonam",
-  publisher: "Dr. Poonam",
+  title: `${siteConfig.name} | Best Gynecologist in Sushant Golf City, Lucknow`,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  authors: [{ name: siteConfig.name }],
+  creator: siteConfig.doctor.name,
+  publisher: siteConfig.doctor.name,
   robots: "index, follow, max-image-preview:large",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourdomain.com/",
-    siteName: "Dr. Poonam's Women's Clinic",
-    title: "Dr. Poonam's Women's Clinic | Best Gynecologist in Keshav Nagar & Mundhwa",
-    description: "Dr. Poonam's Women's Clinic is a top gynecologist clinic in Keshav Nagar & Mundhwa, Pune. Led by senior consultant Obstetrician-Gynecologist Dr. Poonam.",
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    title: `${siteConfig.name} | Best Gynecologist in Sushant Golf City, Lucknow`,
+    description: siteConfig.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Poonam's Women's Clinic | Best Gynecologist in Keshav Nagar & Mundhwa",
-    description: "Dr. Poonam's Women's Clinic is a top gynecologist clinic in Keshav Nagar & Mundhwa, Pune. Led by senior consultant Obstetrician-Gynecologist Dr. Poonam.",
+    title: `${siteConfig.name} | Best Gynecologist in Sushant Golf City, Lucknow`,
+    description: siteConfig.description,
   },
 };
 
@@ -53,30 +44,30 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Physician",
-    "name": "Dr. Poonam's Women's Clinic",
-    "url": "https://yourdomain.com",
-    "logo": "https://yourdomain.com/images/logo-women-health.svg",
-    "image": "https://yourdomain.com/images/logo-women-health.svg",
-    "description": "Dr. Poonam's Women's Clinic is a leading gynecologist clinic in Keshav Nagar, Pune. Led by Dr. Poonam (MBBS, DGO, PGDMCH), senior consultant in pregnancy care, normal delivery, infertility, PCOD, and laparoscopic procedures.",
-    "telephone": "097119 29529",
+    "name": siteConfig.name,
+    "url": siteConfig.url,
+    "logo": `${siteConfig.url}${siteConfig.logo}`,
+    "image": `${siteConfig.url}${siteConfig.logo}`,
+    "description": siteConfig.description,
+    "telephone": siteConfig.contact.phone,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Shop No 33, Shopping Complex, Mantra Mesmer Rd, in front of Florida River Bank, Keshav Nagar, Mundhwa, Mundhawa",
-      "addressLocality": "Pune",
-      "addressRegion": "Maharashtra",
-      "postalCode": "411036",
+      "streetAddress": siteConfig.contact.address,
+      "addressLocality": "Lucknow",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "226030",
       "addressCountry": "IN"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "18.520412",
-      "longitude": "73.9392261"
+      "latitude": "26.781136",
+      "longitude": "80.9897343"
     },
-    "openingHours": "Mo,Tu,We,Th,Fr,Sa 10:00-14:00, 18:00-21:00",
+    "openingHours": siteConfig.contact.hoursShort,
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "42"
+      "ratingValue": siteConfig.reviews.rating,
+      "reviewCount": siteConfig.reviews.count
     },
     "medicalSpecialty": "ObstetricianGynecologist"
   };
@@ -84,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${onest.variable} scroll-smooth antialiased overflow-x-hidden`}>
       <head>
-        <meta name="theme-color" content="#242736" />
+        <meta name="theme-color" content="#3E4E36" />
         <link rel="manifest" href="/manifest.webmanifest" />
         <script
           type="application/ld+json"

@@ -1,11 +1,11 @@
 {
-  "name": "Ferlix IVF & Fertility Clinic",
-  "short_name": "Ferlix IVF",
-  "description": "Compassionate care and cutting-edge science for your IVF journey.",
+  "name": "June Women's Health",
+  "short_name": "June Women's Health",
+  "description": "June Women's Health is a leading gynecologist clinic in Sushant Golf City, Lucknow. Led by Dr. Shamim Sultana Yashine (MBBS), senior consultant obstetrician-gynecologist.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#242736",
+  "theme_color": "#3E4E36",
   "icons": [
     {
       "src": "/images/favicon.png",

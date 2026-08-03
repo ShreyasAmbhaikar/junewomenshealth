@@ -19,7 +19,7 @@ const SERVICES = [
         <path d="M39.4277 23.25H8.57031C8.1561 23.25 7.82031 23.5858 7.82031 24C7.82031 24.4142 8.1561 24.75 8.57031 24.75H39.4277Z"></path>
       </svg>
     ),
-    href: "/normal-delivery-in-keshav-nagar/",
+    href: "/normal-delivery-in-lucknow/",
   },
   {
     title: "LSCS (Caesarean)",
@@ -32,7 +32,7 @@ const SERVICES = [
         <path d="M31.8234 26.0918V20.5625C31.8386 19.387 31.5894 18.2228 31.0949 17.1563C30.6004 16.0899 29.8728 15.1482 28.966 14.4004C28.0589 13.6525 26.995 13.1172 25.8537 12.835C24.7124 12.5528 23.5223 12.5306 22.3713 12.7696C21.9657 12.8537 21.5687 12.5931 21.4845 12.1875C21.4004 11.782 21.661 11.385 22.0666 11.3008C23.4375 11.0162 24.8548 11.0429 26.214 11.3789C27.5732 11.715 28.8398 12.3516 29.9201 13.2422C31.0004 14.1329 31.8672 15.2552 32.4562 16.5254C33.0438 17.7927 33.34 19.1756 33.3234 20.5723V26.0918C33.3234 26.506 32.9875 26.8417 32.5734 26.8418C32.1592 26.8418 31.8234 26.506 31.8234 26.0918Z"></path>
       </svg>
     ),
-    href: "/lscs-caesarean-section-in-keshav-nagar/",
+    href: "/lscs-caesarean-section-in-lucknow/",
   },
   {
     title: "PCOD / PCOS Care",
@@ -43,7 +43,7 @@ const SERVICES = [
         <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" strokeWidth="1.5" />
       </svg>
     ),
-    href: "/pcod-pcos-care-in-keshav-nagar/",
+    href: "/pcod-pcos-care-in-lucknow/",
   },
   {
     title: "Infertility & IUI/IVF",
@@ -55,7 +55,7 @@ const SERVICES = [
         <path d="M22.8208 9.71582C22.8207 5.39623 19.3191 1.89453 14.9995 1.89453C10.68 1.89461 7.1783 5.39628 7.17822 9.71582C7.17822 14.0354 10.6799 17.537 14.9995 17.5371C19.3192 17.5371 22.8208 14.0355 22.8208 9.71582ZM24.3208 9.71582C24.3208 14.8639 20.1476 19.0371 14.9995 19.0371C9.85149 19.037 5.67822 14.8639 5.67822 9.71582C5.6783 4.56785 9.85154 0.394606 14.9995 0.394531C20.1475 0.394531 24.3207 4.5678 24.3208 9.71582Z"></path>
       </svg>
     ),
-    href: "/infertility-iui-ivf-in-keshav-nagar/",
+    href: "/infertility-iui-ivf-in-lucknow/",
   }
 ];
 
@@ -69,31 +69,33 @@ export const ServicesSection = () => {
           {/* Left Column (60% width on large screens) */}
           <div className="lg:col-span-7 flex flex-col gap-3 animate-fade-in-up">
             {/* Subtitle */}
+
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#e87c7c]"></span>
+              <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
               <span className="text-[13px] md:text-[14px] font-bold tracking-[0.15em] text-accent uppercase">
                 SERVICES
               </span>
             </div>
-            {/* Main Heading */}
             <h2 className="text-[32px] md:text-[46px] font-bold text-primary leading-[1.2] tracking-tight -mt-1">
               Specialized women's healthcare and pregnancy services
             </h2>
           </div>
-          
-          {/* Right Column (40% width on large screens) */}
           <div className="lg:col-span-5 flex flex-col items-start lg:pt-8 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
+
             <p className="text-[16px] text-text leading-[1.65em] mb-6">
-              At Dr Poonam's Women's Clinic, we provide a full range of gynecological and obstetric treatments, customized for every stage of your life.
+              At June Women's Health, we provide a full range of gynecological and obstetric treatments, customized for every stage of your life.
             </p>
             <Link 
               href="/services" 
-              className="inline-flex items-center justify-center bg-accent text-white hover:bg-primary transition-all duration-300 font-bold rounded-[10px] text-[16px] py-[15px] px-[28px] gap-2 shadow-[0_4px_14px_rgba(90,74,102,0.2)] group"
+              className="inline-flex items-center justify-center bg-primary text-white hover:bg-accent transition-all duration-300 font-bold rounded-[10px] text-[16px] py-[15px] px-[28px] gap-2 shadow-[0_4px_14px_rgba(62,78,54,0.2)] group"
             >
               View All Treatments
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
             </Link>
           </div>
+          
+          {/* Right Column (40% width on large screens) */}
+
         </div>
 
         {/* Services Grid (4 Cards) */}

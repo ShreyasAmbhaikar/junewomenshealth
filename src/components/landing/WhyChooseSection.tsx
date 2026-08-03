@@ -26,8 +26,9 @@ export const WhyChooseSection = () => {
           {/* Right Side: Text & Checklist */}
           <div className="flex flex-col items-start gap-4 lg:pl-[20px] animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
             {/* Subtitle */}
+
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#e87c7c]"></span>
+              <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
               <span className="text-[13px] md:text-[14px] font-bold tracking-[0.15em] text-accent uppercase">
                 WHY CHOOSE US
               </span>
@@ -35,12 +36,12 @@ export const WhyChooseSection = () => {
             
             {/* Heading */}
             <h2 className="text-[32px] md:text-[46px] font-bold text-primary leading-[1.2] tracking-tight -mt-1">
-              Choosing Dr. Poonam's Women's Clinic means choosing trust and expertise
+              Choosing June Women's Health means choosing trust and expertise
             </h2>
             
             {/* Description */}
             <p className="text-[16px] text-text leading-[1.65em] mb-4">
-              At Dr. Poonam's Women's Clinic, we do not just provide standard medical treatments – we deliver evidence-based, compassionate care based on clinical safety protocols that put your health first.
+              At June Women's Health, we do not just provide standard medical treatments – we deliver evidence-based, compassionate care based on clinical safety protocols that put your health first.
             </p>
 
             {/* Checklist items */}
@@ -50,7 +51,7 @@ export const WhyChooseSection = () => {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
                 <span className="text-[15px] md:text-[16px] text-text font-medium leading-relaxed">
-                  Led by Dr. Poonam, a board-certified obstetrician-gynecologist with 15+ years of clinical excellence serving Keshav Nagar & Mundhwa.
+                  Led by Dr. Shamim Sultana Yashine, a board-certified obstetrician-gynecologist with 10+ Years of clinical excellence serving Sushant Golf City & Lucknow.
                 </span>
               </div>
               <div className="flex items-start gap-3">
@@ -63,10 +64,9 @@ export const WhyChooseSection = () => {
               </div>
             </div>
 
-            {/* Discover Us Button */}
             <Link 
               href="/contact-us" 
-              className="hidden lg:inline-flex items-center justify-center bg-accent text-white hover:bg-primary transition-all duration-300 font-bold rounded-[10px] text-[16px] py-[15px] px-[28px] gap-2 shadow-[0_4px_14px_rgba(90,74,102,0.2)] group"
+              className="hidden lg:inline-flex items-center justify-center bg-primary text-white hover:bg-accent transition-all duration-300 font-bold rounded-[10px] text-[16px] py-[15px] px-[28px] gap-2 shadow-[0_4px_14px_rgba(62,78,54,0.2)] group"
             >
               Discover Us
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
@@ -113,7 +113,7 @@ export const WhyChooseSection = () => {
                   Obstetric & Gynaecology Expert
                 </h4>
                 <p className="text-[14px] text-text leading-relaxed">
-                  Led by Senior Consultant Dr. Poonam (MBBS, DGO, PGDMCH) with 15+ years of specialized clinical experience.
+                  Led by Senior Consultant Dr. Shamim Sultana Yashine (MBBS) with 10+ years of specialized clinical experience.
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ export const WhyChooseSection = () => {
         <div className="flex justify-center mt-8 lg:hidden animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
           <Link 
             href="/contact-us" 
-            className="inline-flex items-center justify-center bg-accent text-white hover:bg-primary transition-all duration-300 font-bold rounded-[10px] text-[16px] py-[15px] px-[28px] gap-2 shadow-[0_4px_14px_rgba(90,74,102,0.2)] group"
+            className="inline-flex items-center justify-center bg-primary text-white hover:bg-accent transition-all duration-300 font-bold rounded-[10px] text-[16px] py-[15px] px-[28px] gap-2 shadow-[0_4px_14px_rgba(62,78,54,0.2)] group"
           >
             Discover Us
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>

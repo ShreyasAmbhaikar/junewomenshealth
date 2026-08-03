@@ -22,7 +22,7 @@ export default function ComparisonCards({ title, columns }: ComparisonCardsProps
     switch (theme) {
       case 'accent': return 'bg-accent text-white';
       case 'secondary': return 'bg-secondary text-primary';
-      default: return 'bg-[#242736] text-white';
+      default: return 'bg-primary text-white';
     }
   };
 
@@ -33,6 +33,7 @@ export default function ComparisonCards({ title, columns }: ComparisonCardsProps
           {title}
         </h3>
       )}
+
       <div className="flex flex-col md:flex-row gap-6 lg:gap-10">
         {columns.map((col, idx) => (
           <div key={idx} className="flex-1 rounded-[24px] overflow-hidden border border-divider/10 shadow-sm flex flex-col">

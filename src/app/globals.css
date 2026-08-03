@@ -1,13 +1,27 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #242736;
-  --color-secondary: #F8E6D8;
-  --color-accent: #5A4A66;
-  --color-accent-secondary: #D8E4EA;
-  --color-text: #4F4D4D;
-  --color-background: #FBF6F2;
-  --color-divider: #2D322C1a;
+  /* ==========================================================================
+     PREVIOUS THEME (DARK NAVY / PEACH / PURPLE) - KEPT FOR EASY REVERTING
+     ==========================================================================
+     --color-primary: #242736;
+     --color-secondary: #F8E6D8;
+     --color-accent: #5A4A66;
+     --color-accent-secondary: #D8E4EA;
+     --color-text: #4F4D4D;
+     --color-background: #FBF6F2;
+     --color-divider: #2D322C1a;
+     --color-dark-divider: #FFFFFF1a;
+     ========================================================================== */
+
+  /* NEW THEME: LUXURY SAGE GREEN & METALLIC GOLD (MATCHING CLINIC INTERIOR) */
+  --color-primary: #3E4E36;          /* Rich Deep Sage Green */
+  --color-secondary: #F3ECE0;        /* Soft Champagne Cream */
+  --color-accent: #C5A059;           /* Metallic Warm Gold */
+  --color-accent-secondary: #D9CAAB; /* Muted Warm Gold Accent */
+  --color-text: #2D3728;             /* Deep Forest Olive Charcoal Text */
+  --color-background: #F7F5EF;       /* Luxury Warm Cream Background */
+  --color-divider: #3E4E361a;
   --color-dark-divider: #FFFFFF1a;
 
   --font-onest: "Onest", sans-serif;
@@ -95,10 +109,10 @@
     z-index: -1;
     border-radius: inherit;
     background: linear-gradient(102deg, 
-      #D8E4EA -2.83%, 
-      rgba(216,228,234,0.5) 30.19%, 
-      rgba(216,228,234,0.2) 53.89%, 
-      rgba(248,230,216,0.5) 100.11%
+      #F3ECE0 -2.83%, 
+      rgba(243,236,224,0.6) 30.19%, 
+      rgba(217,202,171,0.3) 53.89%, 
+      rgba(197,160,89,0.25) 100.11%
     );
   }
 }
@@ -116,4 +130,3 @@
   width: 100% !important;
   height: 100% !important;
 }
-
