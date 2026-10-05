@@ -33,9 +33,9 @@ export const ProcessSection = () => {
               </svg>
             </div>
             <div>
-              <h4 className="text-[17px] md:text-[19px] font-bold text-white mb-1.5 leading-tight">
+              <h3 className="text-[17px] md:text-[19px] font-bold text-white mb-1.5 leading-tight">
                 Schedule a Consultation
-              </h4>
+              </h3>
               <p className="text-[14px] text-white/80 leading-relaxed">
                 Book an appointment to consult Dr. Shamim Sultana Yashine in Sushant Golf City, Lucknow.
               </p>
@@ -59,9 +59,9 @@ export const ProcessSection = () => {
               </svg>
             </div>
             <div>
-              <h4 className="text-[17px] md:text-[19px] font-bold text-white mb-1.5 leading-tight">
+              <h3 className="text-[17px] md:text-[19px] font-bold text-white mb-1.5 leading-tight">
                 Personalized Treatment Plan
-              </h4>
+              </h3>
               <p className="text-[14px] text-white/80 leading-relaxed">
                 Based on your clinical exam and diagnostic findings, we design a tailored treatment roadmap.
               </p>
@@ -76,9 +76,9 @@ export const ProcessSection = () => {
               </svg>
             </div>
             <div>
-              <h4 className="text-[17px] md:text-[19px] font-bold text-white mb-1.5 leading-tight">
+              <h3 className="text-[17px] md:text-[19px] font-bold text-white mb-1.5 leading-tight">
                 Begin Treatment With Care
-              </h4>
+              </h3>
               <p className="text-[14px] text-white/80 leading-relaxed">
                 From normal delivery care to laparoscopy or fertility, we initiate treatment with dedicated support.
               </p>
@@ -124,9 +124,9 @@ export const ProcessSection = () => {
               <span className="text-[13px] md:text-[14px] text-text/80 font-bold mb-1">
                 01
               </span>
-              <h3 className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
+              <div className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
                 <Counter end={1000} suffix="+" />
-              </h3>
+              </div>
               <p className="text-[13px] md:text-[14px] text-text font-semibold leading-tight">
                 Happy Families
               </p>
@@ -137,9 +137,9 @@ export const ProcessSection = () => {
               <span className="text-[13px] md:text-[14px] text-text/80 font-bold mb-1">
                 02
               </span>
-              <h3 className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
+              <div className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
                 <Counter end={75} suffix="%" />
-              </h3>
+              </div>
               <p className="text-[13px] md:text-[14px] text-text font-semibold leading-tight">
                 IVF Success Rate
               </p>
@@ -150,9 +150,9 @@ export const ProcessSection = () => {
               <span className="text-[13px] md:text-[14px] text-text/80 font-bold mb-1">
                 03
               </span>
-              <h3 className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
+              <div className="text-[28px] sm:text-[34px] md:text-[40px] font-bold text-primary mb-1 leading-none">
                 <Counter end={10} suffix="+" />
-              </h3>
+              </div>
               <p className="text-[13px] md:text-[14px] text-text font-semibold leading-tight">
                 Years of Experience
               </p>

@@ -75,7 +75,7 @@ export default function AboutUsPage() {
               
               {/* Left Content */}
               <div className="lg:col-span-7">
-                <h4 className="text-accent text-[16px] font-bold tracking-wider uppercase mb-3">About Our Clinic</h4>
+                <span className="block text-accent text-[16px] font-bold tracking-wider uppercase mb-3">About Our Clinic</span>
                 <h2 className="text-[36px] md:text-[46px] font-bold text-primary mb-6 leading-[1.2]">
                   Dedicated to providing compassionate women&apos;s healthcare
                 </h2>
@@ -152,7 +152,7 @@ export default function AboutUsPage() {
 
               {/* Doctor Details */}
               <div className="lg:col-span-7">
-                <h4 className="text-accent text-[16px] font-bold tracking-wider uppercase mb-3">Meet Our Expert</h4>
+                <span className="block text-accent text-[16px] font-bold tracking-wider uppercase mb-3">Meet Our Expert</span>
                 <h2 className="text-[36px] md:text-[44px] font-bold text-primary mb-2">Dr. Shamim Sultana Yashine</h2>
                 <p className="text-[18px] text-accent font-semibold mb-6">Senior Consultant Obstetrician, Gynaecologist &amp; Laparoscopic Surgeon</p>
                 
@@ -170,7 +170,7 @@ export default function AboutUsPage() {
                 
                 {/* Qualifications box */}
                 <div className="bg-white rounded-[20px] p-6 border border-divider/10 shadow-sm mb-6">
-                  <h5 className="text-[18px] font-bold text-primary mb-4 border-b border-divider/20 pb-2">Academic Qualifications &amp; Credentials</h5>
+                  <h3 className="text-[18px] font-bold text-primary mb-4 border-b border-divider/20 pb-2">Academic Qualifications &amp; Credentials</h3>
                   <ul className="space-y-3 text-text">
                     <li className="flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>

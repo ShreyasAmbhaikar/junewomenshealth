@@ -187,7 +187,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                       placeholder="Search here..."
                       className="w-full h-[50px] rounded-[10px] bg-secondary pl-5 pr-12 text-[15px] text-text border border-transparent focus:border-accent outline-none transition-colors"
                     />
-                    <button type="submit" className="absolute right-4 top-1/2 -translate-y-1/2 text-accent hover:text-primary transition-colors">
+                    <button 
+                      type="submit" 
+                      aria-label="Search blogs"
+                      className="absolute right-4 top-1/2 -translate-y-1/2 text-accent hover:text-primary transition-colors"
+                    >
                       <Search className="w-5 h-5" />
                     </button>
                   </form>

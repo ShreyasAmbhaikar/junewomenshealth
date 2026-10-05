@@ -20,9 +20,9 @@ export const SectionTitle = React.forwardRef<HTMLDivElement, SectionTitleProps>(
         )}
         {...props}
       >
-        <h3 className="text-[14px] font-semibold leading-[1.4em] tracking-[0.1em] text-accent uppercase mb-2">
+        <span className="block text-[14px] font-semibold leading-[1.4em] tracking-[0.1em] text-accent uppercase mb-2">
           {subtitle}
-        </h3>
+        </span>
         {children}
       </div>
     );

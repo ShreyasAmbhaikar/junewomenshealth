@@ -193,7 +193,7 @@ export const TestimonialsSection = () => {
                       )}
                     </div>
                     <div>
-                      <h4 className="text-[18px] font-bold text-white leading-tight mb-0.5">{item.name}</h4>
+                      <h3 className="text-[18px] font-bold text-white leading-tight mb-0.5">{item.name}</h3>
                       {item.isLocalGuide ? (
                         <div className="flex flex-col items-start gap-1">
                           <p className="text-[14px] text-white/60 m-0 leading-normal">{item.role}</p>
@@ -218,13 +218,19 @@ export const TestimonialsSection = () => {
 
         {/* Custom Navigation Arrows */}
         <div className="flex justify-center items-center gap-[15px] mt-[40px] animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-          <button className="testimonial-prev flex items-center justify-center w-[40px] h-[40px] rounded-full bg-white/10 text-white hover:bg-accent-secondary hover:text-primary transition-all duration-300 cursor-pointer">
+          <button 
+            className="testimonial-prev flex items-center justify-center w-[40px] h-[40px] rounded-full bg-white/10 text-white hover:bg-accent-secondary hover:text-primary transition-all duration-300 cursor-pointer"
+            aria-label="Previous testimonial"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="19" y1="12" x2="5" y2="12"></line>
               <polyline points="12 19 5 12 12 5"></polyline>
             </svg>
           </button>
-          <button className="testimonial-next flex items-center justify-center w-[40px] h-[40px] rounded-full bg-white/10 text-white hover:bg-accent-secondary hover:text-primary transition-all duration-300 cursor-pointer">
+          <button 
+            className="testimonial-next flex items-center justify-center w-[40px] h-[40px] rounded-full bg-white/10 text-white hover:bg-accent-secondary hover:text-primary transition-all duration-300 cursor-pointer"
+            aria-label="Next testimonial"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="5" y1="12" x2="19" y2="12"></line>
               <polyline points="12 5 19 12 12 19"></polyline>

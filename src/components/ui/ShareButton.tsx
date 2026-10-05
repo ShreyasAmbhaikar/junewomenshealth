@@ -89,6 +89,9 @@ export default function ShareButton({ title }: ShareButtonProps) {
     <div className="relative inline-block text-left" ref={dropdownRef}>
       <button 
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
+        aria-haspopup="true"
+        aria-label="Share blog post"
         className="flex items-center gap-2 text-accent hover:text-primary font-semibold transition-colors duration-200 cursor-pointer"
       >
         <Share2 className="w-4 h-4" />

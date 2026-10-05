@@ -88,13 +88,21 @@ export default function BlogListSection() {
                   {searchQuery && (
                     <span className="bg-white px-3 py-1 rounded-full text-[13px] border border-divider/25 flex items-center gap-1.5 font-medium">
                       Search: "{searchQuery}"
-                      <button onClick={() => handleSearchChange("")} className="text-accent hover:text-primary font-bold cursor-pointer">×</button>
+                      <button 
+                        onClick={() => handleSearchChange("")} 
+                        aria-label="Clear search filter"
+                        className="text-accent hover:text-primary font-bold cursor-pointer"
+                      >×</button>
                     </span>
                   )}
                   {selectedTag && (
                     <span className="bg-accent text-white px-3 py-1 rounded-full text-[13px] flex items-center gap-1.5 font-medium">
                       Tag: #{selectedTag}
-                      <button onClick={() => handleTagChange(null)} className="text-white/80 hover:text-white font-bold cursor-pointer">×</button>
+                      <button 
+                        onClick={() => handleTagChange(null)} 
+                        aria-label="Clear tag filter"
+                        className="text-white/80 hover:text-white font-bold cursor-pointer"
+                      >×</button>
                     </span>
                   )}
                 </div>

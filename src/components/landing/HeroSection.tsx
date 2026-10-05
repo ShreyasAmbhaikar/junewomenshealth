@@ -27,21 +27,21 @@ export const HeroSection = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 border-t border-divider pt-[40px] mb-[40px]">
               <div>
-                <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
+                <div className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
                   <Counter end={15} suffix="+" />
-                </h3>
+                </div>
                 <p className="text-[14px] text-text">Years of experience</p>
               </div>
               <div>
-                <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
+                <div className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
                   <Counter end={5} suffix=".0" />
-                </h3>
+                </div>
                 <p className="text-[14px] text-text">Google rating</p>
               </div>
               <div>
-                <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
+                <div className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
                   <Counter end={11} />
-                </h3>
+                </div>
                 <p className="text-[14px] text-text">Google reviews</p>
               </div>
             </div>
@@ -106,7 +106,7 @@ export const HeroSection = () => {
                       </svg>
                     ))}
                   </div>
-                  <h4 className="text-[18px] font-bold text-primary leading-tight">5-Star Rated Clinic</h4>
+                  <p className="text-[18px] font-bold text-primary leading-tight">5-Star Rated Clinic</p>
                   <p className="text-[14px] text-text m-0 leading-normal">Compassionate clinical care and advanced diagnostics for women</p>
                 </div>
               </div>

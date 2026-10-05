@@ -35,6 +35,8 @@ export default function Accordion({ items }: AccordionProps) {
                 isActive ? 'bg-accent/5 text-accent font-bold' : 'bg-white text-primary hover:text-accent font-semibold'
               }`}
               onClick={() => toggleAccordion(index)}
+              aria-expanded={isActive}
+              aria-controls={`faq-answer-${index}`}
             >
               <span className="text-[15px] md:text-[16.5px] leading-snug">{item.question}</span>
               <span className={`flex-shrink-0 ml-3 md:ml-4 w-7 h-7 md:w-8 md:h-8 rounded-full flex items-center justify-center transition-all duration-300 ${isActive ? 'bg-accent text-white rotate-0' : 'bg-[#F5F0EB] text-primary/60 rotate-0'}`}>
@@ -46,6 +48,8 @@ export default function Accordion({ items }: AccordionProps) {
               </span>
             </button>
             <div
+              id={`faq-answer-${index}`}
+              role="region"
               className={`overflow-hidden transition-all duration-300 ease-in-out ${
                 isActive ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
               }`}

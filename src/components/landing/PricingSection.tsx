@@ -66,9 +66,9 @@ export const PricingSection = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="border-b border-divider/20 pb-[30px] mb-[30px]">
-                <h4 className={cn("text-[24px] font-bold mb-[15px]", plan.isPopular ? "text-white" : "text-primary")}>
+                <h3 className={cn("text-[24px] font-bold mb-[15px]", plan.isPopular ? "text-white" : "text-primary")}>
                   {plan.name}
-                </h4>
+                </h3>
                 <div className="flex items-end gap-1">
                   <span className={cn("text-[50px] font-bold leading-none", plan.isPopular ? "text-white" : "text-accent")}>
                     {plan.price}

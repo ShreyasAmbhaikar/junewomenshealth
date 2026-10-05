@@ -59,7 +59,7 @@ export const TimelineSection = () => {
               Starting your healthcare journey with June Women's Health is simple, transparent, and fully guided by experts. We make sure every step is clear and supportive – so you can focus on what matters most.
             </p>
             <div className="bg-[#FAF6F3] p-6 lg:p-8 rounded-[20px] border border-divider/10 shadow-sm transition-transform hover:translate-y-[-2px]">
-              <h4 className="font-bold text-primary mb-3 text-[18px]">Patient Guidance</h4>
+              <h3 className="font-bold text-primary mb-3 text-[18px]">Patient Guidance</h3>
               <p className="text-text text-[14px] md:text-[15px] leading-relaxed">
                 From your initial consultation to achieving your fertility goals, every phase of your journey is carefully managed to maximize safety, comfort, and peace of mind.
               </p>

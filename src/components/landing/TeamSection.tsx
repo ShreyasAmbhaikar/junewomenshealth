@@ -86,11 +86,11 @@ export const TeamSection = () => {
                 </div>
 
                 <div className="bg-white rounded-[15px] p-[15px] text-center shadow-lg transform transition-transform duration-400">
-                  <h4 className="text-[20px] font-bold text-primary mb-[5px]">
+                  <h3 className="text-[20px] font-bold text-primary mb-[5px]">
                     <Link href={`/our-team/${member.name.toLowerCase().replace(/[\s.]+/g, '-')}`} className="hover:text-accent transition-colors">
                       {member.name}
                     </Link>
-                  </h4>
+                  </h3>
                   <p className="text-[14px] text-text m-0">{member.role}</p>
                 </div>
                 

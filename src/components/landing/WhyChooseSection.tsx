@@ -90,9 +90,9 @@ export const WhyChooseSection = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-[17px] md:text-[18px] font-bold text-primary mb-1">
+                <h3 className="text-[17px] md:text-[18px] font-bold text-primary mb-1">
                   Normal Delivery Care
-                </h4>
+                </h3>
                 <p className="text-[14px] text-text leading-relaxed">
                   Dedicated prenatal management and supportive natural childbirth facilitation.
                 </p>
@@ -109,9 +109,9 @@ export const WhyChooseSection = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-[17px] md:text-[18px] font-bold text-primary mb-1">
+                <h3 className="text-[17px] md:text-[18px] font-bold text-primary mb-1">
                   Obstetric & Gynaecology Expert
-                </h4>
+                </h3>
                 <p className="text-[14px] text-text leading-relaxed">
                   Led by Senior Consultant Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon) with 15+ years of specialized clinical experience.
                 </p>
@@ -126,9 +126,9 @@ export const WhyChooseSection = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-[17px] md:text-[18px] font-bold text-primary mb-1">
+                <h3 className="text-[17px] md:text-[18px] font-bold text-primary mb-1">
                   Complete Transparency
-                </h4>
+                </h3>
                 <p className="text-[14px] text-text leading-relaxed">
                   No hidden charges, clear diagnostics, and patient-first decisions.
                 </p>
