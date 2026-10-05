@@ -9,11 +9,11 @@ export const FaqMapSection = () => {
   const faqItems = [
     {
       question: "Where is June Women's Health clinic located in Lucknow?",
-      answer: "June Women's Health is located at Felix Square (2nd Floor, Suite 212, above Axis Bank), Sushant Golf City, Lucknow 226030. The clinic is conveniently situated just 2 minutes from Lulu Mall along Amar Shaheed Path, making it easily accessible from Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, and Awadh Vihar."
+      answer: "June Women's Health is located at Felix Square (2nd Floor, Suite 212, above Axis Bank), Sushant Golf City, Lucknow 226030. The clinic is conveniently situated just 2 minutes from Lulu Mall along Amar Shaheed Path, making it easily accessible from Awadh Vihar Yojna, Sultanpur Road, Raebareli Road, Ashiyana, Alambagh, and New Gomti Nagar."
     },
     {
       question: "Who is the lead doctor at June Women's Health?",
-      answer: "The clinic is led by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon), a Senior Consultant with over 10+ years of dedicated clinical experience specializing in normal delivery, high-risk maternity care, PCOS/PCOD management, and fertility support."
+      answer: "The clinic is led by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon), a Senior Consultant with over 15+ years of dedicated clinical experience specializing in normal delivery, high-risk maternity care, PCOS/PCOD management, and fertility support."
     },
     {
       question: "What specialized treatments are offered at June Women's Health?",

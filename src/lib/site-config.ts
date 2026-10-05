@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "June Women's Health",
   shortName: "June Women's Health",
   description: "June Women's Health is a leading gynecologist clinic in Sushant Golf City, Lucknow. Led by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon), offering expert care in normal delivery, pregnancy care, infertility, IUI, PCOD, and women's health screening.",
-  url: "https://yourdomain.com", // update to client domain when active
+  url: "https://junewomenshealthclinic.com",
   logo: "/images/june-logo-light.svg",
   footerLogo: "/images/june-logo-dark.svg",
   
@@ -10,7 +10,7 @@ export const siteConfig = {
     name: "Dr. Shamim Sultana Yashine",
     qualifications: "MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon",
     role: "Senior Consultant Obstetrician, Gynaecologist & Laparoscopic Surgeon",
-    experience: "10+ Years"
+    experience: "15+ Years"
   },
 
   // NAP (Name, Address, Phone) details
@@ -19,10 +19,11 @@ export const siteConfig = {
     phoneRaw: "+918090099133",
     address: "Felix Square, 212, above Axis Bank, Golf City, Lucknow, Uttar Pradesh 226030",
     hours: {
-      weekday: "Monday to Sunday",
-      time: "Open 24 Hours"
+      weekday: "Monday to Saturday: 05:00 PM to 08:00 PM",
+      sunday: "Sunday: 11:00 AM to 02:00 PM",
+      time: "Mon - Sat: 05:00 PM - 08:00 PM | Sun: 11:00 AM - 02:00 PM"
     },
-    hoursShort: "Mo,Tu,We,Th,Fr,Sa,Su 00:00-24:00",
+    hoursShort: "Mo-Sa 17:00-20:00, Su 11:00-14:00",
     mapsLink: "https://www.google.com/maps/place/june+WOMEN'S+HEALTH+%7C+Gynecologist+%26+Obstetrician/data=!4m2!3m1!1s0x0:0x861d01492fc9646e?sa=X&ved=1t:2428&hl=en&ictx=111",
     embedMapSrc: "https://maps.google.com/maps?q=june%20WOMEN'S%20HEALTH%20Gynecologist%20Lucknow&t=&z=15&ie=UTF8&iwloc=&output=embed"
   },
@@ -45,14 +46,20 @@ export const siteConfig = {
   serviceAreas: {
     primary: "Sushant Golf City",
     secondary: [
-      "Vrindavan Yojna",
-      "Omaxe City (R1 & R2)",
-      "Awadh Vihar Yojna",
-      "Arjunganj",
-      "Nilmatha",
-      "New Friends Colony",
-      "Muzaffar Nagar Ghusval",
       "Shaheed Path",
+      "Awadh Vihar Yojna",
+      "Sultanpur Road",
+      "Raebareli Road",
+      "Ashiyana",
+      "Alambagh",
+      "New Gomti Nagar",
+      "Gomti Nagar Extension",
+      "Indira Nagar",
+      "Aminabad",
+      "Chowk",
+      "Arjunganj",
+      "Omaxe City",
+      "Nilmatha",
       "Lulu Mall Environs",
       "Lucknow"
     ]
@@ -90,7 +97,13 @@ export const siteConfig = {
     "female gynecologist in sushant golf city",
     "best gynecologist in lucknow",
     "lady gynecologist near me lucknow",
-    "gynecologist in vrindavan yojna lucknow",
+    "gynecologist in raebareli road lucknow",
+    "gynecologist sultanpur road lucknow",
+    "gynecologist in alambagh lucknow",
+    "lady gynecologist ashiyana lucknow",
+    "gynecologist in awadh vihar yojna",
+    "gynecologist new gomti nagar lucknow",
+    "gynecologist indira nagar lucknow",
     "obstetrician gynecologist in lucknow",
     "fertility clinic sushant golf city",
     "pregnancy care clinic sushant golf city",

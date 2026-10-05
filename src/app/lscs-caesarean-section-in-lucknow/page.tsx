@@ -208,7 +208,7 @@ export default function LscsCaesareanPage() {
                   <strong>Lower Segment Caesarean Section (LSCS)</strong>, commonly referred to as a C-section, is an essential surgical obstetric procedure where a newborn is safely delivered through a precise transverse incision made in the mother&apos;s lower abdominal wall and lower uterine segment. It is performed when natural vaginal delivery poses acute maternal or fetal risks.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we combine advanced surgical precision with deep empathetic care. We support mothers across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow through planned elective and emergency surgical deliveries.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we combine advanced surgical precision with deep empathetic care. We support mothers across Sushant Golf City, Sultanpur Road, Awadh Vihar Yojna, Raebareli Road, New Gomti Nagar, and greater Lucknow through planned elective and emergency surgical deliveries.
                 </p>
                 <p>
                   Whether your procedure is scheduled in advance due to breech presentation, multi-fetal gestation, or prior uterine surgery, or is performed during active labor, Dr. Shamim Sultana Yashine utilizes refined cosmetic suturing techniques to ensure minimal tissue trauma, rapid recovery, and discreet scarring.
@@ -402,7 +402,7 @@ export default function LscsCaesareanPage() {
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
                       <strong className="block text-[16px] text-white">Surgical Precision &amp; Safety</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of surgical expertise ensuring meticulous anatomical lower-segment incisions, minimal blood loss, and discreet cosmetic healing.</span>
+                      <span className="text-white/80 text-[14px]">Over 15+ years of surgical expertise ensuring meticulous anatomical lower-segment incisions, minimal blood loss, and discreet cosmetic healing.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

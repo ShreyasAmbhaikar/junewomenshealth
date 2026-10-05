@@ -175,7 +175,7 @@ export default function CervicalCancerPage() {
                   At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we offer gentle, evidence-based cervical wellness programs. From high-accuracy Liquid-Based Cytology (LBC) Pap smears and high-risk HPV DNA testing to DCGI-approved HPV vaccines (Gardasil 9 and Cervavac), we provide complete preventive care.
                 </p>
                 <p>
-                  Serving women and families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path ensures total confidentiality and unhurried clinical attention.
+                  Serving women and families across Sushant Golf City, New Gomti Nagar, Indira Nagar, Awadh Vihar Yojna, Alambagh, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path ensures total confidentiality and unhurried clinical attention.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>

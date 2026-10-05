@@ -173,7 +173,7 @@ export default function TubalLigationPage() {
                   At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide compassionate, evidence-based reproductive surgery. Whether you are seeking a minimally invasive laparoscopic tubal ligation or exploring whether you are a suitable candidate for fallopian tube recanalization, Dr. Shamim Sultana Yashine provides candid clinical assessments.
                 </p>
                 <p>
-                  Serving families from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path ensures total confidentiality, unhurried evaluations, and state-of-the-art microsurgical hospital care.
+                  Serving families from Sushant Golf City, Raebareli Road, Sultanpur Road, Alambagh, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path ensures total confidentiality, unhurried evaluations, and state-of-the-art microsurgical hospital care.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>

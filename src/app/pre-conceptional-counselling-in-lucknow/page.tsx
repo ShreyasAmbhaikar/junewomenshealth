@@ -172,7 +172,7 @@ export default function PreConceptionalPage() {
                   Planning a family is a momentous life step, and priming your body before conception is the most impactful investment you can make for your future child. <strong>Pre-Conceptional Counselling</strong> is a proactive medical assessment that evaluates maternal-paternal physiology, nutritional reserves, medication safety, and genetic risks prior to pregnancy.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we offer confidential, evidence-backed pre-pregnancy roadmaps. Serving couples across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we identify and resolve subtle clinical barriers before you begin trying to conceive.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we offer confidential, evidence-backed pre-pregnancy roadmaps. Serving couples across Sushant Golf City, New Gomti Nagar, Indira Nagar, Sultanpur Road, Ashiyana, and greater Lucknow, we identify and resolve subtle clinical barriers before you begin trying to conceive.
                 </p>
                 <p>
                   Operating as a dedicated single-doctor clinic near Lulu Mall on Shaheed Path, Dr. Shamim Sultana Yashine personally oversees every evaluation, ensuring an unhurried, reassuring environment with absolute privacy.

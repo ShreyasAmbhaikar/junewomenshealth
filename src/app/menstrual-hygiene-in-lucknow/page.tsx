@@ -194,7 +194,7 @@ export default function MenstrualHygienePage() {
                   <strong>Menstrual Hygiene &amp; Health</strong> encompasses the hygienic practices, sanitary management, and clinical care necessary to ensure pain-free periods, prevent ascending pelvic infections, and protect long-term reproductive health. Proper menstrual care involves managing cycle regularity, diagnosing dysmenorrhea (severe period pain), evaluating heavy bleeding (menorrhagia), and addressing underlying hormonal or structural disorders.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide compassionate, evidence-based guidance for adolescent girls and adult women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide compassionate, evidence-based guidance for adolescent girls and adult women across Sushant Golf City, Awadh Vihar Yojna, Sultanpur Road, Ashiyana, Alambagh, and greater Lucknow.
                 </p>
                 <p>
                   Our private single-doctor clinic near Lulu Mall on Shaheed Path provides an unhurried, reassuring environment where sensitive cycle irregularities, menstrual cup usage, and pelvic pain concerns are evaluated with total confidentiality.

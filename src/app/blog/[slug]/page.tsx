@@ -6,6 +6,7 @@ import PageHeader from "@/components/landing/PageHeader";
 import { BLOG_POSTS } from "@/lib/blog-data";
 import { Clock, User, ArrowRight, Search, Heart } from "lucide-react";
 import ShareButton from "@/components/ui/ShareButton";
+import { siteConfig } from "@/lib/site-config";
 
 export async function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) return {};
 
-  const baseUrl = "https://yourdomain.com";
+  const baseUrl = siteConfig.url;
 
   return {
     title: `${post.title} | June Women's Health`,

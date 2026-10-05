@@ -175,7 +175,7 @@ export default function ScarlessHysterectomyPage() {
                   At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we specialize in performing NDVH for benign gynecological conditions including uterine fibroids, adenomyosis, and abnormal uterine bleeding (AUB) resistant to medical therapy.
                 </p>
                 <p>
-                  Serving patients from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, Dr. Shamim Sultana Yashine conducts detailed pre-operative assessments and surgical planning at our private single-doctor clinic near Lulu Mall on Shaheed Path, coordinating procedures in state-of-the-art sterile hospital theatres.
+                  Serving patients from Sushant Golf City, Raebareli Road, Chowk, Aminabad, Alambagh, New Gomti Nagar, and greater Lucknow, Dr. Shamim Sultana Yashine conducts detailed pre-operative assessments and surgical planning at our private single-doctor clinic near Lulu Mall on Shaheed Path, coordinating procedures in state-of-the-art sterile hospital theatres.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -472,7 +472,7 @@ export default function ScarlessHysterectomyPage() {
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
                       <strong className="block text-[16px] text-white">Surgical Mastery in NDVH Technique</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of clinical proficiency performing non-descent vaginal hysterectomies without abdominal cuts, even for enlarged uteri and fibroids.</span>
+                      <span className="text-white/80 text-[14px]">Over 15+ years of clinical proficiency performing non-descent vaginal hysterectomies without abdominal cuts, even for enlarged uteri and fibroids.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

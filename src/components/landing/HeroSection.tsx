@@ -28,7 +28,7 @@ export const HeroSection = () => {
             <div className="grid grid-cols-3 gap-4 border-t border-divider pt-[40px] mb-[40px]">
               <div>
                 <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
-                  <Counter end={10} suffix="+" />
+                  <Counter end={15} suffix="+" />
                 </h3>
                 <p className="text-[14px] text-text">Years of experience</p>
               </div>

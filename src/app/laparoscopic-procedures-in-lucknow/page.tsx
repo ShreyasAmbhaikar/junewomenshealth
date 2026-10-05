@@ -170,10 +170,10 @@ export default function LaparoscopicProceduresPage() {
                   <strong>Laparoscopic (Keyhole) Surgery</strong> represents the modern benchmark in advanced gynecological surgery. By operating through tiny 5mm to 10mm incisions using high-definition surgical cameras and precision micro-instruments, surgeons can resolve deep pelvic pathologies with microscopic accuracy while leaving abdominal muscles and surrounding healthy tissues unharmed.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we deliver evidence-based minimally invasive surgical care. Dr. Shamim Sultana Yashine brings over 10+ years of dedicated surgical expertise performing laparoscopic ovarian cystectomies, fibroid myomectomies, endometriosis management, and fertility chromotubations.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we deliver evidence-based minimally invasive surgical care. Dr. Shamim Sultana Yashine brings over 15+ years of dedicated surgical expertise performing laparoscopic ovarian cystectomies, fibroid myomectomies, endometriosis management, and fertility chromotubations.
                 </p>
                 <p>
-                  Serving patients from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our clinic provides thorough diagnostic workups, honest surgical recommendations, and personalized recovery roadmaps.
+                  Serving patients from Sushant Golf City, Raebareli Road, Sultanpur Road, New Gomti Nagar, Alambagh, Ashiyana, and greater Lucknow, our clinic provides thorough diagnostic workups, honest surgical recommendations, and personalized recovery roadmaps.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -497,7 +497,7 @@ export default function LaparoscopicProceduresPage() {
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
                       <strong className="block text-[16px] text-white">Board-Certified Laparoscopic Surgeon</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of advanced laparoscopic surgical experience preserving ovarian tissue, uterine integrity, and reproductive health.</span>
+                      <span className="text-white/80 text-[14px]">Over 15+ years of advanced laparoscopic surgical experience preserving ovarian tissue, uterine integrity, and reproductive health.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

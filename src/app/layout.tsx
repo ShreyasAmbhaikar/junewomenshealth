@@ -14,6 +14,7 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: `${siteConfig.name} | Best Gynecologist in Sushant Golf City, Lucknow`,
   description: siteConfig.description,
   keywords: siteConfig.keywords,
@@ -21,6 +22,9 @@ export const metadata: Metadata = {
   creator: siteConfig.doctor.name,
   publisher: siteConfig.doctor.name,
   robots: "index, follow, max-image-preview:large",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -75,11 +79,16 @@ export default function RootLayout({
           "Wednesday",
           "Thursday",
           "Friday",
-          "Saturday",
-          "Sunday"
+          "Saturday"
         ],
-        "opens": "00:00",
-        "closes": "23:59"
+        "opens": "17:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "opens": "11:00",
+        "closes": "14:00"
       }
     ],
     "aggregateRating": {

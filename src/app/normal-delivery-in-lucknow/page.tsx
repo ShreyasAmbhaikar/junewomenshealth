@@ -212,7 +212,7 @@ export default function NormalDeliveryPage() {
                   Natural childbirth represents the safest, most empowering route to motherhood for low-risk pregnancies. At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong> champions a physiologic, patient-first approach to normal vaginal delivery—prioritizing maternal comfort, fetal well-being, and gentle labor progression with minimal medical interventions.
                 </p>
                 <p>
-                  Throughout your antenatal journey, our clinic provides structured trimester screening, continuous fetal well-being tracking, and customized birth education. We guide families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with comprehensive labor preparation, pelvic floor conditioning, and round-the-clock obstetric guidance.
+                  Throughout your antenatal journey, our clinic provides structured trimester screening, continuous fetal well-being tracking, and customized birth education. We guide families across Sushant Golf City, Ashiyana, Awadh Vihar Yojna, Sultanpur Road, Raebareli Road corridor, Alambagh, and greater Lucknow with comprehensive labor preparation, pelvic floor conditioning, and round-the-clock obstetric guidance.
                 </p>
                 <p>
                   Whether you are planning your first natural birth or seeking a high-success VBAC (Vaginal Birth After Cesarean) specialist near Lulu Mall on Shaheed Path, our evidence-backed protocols ensure a safe, memorable, and dignified birth experience.
@@ -396,7 +396,7 @@ export default function NormalDeliveryPage() {
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
                       <strong className="block text-[16px] text-white">Proven Obstetric Mastery</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of dedicated clinical experience managing normal vaginal births, complex labor interventions, and VBAC cases across Lucknow.</span>
+                      <span className="text-white/80 text-[14px]">Over 15+ years of dedicated clinical experience managing normal vaginal births, complex labor interventions, and VBAC cases across Lucknow.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

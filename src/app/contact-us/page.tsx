@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/site-config";
 
 export const metadata = {
   title: `Contact Best Gynecologist in Sushant Golf City, Lucknow | ${siteConfig.name}`,
-  description: `Book consultation with Dr. Shamim Sultana Yashine at June Women's Health, Felix Square, Sushant Golf City, Lucknow. 2 mins from Lulu Mall, easily accessible from Vrindavan Yojna and Omaxe City. Call 080900 99133.`,
+  description: `Book consultation with Dr. Shamim Sultana Yashine at June Women's Health, Felix Square, Sushant Golf City, Lucknow. 2 mins from Lulu Mall on Shaheed Path, easily accessible from Awadh Vihar Yojna, Sultanpur Road, Raebareli Road, Ashiyana, and New Gomti Nagar. Call 080900 99133.`,
   alternates: {
     canonical: "/contact-us/",
   },
@@ -35,10 +35,16 @@ export default function ContactUsPage() {
                 <h3 className="text-[24px] font-bold text-primary mb-2">Schedule Hours</h3>
                 <p className="text-text mb-6 text-[15px]">Clinic timing and consultation schedule.</p>
                 <ul className="space-y-3 text-text">
-                  <li className="flex justify-between pb-2">
-                    <span className="capitalize font-semibold text-primary">Monday - Sunday</span>
-                    <div className="flex flex-col items-end text-right font-medium">
-                      <span>Open 24 Hours</span>
+                  <li className="flex justify-between items-center pb-2 border-b border-divider/20">
+                    <span className="capitalize font-semibold text-primary">Monday – Saturday</span>
+                    <div className="flex flex-col items-end text-right font-bold text-primary">
+                      <span>05:00 PM – 08:00 PM</span>
+                    </div>
+                  </li>
+                  <li className="flex justify-between items-center pt-1">
+                    <span className="capitalize font-semibold text-primary">Sunday</span>
+                    <div className="flex flex-col items-end text-right font-bold text-primary">
+                      <span>11:00 AM – 02:00 PM</span>
                     </div>
                   </li>
                 </ul>

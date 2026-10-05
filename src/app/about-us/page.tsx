@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 
 export const metadata = {
   title: "About June Women's Health | Best Gynecologist in Sushant Golf City, Lucknow",
-  description: "Meet Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) with 10+ years of experience at June Women's Health, Felix Square, Sushant Golf City, Lucknow. Delivering compassionate, evidence-based care in pregnancy, normal delivery, PCOD, and fertility.",
+  description: "Meet Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) with 15+ years of experience at June Women's Health, Felix Square, Sushant Golf City, Lucknow. Delivering compassionate, evidence-based care in pregnancy, normal delivery, PCOD, and fertility.",
   alternates: {
     canonical: "/about-us/",
   },
@@ -47,7 +47,7 @@ export default function AboutUsPage() {
         </svg>
       ),
       title: "Clinical Excellence",
-      desc: "Our clinic offers state-of-the-art diagnostic screening and treatment options for pregnancy care, fertility support, and laparoscopic surgeries.",
+      desc: "Our clinic offers state-of-the-art diagnostic screening and treatment options for pregnancy care, fertility support, advanced laparoscopic & hysteroscopic procedures, cancer screening, and cervical cancer screening and prevention.",
     },
     {
       number: "03",
@@ -81,10 +81,10 @@ export default function AboutUsPage() {
                 </h2>
                 <div className="text-text space-y-4 mb-8">
                   <p>
-                    At <strong>June Women&apos;s Health</strong>, we believe every woman deserves access to safe, empathetic, and premium healthcare. Located at <strong>Felix Square in Sushant Golf City</strong> and serving patients across <strong>Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna</strong>, and surrounding Lucknow neighborhoods, our clinic provides state-of-the-art diagnostic screening and treatment options tailored to support you through every stage of life. Our practice is built on a foundation of clinical safety, patient-first care, and complete transparency.
+                    At <strong>June Women&apos;s Health</strong>, we believe every woman deserves access to safe, empathetic, and premium healthcare. Located at <strong>Felix Square in Sushant Golf City</strong> and serving patients across <strong>Awadh Vihar Yojna, Sultanpur Road, Raebareli Road, Ashiyana, Alambagh, Aminabad, Chowk, Indira Nagar, New Gomti Nagar</strong>, and surrounding Lucknow neighborhoods, our clinic provides state-of-the-art diagnostic screening and treatment options tailored to support you through every stage of life. Our practice is built on a foundation of clinical safety, patient-first care, and complete transparency.
                   </p>
                   <p>
-                    Our clinical director, <strong>Dr. Shamim Sultana Yashine</strong>, is a board-certified <strong>Senior Consultant Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon (MS)</strong> with <strong>over 10+ Years of dedicated practice</strong>. Bringing extensive expertise in managing high-risk pregnancies, normal deliveries, and reproductive concerns, she provides unhurried, personalized single-doctor consultations. From PCOS therapies and pre-conceptional planning to advanced laparoscopic procedures and scarless surgeries, we are here to guide your health journey with absolute peace of mind.
+                    Our clinical director, <strong>Dr. Shamim Sultana Yashine</strong>, is a board-certified <strong>Senior Consultant Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon (MS)</strong> with <strong>over 15+ Years of dedicated practice</strong>. Bringing extensive expertise in managing high-risk pregnancies, normal deliveries, and reproductive concerns, she provides unhurried, personalized single-doctor consultations. From PCOS therapies and pre-conceptional planning to advanced laparoscopic procedures and scarless surgeries, we are here to guide your health journey with absolute peace of mind.
                   </p>
                 </div>
                 
@@ -102,7 +102,7 @@ export default function AboutUsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-accent shrink-0" />
-                    <span className="font-semibold text-primary">10+ Years of Experience</span>
+                    <span className="font-semibold text-primary">15+ Years of Experience</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-accent shrink-0" />
@@ -182,7 +182,11 @@ export default function AboutUsPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>
-                      <span><strong>Senior Consultant</strong> – Over 10+ Years of specialized clinical practice in Maternal and Reproductive Health</span>
+                      <span><strong>Specialized Training</strong> – Trained in Fertility Management and Advanced Laparoscopic and Hysteroscopic Procedures</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>
+                      <span><strong>Senior Consultant</strong> – Over 15+ Years of specialized clinical practice in Maternal and Reproductive Health</span>
                     </li>
                   </ul>
                 </div>

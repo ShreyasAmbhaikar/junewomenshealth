@@ -194,7 +194,7 @@ export default function ContraceptionAdvicePage() {
                   <strong>Contraception Advice &amp; Family Planning</strong> delivers clinical guidance, health risk assessment, and precise medical placement of modern birth control methods. Choosing the right contraceptive—whether temporary daily pills, quarterly injections, or long-acting reversible intrauterine devices (IUDs)—empowers women to prevent unintended pregnancies, space births safely, and manage heavy menstrual cycles with autonomy.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, judgment-free contraception counseling. We serve women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with clinical excellence.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, judgment-free contraception counseling. We serve women across Sushant Golf City, Sultanpur Road, Ashiyana, Raebareli Road, New Gomti Nagar, and greater Lucknow with clinical excellence.
                 </p>
                 <p>
                   Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, comfortable, and strictly confidential, allowing for personalized health screenings and sterile in-clinic procedures.

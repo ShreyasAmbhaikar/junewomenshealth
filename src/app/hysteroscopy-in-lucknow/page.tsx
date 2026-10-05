@@ -174,7 +174,7 @@ export default function HysteroscopyPage() {
                   At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we perform advanced hysteroscopic interventions. From diagnostic evaluations for abnormal bleeding to precision operative removal of endometrial polyps, submucous fibroids, and uterine septa, our focus is on anatomical restoration and fertility preservation.
                 </p>
                 <p>
-                  Serving patients across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private clinic near Lulu Mall on Shaheed Path provides thorough pre-procedure evaluations and seamless coordination for daycare hospital procedures.
+                  Serving patients across Sushant Golf City, Sultanpur Road, Raebareli Road, New Gomti Nagar, Indira Nagar, and greater Lucknow, our private clinic near Lulu Mall on Shaheed Path provides thorough pre-procedure evaluations and seamless coordination for daycare hospital procedures.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>

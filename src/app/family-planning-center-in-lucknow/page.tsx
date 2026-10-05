@@ -171,7 +171,7 @@ export default function FamilyPlanningCenterPage() {
                   <strong>Family Planning</strong> is a core foundation of comprehensive women&apos;s healthcare, enabling couples and individuals to make informed, autonomous choices regarding the timing, spacing, and number of their children. Modern family planning combines evidence-based contraceptive spacing methods, optimal inter-pregnancy interval counseling, pre-conception health evaluations, and permanent sterilization solutions.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, highly confidential family planning services. We serve women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with clinical excellence.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, highly confidential family planning services. We serve women across Sushant Golf City, Awadh Vihar Yojna, Sultanpur Road, Alambagh, Raebareli Road, and greater Lucknow with clinical excellence.
                 </p>
                 <p>
                   Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, gentle, and strictly confidential, allowing for individualized contraceptive evaluations and sterile in-clinic procedures.

@@ -26,7 +26,7 @@ export const InfoStrip = () => {
           </div>
 
           {/* Hours Info */}
-          <div className="flex items-center gap-[20px] w-full lg:px-6 lg:border-r lg:border-divider h-full lg:col-span-3">
+          <div className="flex items-center gap-[16px] w-full lg:px-6 lg:border-r lg:border-divider h-full lg:col-span-4">
             <div className="w-[60px] h-[60px] rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10"></circle>
@@ -34,18 +34,18 @@ export const InfoStrip = () => {
               </svg>
             </div>
             <div>
-              <p className="text-[14px] font-semibold text-accent uppercase tracking-[0.1em] mb-1">
-                Opening Hours
+              <p className="text-[13px] font-semibold text-accent uppercase tracking-[0.1em] mb-1">
+                Consultation Hours
               </p>
-              <h4 className="text-[15px] font-bold text-primary leading-tight">
-                Monday to Sunday: <br />
-                <span>Open 24 Hours</span>
-              </h4>
+              <div className="text-[13px] text-primary font-bold leading-snug space-y-0.5">
+                <div>Mon - Sat: <span className="font-semibold text-text">05:00 PM – 08:00 PM</span></div>
+                <div>Sunday: <span className="font-semibold text-text">11:00 AM – 02:00 PM</span></div>
+              </div>
             </div>
           </div>
 
           {/* Address Info */}
-          <div className="flex items-center gap-[20px] w-full lg:pl-6 h-full lg:col-span-5">
+          <div className="flex items-center gap-[20px] w-full lg:pl-6 h-full lg:col-span-4">
             <div className="w-[60px] h-[60px] rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>

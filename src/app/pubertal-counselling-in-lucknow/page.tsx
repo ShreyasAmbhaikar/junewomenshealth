@@ -194,7 +194,7 @@ export default function PubertalCounsellingPage() {
                   <strong>Pubertal Counselling</strong> is a specialized, supportive discipline within adolescent gynecology dedicated to guiding young girls through the physical, hormonal, and psychological transitions of puberty. It demystifies the biological events of menstruation, alleviates period anxiety, and addresses early gynecological issues like irregular cycles, dysmenorrhea, and teen acne in a gentle manner.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide a warm, empathetic, and confidential environment for young teenagers and their mothers. Serving families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we build positive body confidence and lifelong menstrual hygiene awareness.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide a warm, empathetic, and confidential environment for young teenagers and their mothers. Serving families across Sushant Golf City, Awadh Vihar Yojna, Ashiyana, Indira Nagar, Sultanpur Road, and greater Lucknow, we build positive body confidence and lifelong menstrual hygiene awareness.
                 </p>
                 <p>
                   In our quiet, private clinic near Lulu Mall on Shaheed Path, Dr. Shamim Sultana Yashine personally conducts every adolescent consultation, ensuring a friendly, unhurried session that eliminates clinical fear and builds lasting health confidence.
@@ -250,7 +250,7 @@ export default function PubertalCounsellingPage() {
                     </div>
                     <div>
                       <span className="font-bold text-primary text-[15px] mb-1 block">First Period (Menarche)</span>
-                      <p className="text-text text-[14px] leading-relaxed">Periods begin naturally between the ages of 10 and 10+ Years old.</p>
+                      <p className="text-text text-[14px] leading-relaxed">Periods begin naturally between the ages of 10 and 15 years old.</p>
                     </div>
                   </div>
                   {/* Row 2 */}

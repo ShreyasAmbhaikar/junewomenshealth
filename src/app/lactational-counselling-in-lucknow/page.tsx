@@ -194,7 +194,7 @@ export default function LactationalCounsellingPage() {
                   <strong>Lactational Counselling</strong> provides medical guidance, ergonomic coaching, and compassionate clinical care to help postpartum mothers establish and maintain a healthy, painless breastfeeding experience. Professional lactation care addresses incorrect infant latches, insufficient milk volume, breast engorgement, plugged ducts, and maternal anxiety regarding infant weight gain.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we understand that nursing is a learned biological skill. We support new mothers across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with personalized clinical coaching.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we understand that nursing is a learned biological skill. We support new mothers across Sushant Golf City, Awadh Vihar Yojna, Ashiyana, Sultanpur Road, Raebareli Road, and greater Lucknow with personalized clinical coaching.
                 </p>
                 <p>
                   Our private single-doctor clinic near Lulu Mall on Shaheed Path offers a calm, highly sterilized environment where you and your baby can receive gentle, unhurried guidance in complete privacy.

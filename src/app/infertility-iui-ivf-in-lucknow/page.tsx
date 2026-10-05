@@ -226,7 +226,7 @@ export default function InfertilityIuiIvfPage() {
                   At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we champion an ethical, stepped-care philosophy. We avoid rushing couples into invasive, expensive procedures, choosing instead to begin with comprehensive diagnostic mapping, ovulation induction, and timed IUI whenever clinically viable.
                 </p>
                 <p>
-                  Serving families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path provides compassionate, unhurried consultations and transparent guidance at every step of your fertility journey.
+                  Serving families across Sushant Golf City, Raebareli Road, Sultanpur Road, New Gomti Nagar, Chowk, Alambagh, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path provides compassionate, unhurried consultations and transparent guidance at every step of your fertility journey.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>

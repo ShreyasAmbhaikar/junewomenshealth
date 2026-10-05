@@ -171,7 +171,7 @@ export default function MtpDePage() {
                   <strong>Medical Termination of Pregnancy (MTP)</strong> and <strong>Dilation &amp; Evacuation (D&amp;E)</strong> are safe, medically approved procedures performed to end an unintended pregnancy or complete the management of missed and incomplete miscarriages. Receiving professional clinical care from a registered gynecologist guarantees maternal safety, minimizes complications, and preserves future reproductive health.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide strictly confidential, legally compliant reproductive healthcare under the MTP Act of India. We support women from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with non-judgmental counseling and sterile medical facilities.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide strictly confidential, legally compliant reproductive healthcare under the MTP Act of India. We support women from Sushant Golf City, Raebareli Road, Sultanpur Road, Ashiyana, Alambagh, and greater Lucknow with non-judgmental counseling and sterile medical facilities.
                 </p>
                 <p>
                   Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain private, unhurried, and completely secure from start to post-procedure recovery.

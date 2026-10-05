@@ -51,7 +51,7 @@ export default function ServicesPage() {
     {
       icon: <Sparkles className="w-10 h-10 text-accent" />,
       title: "Infertility, IUI & IVF Care",
-      desc: "Ethical, success-focused infertility diagnostics, advanced follicle tracking, and customized IUI/IVF guidance to support couples on their parenthood path near Vrindavan Yojna and Sushant Golf City.",
+      desc: "Ethical, success-focused infertility diagnostics, advanced follicle tracking, and customized IUI/IVF guidance to support couples on their parenthood path across Sushant Golf City, Sultanpur Road, Raebareli Road, and New Gomti Nagar.",
       href: "/infertility-iui-ivf-in-lucknow/",
       isActive: true,
     },
@@ -197,7 +197,7 @@ export default function ServicesPage() {
                 Specialized Gynecologist and Obstetric Treatments in Lucknow
               </h2>
               <p className="text-text mt-3 text-[16px]">
-                June Women&apos;s Health delivers high-standard, compassionate clinical care for women across all stages of life, serving patients throughout Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Lulu Mall area, Awadh Vihar, and greater Lucknow.
+                June Women&apos;s Health delivers high-standard, compassionate clinical care for women across all stages of life, serving patients throughout Sushant Golf City, Awadh Vihar Yojna, Sultanpur Road, Raebareli Road, Ashiyana, Alambagh, New Gomti Nagar, Indira Nagar, and greater Lucknow.
               </p>
             </div>
 

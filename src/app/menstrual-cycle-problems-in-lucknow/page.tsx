@@ -171,7 +171,7 @@ export default function MenstrualCycleProblemsPage() {
                   A woman&apos;s menstrual cycle is a direct physiological mirror of her underlying endocrine, metabolic, and ovarian vitality. While occasional cycle variance can happen, recurrent issues like irregular intervals, skipped periods, menorrhagia (heavy bleeding), or debilitating cramps signify deeper imbalances that require clinical diagnosis. Left unmanaged, chronic cycle disorders can result in iron-deficiency anemia, metabolic disturbances, and future subfertility.
                 </p>
                 <p>
-                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we focus on identifying and treating the root endocrine or anatomical cause. Serving women from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we provide structured, evidence-based care.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we focus on identifying and treating the root endocrine or anatomical cause. Serving women from Sushant Golf City, Aminabad, Chowk, Alambagh, Raebareli Road, and greater Lucknow, we provide structured, evidence-based care.
                 </p>
                 <p>
                   Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, comfortable, and strictly confidential, allowing for comprehensive hormonal evaluations and targeted long-term cycle correction.

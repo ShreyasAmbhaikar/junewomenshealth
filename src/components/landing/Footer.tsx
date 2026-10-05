@@ -99,12 +99,14 @@ export const Footer = () => {
 
           <div className="flex flex-col gap-6 lg:col-span-3">
             <h3 className="text-[20px] font-semibold text-white">Working Hours</h3>
-            <ul className="flex flex-col gap-4 text-white/80">
-              <li className="flex justify-between border-b border-dark-divider pb-3">
-                <span>Monday to Sunday</span>
-                <div className="flex flex-col items-end text-white font-medium text-[14px]">
-                  <span>Open 24 Hours</span>
-                </div>
+            <ul className="flex flex-col gap-3 text-white/80">
+              <li className="flex justify-between items-center border-b border-dark-divider pb-2.5 text-[14px]">
+                <span className="text-white/90 font-medium">Mon – Sat:</span>
+                <span className="text-white font-semibold">05:00 PM – 08:00 PM</span>
+              </li>
+              <li className="flex justify-between items-center border-b border-dark-divider pb-2.5 text-[14px]">
+                <span className="text-white/90 font-medium">Sunday:</span>
+                <span className="text-white font-semibold">11:00 AM – 02:00 PM</span>
               </li>
             </ul>
             {/* Doctor Address & Phone interactive links */}
