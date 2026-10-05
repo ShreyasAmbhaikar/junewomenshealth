@@ -1,0 +1,2 @@
+# 301 Redirect www to canonical non-www domain
+https://www.junewomenshealthclinic.com/* https://junewomenshealthclinic.com/:splat 301!
