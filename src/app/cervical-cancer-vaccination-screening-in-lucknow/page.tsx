@@ -21,8 +21,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Cervical Screening & HPV Vaccine in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get gentle Pap Smear tests, HPV DNA co-testing, and cervical cancer vaccinations (Gardasil 9 & Cervavac) under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. 100% confidential and evidence-based preventive care.",
+  title: "Best Cervical Cancer Screening & HPV Vaccine in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Gentle Pap Smear tests, HPV DNA testing, and cervical cancer vaccinations (Gardasil 9 & Cervavac) under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book a confidential consult.",
   alternates: {
     canonical: '/cervical-cancer-vaccination-screening-in-lucknow/',
   }
@@ -37,98 +37,115 @@ export default function CervicalCancerPage() {
 
   const screeningPrograms = [
     { 
-      title: "Liquid-Based Pap Smear (LBC)", 
-      description: "A highly accurate cytology screening that collects a thin layer of cervical cells. It detects pre-cancerous cellular changes (dysplasia) years before they can transform into malignancy.", 
+      title: "Liquid-Based Cytology (LBC Pap Smear)", 
+      description: "Collecting cervical cellular samples using gentle, sterile cytobrushes to detect pre-malignant cervical dysplasias up to a decade before oncogenic progression.", 
       icon: <Stethoscope className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "High-Risk HPV DNA Testing", 
-      description: "A molecular diagnostic test detecting high-risk human papillomavirus genotypes (specifically HPV 16 and 18) directly linked to over 99% of all cervical cancer cases.", 
+      title: "High-Risk HPV DNA Genotyping", 
+      description: "PCR-based molecular screening to isolate oncogenic Human Papillomavirus strains (specifically HPV 16, 18, 31, 33, 45) responsible for the vast majority of cervical neoplasms.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Diagnostic Colposcopy Exam", 
-      description: "For abnormal screening results, Dr. Shamim Sultana Yashine utilizes a specialized colposcope to examine the cervix under high magnification, identifying suspicious areas for targeted biopsy.", 
+      title: "Magnified Colposcopic Assessment", 
+      description: "Utilizing binocular optical colposcopy with acetic acid and Lugol's iodine staining to evaluate abnormal Pap smears and guide targeted micro-punch biopsies.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Annual Gynecological Screening", 
-      description: "A comprehensive physical wellness exam evaluating overall pelvic anatomy, cervical health, and early signs of reproductive system anomalies in a gentle, stress-free setting.", 
+      title: "Preventive Well-Woman Checkups", 
+      description: "Routine physical examinations of the cervix, vaginal mucosa, and bimanual pelvic organs in an unhurried, respectful, and private clinical environment.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const vaccineSchedules = [
     { 
-      title: "Pediatric Dose (Ages 9 to 14)", 
-      description: "Requires a 2-dose schedule. The second dose is administered 6 months after the first. Recommending vaccination at this age provides the strongest, lifetime immune response before virus exposure.", 
+      title: "Adolescent Protocol (Ages 9 to 14)", 
+      description: "Administering a 2-dose regimen (0 and 6 months). Vaccinating early stimulates peak humoral antibody titers before any potential exposure to the virus.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Adult Catch-up (Ages 15 to 45)", 
-      description: "Requires a 3-dose schedule: the second dose is given at 1-2 months, and the third dose at 6 months after the first. Essential catch-up preventive immunity for active women.", 
+      title: "Young Adult Catch-Up (Ages 15 to 45)", 
+      description: "Administering a 3-dose regimen (0, 1-2, and 6 months) to deliver robust protective immunity for sexually active or adult women against oncogenic strains.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Co-Testing Intervals", 
-      description: "For women aged 30 and older, clinical guidelines recommend Pap smear combined with HPV DNA testing every 5 years, or a standalone Pap smear every 3 years starting from age 21.", 
+      title: "Co-Testing Surveillance Intervals", 
+      description: "For women aged 30+, combining Pap smear and HPV DNA co-testing every 5 years (or standalone Pap smear every 3 years starting from age 21) ensures complete safety.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const vaccinationTimeline = [
     {
-      title: 'Step 1: Clinical Assessment & Vaccine Choice',
-      description: 'Dr. Shamim Sultana Yashine conducts a private review of your medical history, age, and previous screenings to recommend either Gardasil 9 or Cervavac based on clinical guidelines.',
+      title: 'Step 1: Clinical History & Vaccine Selection',
+      description: 'Dr. Shamim Sultana Yashine reviews your previous screening history, age, and individual preferences to recommend either Gardasil 9 or Cervavac according to national guidelines.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Gentle Specimen Collection',
-      description: 'If due for screening, a quick and painless Pap smear or HPV DNA swab is collected. We prioritize patient comfort and use specialized cytobrushes to ensure minimal physical discomfort.',
+      title: 'Step 2: Gentle Cervical Specimen Collection',
+      description: 'If screening is indicated, a painless liquid-based Pap smear or HPV DNA swab is collected with soft cytobrushes, ensuring complete comfort and privacy.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Sterilized Vaccine Administration',
-      description: 'Approved HPV vaccines are administered as a quick intramuscular injection in the upper arm, maintaining absolute sterility protocols and gentle delivery to avoid soreness.',
+      title: 'Step 3: Cold-Chain Vaccine Administration',
+      description: 'Administering the chosen HPV vaccine via a gentle intramuscular injection into the deltoid muscle under strict cold-chain and sterile clinic protocols.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Reminders & Follow-up Logistics',
-      description: 'Your dose schedule is logged into our private clinic system, and personalized digital reminders are sent to track the subsequent catch-up doses to secure long-term preventive immunity.',
+      title: 'Step 4: Dose Tracking & Digital Reminders',
+      description: 'Logging the vaccine batch details and sending automated digital scheduling reminders to ensure timely completion of all required follow-up doses.',
       icon: <Clock className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What is the difference between a Pap smear and an HPV DNA test, and do I need both?',
-      answer: 'A Pap smear checks for abnormal cellular changes (cytology) on the cervix that could lead to cancer, while an HPV DNA test detects the presence of the actual high-risk Human Papillomavirus strains that cause those changes. For women aged 30 and older, Dr. Shamim Sultana Yashine recommends "co-testing" (doing both tests together) for maximum diagnostic accuracy and clinical safety.'
+      question: 'What is the clinical difference between a Pap smear and an HPV DNA test?',
+      answer: 'A Pap smear checks for abnormal cellular morphology (cytology) on the surface of the cervix caused by viral injury, whereas an HPV DNA test detects the actual viral genetic material of high-risk HPV strains. For women aged 30 and older, combining both tests (co-testing) provides over 98% clinical accuracy in preventing cervical cancer.'
     },
     {
-      question: 'At what age should girls or women get the HPV vaccine in Lucknow?',
-      answer: 'The HPV vaccine provides the strongest preventive immunity when administered between 9 and 14 years of age (a 2-dose schedule). For girls and women aged 15 to 45 who were not vaccinated earlier, a 3-dose catch-up schedule is highly recommended. Dr. Shamim Sultana Yashine evaluates your history to provide honest advice on catch-up vaccinations.'
+      question: 'What is the recommended age to receive the HPV vaccine in Lucknow?',
+      answer: 'The ideal window to receive the HPV vaccine is between the ages of 9 and 14, requiring only 2 doses for lifelong antibody protection. However, women and young adults aged 15 to 45 who missed their childhood vaccination can receive the 3-dose catch-up schedule with excellent preventive efficacy.'
     },
     {
-      question: 'What is the actual cost of a Pap smear and HPV vaccine at Dr. Shamim Sultana Yashine\'s Women\'s Clinic?',
-      answer: 'We believe in complete pricing transparency. At our clinic in Sushant Golf City, a Liquid-Based Cytology (LBC) Pap smear test costs between ₹1,500 and ₹2,200, and an HPV DNA co-test is priced between ₹3,000 and ₹4,500. For vaccines, the indigenous DCGI-approved Cervavac (Serum Institute) is ₹2,200 to ₹2,500 per dose, while the international Gardasil 9 (MSD) is ₹10,500 to ₹11,500 per dose.'
+      question: 'What is the cost of Pap smears and HPV vaccines at June Women\'s Health?',
+      answer: 'We believe in 100% financial transparency. A Liquid-Based Cytology (LBC) Pap smear test is ₹1,600 to ₹2,000, while an HPV DNA co-test is ₹3,200 to ₹4,200. For vaccination, India\'s quadrivalent Cervavac (Serum Institute) is approximately ₹2,200 per dose, and the international nonavalent Gardasil 9 (MSD) is approximately ₹10,850 per dose.'
     },
     {
-      question: 'Can sexually active or married women benefit from the HPV vaccine?',
-      answer: 'Yes. Although the vaccine is most effective before sexual debut, sexually active and married women still gain significant protection against the high-risk HPV strains they have not yet contracted. It is a vital preventive investment for long-term health.'
+      question: 'Can married or sexually active women still benefit from the HPV vaccine?',
+      answer: 'Yes! Sexually active and married women still gain immense protective value from the vaccine. Even if you have been exposed to one strain in the past, the multi-strain vaccine shields you against all other high-risk oncogenic HPV types covered in the formulation.'
     },
     {
-      question: 'Do I still need Pap smear screenings after completing the HPV vaccine schedule?',
-      answer: 'Yes, regular cervical screening remains mandatory even after vaccination. While the vaccines protect against the most common cancer-causing strains (such as HPV 16 and 18), they do not cover every single high-risk strain. Regular Pap tests every 3 to 5 years ensure full clinical safety.'
+      question: 'Do I still need routine Pap smear tests if I have taken all HPV vaccine doses?',
+      answer: 'Yes. While HPV vaccines protect against the strains responsible for 70% to 90% of cervical cancers, they do not cover every rare viral subtype. Continued screening with Pap smears or co-testing every 3 to 5 years is recommended by international gynecological guidelines.'
     },
     {
-      question: 'How do I book an appointment, and is the clinic open for emergency walk-ins?',
-      answer: 'Dr. Shamim Sultana Yashine’s Women’s Clinic is a dedicated, single-doctor clinical practice focusing on personalized, unhurried patient care. We operate strictly by prior appointment during dedicated morning and evening timings, rather than a 24/7 emergency center model. This ensures a sterilized clinical environment and private, confidential screenings. You can schedule a visit by contacting us directly.'
+      question: 'How do I book a cervical cancer screening appointment in Sushant Golf City?',
+      answer: 'Consultations and screenings at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. Dr. Shamim Sultana Yashine personally conducts all Pap smear collections and vaccine counseling in a sanitized, confidential environment.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Cervical Screening & HPV Vaccine" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is Cervical Screening & HPV Vaccine? (Cream bg) === */}
@@ -140,25 +157,25 @@ export default function CervicalCancerPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/cervical-overview.webp" 
-                  alt="Cervical Screening and HPV Vaccine Vial representation for Cervical Cancer Prevention" 
+                  alt="Cervical Screening and HPV Vaccine Vial representation for Cervical Cancer Prevention in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Cervical Screening & HPV Vaccine?" 
+                text="What is Cervical Cancer Screening &amp; HPV Vaccination?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Cervical cancer remains a significant health concern for women, yet it is one of the most preventable forms of cancer. It is caused almost exclusively by persistent infections with high-risk strains of the <strong>Human Papillomavirus (HPV)</strong>. By combining routine cervical cancer screenings (such as Pap Smears and molecular HPV DNA testing) with proactive HPV vaccinations, you can establish powerful preventive immunity and reduce your lifetime risk of cervical cancer by over 90%.
+                  Cervical cancer is almost entirely preventable when proactive medical screening is paired with protective immunization. Caused primarily by persistent infections with high-risk strains of the <strong>Human Papillomavirus (HPV)</strong>, it develops silently over many years through detectable pre-cancerous cervical cellular changes (dysplasia).
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, a premier center for gynecological health and preventive medicine in Sushant Golf City and Lucknow, Lucknow, we provide a safe, gentle, and confidential screening environment. Dr. Shamim Sultana Yashine provides individualized consultation, guiding women through evidence-based protocols to detect cervical cell abnormalities early and choose the most effective vaccine path.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we offer gentle, evidence-based cervical wellness programs. From high-accuracy Liquid-Based Cytology (LBC) Pap smears and high-risk HPV DNA testing to DCGI-approved HPV vaccines (Gardasil 9 and Cervavac), we provide complete preventive care.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a busy corporate hospital, your screenings are conducted personally by Dr. Shamim Sultana Yashine. We operate by prior appointments to ensure that every patient receives absolute privacy, meticulous attention, and clinical accuracy in a sterilized clinical environment.
+                  Serving women and families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path ensures total confidentiality and unhurried clinical attention.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -465,7 +482,7 @@ export default function CervicalCancerPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Cervical Screening & HPV Vaccine?
+                  Why Women Choose June Women&apos;s Health for Cervical Prevention
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -474,29 +491,29 @@ export default function CervicalCancerPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Single-Doctor Personalized Attention</strong>
-                      <span className="text-white/80 text-[14px]">Avoid rotating clinic technicians. Your cytological specimen collection is conducted entirely by Dr. Shamim Sultana Yashine, a board-certified gynecologist, ensuring absolute clinical accuracy and gentle care.</span>
+                      <strong className="block text-[16px] text-white">Direct Gynecologist Sample Collection</strong>
+                      <span className="text-white/80 text-[14px]">Avoid delegated lab tech sampling. Every Pap smear cytology swab is personally collected by Dr. Shamim Sultana Yashine, ensuring clinical accuracy and gentle comfort.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Government-Approved Safe Vaccines</strong>
-                      <span className="text-white/80 text-[14px]">Immediate access to DCGI-approved, highly effective vaccines including India's indigenous Cervavac and the international nonavalent Gardasil 9.</span>
+                      <strong className="block text-[16px] text-white">DCGI-Approved Cold-Chain Vaccines</strong>
+                      <span className="text-white/80 text-[14px]">Direct access to authentic, refrigerated vaccines including India's indigenous Cervavac and the global standard nonavalent Gardasil 9.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Strict Prior-Appointment Confidential Screening</strong>
-                      <span className="text-white/80 text-[14px]">Consultations are scheduled strictly by prior appointment during dedicated morning and evening hours. This guarantees a quiet, highly sterilized clinical environment and complete patient privacy.</span>
+                      <strong className="block text-[16px] text-white">Strict Prior-Appointment Privacy</strong>
+                      <span className="text-white/80 text-[14px]">Screenings and vaccine schedules are coordinated strictly by appointment during dedicated clinic hours in Sushant Golf City, ensuring total confidentiality and zero wait times.</span>
                     </div>
                   </li>
                 </ul>
@@ -507,7 +524,7 @@ export default function CervicalCancerPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

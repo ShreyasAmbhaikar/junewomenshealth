@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Irregular Periods & Menstrual Problems Treatment in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get expert clinical treatment for irregular periods, heavy bleeding, missed cycles, and painful cramps under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Irregular Periods & Menstrual Problems Treatment in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Clinical treatment for irregular periods, heavy bleeding (menorrhagia), skipped cycles, and cramps under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book today.",
   alternates: {
     canonical: '/menstrual-cycle-problems-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function MenstrualCycleProblemsPage() {
 
   const subServices = [
     { 
-      title: "Irregular Periods & Oligomenorrhea", 
-      description: "Comprehensive endocrine evaluations to restore regular cycle intervals for cycles occurring less frequently than 35 days.", 
+      title: "Irregular Cycles & Oligomenorrhea", 
+      description: "Thorough hormonal and metabolic investigations to re-establish predictable ovulation patterns for cycles spaced longer than 35 days apart.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Heavy Bleeding & Menorrhagia Care", 
-      description: "Diagnostic screening for uterine fibroids, endometrial thickening, or polyps, and targeted medical therapies to manage excessive bleeding.", 
+      title: "Heavy Bleeding & Menorrhagia Therapy", 
+      description: "Diagnostic sonography for submucosal fibroids, adenomyosis, or endometrial polyps, paired with medical therapy to control flooding flows.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Skipped Cycles & Amenorrhea Support", 
-      description: "Identifying underlying hormonal triggers like PCOS, stress, or thyroid dysfunction to safely regulate and restart missing periods.", 
+      title: "Skipped Cycles & Secondary Amenorrhea", 
+      description: "Isolating underlying neuroendocrine triggers including PCOD, hyperprolactinemia, severe stress, or thyroid dysfunction to naturally restore missing periods.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Dysmenorrhea & Severe Pain Management", 
-      description: "Thorough clinical checks for adenomyosis, endometriosis, or pelvic infections, providing effective pain relief and targeted cures.", 
+      title: "Dysmenorrhea & Pelvic Cramp Management", 
+      description: "Clinical screening for endometriosis, adenomyosis, or pelvic infections, delivering evidence-based pain management and long-term anatomical resolution.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const safetyGuidelines = [
     { 
-      title: "Log Your Cycle Details", 
-      description: "Maintain a detailed diary or digital tracker recording period start dates, bleeding duration, and relative flow intensity (pad counts).", 
+      title: "Maintain a Menstrual Diary", 
+      description: "Log your exact period start dates, bleeding duration, pad saturation frequencies, and the presence of blood clots over at least 3 consecutive cycles.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Note Secondary Symptoms", 
-      description: "Record any other physical signs like sudden weight changes, acne outbreaks, facial hair growth, severe fatigue, or mood shifts.", 
+      title: "Track Associated Metabolic Signs", 
+      description: "Take note of secondary symptoms like unexpected weight gain, cystic acne breakouts, facial hair growth (hirsutism), fatigue, or severe hair thinning.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Avoid Self-Medicating", 
-      description: "Refrain from taking unprescribed hormonal pills or overuse of strong painkillers without diagnostic checks, as they mask underlying disorders.", 
+      title: "Avoid Unsupervised Hormonal Pills", 
+      description: "Refrain from taking over-the-counter period delay or withdrawal bleed tablets without a doctor's diagnosis, as they mask serious underlying endocrine pathologies.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const careProtocol = [
     {
-      title: 'Step 1: Detailed Cycle Mapping',
-      description: 'A private consultation with Dr. Shamim Sultana Yashine to review period charts, symptom onset, physical signs, and family history of endocrine disorders.',
+      title: 'Step 1: Clinical Symptom & Cycle History Mapping',
+      description: 'A private evaluation with Dr. Shamim Sultana Yashine reviewing cycle chronologies, medication history, metabolic symptoms, and familial endocrine disorders.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Endocrine (Hormone) Profiling',
-      description: 'Targeted laboratory blood panels checking thyroid function (TSH), prolactin, insulin resistance, and ovarian hormones (FSH/LH).',
+      title: 'Step 2: Targeted Endocrine & Metabolic Labs',
+      description: 'Conducting comprehensive blood work evaluating thyroid hormones (TSH), prolactin, serum AMH, fasting insulin, and ovarian LH/FSH ratios.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: High-Resolution Pelvic Ultrasound',
-      description: 'Performing a screening transvaginal pelvic ultrasound scan to inspect the uterus and ovaries for fibroids, polyps, or polycystic ovaries.',
+      title: 'Step 3: High-Resolution Pelvic Sonography (TVS)',
+      description: 'Performing detailed transvaginal ultrasound imaging to measure endometrial thickness and evaluate ovarian morphology for polycystic appearance or cysts.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Tailored Therapeutic Strategy',
-      description: 'Initiating cycle-regulating hormones, thyroid correction, or minimally invasive procedures for fibroids, paired with structured follow-ups.',
+      title: 'Step 4: Individualized Medical & Lifestyle Roadmap',
+      description: 'Prescribing evidence-based hormonal regulation, insulin-sensitizing therapy, or targeted medications tailored to your reproductive and health goals.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What are the primary causes of irregular periods and cycles?',
-      answer: 'Irregular menstrual cycles are most commonly caused by hormonal imbalances such as Polycystic Ovary Syndrome (PCOS), thyroid disorders (hypo or hyperthyroidism), high prolactin levels, chronic emotional or physical stress, rapid weight fluctuations, intense exercise routines, or hormonal fluctuations during puberty and perimenopause.'
+      question: 'What are the most frequent medical causes of irregular periods in women?',
+      answer: 'The most common causes of irregular menstrual cycles include Polycystic Ovary Syndrome (PCOS/PCOD), thyroid dysfunctions (hypothyroidism or hyperthyroidism), elevated prolactin levels (hyperprolactinemia), chronic psychological stress, rapid weight gain or loss, perimenopausal hormonal fluctuations, and structural issues like uterine fibroids or polyps.'
     },
     {
-      question: 'What is the actual, genuine cost of menstrual problem treatment at the clinic?',
-      answer: 'We practice complete transparency. A pelvic health and menstrual cycle consultation with Dr. Shamim Sultana Yashine is ₹600. A baseline screening pelvic ultrasound (to evaluate uterus, ovaries, and lining thickness) ranges from ₹1,500 to ₹2,500. Standard laboratory blood panels (thyroid, prolactin, or complete hormone profiles) range from ₹1,200 to ₹3,000 depending on tests. Outpatient medical treatment kits range from ₹500 to ₹1,500.'
+      question: 'What is the genuine cost of menstrual cycle evaluation at June Women\'s Health?',
+      answer: 'We believe in complete pricing transparency. A comprehensive private consultation with Dr. Shamim Sultana Yashine is ₹600. A baseline screening pelvic ultrasound (TVS/TAS) to assess endometrial thickness and ovarian follicles is ₹1,500 to ₹2,200. Targeted hormonal blood assays (TSH, Prolactin, AMH, or LH/FSH) range from ₹1,200 to ₹2,800. Outpatient medical treatment kits range from ₹500 to ₹1,500.'
     },
     {
-      question: 'How much menstrual bleeding is considered heavy bleeding (menorrhagia)?',
-      answer: 'Menstrual bleeding is clinically heavy if you soak through one or more sanitary pads every hour for several consecutive hours, need to change protection during the night, bleed for more than 7 days, pass blood clots larger than a coin, or experience severe fatigue due to flow volume.'
+      question: 'How do doctors define abnormally heavy periods (menorrhagia)?',
+      answer: 'Menstrual bleeding is clinically defined as menorrhagia if you need to change one or more sanitary pads or tampons every hour for multiple consecutive hours, need double sanitary protection, wake up during the night to change pads, bleed for longer than 7 days, or pass blood clots larger than a quarter coin.'
     },
     {
-      question: 'Why did I skip my period if my pregnancy test is negative?',
-      answer: 'Skipping periods (secondary amenorrhea) when not pregnant can happen due to elevated stress levels, sudden weight shifts, hormonal imbalances like PCOS, high prolactin levels, thyroid dysfunction, or stopping birth control pills. Dr. Shamim Sultana Yashine conducts hormone checks to locate the biological cause.'
+      question: 'Why did I miss my menstrual period when my pregnancy test is negative?',
+      answer: 'Missing a period with a negative pregnancy test (secondary amenorrhea) is often triggered by sudden anovulation caused by elevated cortisol from severe stress, rapid weight changes, undiagnosed PCOS, thyroid imbalance, or elevated prolactin. Dr. Shamim Sultana Yashine runs targeted endocrine tests to pinpoint the exact hormonal trigger.'
     },
     {
-      question: 'Can chronic stress or weight changes alter my menstrual cycle?',
-      answer: 'Yes, absolutely. Stress releases cortisol, which direct disrupts the hypothalamus (the brain area that regulates menstrual hormones). Significant weight loss or rapid weight gain also alters estrogen production, leading to skipped, irregular, or abnormally heavy periods.'
+      question: 'Can emotional stress or lifestyle changes disrupt menstrual regularity?',
+      answer: 'Yes. Severe emotional stress triggers cortisol release, which suppresses the hypothalamic-pituitary-ovarian (HPO) axis, delaying or completely halting ovulation. Significant sleep disruptions, intense physical training, and abrupt dietary shifts can also alter estrogen and progesterone synthesis.'
     },
     {
-      question: 'Is the clinic open 24/7 for emergency period pain treatment?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening timings to maintain a quiet, sterilized clinical lobby. We do not support 24/7 walk-in emergency queues. Registered patients experiencing severe pelvic pain can contact our coordinator to book a priority consult.'
+      question: 'How do I schedule an irregular period consultation with Dr. Shamim Sultana Yashine?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. This ensures 100% privacy, zero waiting room crowds, and unhurried clinical attention. You can schedule your consultation by calling our clinic directly.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Menstrual Cycle Problems" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Menstrual Cycle Problems Treatment? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function MenstrualCycleProblemsPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/menstrual-problems-overview.webp" 
-                  alt="Menstrual cycle tracking calendar and hormonal evaluation diagrams shown on tablet screen" 
+                  alt="Menstrual cycle tracking calendar and hormonal evaluation diagrams shown on tablet screen in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Menstrual Cycle Problems?" 
+                text="What are Menstrual Cycle Problems &amp; Irregularities?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Menstrual health is an excellent window into a woman's general endocrine, metabolic, and reproductive health. While occasional minor variations in cycle dates are common, persistent issues such as irregular periods, skipped cycles, abnormally heavy bleeding, or debilitating uterine cramps should not be ignored. If left unmanaged, cycle irregularities can lead to anemia, metabolic disorders, and future fertility challenges.
+                  A woman&apos;s menstrual cycle is a direct physiological mirror of her underlying endocrine, metabolic, and ovarian vitality. While occasional cycle variance can happen, recurrent issues like irregular intervals, skipped periods, menorrhagia (heavy bleeding), or debilitating cramps signify deeper imbalances that require clinical diagnosis. Left unmanaged, chronic cycle disorders can result in iron-deficiency anemia, metabolic disturbances, and future subfertility.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the leading menstrual wellness and gynecological center in Sushant Golf City and Lucknow, Lucknow, we focus on identifying the root hormonal or anatomical cause of your symptoms. Dr. Shamim Sultana Yashine provides compassionate, expert care, helping you regulate your menstrual health through structured clinical management.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we focus on identifying and treating the root endocrine or anatomical cause. Serving women from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we provide structured, evidence-based care.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that you receive direct, personal, and highly supportive medical care at every visit. All consultations are coordinated strictly by prior appointment during dedicated hours, maintaining a quiet, highly sterilized environment that eliminates lobby crowds and waiting room anxiety.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, comfortable, and strictly confidential, allowing for comprehensive hormonal evaluations and targeted long-term cycle correction.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function MenstrualCycleProblemsPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Menstrual Cycle Correction?
+                  Why Women Choose June Women&apos;s Health for Period Irregularities
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,21 +490,21 @@ export default function MenstrualCycleProblemsPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Root-Cause Endocrine Investigation</strong>
+                      <strong className="block text-[16px] text-white">Root-Cause Hormonal Investigation</strong>
                       <span className="text-white/80 text-[14px]">We screen thyroid profiles, insulin levels, and ovarian hormone balances to treat the physiological trigger, not just cover symptoms.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Hormonal & PCOS Management Expertise</strong>
+                      <strong className="block text-[16px] text-white">Targeted Metabolic &amp; PCOS Mastery</strong>
                       <span className="text-white/80 text-[14px]">Offering extensive, evidence-based expertise in ovulation induction, lifestyle counseling, and dietary guidance for cycle regulation.</span>
                     </div>
                   </li>
@@ -506,7 +523,7 @@ export default function MenstrualCycleProblemsPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

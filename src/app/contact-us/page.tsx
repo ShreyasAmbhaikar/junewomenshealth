@@ -4,8 +4,8 @@ import { Clock, MapPin, Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata = {
-  title: `Contact Us | ${siteConfig.name}`,
-  description: `Get in touch with ${siteConfig.name} in Sushant Golf City, Lucknow. Reach out for expert pregnancy care, delivery consultations, PCOD support, and fertility care.`,
+  title: `Contact Best Gynecologist in Sushant Golf City, Lucknow | ${siteConfig.name}`,
+  description: `Book consultation with Dr. Shamim Sultana Yashine at June Women's Health, Felix Square, Sushant Golf City, Lucknow. 2 mins from Lulu Mall, easily accessible from Vrindavan Yojna and Omaxe City. Call 080900 99133.`,
   alternates: {
     canonical: "/contact-us/",
   },
@@ -50,7 +50,7 @@ export default function ContactUsPage() {
                   <MapPin className="w-7 h-7" />
                 </div>
                 <h3 className="text-[24px] font-bold text-white mb-2">Our Location</h3>
-                <p className="text-white/80 mb-6 text-[15px]">Providing expert gynecologist care locally.</p>
+                <p className="text-white/80 mb-6 text-[15px]">Felix Square, 2nd Floor, Above Axis Bank (2 mins from Lulu Mall).</p>
                 <a 
                   href={siteConfig.contact.mapsLink}
                   target="_blank"

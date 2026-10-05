@@ -19,8 +19,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best High Risk Pregnancy Management in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Specialized, safe High Risk Pregnancy Management under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Meticulous care for diabetes, high BP, and twins. Book today.",
+  title: "Best High Risk Pregnancy Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Specialized High Risk Pregnancy Management by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Meticulous care for gestational diabetes, hypertension, and twins. Book today.",
   alternates: {
     canonical: '/high-risk-pregnancy-management-in-lucknow/',
   }
@@ -35,98 +35,115 @@ export default function HighRiskPregnancyPage() {
 
   const highRiskConditions = [
     { 
-      title: "Gestational Diabetes Control", 
-      description: "Aggressive blood glucose mapping, customized diabetic diet planning, physical activity regimes, and medication/insulin support to prevent macrosomia (oversized baby).", 
+      title: "Gestational Diabetes & Glycemic Mapping", 
+      description: "Structured medical nutrition therapy, daily capillary blood sugar monitoring, and insulin optimization to safeguard maternal metabolic health and prevent fetal macrosomia.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Gestational Hypertension & Preeclampsia", 
-      description: "Strict surveillance of rising maternal blood pressure, urine protein screenings, and safe pregnancy-compatible medications to prevent placental abruption.", 
+      title: "Preeclampsia & Hypertensive Disorders", 
+      description: "Rigorous arterial blood pressure audits, proteinuria screenings, and placental vascular resistance checks to shield mothers from eclampsia and premature placental detachment.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Multiple Gestations (Twins/Triplets)", 
-      description: "Specialized nutritional support, frequent ultrasound monitoring of inter-twin weights, amniotic fluid audits, and pre-term labor prevention protocols.", 
+      title: "Multiple Gestations (Twin & Higher-Order)", 
+      description: "Advanced bi-weekly ultrasound tracking of inter-twin discordant growth, chorionicity assessment, amniotic fluid volume mapping, and preterm labor prevention.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Recurrent Pregnancy Loss & Past LSCS", 
-      description: "Managing pregnancies with a history of recurrent miscarriages, cervical incompetence (offering cerclage), or planning VBAC (Vaginal Birth After Caesarean) vs. repeat LSCS.", 
+      title: "Recurrent Pregnancy Loss & Cervical Incompetence", 
+      description: "Clinical management of recurrent miscarriages, thrombophilia screening, cervical cerclage placement (encirclage), and uterine scar integrity evaluation for planned VBAC.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepGuidelines = [
     { 
-      title: "Self-Monitoring Log Integration", 
-      description: "Consistent home charting of blood pressure (BP) levels or daily capillary blood glucose (glucometer checkups) to build a detailed log for review.", 
+      title: "Biometric Self-Monitoring Protocol", 
+      description: "Maintaining precise home records of daily blood pressure logs, post-meal glucose readings, and third-trimester fetal kick count patterns for clinical audit.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Doppler & Fetal Surveillance Plan", 
-      description: "Scheduling routine growth scans, cervical length assessments, and umbilical artery Doppler flows to track oxygen and nutrient delivery to the baby.", 
+      title: "Serial Doppler & Biophysical Surveillance", 
+      description: "Conducting targeted umbilical artery and middle cerebral artery Doppler velocity studies to ensure optimal oxygenation and placental nutrient transfer.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Hospital Admission Coordination", 
-      description: "Pre-planning hospital admissions at our fully equipped partner facilities, coordinating neonatologists (NICU team), and setting up delivery protocols.", 
+      title: "Advanced Tertiary Hospital Integration", 
+      description: "Pre-coordinating delivery admissions at premier multi-specialty hospitals in Lucknow equipped with Level-III NICU facilities and 24/7 adult intensive care.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const managementTimeline = [
     {
-      title: 'Step 1: Early Risk Profiling & Screening',
-      description: 'A detailed medical history review, baseline laboratory screens, and early ultrasound check at the first consult with Dr. Shamim Sultana Yashine to catalog high-risk variables.',
+      title: 'Phase 1: Comprehensive Maternal-Fetal Risk Audit',
+      description: 'Detailed maternal history review, preconception risk assessment, early viability scan, and baseline metabolic profiling under Dr. Shamim Sultana Yashine to categorize clinical risk parameters.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Placental & Fetal Surveillance',
-      description: 'Scheduling frequent high-resolution target scans and Doppler flow checks to verify that the placenta is functioning properly and baby growth is normal.',
+      title: 'Phase 2: Placental Hemodynamics & Targeted Ultrasound',
+      description: 'Executing high-resolution Level-II anatomical scans, uterine artery Doppler waveform studies, and serial cervical length assessments to preempt preterm labor risks.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Therapeutic Stabilization',
-      description: 'Prescribing safe medications to keep blood pressure stable, managing gestational sugars, and conducting Cardiotocography (CTG) checks to rule out fetal distress.',
+      title: 'Phase 3: Therapeutic Modulation & Fetal Non-Stress Testing',
+      description: 'Stabilizing blood pressure with pregnancy-safe antihypertensives, titrating glycemic therapies, and administering regular computerized Cardiotocography (CTG/NST) for fetal cardiac evaluation.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Planned Hospitalization & Safe Delivery',
-      description: 'Determining the optimal delivery timeline (weeks 37-39) to protect both mother and child. Coordinated deliveries are personally conducted by Dr. Shamim Sultana Yashine at affiliated hospitals.',
+      title: 'Phase 4: Multi-Disciplinary Delivery Execution',
+      description: 'Carefully determining the safest gestational delivery milestone (weeks 37-39) to protect mother and child. Deliveries are conducted personally by Dr. Shamim Sultana Yashine at tertiary hospital centers.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What defines a pregnancy as high-risk and how is it managed?',
-      answer: 'A pregnancy is defined as high-risk if maternal or fetal conditions threaten health safety. Risk factors include pre-existing illnesses (diabetes, high BP, thyroid disorders), pregnancy-induced complications (gestational diabetes, preeclampsia, placenta previa), twin/multiple pregnancies, advanced maternal age (over 35), or past miscarriages. Management involves more frequent checkups, targeted scans, sugar/BP logs, and close fetal surveillance.'
+      question: 'What medical conditions classify a pregnancy as high-risk in Lucknow?',
+      answer: 'A pregnancy is designated as high-risk when maternal or fetal conditions require heightened clinical surveillance. Common indicators include advanced maternal age (35+), pre-existing or gestational diabetes, chronic or gestational hypertension, thyroid imbalances, twin pregnancies, recurrent pregnancy loss, previous C-section scars, or intrauterine growth restriction (IUGR).'
     },
     {
-      question: 'Can a high-risk pregnancy still culminate in a normal delivery?',
-      answer: 'Yes, absolutely! Having a high-risk classification does not mean a C-section (LSCS) is mandatory. Under Dr. Shamim Sultana Yashine\'s meticulous clinical supervision, many patients with gestational diabetes, controlled hypertension, or twin pregnancies deliver via a healthy, safe normal vaginal birth.'
+      question: 'Can a patient with a high-risk pregnancy still achieve a safe normal delivery?',
+      answer: 'Yes! A high-risk pregnancy does not automatically require a Cesarean section. Under Dr. Shamim Sultana Yashine\'s evidence-based clinical protocols, many expectant mothers with well-managed gestational diabetes, controlled hypertension, or twin gestations achieve successful, safe normal vaginal births.'
     },
     {
-      question: 'What is the actual, genuine cost of high-risk pregnancy management in Lucknow?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, we practice complete transparency. A high-risk pregnancy consultation is ₹600. Detailed growth and umbilical artery Doppler scans range from ₹2,500 to ₹4,500. Fetal Cardiotocography (CTG) monitoring is ₹800 per session. Delivery packages at our affiliated hospital partners in Lucknow typically range from ₹35,000 to ₹55,000 for a normal vaginal delivery, and ₹50,000 to ₹75,000 for a Caesarean section (LSCS) depending on room choices.'
+      question: 'What are the consultation and diagnostic fees for high-risk pregnancy in Sushant Golf City?',
+      answer: 'At June Women\'s Health, we ensure total financial transparency. A specialized high-risk pregnancy consultation with Dr. Shamim Sultana Yashine is ₹600. Detailed fetal growth and color Doppler scans range between ₹2,500 and ₹4,500. Fetal Cardiotocography (NST/CTG) monitoring is ₹800 per session. Hospital delivery packages at our tertiary partner hospitals in Lucknow range from ₹35,000 to ₹55,000 for normal deliveries and ₹50,000 to ₹75,000 for cesarean deliveries.'
     },
     {
-      question: 'What warning signs in a high-risk pregnancy require immediate medical attention?',
-      answer: 'You must seek immediate clinical help if you experience vaginal bleeding or spotting, sudden leakage of amniotic fluid, persistent severe headaches accompanied by blurred vision, sudden swelling of the hands or face (signs of preeclampsia), severe abdominal cramping, or a noticeable decrease in baby movement counts after week 28.'
+      question: 'What urgent warning signs in high-risk pregnancy require immediate hospital contact?',
+      answer: 'Contact Dr. Shamim Sultana Yashine immediately if you observe vaginal bleeding, sudden watery discharge (water breaking), severe persistent headaches, blurred vision, sudden facial or hand edema (preeclampsia indicators), acute abdominal cramping, or noticeable reduction in baby movements after week 28.'
     },
     {
-      question: 'How is gestational diabetes managed to prevent complications?',
-      answer: 'Gestational diabetes is managed through a customized diabetic diet chart, routine pelvic exercise plans, self-monitoring of blood sugar levels using a home glucometer, and safe oral medications or insulin therapy if dietary measures alone are insufficient to maintain target sugar ranges.'
+      question: 'How is gestational diabetes managed to ensure fetal safety?',
+      answer: 'We manage gestational diabetes through customized medical nutrition therapy, low-glycemic meal charting, safe prenatal exercise, daily capillary home blood sugar tracking, and pregnancy-safe oral medications or insulin therapy if dietary adjustments alone do not achieve ideal glycemic control.'
     },
     {
-      question: 'Do you offer 24/7 emergency walk-in maternity services at the clinic?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening hours to provide a quiet, highly sterilized, and unhurried clinical experience. We are not a 24/7 walk-in emergency hospital. For planned deliveries and active labor, patients are admitted directly to our affiliated tertiary care hospital facilities in Lucknow, where Dr. Shamim Sultana Yashine personally conducts the delivery.'
+      question: 'Where are high-risk hospital deliveries and emergencies conducted?',
+      answer: 'Outpatient consultations and diagnostic monitoring are conducted at our private clinic in Sushant Golf City. Hospital deliveries and emergency admissions are personally overseen by Dr. Shamim Sultana Yashine at leading tertiary care hospitals in Lucknow with 24/7 adult intensive care and Level-III neonatal ICUs (NICU).'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="High Risk Pregnancy Care" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is High Risk Pregnancy Management? (Cream bg) === */}
@@ -138,7 +155,7 @@ export default function HighRiskPregnancyPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/high-risk-overview.webp" 
-                  alt="Realistic 3D medical illustration showing twin gestation in separate amniotic sacs within the uterus" 
+                  alt="Realistic 3D medical illustration showing twin gestation in separate amniotic sacs within the uterus in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
@@ -150,13 +167,13 @@ export default function HighRiskPregnancyPage() {
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>High Risk Pregnancy Management</strong> involves specialized clinical monitoring, diagnostic screenings, and therapeutic protocols tailored to manage maternal or fetal complications during gestation. Pre-existing health conditions like diabetes and high blood pressure, or pregnancy-related conditions like gestational diabetes, preeclampsia, and twin pregnancies, require meticulous care to protect both mother and child.
+                  <strong>High Risk Pregnancy Management</strong> encompasses specialized obstetric surveillance, advanced hemodynamic tracking, and targeted medical interventions designed to protect maternal health and optimize fetal outcomes when underlying risks are present. Pre-existing chronic illnesses (like diabetes and hypertension) or gestation-specific challenges (such as preeclampsia, gestational diabetes, twin pregnancies, or previous Cesarean scars) require rigorous, experienced clinical oversight.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the leading center for comprehensive obstetrics and hormonal care in Sushant Golf City and Lucknow, Lucknow, we provide expert high-risk pregnancy protocols. Dr. Shamim Sultana Yashine brings over a decade of clinical experience in managing complicated pregnancies, providing patient-centric, evidence-based care to guide couples safely to parenthood.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide dedicated high-risk obstetric protocols for families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow. Combining 10+ years of surgical and obstetric expertise, Dr. Shamim Sultana Yashine delivers reassuring, highly detailed maternal-fetal care.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, guaranteeing that you receive direct, personal medical supervision at every consultation without delegation. We coordinate checkups strictly by prior appointment during dedicated morning and evening timings, maintaining a quiet, highly sterilized environment and ensuring zero waiting room delays.
+                  Operating as an individualized single-doctor practice near Lulu Mall on Shaheed Path, our clinic guarantees direct physician continuity without intermediary junior doctors, providing unhurried visits and an impeccably sterilized clinical atmosphere.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -463,7 +480,7 @@ export default function HighRiskPregnancyPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for High Risk Pregnancy Care?
+                  Why High-Risk Mothers Trust June Women&apos;s Health in Lucknow
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -472,29 +489,29 @@ export default function HighRiskPregnancyPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Continuity & Direct Access to the Specialist</strong>
-                      <span className="text-white/80 text-[14px]">You consult Dr. Shamim Sultana Yashine personally at every visit. Registered high-risk mothers get direct contact lines for timely clinical guidance, avoiding delays.</span>
+                      <strong className="block text-[16px] text-white">Direct Access to Senior Obstetrician</strong>
+                      <span className="text-white/80 text-[14px]">You consult Dr. Shamim Sultana Yashine personally at every visit. Registered high-risk mothers receive direct communication channels for timely clinical decisions.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Schedule</strong>
-                      <span className="text-white/80 text-[14px]">We coordinate consultations strictly by prior appointment during dedicated hours. This keeps wait times short and limits exposure in a highly sterilized lobby.</span>
+                      <strong className="block text-[16px] text-white">Calm &amp; Sterilized Clinical Setting</strong>
+                      <span className="text-white/80 text-[14px]">Private appointments in Sushant Golf City ensure minimal waiting times, zero lobby crowds, and a safe, infection-free clinical environment.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">NICU & Multi-Specialty Support Network</strong>
-                      <span className="text-white/80 text-[14px]">While outpatient diagnostics occur in our clinic, complex hospital stays and deliveries are conducted at leading fully-equipped tertiary care hospitals in Lucknow.</span>
+                      <strong className="block text-[16px] text-white">Equipped Tertiary Hospital Tie-ups</strong>
+                      <span className="text-white/80 text-[14px]">Complex hospital admissions and deliveries are personally conducted by Dr. Shamim Sultana Yashine at premier tertiary hospital centers in Lucknow with Level-III NICU facilities.</span>
                     </div>
                   </li>
                 </ul>
@@ -505,7 +522,7 @@ export default function HighRiskPregnancyPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

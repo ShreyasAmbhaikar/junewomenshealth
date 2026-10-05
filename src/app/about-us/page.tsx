@@ -4,8 +4,8 @@ import PageHeader from "@/components/landing/PageHeader";
 import { CheckCircle } from "lucide-react";
 
 export const metadata = {
-  title: "About June Women's Health | Gynecologist in Sushant Golf City & Lucknow",
-  description: "Meet Dr. Shamim Sultana Yashine (MBBS, DGO, PGDMCH), Senior Consultant Obstetrician & Gynecologist with 10+ years of experience at June Women's Health. Providing trusted, clinical excellence in Sushant Golf City & Lucknow, Lucknow.",
+  title: "About June Women's Health | Best Gynecologist in Sushant Golf City, Lucknow",
+  description: "Meet Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) with 10+ years of experience at June Women's Health, Felix Square, Sushant Golf City, Lucknow. Delivering compassionate, evidence-based care in pregnancy, normal delivery, PCOD, and fertility.",
   alternates: {
     canonical: "/about-us/",
   },
@@ -77,14 +77,14 @@ export default function AboutUsPage() {
               <div className="lg:col-span-7">
                 <h4 className="text-accent text-[16px] font-bold tracking-wider uppercase mb-3">About Our Clinic</h4>
                 <h2 className="text-[36px] md:text-[46px] font-bold text-primary mb-6 leading-[1.2]">
-                  Dedicated to providing compassionate women's healthcare
+                  Dedicated to providing compassionate women&apos;s healthcare
                 </h2>
                 <div className="text-text space-y-4 mb-8">
                   <p>
-                    At <strong>June Women's Health</strong>, we believe every woman deserves access to safe, empathetic, and premium healthcare. Located in <strong>Sushant Golf City</strong> and serving the wider <strong>Vrindavan Yojna</strong> area in Lucknow, our facility provides state-of-the-art diagnostic screening and treatment options tailored to support you through every stage of life. Our practice is built on a foundation of clinical safety, absolute patient confidentiality, and transparent pricing.
+                    At <strong>June Women&apos;s Health</strong>, we believe every woman deserves access to safe, empathetic, and premium healthcare. Located at <strong>Felix Square in Sushant Golf City</strong> and serving patients across <strong>Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna</strong>, and surrounding Lucknow neighborhoods, our clinic provides state-of-the-art diagnostic screening and treatment options tailored to support you through every stage of life. Our practice is built on a foundation of clinical safety, patient-first care, and complete transparency.
                   </p>
                   <p>
-                    Our clinical director, <strong>Dr. Shamim Sultana Yashine</strong>, is a board-certified <strong>Senior Consultant Obstetrician & Gynecologist</strong> with <strong>over 10+ Years of dedicated practice</strong>. Bringing extensive experience in managing high-risk pregnancies, normal deliveries, and reproductive concerns, she works alongside a caring team to deliver patient-centered care. From PCOS therapies and pre-conceptional planning to advanced laparoscopic procedures, we are here to guide your health journey with absolute peace of mind.
+                    Our clinical director, <strong>Dr. Shamim Sultana Yashine</strong>, is a board-certified <strong>Senior Consultant Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon (MS)</strong> with <strong>over 10+ Years of dedicated practice</strong>. Bringing extensive expertise in managing high-risk pregnancies, normal deliveries, and reproductive concerns, she provides unhurried, personalized single-doctor consultations. From PCOS therapies and pre-conceptional planning to advanced laparoscopic procedures and scarless surgeries, we are here to guide your health journey with absolute peace of mind.
                   </p>
                 </div>
                 
@@ -110,7 +110,7 @@ export default function AboutUsPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-accent shrink-0" />
-                    <span className="font-semibold text-primary">Infertility, IUI & IVF Guidance</span>
+                    <span className="font-semibold text-primary">Infertility, IUI &amp; IVF Guidance</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-accent shrink-0" />
@@ -154,7 +154,7 @@ export default function AboutUsPage() {
               <div className="lg:col-span-7">
                 <h4 className="text-accent text-[16px] font-bold tracking-wider uppercase mb-3">Meet Our Expert</h4>
                 <h2 className="text-[36px] md:text-[44px] font-bold text-primary mb-2">Dr. Shamim Sultana Yashine</h2>
-                <p className="text-[18px] text-accent font-semibold mb-6">Senior Consultant Obstetrician & Gynecologist</p>
+                <p className="text-[18px] text-accent font-semibold mb-6">Senior Consultant Obstetrician, Gynaecologist &amp; Laparoscopic Surgeon</p>
                 
                 {/* Mobile-only Doctor Image */}
                 <div className="flex justify-center mb-6 lg:hidden">
@@ -170,30 +170,26 @@ export default function AboutUsPage() {
                 
                 {/* Qualifications box */}
                 <div className="bg-white rounded-[20px] p-6 border border-divider/10 shadow-sm mb-6">
-                  <h5 className="text-[18px] font-bold text-primary mb-4 border-b border-divider/20 pb-2">Academic Qualifications & Credentials</h5>
+                  <h5 className="text-[18px] font-bold text-primary mb-4 border-b border-divider/20 pb-2">Academic Qualifications &amp; Credentials</h5>
                   <ul className="space-y-3 text-text">
                     <li className="flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>
-                      <span><strong>MBBS</strong> – Professional Medical Degree</span>
+                      <span><strong>MS</strong> – Master of Surgery in Obstetrics &amp; Gynaecology</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>
-                      <span><strong>DGO</strong> – Diploma in Gynaecology and Obstetrics</span>
+                      <span><strong>Certified Laparoscopic Surgeon</strong> – Minimally Invasive &amp; Keyhole Gynecological Surgeries</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>
-                      <span><strong>PGDMCH</strong> – Post Graduate Diploma in Maternal and Child Health</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-accent mt-2 shrink-0"></span>
-                      <span><strong>Over 10+ Years</strong> of specialized clinical practice in Obstetric and Gynecological Care</span>
+                      <span><strong>Senior Consultant</strong> – Over 10+ Years of specialized clinical practice in Maternal and Reproductive Health</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="text-text italic border-l-4 border-accent pl-4 py-1 leading-[1.6]">
                   <p>
-                    &ldquo;Our mission at June Women's Health is simple: to combine clinical excellence with warm, personalized attention. We walk alongside every woman to ensure her safety, comfort, and wellbeing at every milestone.&rdquo;
+                    &ldquo;Our mission at June Women&apos;s Health is simple: to combine clinical excellence with warm, personalized attention. We walk alongside every woman to ensure her safety, comfort, and wellbeing at every milestone.&rdquo;
                   </p>
                 </div>
               </div>

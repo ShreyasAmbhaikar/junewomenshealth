@@ -19,8 +19,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Laparoscopic Gynecologist Specialist in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Advanced laparoscopic keyhole surgeries (cystectomy, myomectomy, endometriosis excision) under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Safe, keyhole procedures.",
+  title: "Best Laparoscopic Gynecologist Surgeon in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Advanced laparoscopic keyhole surgeries (cystectomy, fibroid myomectomy, endometriosis) by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/laparoscopic-procedures-in-lucknow/',
   }
@@ -35,98 +35,115 @@ export default function LaparoscopicProceduresPage() {
 
   const treatableConditions = [
     { 
-      title: "Ovarian Cysts (Cystectomy)", 
-      description: "Safely removing ovarian cysts (benign, dermoid, or endometriotic) using precision microscopic tools to preserve healthy ovarian tissues and safeguard your fertility pathway.", 
+      title: "Ovarian Cyst Removal (Cystectomy)", 
+      description: "Carefully enucleating complex ovarian cysts (dermoid, chocolate endometrioma, or simple cystadenomas) while preserving ovarian cortex tissue and baseline egg reserve.", 
       icon: <Crosshair className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Uterine Fibroids (Myomectomy)", 
-      description: "Extracting symptomatic uterine fibroids causing pelvic pressure or heavy bleeding through tiny keyhole incisions, restoring uterine wall integrity before pregnancy.", 
+      title: "Uterine Fibroid Excision (Myomectomy)", 
+      description: "Extracting symptomatic intramural or subserosal fibroids causing menorrhagia or pelvic pressure through 5mm keyholes, reconstructing uterine musculature for future pregnancy.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Endometriosis Excision", 
-      description: "Identifying and carefully vaporizing or excising painful endometrial tissue implants in the pelvic cavity to treat chronic menstrual soreness and enhance natural conception.", 
+      title: "Endometriosis & Pelvic Adhesiolysis", 
+      description: "Ablating and excising deep infiltrating endometriotic lesions and releasing pelvic adhesions to resolve severe dysmenorrhea and restore pelvic anatomy.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Diagnostic Fertility Check", 
-      description: "Conducting diagnostic laparoscopy with a blue dye test (chromotubation) to visually audit the fallopian tubes, pelvic peritoneum, and ovaries for unexplained infertility.", 
+      title: "Fertility Chromopertubation & Audit", 
+      description: "Performing diagnostic laparoscopy with methylene blue dye instillation to verify bilateral fallopian tube patency and detect hidden pelvic factors in subfertility.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepGuidelines = [
     { 
-      title: "Pre-Surgical Lab Profile", 
-      description: "Completing mandatory blood profiles, clotting screens, viral tests, and an ECG checkup to confirm physical fitness for general anesthesia.", 
+      title: "Pre-Anesthetic Fitness Clearance", 
+      description: "Completing mandatory blood coagulation panels, complete hemogram, viral markers, and chest/ECG evaluations to confirm fitness for general anesthesia.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Fasting & Bowel Preparation", 
-      description: "Adhering to strict fasting (no food or liquids) for 6–8 hours prior to surgery, along with gentle clinical bowel clearing to ensure safe abdominal viewing.", 
+      title: "Pre-Operative Fasting & Bowel Prep", 
+      description: "Adhering to an 8-hour fasting window (nil by mouth) accompanied by gentle bowel cleansing to maximize visual clearance inside the peritoneal cavity.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Post-Op Rest & Ambulation", 
-      description: "Resting for 3 to 7 days, maintaining clean keyhole dressings, and engaging in early light walking to dissipate trapped carbon dioxide gas quickly.", 
+      title: "Early Ambulation & Recovery Care", 
+      description: "Encouraging gentle walking within 4 to 6 hours post-op to disperse residual carbon dioxide gas, keeping keyhole dressings dry, and resuming normal diet gradually.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const processTimeline = [
     {
-      title: 'Step 1: Anesthesia & Tiny Port Entry',
-      description: 'Under general anesthesia, the patient is completely asleep. A tiny 5-10mm keyhole incision is made, usually hidden inside the belly button.',
+      title: 'Step 1: General Anesthesia & Optical Entry',
+      description: 'Under gentle general anesthesia, a miniature 5mm to 10mm incision is placed discreetly within the umbilicus (belly button) for optical port access.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Carbon Dioxide Gas Insufflation',
-      description: 'Carbon dioxide is gently introduced to inflate the abdomen. This lifts the abdominal wall, creating a spacious, safe viewing area for the instruments.',
+      title: 'Step 2: Gentle Carbon Dioxide Insufflation',
+      description: 'Medical-grade CO2 gas is introduced under controlled low pressure to gently elevate the abdominal wall, creating a clear and safe working dome.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 3: HD Camera & Scope Insertion',
-      description: 'A laparoscope (a thin lighted rod with a high-definition video camera) is inserted, transmitting magnified, crystal-clear pelvic structures onto large monitors.',
+      title: 'Step 3: High-Definition Scope Visualization',
+      description: 'An advanced high-magnification laparoscope is introduced, projecting ultra-clear 4K visual feeds of reproductive organs onto surgical monitors.',
       icon: <Crosshair className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Specialized Repair & Port Closure',
-      description: 'Through 1-2 additional tiny side incisions, specialized instruments are used to remove cysts or repair tissues, followed by gas release and dissolvable stitches.',
+      title: 'Step 4: Precision Excision & Cosmetic Closure',
+      description: 'Through two 5mm secondary ports, micro-instruments perform precise cyst/fibroid removal, followed by complete gas evacuation and dissolvable sutures.',
       icon: <ShieldCheck className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What is laparoscopic surgery, and what are its advantages?',
-      answer: 'Laparoscopic surgery (keyhole surgery) is a minimally invasive surgical technique that uses small abdominal incisions (5-10mm) and a camera. Advantages include significantly less pain, minimal scarring, lower infection rates, and much faster recovery compared to traditional open surgery.'
+      question: 'What is gynecological laparoscopic surgery and what are its key clinical benefits?',
+      answer: 'Gynecological laparoscopic surgery (often called keyhole or minimally invasive surgery) utilizes tiny 5mm to 10mm incisions and a miniature camera rather than a large abdominal incision. Its major clinical advantages include drastically less postoperative pain, negligible blood loss, minimal scarring, lower infection risk, and a swift return to daily life within 3 to 7 days.'
     },
     {
-      question: 'What gynecological conditions can be treated using laparoscopy?',
-      answer: 'Laparoscopy is commonly used to treat ovarian cysts (cystectomy), uterine fibroids (myomectomy), endometriosis, ectopic pregnancy, pelvic adhesions, diagnostic infertility checks, and hysterectomy.'
+      question: 'Which gynecological conditions are routinely managed via laparoscopy in Lucknow?',
+      answer: 'Dr. Shamim Sultana Yashine routinely treats complex ovarian cysts (dermoids, endometriomas), uterine fibroids (myomectomy), pelvic endometriosis, tubal ectopic pregnancies, pelvic adhesions, and diagnostic tubal patency assessments for subfertility via laparoscopy.'
     },
     {
-      question: 'What is the actual cost of a laparoscopic procedure in Lucknow?',
-      answer: 'We maintain clear pricing transparency. A diagnostic laparoscopy and dye test ranges from ₹25,000 to ₹40,000. Operative laparoscopic procedures (such as keyhole ovarian cystectomy, myomectomy, or endometriosis excision) typically range from ₹60,000 to ₹1,20,000 depending on case complexity, hospital category, and the duration of stay required.'
+      question: 'What is the genuine cost of laparoscopic gynecological surgery in Sushant Golf City?',
+      answer: 'At June Women\'s Health, we ensure absolute cost transparency. Diagnostic laparoscopy with chromotubation generally ranges from ₹25,000 to ₹38,000. Operative procedures like laparoscopic cystectomy or myomectomy range from ₹55,000 to ₹1,10,000 depending on tissue pathology, surgical complexity, and the chosen hospital room category.'
     },
     {
-      question: 'Why do patients experience shoulder pain after a keyhole surgery?',
-      answer: 'During the procedure, carbon dioxide (CO2) gas is used to inflate the abdomen. Small amounts of trapped gas can irritate the diaphragmatic nerve, which shares pathway pathways with the shoulder. This pain is harmless and subsides in 24-48 hours.'
+      question: 'Why do patients sometimes experience mild shoulder pain after keyhole surgery?',
+      answer: 'Mild shoulder tip soreness is a temporary, harmless phenomenon caused by residual carbon dioxide gas used during surgery to inflate the abdomen. The gas can momentarily irritate the diaphragmatic phrenic nerve, which shares nerve pathways with the shoulder. It resolves completely within 24 to 48 hours with gentle walking and warm fluids.'
     },
     {
-      question: 'How long is the recovery period after a laparoscopic procedure?',
-      answer: 'Most patients go home the same day or the next morning. Initial recovery takes 3 to 7 days, and you can generally resume light work within a week. Full internal tissue healing occurs in about 2 to 3 weeks.'
+      question: 'How quickly can I resume work and regular activities after laparoscopy?',
+      answer: 'Most patients are discharged within 24 hours (or even same-day daycare for diagnostic procedures). You can walk comfortably the same evening, resume light desk work within 5 to 7 days, and return to full physical exercise within 2 to 3 weeks.'
     },
     {
-      question: 'How do I book an appointment, and is the clinic open for emergency walk-ins?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening timings. This is a private, single-doctor clinical setup designed to provide unhurried consultations and maintain a highly sterilized clinical environment, rather than a 24/7 emergency walk-in model. Contact us directly to book a consult.'
+      question: 'How do I schedule a laparoscopic surgical evaluation with Dr. Shamim Sultana Yashine?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. Dr. Shamim Sultana Yashine personally reviews your ultrasound scans, discusses surgical alternatives, and plans your procedure with complete clinical transparency.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Laparoscopic Procedures" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is Laparoscopic Procedures? (Cream bg) === */}
@@ -138,25 +155,25 @@ export default function LaparoscopicProceduresPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/laparoscopy-overview.webp" 
-                  alt="High definition laparoscopy camera console and keyhole surgery port visualization" 
+                  alt="High definition laparoscopy camera console and keyhole surgery port visualization in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Laparoscopic Procedures?" 
+                text="What are Advanced Laparoscopic Gynecological Procedures?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Laparoscopy (Keyhole Surgery)</strong> is the modern clinical standard for pelvic and gynecological surgeries. By using specialized instruments and a high-definition camera system inserted through tiny incisions, it allows gynecologists to perform complex surgeries with absolute precision, avoiding large abdominal cuts, reducing postoperative pain, and accelerating recovery.
+                  <strong>Laparoscopic (Keyhole) Surgery</strong> represents the modern benchmark in advanced gynecological surgery. By operating through tiny 5mm to 10mm incisions using high-definition surgical cameras and precision micro-instruments, surgeons can resolve deep pelvic pathologies with microscopic accuracy while leaving abdominal muscles and surrounding healthy tissues unharmed.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a premier center for gynecological wellness and family planning in Sushant Golf City and Lucknow, Lucknow, we perform advanced gynecological laparoscopy. Dr. Shamim Sultana Yashine brings over a decade of clinical and surgical expertise to treat ovarian cysts, fibroids, endometriosis, and conduct diagnostic checks for fertility in sterile, state-of-the-art operating suites.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we deliver evidence-based minimally invasive surgical care. Dr. Shamim Sultana Yashine brings over 10+ years of dedicated surgical expertise performing laparoscopic ovarian cystectomies, fibroid myomectomies, endometriosis management, and fertility chromotubations.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a busy corporate hospital, your surgical planning and counseling are conducted personally by Dr. Shamim Sultana Yashine. We operate by prior appointments to ensure that every patient receives absolute privacy, meticulous attention, and clinical accuracy in a highly sterilized clinical environment.
+                  Serving patients from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our clinic provides thorough diagnostic workups, honest surgical recommendations, and personalized recovery roadmaps.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -463,7 +480,7 @@ export default function LaparoscopicProceduresPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Laparoscopic Procedures?
+                  Why Women Choose June Women&apos;s Health for Laparoscopic Surgery
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -472,29 +489,29 @@ export default function LaparoscopicProceduresPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Senior Minimally Invasive Surgeon</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of dedicated surgical experience successfully performing laparoscopic cystectomies, myomectomies, and tubal procedures.</span>
+                      <strong className="block text-[16px] text-white">Board-Certified Laparoscopic Surgeon</strong>
+                      <span className="text-white/80 text-[14px]">Over 10+ years of advanced laparoscopic surgical experience preserving ovarian tissue, uterine integrity, and reproductive health.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Coordinated Advanced Hospital Theatres</strong>
-                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine coordinates all surgical operations in leading tertiary centers with state-of-the-art high-definition laparoscopy towers and specialized instruments.</span>
+                      <strong className="block text-[16px] text-white">State-of-the-Art Surgical Infrastructure</strong>
+                      <span className="text-white/80 text-[14px]">Operating in advanced tertiary operation theatres equipped with 4K HD visualization towers, precision harmonic scalpels, and sterile modular suites.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Prior-Appointment Private Consultation</strong>
-                      <span className="text-white/80 text-[14px]">We maintain a single-doctor practice. Your surgical planning and post-op checkups are conducted strictly by prior appointment, ensuring absolute confidentiality and zero crowding.</span>
+                      <strong className="block text-[16px] text-white">Direct Pre-Op &amp; Post-Op Continuity</strong>
+                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine personally manages your surgical counseling, performs the operation, and supervises your postoperative recovery visits.</span>
                     </div>
                   </li>
                 </ul>
@@ -505,7 +522,7 @@ export default function LaparoscopicProceduresPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

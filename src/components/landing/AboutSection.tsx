@@ -26,7 +26,7 @@ export const AboutSection = () => {
 
             {/* Paragraph Description */}
             <p className="text-[16px] text-text leading-[1.65em] max-w-[620px]">
-              At <strong>June Women's Health</strong>, we provide dedicated, evidence-based obstetric and gynecological care tailored to every stage of a woman's life. Led by <strong>Dr. Shamim Sultana Yashine</strong>, a board-certified Senior Consultant with <strong>over 10+ years of clinical experience</strong>, our clinic serves as a trusted medical sanctuary for patients in <strong>Sushant Golf City, Golf City</strong>, and surrounding Lucknow neighborhoods. We combine advanced clinical safety protocols with compassionate, patient-first care, specializing in high-safety pregnancy care, normal delivery, PCOS management, and ethical fertility support.
+              At <strong>June Women&apos;s Health</strong>, we provide dedicated, evidence-based obstetric and gynecological care tailored to every stage of a woman&apos;s life. Led by <strong>Dr. Shamim Sultana Yashine</strong>, a board-certified Senior Consultant (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon) with <strong>over 10+ years of clinical experience</strong>, our clinic at Felix Square serves as a trusted medical sanctuary for patients across <strong>Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Lulu Mall area</strong>, and surrounding Lucknow neighborhoods. We combine advanced clinical safety protocols with compassionate, patient-first care, specializing in high-safety pregnancy care, normal delivery, PCOS/PCOD management, and ethical fertility support.
             </p>
 
             {/* List & Trust Card Grid */}
@@ -58,7 +58,7 @@ export const AboutSection = () => {
                     </svg>
                   </div>
                   <span className="font-bold text-primary text-[15px] md:text-[16px]">
-                    Senior Consultant (MBBS, 10+ Years Experience)
+                    Senior Consultant (MS - Obs &amp; Gynae, Laparoscopic Surgeon)
                   </span>
                 </div>
 
@@ -71,7 +71,7 @@ export const AboutSection = () => {
                     </svg>
                   </div>
                   <span className="font-bold text-primary text-[15px] md:text-[16px]">
-                    Holistic Women's Wellness Care
+                    Holistic Women&apos;s Wellness Care
                   </span>
                 </div>
               </div>
@@ -107,7 +107,7 @@ export const AboutSection = () => {
 
                   {/* Trust Text */}
                   <p className="text-[13px] font-bold text-text">
-                    5.0 Google Rating (9 Reviews)
+                    5.0 Google Rating (11 Reviews)
                   </p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-tl-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-1.webp" 
-                    alt="IVF embryologist consultation" 
+                    alt="Dr. Shamim Sultana Yashine consulting suite at June Women's Health Lucknow" 
                     fill 
                     className="object-cover" 
                   />
@@ -127,7 +127,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-tr-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-2.webp" 
-                    alt="Doctor with newborn baby" 
+                    alt="Dr. Shamim Sultana Yashine patient consultation at June Women's Health" 
                     fill 
                     className="object-cover" 
                   />
@@ -135,7 +135,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-bl-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-3.webp" 
-                    alt="Embryo laboratory monitoring" 
+                    alt="Happy mother and healthy baby cared for at June Women's Health Lucknow" 
                     fill 
                     className="object-cover" 
                   />
@@ -143,7 +143,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-br-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-4.webp" 
-                    alt="Compassionate IVF consult" 
+                    alt="Compassionate pregnancy care and maternity support at June Women's Health Lucknow" 
                     fill 
                     className="object-cover" 
                   />
@@ -185,7 +185,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-tl-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-1.webp" 
-                    alt="IVF embryologist consultation" 
+                    alt="Dr. Shamim Sultana Yashine consulting suite at June Women's Health Lucknow" 
                     fill 
                     className="object-cover" 
                   />
@@ -195,7 +195,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-tr-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-2.webp" 
-                    alt="Doctor with newborn baby" 
+                    alt="Dr. Shamim Sultana Yashine patient consultation at June Women's Health" 
                     fill 
                     className="object-cover" 
                   />
@@ -205,7 +205,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-bl-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-3.webp" 
-                    alt="Embryo laboratory monitoring" 
+                    alt="Happy mother and healthy baby cared for at June Women's Health Lucknow" 
                     fill 
                     className="object-cover" 
                   />
@@ -215,7 +215,7 @@ export const AboutSection = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-br-[100%] shadow-sm">
                   <Image 
                     src="/images/about-us-img-4.webp" 
-                    alt="Compassionate IVF consult" 
+                    alt="Compassionate pregnancy care and maternity support at June Women's Health Lucknow" 
                     fill 
                     className="object-cover" 
                   />

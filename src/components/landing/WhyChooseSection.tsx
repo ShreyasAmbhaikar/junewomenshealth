@@ -51,7 +51,7 @@ export const WhyChooseSection = () => {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
                 <span className="text-[15px] md:text-[16px] text-text font-medium leading-relaxed">
-                  Led by Dr. Shamim Sultana Yashine, a board-certified obstetrician-gynecologist with 10+ Years of clinical excellence serving Sushant Golf City & Lucknow.
+                  Led by Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon) with 10+ Years of clinical excellence serving Sushant Golf City &amp; Lucknow.
                 </span>
               </div>
               <div className="flex items-start gap-3">
@@ -113,7 +113,7 @@ export const WhyChooseSection = () => {
                   Obstetric & Gynaecology Expert
                 </h4>
                 <p className="text-[14px] text-text leading-relaxed">
-                  Led by Senior Consultant Dr. Shamim Sultana Yashine (MBBS) with 10+ years of specialized clinical experience.
+                  Led by Senior Consultant Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon) with 10+ years of specialized clinical experience.
                 </p>
               </div>
             </div>

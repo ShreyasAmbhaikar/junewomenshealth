@@ -21,8 +21,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Pre-Conceptional Counselling in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Prepare for a safe, healthy pregnancy with expert Pre-Conceptional Counselling under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Private pre-pregnancy checkups and genetic screening. Book today.",
+  title: "Best Pre-Conceptional Counselling Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Prepare for a safe, healthy pregnancy with expert Pre-Conceptional Counselling under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book today.",
   alternates: {
     canonical: '/pre-conceptional-counselling-in-lucknow/',
   }
@@ -37,41 +37,41 @@ export default function PreConceptionalPage() {
 
   const screeningElements = [
     { 
-      title: "Comprehensive Ovarian & Uterine Scan", 
-      description: "A high-resolution pelvic ultrasound to evaluate uterine structure and assess ovarian reserves (antral follicle count), ruling out structural obstacles before conception.", 
+      title: "Pelvic Ultrasound & Ovarian Reserve", 
+      description: "High-resolution transvaginal sonography to verify normal uterine cavity contours, evaluate endometrial thickness, and check antral follicle counts before conception.", 
       icon: <Stethoscope className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Biochemical & Hormonal Panels", 
-      description: "Evaluating thyroid markers (TSH, Free T4), fasting blood glucose, and hemoglobin levels to verify maternal metabolic readiness and support stable embryogenesis.", 
+      title: "Metabolic & Thyroid Harmonization", 
+      description: "Comprehensive testing of fasting blood sugar, HbA1c, thyroid stimulating hormone (TSH), and serum ferritin to optimize maternal biology for early embryogenesis.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Infection & Immunization Profiling", 
-      description: "Testing maternal IgG antibody levels for Rubella and Varicella, and screening for chronic viral markers (Hepatitis B, HIV) to plan catch-up vaccines safely.", 
+      title: "Viral Serology & Catch-Up Vaccines", 
+      description: "Evaluating protective IgG titers for Rubella and Varicella, alongside screening for Hepatitis B and HIV to administer essential booster immunizations safely in advance.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Genetic & Hemoglobinopathy Screen", 
-      description: "Screening couples for thalassemia minor and other genetic carrier statuses to evaluate hereditary transmission risks and formulate an evidence-based clinical path.", 
+      title: "Thalassemia & Genetic Carrier Screening", 
+      description: "Couples screening for hemoglobinopathies (Thalassemia minor, Sickle cell trait) to prevent autosomal recessive genetic transmission to the future newborn.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepSchedules = [
     { 
-      title: "Prenatal Folic Acid Intake", 
-      description: "Daily intake of 400 mcg of folic acid starting 1 to 3 months before active attempts to conceive is critical to reduce fetal neural tube defects (spina bifida) by over 70%.", 
+      title: "Preconception Active Methylfolate", 
+      description: "Initiating 400 to 500 mcg of daily folic acid or L-methylfolate 3 months prior to conception to avert fetal neural tube defects by over 70%.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Active Medication Review", 
-      description: "Evaluating all daily medications (for acne, blood pressure, or diabetes) to switch teratogenic drugs to pregnancy-safe options before fertilization occurs.", 
+      title: "Teratogenic Medication Substitution", 
+      description: "Systematically reviewing daily prescription drugs (for hypertension, acne, migraine, or seizures) and substituting them with pregnancy-safe medications.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Nutritional & BMI Optimization", 
-      description: "Designing customized, local low-glycemic index dietary pathways to optimize body mass index (BMI), which improves fertility rates and prevents gestational complications.", 
+      title: "Metabolic Nutrition & BMI Tuning", 
+      description: "Tailoring whole-food dietary pathways to achieve an optimal preconception body mass index, supporting spontaneous ovulation and preventing gestational diabetes.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
@@ -79,56 +79,73 @@ export default function PreConceptionalPage() {
   const processTimeline = [
     {
       title: 'Step 1: Clinical History & Lifestyle Audit',
-      description: 'Dr. Shamim Sultana Yashine conducts a private, exhaustive review of maternal medical history, BMI, blood pressure, past gynecological records, and family hereditary disorders.',
+      description: 'Dr. Shamim Sultana Yashine conducts an exhaustive evaluation of maternal-paternal medical history, baseline vitals, prior pregnancies, and family genetic traits.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Targeted Pre-Pregnancy Diagnostics',
-      description: 'Running essential laboratory tests including complete blood count, blood typing (Rh factor), thyroid assays, blood sugar levels, and viral antibody screens.',
+      title: 'Step 2: Targeted Pre-Pregnancy Laboratory Workup',
+      description: 'Executing essential laboratory panels including complete blood counts, Rh blood grouping, fasting blood glucose, thyroid assays, and viral antibody screens.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Nutritional Mapping & Folic Acid Setup',
-      description: 'Starting vital pre-conception vitamins, adjusting lifestyle habits, and providing honest advice on removing high-risk chemical exposure or harmful daily habits.',
+      title: 'Step 3: Micronutrient Priming & Toxin Elimination',
+      description: 'Prescribing evidence-based preconception multivitamins, guiding elimination of environmental toxins, and establishing restorative sleep patterns.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Ovulation & Conception Plan',
-      description: 'Educating the couple on tracking natural ovulation cycles and recognizing fertile windows, establishing a stress-free biological path to healthy conception.',
+      title: 'Step 4: Fertile Window & Ovulation Mapping',
+      description: 'Educating couples on identifying peak cervical mucus indicators, LH surges, and tracking natural ovulatory windows for stress-free conception timing.',
       icon: <Clock className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What is pre-conceptional counseling and why is it recommended?',
-      answer: 'Pre-conceptional counseling is a specialized medical consultation for couples planning a pregnancy. It evaluates physical health, family histories, and lifestyle habits to identify factors that could impact pregnancy. By addressing these beforehand, couples can optimize maternal health, reduce gestational complications, and secure a healthy start for the baby.'
+      question: 'What is pre-conceptional counseling and why is it recommended for couples?',
+      answer: 'Pre-conceptional counseling is a specialized clinical consultation designed to evaluate and optimize a couple\'s health before pregnancy occurs. By screening for hidden metabolic disorders, reviewing chronic medications, checking vaccination immunity, and beginning vital prenatal vitamins in advance, couples dramatically lower risks of birth defects, miscarriages, and pregnancy complications.'
     },
     {
-      question: 'When is the best time to schedule a pre-pregnancy checkup with Dr. Shamim Sultana Yashine?',
-      answer: 'It is highly recommended to schedule a pre-conceptional consultation at least 3 to 6 months before you actively begin planning to conceive. This provides ample window for routine screens, nutritional adjustments, vaccine catch-ups, or stabilizing chronic health markers like thyroid or blood sugar.'
+      question: 'When is the ideal time to schedule a pre-pregnancy consultation in Lucknow?',
+      answer: 'The best time to consult Dr. Shamim Sultana Yashine is 3 to 6 months before you actively discontinue contraception. This provides adequate time to stabilize thyroid markers, normalize blood glucose levels, administer any catch-up immunizations (such as Rubella), and build maternal folate reserves.'
     },
     {
-      question: 'What is the actual cost of pre-conceptional counseling and diagnostics at the clinic?',
-      answer: 'We maintain complete pricing transparency. A standard pre-conceptional consultation with Dr. Shamim Sultana Yashine ranges from ₹800 to ₹1,200. A comprehensive pre-pregnancy diagnostic profile (including complete blood count, thyroid profile, blood sugar levels, viral markers, and pelvic ultrasound) typically averages between ₹4,000 and ₹7,500 depending on specific diagnostic requirements.'
+      question: 'What is the consultation and diagnostic cost for pre-conceptional care in Sushant Golf City?',
+      answer: 'At June Women\'s Health, we practice transparent healthcare pricing. A comprehensive pre-conceptional consultation with Dr. Shamim Sultana Yashine is ₹600. An all-inclusive pre-pregnancy screening panel (covering CBC, blood grouping, thyroid, fasting sugar, viral serology, and baseline pelvic ultrasound) typically ranges from ₹3,500 to ₹6,500.'
     },
     {
-      question: 'Why is it critical to start taking Folic Acid before getting pregnant?',
-      answer: 'A baby\'s brain and spinal cord (neural tube) develop in the first few weeks of pregnancy, often before you realize you have conceived. Daily folic acid intake starting at least a month before conception reduces the risk of serious neural tube defects like spina bifida by up to 70%.'
+      question: 'Why must folic acid be started months before getting pregnant?',
+      answer: 'The embryonic neural tube—which becomes the baby\'s brain and spinal cord—closes within the first 28 days following conception, often before a woman misses her period. Having high cellular folate levels prior to fertilization prevents up to 70% of neural tube birth defects like spina bifida and anencephaly.'
     },
     {
-      question: 'Can pre-pregnancy counseling help if we have a family history of genetic disorders?',
-      answer: 'Yes, pre-pregnancy counseling is highly beneficial for couples with family histories of genetic conditions like thalassemia, hemophilia, or cystic fibrosis. Dr. Shamim Sultana Yashine can assess the risks, recommend targeted genetic screenings, and coordinate with specialists to map out a safe plan for a healthy child.'
+      question: 'How does pre-pregnancy screening address hereditary or genetic concerns?',
+      answer: 'If there is a family history of conditions like thalassemia, cystic fibrosis, or congenital heart defects, Dr. Shamim Sultana Yashine provides targeted carrier screenings and couples counseling to understand inheritance patterns and establish protective prenatal testing pathways.'
     },
     {
-      question: 'How do I book a consultation, and what are the clinic hours?',
-      answer: 'Dr. Shamim Sultana Yashine’s Women’s Clinic operates strictly by prior appointment during dedicated morning and evening timings. This is a dedicated, single-doctor private clinic designed to provide private, unhurried attention in a sterilized clinical environment, rather than a 24/7 emergency hospital. You can contact us directly to reserve your slot.'
+      question: 'How do I book a private pre-pregnancy consultation at June Women\'s Health?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. This ensures a calm, confidential environment with zero crowded lobby waiting. You can book directly through our website contact form or phone line.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Pre Conceptional Counselling" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is Pre-Conceptional Counselling? (Cream bg) === */}
@@ -140,25 +157,25 @@ export default function PreConceptionalPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/preconceptional-overview.webp" 
-                  alt="Pre-Conceptional Counseling consultation and prenatal preparation checklist" 
+                  alt="Pre-Conceptional Counseling consultation and prenatal preparation checklist in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Pre-Conceptional Counselling?" 
+                text="What is Comprehensive Pre-Conceptional Counselling?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Planning a family is a beautiful milestone, and preparing your body beforehand is the single most effective way to support a healthy pregnancy. <strong>Pre-Conceptional Counselling</strong> is a proactive, clinical wellness strategy for couples preparing to conceive. By thoroughly evaluating physical health, genetic risks, nutritional status, and lifestyle factors before pregnancy begins, couples can significantly reduce pregnancy risks and support healthy fetal development from day one.
+                  Planning a family is a momentous life step, and priming your body before conception is the most impactful investment you can make for your future child. <strong>Pre-Conceptional Counselling</strong> is a proactive medical assessment that evaluates maternal-paternal physiology, nutritional reserves, medication safety, and genetic risks prior to pregnancy.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading hormonal wellness and family planning center in Sushant Golf City and Lucknow, Lucknow, we provide a private, confidential screening environment. Dr. Shamim Sultana Yashine conducts comprehensive diagnostic screens, guides you through proper folic acid dosing, and advises on optimal health choices to make your parenthood journey safe and stress-free.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we offer confidential, evidence-backed pre-pregnancy roadmaps. Serving couples across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we identify and resolve subtle clinical barriers before you begin trying to conceive.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a busy corporate hospital, your consultations are conducted personally by Dr. Shamim Sultana Yashine. We operate by prior appointments to ensure that every couple receives absolute privacy, meticulous attention, and clinical accuracy in a highly sterilized clinical environment.
+                  Operating as a dedicated single-doctor clinic near Lulu Mall on Shaheed Path, Dr. Shamim Sultana Yashine personally oversees every evaluation, ensuring an unhurried, reassuring environment with absolute privacy.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -465,7 +482,7 @@ export default function PreConceptionalPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Pre-Conceptional Counselling?
+                  Why Couples Choose June Women&apos;s Health for Pre-Pregnancy Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -474,29 +491,29 @@ export default function PreConceptionalPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Single-Doctor Comprehensive Consultation</strong>
-                      <span className="text-white/80 text-[14px]">You consult directly and only with Dr. Shamim Sultana Yashine at every visit. We offer honest advice and private counseling designed strictly for your specific lifestyle and genetic profile.</span>
+                      <strong className="block text-[16px] text-white">Direct Senior Obstetrician Assessment</strong>
+                      <span className="text-white/80 text-[14px]">You consult directly with Dr. Shamim Sultana Yashine for personalized medical history reviews, genetic counseling, and fertility roadmaps.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Tailored Medical & Supplement Mapping</strong>
-                      <span className="text-white/80 text-[14px]">Detailed planning for maternal chronic illnesses (TSH correction, glycemic audits) and switching daily medicines to fetal-safe alternatives.</span>
+                      <strong className="block text-[16px] text-white">Targeted Diagnostic &amp; Supplement Mapping</strong>
+                      <span className="text-white/80 text-[14px]">Meticulous screening of maternal metabolic reserves (TSH, blood sugar, ferritin) and transitioning medications to fetal-safe alternatives.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Strict Prior-Appointment Sterilized Clinic</strong>
-                      <span className="text-white/80 text-[14px]">We coordinate schedules strictly by prior appointment during dedicated clinical hours. This ensures a quiet, highly sterilized clinical environment and zero lobby crowding.</span>
+                      <strong className="block text-[16px] text-white">Sterile &amp; Private Consultation Slots</strong>
+                      <span className="text-white/80 text-[14px]">Strict appointment scheduling in Sushant Golf City ensures zero lobby waiting, complete discretion, and an unhurried clinical environment.</span>
                     </div>
                   </li>
                 </ul>
@@ -507,7 +524,7 @@ export default function PreConceptionalPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Family Planning Center in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get empathetic, professional family planning, contraceptive advice, and pre-conception counseling under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Family Planning & Contraceptive Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Empathetic, professional family planning, IUD insertion, and pre-conception counseling under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book today.",
   alternates: {
     canonical: '/family-planning-center-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function FamilyPlanningCenterPage() {
 
   const subServices = [
     { 
-      title: "Intrauterine Devices (IUD/LARC)", 
-      description: "Hassle-free, highly effective in-clinic insertion and removal of Copper-T and hormonal IUDs (Mirena) for long-term spacing.", 
+      title: "Intrauterine Devices (IUD / LARC)", 
+      description: "Sterile, comfortable in-clinic placement and removal of non-hormonal Copper T (5/10-year) and progestin-releasing Mirena IUDs for long-term birth spacing.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Hormonal & Injectable Contraceptive Counselling", 
-      description: "Personalized guidance on daily pills, weekly pills (Chhaya), and quarterly contraceptive injections (Antara) matching your lifestyle.", 
+      title: "Oral & Injectable Contraceptive Care", 
+      description: "Personalized medical regimens including low-dose combined daily pills, non-hormonal weekly pills (Centchroman/Chhaya), and quarterly injections (Antara/DMPA).", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Pre-Conception Counselling & Screenings", 
-      description: "Optimizing maternal health with vital blood panels, thyroid checks, and starting pre-pregnancy folic acid supplementation.", 
+      title: "Pre-Pregnancy Health Optimization", 
+      description: "Screening maternal cardiovascular health, thyroid TSH levels, hemoglobin counts, and starting pre-pregnancy folic acid to ensure a healthy future conception.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Permanent Sterilization Guidance", 
-      description: "Thorough counseling and coordination for safe laparoscopic tubectomy (female sterilization) performed in sterile affiliated hospitals.", 
+      title: "Laparoscopic Tubectomy Guidance", 
+      description: "Detailed pre-operative counseling and surgical coordination for safe, minimally invasive laparoscopic female sterilization at affiliated state-of-the-art hospitals.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const safetyGuidelines = [
     { 
-      title: "Accurate Medical History", 
-      description: "Disclose all past surgeries, cycle details, blood pressure, and chronic medical conditions like diabetes or clotting disorders for a safe method match.", 
+      title: "Clinical History & Risk Audit", 
+      description: "Disclosing prior cesarean sections, pelvic surgeries, cycle regularities, blood pressure levels, and clotting history to ensure the safest contraceptive match.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Correct Timing for IUDs", 
-      description: "Schedule IUD insertion during your menstrual cycle (typically days 2 to 5) as the cervix is naturally softer and to confirm you are not pregnant.", 
+      title: "Optimal Menstrual Timing for IUDs", 
+      description: "Scheduling intrauterine device insertion during active menses (days 2 to 5) when the cervical canal is naturally softer and non-pregnancy is verified.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Post-Procedure Follow-Ups", 
-      description: "Check the IUD string regularly and schedule a follow-up ultrasound scan after your first cycle to verify correct device positioning.", 
+      title: "Post-Placement Sonography Review", 
+      description: "Performing routine self-string checks and scheduling a follow-up pelvic ultrasound scan after the first post-insertion period to confirm ideal fundal positioning.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const careProtocol = [
     {
-      title: 'Step 1: Private Goal Discussion',
-      description: 'A quiet clinical consult with Dr. Shamim Sultana Yashine to review childbearing history, current lifestyle, spacing preferences, and future child goals in a private space.',
+      title: 'Step 1: Private Reproductive Goal Discussion',
+      description: 'A confidential consultation with Dr. Shamim Sultana Yashine reviewing obstetrical history, career goals, desired birth intervals, and personal preferences.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Diagnostic & Physical Check',
-      description: 'Gently checking blood pressure, cycle history, and conducting a pelvic screening ultrasound to rule out anatomical barriers.',
+      title: 'Step 2: Non-Invasive Medical & Pelvic Screen',
+      description: 'Evaluating baseline blood pressure, glycemic markers, and conducting a gentle pelvic ultrasound to evaluate uterine cavity contours and dimensions.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Explanation of Options',
-      description: 'Dr. Shamim Sultana Yashine details the success rates, duration of action, side effects, and correct usage of selected contraceptive spacing or permanent options.',
+      title: 'Step 3: Comparative Contraceptive Education',
+      description: 'Dr. Shamim Sultana Yashine outlines the efficacy, duration, mechanism of action, and expected bleeding pattern shifts for each suitable method.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Sterile Device Insertion or Prescription',
-      description: 'Immediate, highly hygienic clinical insertion of IUD devices under sterile protocols or providing a clear contraceptive plan with follow-up timelines.',
+      title: 'Step 4: Sterile Device Placement or Prescription',
+      description: 'Executing sterile, high-precision IUD insertion under gentle local analgesia or dispensing clear dosing schedules with scheduled follow-up checkups.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What family planning and contraception options are available at the clinic?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, we provide comprehensive spacing and permanent family planning advice. This includes intrauterine devices (Copper-T and hormonal Mirena), daily oral pills, weekly pills (Chhaya), quarterly contraceptive injections (Antara), barrier methods, pre-conception counseling, and clinical coordination for laparoscopic tubectomy.'
+      question: 'What family planning and birth spacing methods are offered at June Women\'s Health?',
+      answer: 'We provide comprehensive temporary spacing and permanent family planning services. Spacing methods include Copper T 380A, hormonal Mirena IUDs, low-dose oral contraceptive pills, non-hormonal weekly pills (Chhaya), 3-month contraceptive injections (Antara), and barrier methods. We also offer pre-conception evaluations and coordinate laparoscopic tubectomy.'
     },
     {
-      question: 'What is the actual, genuine cost of family planning services at the clinic?',
-      answer: 'We maintain clear pricing transparency. A standard pre-procedure family planning consultation with Dr. Shamim Sultana Yashine is ₹600. A standard Copper-T insertion (including the sterile device, local anesthetic block, and clinical insertion procedure) ranges from ₹2,500 to ₹4,500. Advanced hormonal IUD fittings (such as Mirena for heavy bleeding control) range from ₹6,500 to ₹9,500 depending on the device cost. Quarterly contraceptive injection administration is ₹600 per dose.'
+      question: 'What is the genuine cost of family planning services and IUD insertion in Lucknow?',
+      answer: 'We operate with 100% price transparency. A dedicated family planning consultation with Dr. Shamim Sultana Yashine is ₹600. A standard Copper-T insertion (including sterile device, local analgesic block, and procedure) is ₹2,500 to ₹4,000. Hormonal IUD placement (Mirena) ranges from ₹6,500 to ₹9,500 depending on device cost. Quarterly injectable contraception is ₹600 per dose.'
     },
     {
-      question: 'How long should we space pregnancies for maternal and baby health?',
-      answer: 'Medical guidelines generally recommend waiting at least 18 to 24 months (but less than 5 years) after a live birth before attempting another pregnancy. This spacing allows the mother\'s body to replenish critical nutrient stores (such as iron and folate) and recover completely, reducing the risk of preterm birth or low birth weight.'
+      question: 'What is the medically recommended time interval between consecutive pregnancies?',
+      answer: 'Obstetric guidelines recommend an optimal interpregnancy spacing interval of 18 to 24 months (and not longer than 5 years) between a live birth and subsequent conception. This allows the maternal uterus, iron stores, and pelvic floor to fully recover, significantly lowering the risks of preterm labor, low birth weight, and maternal anemia.'
     },
     {
-      question: 'Are temporary family planning methods completely reversible?',
-      answer: 'Yes, temporary family planning methods are 100% reversible. Long-acting devices like Copper-T or Mirena can be safely removed by Dr. Shamim Sultana Yashine in the clinic at any time, and daily pills or injections can be discontinued. Once stopped, your natural menstrual cycle and fertility will return, allowing you to plan a pregnancy.'
+      question: 'Are reversible family planning methods 100% safe for future fertility?',
+      answer: 'Yes. Reversible methods—such as Copper T, Mirena, and oral contraceptive pills—do not cause permanent infertility. When you wish to plan your next baby, the IUD can be removed effortlessly during a quick clinic visit, or medications can be stopped, restoring natural ovulatory cycles promptly.'
     },
     {
-      question: 'When is the best time to insert an intrauterine device (IUD) like Copper-T?',
-      answer: 'The best time to insert an IUD is during your menstrual cycle (typically days 2 to 5). This timing ensures that the cervix is naturally dilated and softer, making the procedure quick and comfortable, while also confirming that you are not pregnant.'
+      question: 'Why is an IUD best inserted during active menstrual flow?',
+      answer: 'Inserting an IUD during the 2nd to 5th day of your menstrual cycle is ideal because the cervix is naturally more relaxed and dilated, making placement quicker and virtually painless. It also clinically confirms that you are not pregnant at the time of insertion.'
     },
     {
-      question: 'Is the clinic open 24/7 for emergency contraceptive counseling?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening hours. We do not support a 24/7 walk-in emergency model. This ensures a quiet, highly sterilized clinical environment and zero lobby wait times. Registered patients can contact our coordinator to schedule urgent sessions or follow-up consultations.'
+      question: 'How do I book a confidential family planning consultation in Sushant Golf City?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. This structure ensures complete privacy, zero lobby crowding, and dedicated time with Dr. Shamim Sultana Yashine.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Family Planning Center" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Family Planning Center? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function FamilyPlanningCenterPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/family-planning-overview.webp" 
-                  alt="Doctor explaining family planning spacing options with anatomical uterus model" 
+                  alt="Doctor explaining family planning spacing options with anatomical uterus model in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Family Planning?" 
+                text="What is Family Planning &amp; Reproductive Spacing?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Family Planning</strong> is a fundamental pillar of modern women's healthcare, empowering couples to make informed decisions about if, when, and how many children to have. It involves choosing safe contraception spacing methods, determining healthy intervals between pregnancies, performing pre-conception evaluations, and coordinating permanent fertility solutions to protect maternal and child health.
+                  <strong>Family Planning</strong> is a core foundation of comprehensive women&apos;s healthcare, enabling couples and individuals to make informed, autonomous choices regarding the timing, spacing, and number of their children. Modern family planning combines evidence-based contraceptive spacing methods, optimal inter-pregnancy interval counseling, pre-conception health evaluations, and permanent sterilization solutions.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the leading family planning and postpartum wellness center in Sushant Golf City and Lucknow, Lucknow, we believe that reproductive care should be supportive, private, and tailored to your medical history. Dr. Shamim Sultana Yashine offers gentle, professional, and non-judgmental counseling, helping you select spacing methods that fit your career, physical recovery, and lifestyle goals.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, highly confidential family planning services. We serve women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with clinical excellence.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring you receive direct, personal, and highly confidential care. We coordinate all family planning and outpatient procedures strictly by prior appointment during dedicated hours, maintaining a quiet, highly sterilized environment that eliminates anxiety and public lobby wait times.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, gentle, and strictly confidential, allowing for individualized contraceptive evaluations and sterile in-clinic procedures.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function FamilyPlanningCenterPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Family Planning?
+                  Why Couples Choose June Women&apos;s Health for Family Planning
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,28 +490,28 @@ export default function FamilyPlanningCenterPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Empathetic & Supportive Environment</strong>
+                      <strong className="block text-[16px] text-white">Empathetic &amp; Judgment-Free Space</strong>
                       <span className="text-white/80 text-[14px]">We maintain a warm, non-judgmental private space that fully respects your reproductive decisions, career timelines, and cultural backgrounds.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Clinical Precision & Sterile Standards</strong>
+                      <strong className="block text-[16px] text-white">Clinical Precision &amp; Sterile IUD Placement</strong>
                       <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine ensures absolute clinical hygiene and uses premium sterile tools during in-clinic LARC (Copper-T / Mirena) device insertions.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Appointment System</strong>
+                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Booking</strong>
                       <span className="text-white/80 text-[14px]">All consultations are arranged strictly by prior appointment during dedicated hours, maintaining complete privacy and eliminating lobby wait times.</span>
                     </div>
                   </li>
@@ -506,7 +523,7 @@ export default function FamilyPlanningCenterPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Pelvic Infection & PID Treatment in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get expert clinical diagnosis and targeted treatment for pelvic inflammatory disease (PID), vaginal infections, and chronic pelvic pain under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Pelvic Infection & PID Treatment Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Clinical diagnosis and targeted treatment for PID, vaginitis, and chronic pelvic pain under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/pelvic-infections-treatment-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function PelvicInfectionsTreatmentPage() {
 
   const subServices = [
     { 
-      title: "Vaginal Discharge & Vaginitis Care", 
-      description: "Diagnostic evaluation and targeted treatment for yeast infections, bacterial vaginosis (BV), and trichomoniasis to restore healthy pH balance.", 
+      title: "Recurrent Vaginitis & Discharge Care", 
+      description: "Accurately identifying and eliminating bacterial vaginosis (BV), candidiasis (yeast), and trichomoniasis to restore natural vaginal mucosal flora and pH equilibrium.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Pelvic Inflammatory Disease (PID) Management", 
-      description: "Targeted, evidence-based antimicrobial regimens to resolve upper genital tract inflammation, shielding the fallopian tubes and uterus from scarring.", 
+      title: "Pelvic Inflammatory Disease (PID) Therapy", 
+      description: "Evidence-based antimicrobial interventions that eradicate upper reproductive tract infections, protecting fallopian tubes and endometrium from chronic fibrotic scarring.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Culture-Based Diagnostics", 
-      description: "Utilizing precise high vaginal swab collections and laboratory cultures to pinpoint the exact pathogen instead of trial-and-error treatments.", 
+      title: "Pathogen-Specific HVS Swab Cultures", 
+      description: "Utilizing high vaginal swab (HVS) microscopic cultures and antibiotic sensitivity profiling instead of blind, repetitive empirical broad-spectrum treatments.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Post-Infection Fertility Shield", 
-      description: "Screening and assessing pelvic health after clearing infections to preserve your reproductive capacity and prevent tubal damage.", 
+      title: "Tubal Patency & Fertility Preservation", 
+      description: "Conducting post-infection pelvic evaluations and ultrasound screenings to confirm full recovery and safeguard future reproductive and tubal health.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const safetyGuidelines = [
     { 
-      title: "Disclose All Symptoms", 
-      description: "Share all signs including irregular spotting, deep pelvic pain, pain during intercourse, painful urination, or fever during your private consultation.", 
+      title: "Comprehensive Symptom Transparency", 
+      description: "Discussing all signs—such as deep pelvic aching, pain during intercourse (dyspareunia), abnormal discharge odor, or intermenstrual spotting—openly with the doctor.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Complete the Full Regimen", 
-      description: "Always finish the entire course of prescribed antibiotics or antifungals, even if your symptoms resolve early, to prevent chronic resistance.", 
+      title: "Complete Prescribed Antibiotic Course", 
+      description: "Completing every single day of the prescribed antimicrobial regimen even if symptoms disappear within 48 hours, preventing bacterial latency and resistance.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Partner Treatment Compliance", 
-      description: "Screen and treat your partner simultaneously if a sexually transmitted pathogen is diagnosed to avoid a loop of continuous reinfection.", 
+      title: "Concurrent Partner Evaluation", 
+      description: "Ensuring simultaneous clinical screening and treatment for your partner when sexually transmitted pathogens are identified, preventing ping-pong reinfections.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const careProtocol = [
     {
-      title: 'Step 1: Compassionate Clinical Exam',
-      description: 'A private consultation and gentle bimanual pelvic examination to check for cervical motion tenderness, uterine inflammation, or adnexal swelling.',
+      title: 'Step 1: Gentle Gynecological & Pelvic Exam',
+      description: 'A private consultation and delicate bimanual examination by Dr. Shamim Sultana Yashine checking for cervical motion tenderness, adnexal fullness, or uterine tenderness.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: High Vaginal Swab & Lab Culture',
-      description: 'Collecting endocervical and vaginal swab samples for laboratory evaluation to identify the exact pathogen strain causing the infection.',
+      title: 'Step 2: Targeted Endocervical Swab & Culture',
+      description: 'Harvesting precise vaginal and endocervical swabs for laboratory microscopy and culture sensitivity testing to pinpoint the exact causative microorganism.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Pelvic Ultrasound Screening',
-      description: 'Performing a high-resolution transvaginal ultrasound scan to inspect the uterus, ovaries, and check fallopian tubes for fluid collections (hydrosalpinx) or abscesses.',
+      title: 'Step 3: High-Resolution Pelvic Ultrasound (TVS)',
+      description: 'Transvaginal sonography to thoroughly assess the ovaries, uterine wall, and fallopian tubes for inflammatory fluid retention (hydrosalpinx) or abscess formations.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Targeted Antimicrobial Plan',
-      description: 'Initiating a specific course of DCGI-approved antibiotic or antifungal medications, with post-treatment checks to verify complete clearance.',
+      title: 'Step 4: Tailored Antimicrobial Therapy & Follow-Up',
+      description: 'Administering targeted, guideline-recommended oral or parenteral antimicrobial regimens, followed by repeat clinical checks to confirm resolution.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What are the main warning signs of a pelvic infection (PID)?',
-      answer: 'Pelvic Inflammatory Disease (PID) signs include persistent, dull aching in the lower abdomen or pelvis, abnormal yellow or green vaginal discharge with a foul odor, deep pain during sexual intercourse (dyspareunia), burning pain during urination, spotting between menstrual cycles, and sometimes systemic symptoms like fever and chills.'
+      question: 'What are the classic warning signs of Pelvic Inflammatory Disease (PID)?',
+      answer: 'Warning signs of PID include deep, persistent aching in the lower abdomen or pelvis, malodorous yellowish-green vaginal discharge, deep pain during sexual intercourse (dyspareunia), burning during urination, unexpected spotting between periods, and low-grade fever or fatigue.'
     },
     {
-      question: 'What is the actual, genuine cost of pelvic infection treatment at the clinic?',
-      answer: 'We practice complete transparency. A pelvic health consultation with Dr. Shamim Sultana Yashine is ₹600. A baseline screening pelvic ultrasound (to check for internal uterine inflammation or ovarian cysts) ranges from ₹1,500 to ₹2,500. Laboratory swab testing and culture profile costs range from ₹1,200 to ₹2,800 depending on panels. Outpatient infection treatment kits range from ₹500 to ₹1,500.'
+      question: 'What is the genuine cost of pelvic infection diagnosis and treatment at June Women\'s Health?',
+      answer: 'We maintain clear pricing transparency. A private gynecological consultation with Dr. Shamim Sultana Yashine is ₹600. A diagnostic pelvic ultrasound (TVS) to screen for internal inflammatory changes or fluid retention is ₹1,500 to ₹2,200. High vaginal swab (HVS) microscopic cultures and sensitivity panels range from ₹1,200 to ₹2,500. Targeted outpatient antimicrobial medications range from ₹600 to ₹1,800.'
     },
     {
-      question: 'Can an untreated pelvic infection cause infertility or ectopic pregnancy?',
-      answer: 'Yes, untreated pelvic infections (specifically PID) can cause permanent scarring and blockage of the fallopian tubes. This prevents the egg and sperm from meeting, leading to tubal factor infertility, or causes the fertilized egg to implant in the tube, resulting in a life-threatening ectopic pregnancy.'
+      question: 'Can untreated pelvic infections cause infertility or ectopic pregnancy?',
+      answer: 'Yes. When lower genital tract infections ascend untreated into the fallopian tubes, they trigger inflammation (salpingitis) and leave behind dense scar tissue. This scarring blocks the tubal lumen, causing tubal factor infertility, or damages the delicate cilia, trapping fertilized eggs and causing life-threatening ectopic pregnancies.'
     },
     {
-      question: 'How is Pelvic Inflammatory Disease (PID) diagnosed by a gynecologist?',
-      answer: 'PID is diagnosed through a combination of your medical history, a gentle pelvic bimanual examination to check for tenderness, high vaginal swab cultures to identify the causative bacteria, and a pelvic transvaginal ultrasound to rule out collections, hydrosalpinx, or tubo-ovarian abscesses.'
+      question: 'How is PID clinically differentiated from a simple vaginal yeast infection?',
+      answer: 'A vaginal yeast infection is a superficial fungal condition causing intense vulvar itching and thick, odorless white discharge without deep abdominal pain. In contrast, PID is a severe bacterial infection involving the upper pelvic organs (uterus, tubes, ovaries) that produces deep pelvic aching, cervical motion tenderness, fever, and purulent discharge.'
     },
     {
-      question: 'What is the difference between a simple yeast infection and bacterial PID?',
-      answer: 'A yeast infection is a superficial fungal overgrowth in the vagina causing intense itching and thick, white discharge without pelvic pain. Bacterial PID is a serious bacterial infection that travels up to the uterus and fallopian tubes, causing deep lower abdominal pain, painful intercourse, fever, and potential internal scarring.'
+      question: 'How does Dr. Shamim Sultana Yashine accurately diagnose complex pelvic infections?',
+      answer: 'Diagnosis involves a careful clinical history, a gentle bimanual pelvic check for organ tenderness, high-resolution transvaginal sonography (TVS) to check for tubal swelling or fluid, and microbiological swab cultures to identify the exact pathogen and its antibiotic sensitivity.'
     },
     {
-      question: 'Is the clinic open 24/7 for emergency pelvic pain care?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening hours to maintain a quiet, highly sterilized environment and protect patient privacy. We do not support 24/7 emergency walk-in queues. Registered patients experiencing acute pelvic pain can contact our coordinator to schedule a priority appointment.'
+      question: 'How do I schedule an appointment for pelvic pain or infection treatment in Sushant Golf City?',
+      answer: 'Our Sushant Golf City clinic operates strictly by prior appointment during dedicated morning and evening hours. This structure ensures zero waiting room crowding, absolute patient confidentiality, and unhurried clinical care with Dr. Shamim Sultana Yashine.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Pelvic Infections Treatment" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Pelvic Infections Treatment? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function PelvicInfectionsTreatmentPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/pelvic-infections-overview.webp" 
-                  alt="Anatomical pelvic structures and reproductive tract under gentle diagnostic evaluation" 
+                  alt="Anatomical pelvic structures and reproductive tract under gentle diagnostic evaluation in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Pelvic Infections Treatment?" 
+                text="What is Pelvic Infections &amp; PID Treatment?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Pelvic Infections</strong> and Pelvic Inflammatory Disease (PID) are common but serious medical conditions affecting the female reproductive system. If left undiagnosed or treated incorrectly with generic over-the-counter drugs, infections can travel from the vagina past the cervix into the uterus, fallopian tubes, and ovaries. This upper tract spread causes permanent internal scarring, chronic pelvic pain, life-threatening ectopic pregnancy, and tubal infertility.
+                  <strong>Pelvic Infections</strong> and <strong>Pelvic Inflammatory Disease (PID)</strong> are serious clinical conditions of the female upper reproductive tract. When lower genital tract infections ascend past the cervix into the uterus, fallopian tubes, and ovaries, they can cause irreversible intra-abdominal adhesions, chronic pelvic pain syndromes, tubal blockage, and recurrent ectopic pregnancies if misdiagnosed or self-treated.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the trusted pelvic health and hormonal wellness center in Sushant Golf City and Lucknow, Lucknow, we emphasize accurate, culture-based diagnostics. Dr. Shamim Sultana Yashine ensures a comforting, highly private space where your symptoms are evaluated, proper swabs are taken, and precise medication schedules are provided.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide accurate, culture-directed treatment protocols. Serving women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we treat persistent vaginitis, chronic pelvic pain, and acute PID with compassionate precision.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a busy corporate hospital, your care is managed personally by Dr. Shamim Sultana Yashine. We coordinate all checks and treatments strictly by prior appointment during dedicated hours, ensuring a quiet, highly sterilized environment that eliminates anxiety and public waiting room stress.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, gentle, and strictly confidential, allowing for thorough clinical diagnosis and long-term fertility protection.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function PelvicInfectionsTreatmentPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Pelvic Infection Treatment?
+                  Why Women Choose June Women&apos;s Health for Pelvic Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,29 +490,29 @@ export default function PelvicInfectionsTreatmentPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Targeted, Culture-Driven Treatment</strong>
-                      <span className="text-white/80 text-[14px]">We prioritize isolating the exact bacterial or fungal strain using advanced cultures, avoiding generic medication choices.</span>
+                      <strong className="block text-[16px] text-white">Culture-Directed Antimicrobial Care</strong>
+                      <span className="text-white/80 text-[14px]">We prioritize isolating precise bacterial and fungal pathogens with microbiological cultures, avoiding blind, trial-and-error prescriptions.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Confidential & Private Environment</strong>
-                      <span className="text-white/80 text-[14px]">Sensitive gynecological details and bimanual checks are performed in a highly professional, comforting, and supportive space.</span>
+                      <strong className="block text-[16px] text-white">Gentle, Judgment-Free Environment</strong>
+                      <span className="text-white/80 text-[14px]">All sensitive examinations and pelvic checks are performed directly by Dr. Shamim Sultana Yashine with utmost gentleness, empathy, and confidentiality.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
                       <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Schedule</strong>
-                      <span className="text-white/80 text-[14px]">We structure sessions strictly by appointment during dedicated shifts. This keeps wait times at zero, avoids lobby crowding, and maintains high sterilization.</span>
+                      <span className="text-white/80 text-[14px]">Consultations in Sushant Golf City operate strictly by prior appointment, ensuring zero waiting room crowding, clean facilities, and total privacy.</span>
                     </div>
                   </li>
                 </ul>
@@ -506,7 +523,7 @@ export default function PelvicInfectionsTreatmentPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

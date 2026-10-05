@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Lactational Counselling & Breastfeeding Support in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get compassionate, expert lactational counselling and breastfeeding support. Learn correct latching, manage supply issues, and treat mastitis under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Lactational Counselling & Breastfeeding Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Compassionate, expert lactational counselling and breastfeeding support under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book today.",
   alternates: {
     canonical: '/lactational-counselling-in-lucknow/',
   }
@@ -34,123 +34,140 @@ export default function LactationalCounsellingPage() {
 
   const lactationServices = [
     { 
-      title: "Latch & Positioning Coaching", 
-      description: "Hands-on guidance for correct body holds (cradle, football, side-lying) and baby mouth alignment to prevent nipple pain and ensure efficient milk transfer.", 
+      title: "Biomechanics of Latch & Nursing Holds", 
+      description: "Hands-on guidance on cross-cradle, football hold, and side-lying positions to ensure a deep, asymmetric latch that eliminates nipple cracking and soreness.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Supply & Volume Management", 
-      description: "Developing evidence-based plans to regulate the lactation cycle, stimulate milk production, and resolve infant weight gain concerns.", 
+      title: "Breast Milk Supply & Volume Optimization", 
+      description: "Evidence-based protocols to stimulate maternal prolactin and oxytocin responses, resolving low supply issues and tracking infant weight gain trajectories.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Engorgement & Mastitis Care", 
-      description: "Clinical evaluation and safe therapies for painful breast engorgement, blocked milk ducts, and medical care for breast infections (mastitis).", 
+      title: "Engorgement, Plugged Ducts & Mastitis Care", 
+      description: "Clinical management for painful breast engorgement, blocked lactiferous ducts, and targeted antibiotic therapy for bacterial mastitis or abscesses.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Back-to-Work Pumping Blueprint", 
-      description: "Empowering working mothers with guidance on choosing breast pumps, hygienic milk extraction techniques, schedules, and safe storage rules.", 
+      title: "Pumping Schedules & Milk Storage Protocols", 
+      description: "Empowering working mothers with tailored hospital-grade pumping regimens, milk expression hygiene, and safe refrigeration storage protocols.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const safetyGuidelines = [
     { 
-      title: "Feeding Frequency Rules", 
-      description: "Lactation is regulated entirely by supply and demand. Breastfeed or pump every 2 to 3 hours to trigger and maintain healthy milk production.", 
+      title: "Frequent Demand-Driven Nursing", 
+      description: "Breastfeeding or expressing every 2 to 3 hours (8 to 12 times in 24 hours) to signal maternal endocrine glands for consistent milk production.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Hydration & Galactagogues", 
-      description: "Dehydration reduces supply. Drink 3-4 liters of water daily and incorporate galactagogues (cumin, fenugreek, fennel, oats) into your maternal diet.", 
+      title: "Maternal Hydration & Galactagogues", 
+      description: "Maintaining a daily fluid intake of 3.5+ liters and incorporating evidence-backed traditional galactagogues like fennel, fenugreek, cumin, and oats.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Safe Expressing & Milk Storage", 
-      description: "Express using sterile pumps. Store breast milk at room temp up to 4 hours, in a fridge up to 4 days, or freezer up to 3-6 months. Thaw gently.", 
+      title: "Sterile Expression & Temperature Control", 
+      description: "Using sterilized pump shields and containers. Storing fresh breast milk up to 4 hours at room temperature, 4 days in a refrigerator, or 6 months in a freezer.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const journeySteps = [
     {
-      title: 'Step 1: Detailed Feeding History',
-      description: 'A quiet clinical consult with Dr. Shamim Sultana Yashine to review birth history, feeding schedules, diaper counts, weight charts, and maternal symptoms.',
+      title: 'Step 1: Maternal History & Feeding Audit',
+      description: 'A private evaluation with Dr. Shamim Sultana Yashine reviewing labor details, neonatal weight curves, diaper outputs, and maternal pain symptoms.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Infant Fetal Oral Assessment',
-      description: 'Gently checking the baby\'s lips, palate, and tongue movement to rule out anatomical barriers to latching (like tongue-tie or lip-tie).',
+      title: 'Step 2: Infant Oral Anatomy & Latch Check',
+      description: 'Gently assessing the infant\'s oral cavity, palate structure, and sublingual frenulum to rule out anatomical barriers like ankyloglossia (tongue-tie).',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Live Feeding Observation',
-      description: 'Dr. Shamim Sultana Yashine observes a live feeding session to diagnose mechanical issues in latching, infant neck positioning, and suck-swallow coordination.',
+      title: 'Step 3: Direct Live Feeding Observation',
+      description: 'Observing a complete breastfeeding session to evaluate suck-swallow-breathe coordination, neck alignment, and areolar tissue grasp.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Corrective Hold Coaching',
-      description: 'Hands-on practice to adjust baby\'s head tilt, neck support, and lip flaring. You leave with a custom nutritional plan and nipple healing guide.',
+      title: 'Step 4: Hands-On Ergonomic Positioning & Care Plan',
+      description: 'Practicing adjusted holds, teaching deep latch techniques, and providing a postpartum nutritional and nipple healing protocol.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const comparisonData: [any, any] = [
     {
-      title: "Normal Healthy Latch",
+      title: "Optimal Asymmetric Deep Latch",
       theme: "secondary",
       items: [
-        { feature: "Maternal Sensation", isAvailable: "A gentle, firm tugging sensation on the breast; entirely pain-free." },
-        { feature: "Baby Mouth Flare", isAvailable: "Mouth is open wide; lips are flared outward like a fish." },
-        { feature: "Areola Coverage", isAvailable: "More of the lower areola is covered than the upper areola." },
-        { feature: "Swallow Sounds", isAvailable: "Slow, rhythmic, audible swallowing noises (puff/gulp sounds)." },
-        { feature: "Post-Feed Nipple", isAvailable: "Nipple looks rounded and elongated without distortion." }
+        { feature: "Maternal Sensation", isAvailable: "A firm, painless rhythmic tugging sensation without sharp pinching." },
+        { feature: "Infant Lip Flare", isAvailable: "Mouth is opened wide (>130 degrees); upper and lower lips flanged outward." },
+        { feature: "Areola Grasp", isAvailable: "Covers more of the lower areola than the upper areola." },
+        { feature: "Deglutition Sounds", isAvailable: "Audible, rhythmic swallowing sounds with regular pauses for breath." },
+        { feature: "Post-Feed Nipple State", isAvailable: "Nipple emerges round and cylindrical with zero pinching or bluing." }
       ]
     },
     {
-      title: "Poor Latch (Needs Rework)",
+      title: "Shallow Latch (Needs Correction)",
       theme: "primary",
       items: [
-        { feature: "Maternal Sensation", isAvailable: "Sharp, pinching, or persistent pain during the feed." },
-        { feature: "Baby Mouth Flare", isAvailable: "Lips are tucked inward; baby is biting on the nipple." },
-        { feature: "Areola Coverage", isAvailable: "Baby is only sucking on the tip of the nipple." },
-        { feature: "Swallow Sounds", isAvailable: "Frequent clicking or smacking noises; swallowing is irregular." },
-        { feature: "Post-Feed Nipple", isAvailable: "Nipple looks flattened, pinched, or lipstick-shaped." }
+        { feature: "Maternal Sensation", isAvailable: "Severe stabbing or burning nipple pain throughout the entire nursing session." },
+        { feature: "Infant Lip Flare", isAvailable: "Lips curled inward; infant clamping jaws down onto the nipple base." },
+        { feature: "Areola Grasp", isAvailable: "Baby sucks solely on the tip of the nipple without breast tissue." },
+        { feature: "Deglutition Sounds", isAvailable: "Clicking, smacking, or gulping noises with frequent aerophagia and gas." },
+        { feature: "Post-Feed Nipple State", isAvailable: "Nipple emerges flattened, creased, blistered, or lipstick-shaped." }
       ]
     }
   ];
 
   const faqs = [
     {
-      question: 'What is lactational counselling and when should I see a consultant?',
-      answer: 'Lactational counselling is clinical guidance provided by a trained medical professional to help new mothers establish and maintain a successful breastfeeding relationship. You should seek counselling if you experience latch difficulties, persistent nipple pain, concerns about low milk supply, or if your baby is not gaining weight adequately.'
+      question: 'What is lactational counselling and when should a new mother seek help?',
+      answer: 'Lactational counselling is specialized clinical guidance provided by a qualified medical doctor to resolve breastfeeding challenges. You should book a session if you experience cracked or bleeding nipples, painful breast lumps, concerns about inadequate milk supply, or if your newborn has poor weight gain.'
     },
     {
-      question: 'How do I know if my baby is latching correctly during breastfeeding?',
-      answer: 'A correct latch is pain-free. The baby should take a large portion of the lower areola (not just the nipple) into their mouth, their lips should be flared outward like a fish, their chin should touch your breast, and you should hear soft, rhythmic swallowing sounds rather than clicking noises.'
+      question: 'How can I tell if my newborn baby is latching and feeding effectively?',
+      answer: 'An effective latch is completely comfortable for the mother. The baby\'s mouth opens wide with lips flared outward like a fish, their chin rests firmly against the breast, and you can hear consistent, slow swallowing sounds. Satisfied infants have 6+ heavy wet diapers daily and gain weight steadily.'
     },
     {
-      question: 'What is the actual, genuine cost of lactational counselling at the clinic?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, transparency is paramount. A 45-minute clinical lactation assessment and hands-on coaching session with Dr. Shamim Sultana Yashine is ₹700. Post-procedure checks or follow-up latch reviews are ₹600. Outpatient therapies for engorgement or blocked duct management range from ₹1,000 to ₹2,500 depending on complexity.'
+      question: 'What is the genuine cost of lactational counselling at June Women\'s Health?',
+      answer: 'We maintain clear pricing transparency. A dedicated 45-minute clinical lactation assessment and hands-on latch coaching session with Dr. Shamim Sultana Yashine is ₹700. Follow-up reviews are ₹600. In-clinic therapies for engorgement or blocked duct management range from ₹1,000 to ₹2,200 depending on clinical complexity.'
     },
     {
-      question: 'What can I do to increase a low breast milk supply naturally?',
-      answer: 'Supply is regulated by demand and supply. The most effective way to increase milk is frequent, thorough emptying of the breasts through direct feeding or pumping (every 2-3 hours). Additionally, staying well-hydrated, consuming nutritious meals containing galactagogues (like cumin, fenugreek, and fennel), and resting well can boost supply. Dr. Shamim Sultana Yashine can prescribe safe medications if needed.'
+      question: 'How can I increase a low breast milk supply naturally and safely?',
+      answer: 'Breast milk production operates on a supply-and-demand feedback loop. The single most effective strategy is frequent breast emptying (nursing or pumping every 2-3 hours). Ensuring optimal hydration (3.5+ L/day), incorporating nutritious galactagogues, and practicing skin-to-skin contact stimulate prolactin surges.'
     },
     {
-      question: 'How can I prevent or treat painful blocked ducts and mastitis?',
-      answer: 'To prevent blocked ducts, ensure the breasts are fully emptied at each feed, alternate feeding positions, and avoid tight bras. If you develop a hard, painful lump or fever (signs of mastitis), apply warm compresses, gently massage the area towards the nipple while feeding, nurse frequently, and consult Dr. Shamim Sultana Yashine immediately for safe antibiotics.'
+      question: 'How do you treat painful blocked milk ducts and prevent mastitis?',
+      answer: 'Blocked ducts are treated with warm compresses before feeds, gentle therapeutic massage towards the nipple during nursing, and ensuring complete drainage. If fever, chills, or localized redness occur (mastitis), Dr. Shamim Sultana Yashine prescribes breastfeeding-safe antibiotics.'
     },
     {
-      question: 'Can I walk in with my newborn for breastfeeding support and is the clinic open 24/7?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening timings. We do not support 24/7 walk-in emergency queues. This ensures that new mothers and newborns receive a quiet, private, and highly sterilized lobby space without waiting crowds. Please contact us directly to schedule your session.'
+      question: 'How do I book a private lactational consultation in Sushant Golf City?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. This ensures a quiet, calm, and sterilized clinic setting with zero waiting room exposure for you and your newborn.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Lactational Counselling" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Lactational Counselling? (Cream bg) === */}
@@ -162,25 +179,25 @@ export default function LactationalCounsellingPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/lactational-overview.webp" 
-                  alt="Mother holding infant close in a supportive, private lactational counselling session" 
+                  alt="Mother holding infant close in a supportive, private lactational counselling session in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Lactational Counselling?" 
+                text="What is Lactational Counselling &amp; Support?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Lactational Counselling</strong> represents the specialized clinical guidance, physical coaching, and medical support provided to new mothers to establish, optimize, and maintain a successful breastfeeding relationship. Routine lactation support involves diagnosing incorrect latches, addressing low milk supply concerns, treating painful breast engorgement or blocked milk ducts, and advising on pump schedules and milk storage.
+                  <strong>Lactational Counselling</strong> provides medical guidance, ergonomic coaching, and compassionate clinical care to help postpartum mothers establish and maintain a healthy, painless breastfeeding experience. Professional lactation care addresses incorrect infant latches, insufficient milk volume, breast engorgement, plugged ducts, and maternal anxiety regarding infant weight gain.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the leading maternal and postpartum wellness clinic in Sushant Golf City and Lucknow, Lucknow, we treat breastfeeding as a learned skill that requires patience and specialist guidance. Dr. Shamim Sultana Yashine provides compassionate, hands-on corrective latch coaching, helping mothers overcome physical discomfort and nurse with complete confidence.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we understand that nursing is a learned biological skill. We support new mothers across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with personalized clinical coaching.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that you receive direct, personal, and supportive medical guidance at every visit. We coordinate all lactation sessions strictly by prior appointment during dedicated hours, maintaining a quiet, highly sterilized environment that eliminates anxiety and public waiting room stress for you and your newborn.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path offers a calm, highly sterilized environment where you and your baby can receive gentle, unhurried guidance in complete privacy.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -487,7 +504,7 @@ export default function LactationalCounsellingPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Lactational Counselling?
+                  Why Mothers Choose June Women&apos;s Health for Lactation Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -496,29 +513,29 @@ export default function LactationalCounsellingPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Empathetic, Postpartum-Focused Consultation</strong>
-                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine communicates in a warm, reassuring style, addressing postpartum physical vulnerabilities and anxiety with ultimate patient care.</span>
+                      <strong className="block text-[16px] text-white">Empathetic, Postpartum-Focused Guidance</strong>
+                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine provides warm, non-judgmental latch coaching that respects postpartum emotional vulnerability and builds feeding confidence.</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
+                    <div>
+                      <strong className="block text-[16px] text-white">Hands-On Ergonomic Latch Coaching</strong>
+                      <span className="text-white/80 text-[14px]">We directly observe feeding sessions and guide you through real-time head, neck, and body adjustments to make every feeding session completely pain-free.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
                       <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Schedule</strong>
-                      <span className="text-white/80 text-[14px]">We coordinate all lactation checkups strictly by prior appointment during dedicated timings. This prevents waiting room crowding and ensures a calm, sterilized space.</span>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
-                    <div>
-                      <strong className="block text-[16px] text-white">Direct Specialist Attention</strong>
-                      <span className="text-white/80 text-[14px]">You consult Dr. Shamim Sultana Yashine personally at every session. Sensitive details about lactation, infection symptoms, or breast pain are discussed in a strictly private space.</span>
+                      <span className="text-white/80 text-[14px]">Consultations operate strictly by appointment during dedicated shifts, providing a clean, sterilized environment with zero waiting room congestion for newborns.</span>
                     </div>
                   </li>
                 </ul>
@@ -529,7 +546,7 @@ export default function LactationalCounsellingPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

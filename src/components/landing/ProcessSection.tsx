@@ -37,7 +37,7 @@ export const ProcessSection = () => {
                 Schedule a Consultation
               </h4>
               <p className="text-[14px] text-white/80 leading-relaxed">
-                Book an appointment online or by phone to meet with our fertility specialists
+                Book an appointment to consult Dr. Shamim Sultana Yashine in Sushant Golf City, Lucknow.
               </p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export const ProcessSection = () => {
                 Personalized Treatment Plan
               </h4>
               <p className="text-[14px] text-white/80 leading-relaxed">
-                Based on your diagnosis, we design a custom fertility treatment plan tailored
+                Based on your clinical exam and diagnostic findings, we design a tailored treatment roadmap.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export const ProcessSection = () => {
                 Begin Treatment With Care
               </h4>
               <p className="text-[14px] text-white/80 leading-relaxed">
-                From IVF to IUI or other options, we initiate treatment with full support,
+                From normal delivery care to laparoscopy or fertility, we initiate treatment with dedicated support.
               </p>
             </div>
           </div>
@@ -97,23 +97,23 @@ export const ProcessSection = () => {
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
             <span className="text-[13px] font-bold tracking-[0.15em] text-accent uppercase">
-              HOW IT WORK
+              HOW IT WORKS
             </span>
           </div>
 
           {/* Heading */}
           <h2 className="text-[32px] md:text-[46px] font-bold text-primary leading-[1.2] tracking-tight -mt-2 animate-fade-in-up">
-            From consultation to care, every step explained
+            From consultation to recovery, every step guided
           </h2>
 
           {/* Bold Intro Paragraph */}
           <p className="text-[16px] md:text-[17px] font-bold text-primary leading-[1.65em] animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            Starting your healthcare journey with June Women's Health is simple, transparent, and fully guided by experts. We make sure every step is clear and supportive – so you can focus on what matters.
+            Starting your healthcare journey with June Women&apos;s Health is simple, transparent, and fully guided by Dr. Shamim Sultana Yashine. We make sure every diagnostic finding and care phase is crystal clear.
           </p>
 
           {/* Detailed Paragraph */}
           <p className="text-[16px] text-text leading-[1.65em] animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            we believe in making your fertility journey as simple and stress-free as possible. Our step-by-step process is designed to give you clarity, confidence, and expert care at every stage – from your first consultation to the final step of treatment.
+            We believe in making your maternal and gynecological care as reassuring and stress-free as possible. Our structured, patient-first process gives you confidence, comfort, and direct senior consultant access at every appointment.
           </p>
 
           {/* Bottom Stats Grid */}

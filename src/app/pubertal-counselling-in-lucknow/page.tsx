@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Pubertal Counselling & Adolescent Health in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Help your daughter navigate puberty with confidence. Gentle menstrual advice, hormonal wellness, and pubertal counselling under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Pubertal Counselling Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Empower your daughter through puberty with gentle menstrual advice, teen PCOS guidance, and pubertal counselling by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/pubertal-counselling-in-lucknow/',
   }
@@ -34,64 +34,64 @@ export default function PubertalCounsellingPage() {
 
   const adolescentWellnessAreas = [
     { 
-      title: "Menarche Education & Period Prep", 
-      description: "Explaining the menstrual cycle using interactive models, teaching correct usage and disposal of sanitary hygiene products, and tracking periods to eliminate fear.", 
+      title: "Menarche Biology & Period Confidence", 
+      description: "Explaining menstrual physiology through simple anatomical diagrams, teaching sanitary product usage and disposal, and demystifying period myths.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Menstrual Irregularity & PCOS Care", 
-      description: "Evaluating early indicators of hormonal imbalances, adolescent PCOS, or thyroid disorders that cause irregular periods, excessive cramping, or heavy flows.", 
+      title: "Adolescent PCOS & Hormonal Evaluation", 
+      description: "Evaluating early signs of endocrine imbalances, teen polycystic ovaries, thyroid variations, and irregular or debilitating menstrual cycles.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Acne & Teen Weight Management", 
-      description: "Addressing metabolic changes during puberty, managing hormonal acne outbreaks, and offering customized nutritional counseling for healthy weight maintenance.", 
+      title: "Hormonal Acne & Metabolic Nutrition", 
+      description: "Guiding teenagers through pubertal metabolic shifts, androgen-related skin breakouts, and establishing balanced, low-glycemic dietary habits.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Emotional Wellness & Body Image", 
-      description: "Providing supportive, non-judgmental counseling to help adolescent girls manage sudden mood fluctuations, peer stress, and build positive body image confidence.", 
+      title: "Emotional Wellness & Body Positivity", 
+      description: "Providing a compassionate, non-judgmental counseling space to help young girls navigate hormonal mood swings, peer stress, and build body confidence.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const parentGuidelines = [
     { 
-      title: "Fear-Free Preparation", 
-      description: "Initiating open, positive discussions about physical changes and menstruation before they occur, framing menarche as a healthy, proud milestone of growing up.", 
+      title: "Positive & Proactive Dialogues", 
+      description: "Initiating open, encouraging conversations about bodily transitions well before first menstruation, framing menarche as a proud developmental milestone.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Sanitary Kit & Tracking", 
-      description: "Helping your daughter assemble a portable period hygiene kit and showing her how to utilize mobile apps or calendars to track cycle lengths and dates.", 
+      title: "Period Hygiene Essentials & Tracking", 
+      description: "Assembling a discreet school hygiene kit (pads, wipes, spare underwear) and guiding daughters to track cycle intervals using a private diary or mobile app.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "HPV Vaccination Planning", 
-      description: "Scheduling the cervical cancer vaccine (HPV vaccine) during early adolescence (recommended starting age 9 to 14) for optimal, life-long cervical immunity.", 
+      title: "Adolescent HPV Vaccination", 
+      description: "Scheduling the cervical cancer HPV vaccine between ages 9 and 14 to provide maximum, lifelong antibody protection against oncogenic HPV strains.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const journeySteps = [
     {
-      title: 'Step 1: Warm Trust Building',
-      description: 'A relaxed, conversational meeting with Dr. Shamim Sultana Yashine. We focus entirely on making the young girl feel comfortable, safe, respected, and heard.',
+      title: 'Step 1: Relaxed & Friendly Rapport Building',
+      description: 'An unhurried, conversational meeting with Dr. Shamim Sultana Yashine focused on helping the young girl feel completely safe, heard, and respected.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Interactive Pubertal Education',
-      description: 'Explaining reproductive anatomy, hormonal cycles, and bodily transitions using simple, friendly, and scientific educational models.',
+      title: 'Step 2: Interactive Anatomical Education',
+      description: 'Demystifying the reproductive cycle, hormonal rhythms, and physical transitions using friendly, scientific, and age-appropriate illustrations.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Gentle Development Check',
-      description: 'Conducting non-invasive height, weight, and general growth chart checks. We do not perform internal pelvic exams unless medically necessary.',
+      title: 'Step 3: Non-Invasive Growth & Vitals Review',
+      description: 'Checking height, weight, BMI percentile, and thyroid health without invasive pelvic exams unless specifically indicated.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Empowered Self-Care Blueprint',
-      description: 'Providing practical tips for tracking periods, managing pelvic cramps safely, maintaining sanitary hygiene, and maintaining a balanced, iron-rich diet.',
+      title: 'Step 4: Empowered Self-Care & Cramp Relief',
+      description: 'Creating practical strategies for natural cramp relief, iron-rich nutrition, safe exercise during periods, and personal hygiene.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
@@ -101,56 +101,73 @@ export default function PubertalCounsellingPage() {
       title: "Normal Pubertal Milestones",
       theme: "secondary",
       items: [
-        { feature: "First Period (Menarche)", isAvailable: "Usually begins naturally between ages 10 and 15." },
-        { feature: "Cycle Consistency", isAvailable: "Irregular cycles are common for the first 1 to 2 years post-menarche." },
-        { feature: "Skin & Weight", isAvailable: "Mild acne breakouts and normal weight changes due to hormones." },
-        { feature: "Pelvic Sensation", isAvailable: "Mild pelvic cramping manageable with heating pads or basic rest." },
-        { feature: "Emotional Vibe", isAvailable: "Manageable mood shifts as the teen adapts to new hormonal levels." }
+        { feature: "First Period (Menarche)", isAvailable: "Begins naturally between the ages of 10 and 15 years." },
+        { feature: "Cycle Regularity", isAvailable: "Mild cycle irregularities are expected during the first 1-2 years." },
+        { feature: "Skin & Metabolism", isAvailable: "Mild, manageable pubertal acne and healthy bodily curves." },
+        { feature: "Cramp Sensation", isAvailable: "Mild pelvic discomfort easily relieved with heat pads or rest." },
+        { feature: "Emotional Balance", isAvailable: "Normal emotional adjustments as hormones settle into rhythm." }
       ]
     },
     {
-      title: "When to Seek Clinical Help",
+      title: "When to Seek Clinical Evaluation",
       theme: "primary",
       items: [
-        { feature: "First Period (Menarche)", isAvailable: "No menstrual bleeding by age 15, or lack of breast development by age 13." },
-        { feature: "Cycle Consistency", isAvailable: "Cycles consistently under 21 days, over 45 days, or periods lasting >7 days." },
-        { feature: "Skin & Weight", isAvailable: "Severe cystic acne, sudden weight gains, or excess facial/body hair." },
-        { feature: "Pelvic Sensation", isAvailable: "Severe, debilitating pain that causes the student to miss school days." },
-        { feature: "Emotional Vibe", isAvailable: "Severe anxiety, withdrawal, or distressing body dysmorphia." }
+        { feature: "First Period (Menarche)", isAvailable: "No menses by age 15, or lack of secondary breast development by age 13." },
+        { feature: "Cycle Regularity", isAvailable: "Cycles shorter than 21 days, longer than 45 days, or bleeding >7 days." },
+        { feature: "Skin & Metabolism", isAvailable: "Severe cystic acne, sudden unexplained weight gain, or hirsutism." },
+        { feature: "Cramp Sensation", isAvailable: "Debilitating pelvic dysmenorrhea causing school absences or vomiting." },
+        { feature: "Emotional Balance", isAvailable: "Severe depressive episodes, withdrawal, or severe body image distress." }
       ]
     }
   ];
 
   const faqs = [
     {
-      question: 'What is pubertal counselling and why is it important for adolescent girls?',
-      answer: 'Pubertal counselling involves medical, educational, and psychological guidance tailored for girls transitioning through puberty. It helps teenagers understand biological changes, manage hormonal transitions, adopt healthy sanitary habits, and eliminates anxiety or fear surrounding their first period (menarche).'
+      question: 'What is pubertal counselling and why is it beneficial for young girls in Lucknow?',
+      answer: 'Pubertal counselling provides empathetic medical guidance and age-appropriate education for adolescent girls navigating physical and hormonal changes. It removes the fear and stigma surrounding first menstruation (menarche), teaches healthy menstrual hygiene, and diagnoses early hormonal imbalances like adolescent PCOS or thyroid dysfunction early.'
     },
     {
-      question: 'When should a young girl have her first gynaecological consultation?',
-      answer: 'Medical guidelines recommend scheduling the first gynecological consult between ages 13 and 15, or earlier if menstrual problems occur. The first visit is strictly conversational and educational—designed to build trust, check developmental growth, and establish comfort with a specialist.'
+      question: 'At what age should a girl have her first adolescent gynecological consultation?',
+      answer: 'Leading obstetric and gynecological bodies recommend an initial conversational consultation between the ages of 13 and 15, or earlier if unusual pelvic pain or cycle irregularities occur. The initial visit is strictly educational and non-invasive, establishing a trusted doctor-patient relationship.'
     },
     {
-      question: 'What is the actual, genuine cost of pubertal counselling at the clinic?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, we maintain absolute pricing transparency. A private, 45-minute pubertal counseling and adolescent wellness consultation with Dr. Shamim Sultana Yashine is ₹700. If baseline screening laboratory panels (such as thyroid or basic hormone profiles) are required, standard lab costs range from ₹1,500 to ₹3,000.'
+      question: 'What is the consultation fee for pubertal and adolescent counseling at June Women\'s Health?',
+      answer: 'We maintain clear, transparent fees. A dedicated, private 40-minute adolescent pubertal counseling session with Dr. Shamim Sultana Yashine is ₹600. If baseline screening blood tests (such as thyroid assays or hemoglobin profiles) are indicated, standard lab charges range between ₹1,200 and ₹2,500.'
     },
     {
-      question: 'Are irregular periods normal during the first two years after menarche?',
-      answer: 'Yes, it is common for menstrual cycles to be irregular for the first 1 to 2 years following menarche because the body\'s hormonal feedback loop (the HPO axis) is still maturing. However, if periods are missed for more than 3 months, occur more frequently than 21 days, or are accompanied by severe pain, an evaluation is recommended.'
+      question: 'Are irregular menstrual cycles normal during the first two years of menarche?',
+      answer: 'Yes! It is completely normal for periods to be slightly irregular for the first 12 to 24 months after menarche because the hypothalamic-pituitary-ovarian (HPO) axis takes time to mature. However, if cycles are consistently absent for more than 90 days or if periods are excessively heavy, clinical evaluation is advised.'
     },
     {
-      question: 'How does Dr. Shamim Sultana Yashine manage adolescent PCOS or hormonal acne?',
-      answer: 'Dr. Shamim Sultana Yashine diagnoses teen PCOS through careful symptom analysis, growth tracking, and simple blood panels. We prioritize gentle, non-medicinal management first, including detailed insulin-sensitizing dietary guides, weight control programs, and targeted pelvic exercise schedules to restore hormonal balance naturally.'
+      question: 'How does Dr. Shamim Sultana Yashine evaluate and manage teen PCOS or severe acne?',
+      answer: 'We assess adolescent PCOS using gentle symptom reviews, growth percentiles, and minimal non-invasive blood panels. Management emphasizes lifestyle medicine first—including insulin-sensitizing Indian meal plans, physical exercise, and stress reduction—to restore hormonal balance naturally without heavy medications.'
     },
     {
-      question: 'Can I schedule walk-in checkups for my daughter, and is the clinic open 24/7?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening timings. This ensures adolescent patients receive a quiet, stress-free, and private environment without crowded waiting rooms. We are not a 24/7 walk-in clinic. You can contact us directly to book your daughter\'s session.'
+      question: 'How are adolescent consultations scheduled at the Sushant Golf City clinic?',
+      answer: 'All adolescent wellness consultations operate strictly by prior appointment during dedicated morning and evening hours. This guarantees a quiet, highly sterilized, and relaxed clinical atmosphere with zero crowded waiting room stress for young patients.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Pubertal Counselling" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Pubertal Counselling? (Cream bg) === */}
@@ -162,25 +179,25 @@ export default function PubertalCounsellingPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/pubertal-counselling-overview.webp" 
-                  alt="Educational adolescent growth materials and biological endocrine charts on a clinical table" 
+                  alt="Educational adolescent growth materials and biological endocrine charts on a clinical table in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Pubertal Counselling?" 
+                text="What is Comprehensive Pubertal Counselling?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Pubertal Counselling</strong> is a specialized, supportive branch of adolescent gynaecology focused on guiding young girls through the physical, hormonal, and emotional transitions of puberty. It demystifies the biological process of menstruation, addresses common early gynaecological concerns (like irregular periods, severe cramping, or acne), and empowers teenagers with positive habits for long-term health.
+                  <strong>Pubertal Counselling</strong> is a specialized, supportive discipline within adolescent gynecology dedicated to guiding young girls through the physical, hormonal, and psychological transitions of puberty. It demystifies the biological events of menstruation, alleviates period anxiety, and addresses early gynecological issues like irregular cycles, dysmenorrhea, and teen acne in a gentle manner.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the premier center for teen health and gynaecological care in Sushant Golf City and Lucknow, Lucknow, we provide a warm, welcoming, and strictly confidential space for adolescent girls. Dr. Shamim Sultana Yashine acts as a gentle, encouraging mentor, explaining bodily changes using simple, interactive models and checking developmental milestones.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide a warm, empathetic, and confidential environment for young teenagers and their mothers. Serving families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we build positive body confidence and lifelong menstrual hygiene awareness.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that your daughter receives consistent, personal, and supportive medical guidance at every visit. We coordinate all adolescent wellness checkups strictly by prior appointment during dedicated hours, maintaining a quiet, highly sterilized environment that eliminates anxiety and waiting room stress.
+                  In our quiet, private clinic near Lulu Mall on Shaheed Path, Dr. Shamim Sultana Yashine personally conducts every adolescent consultation, ensuring a friendly, unhurried session that eliminates clinical fear and builds lasting health confidence.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -487,7 +504,7 @@ export default function PubertalCounsellingPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Pubertal Counselling?
+                  Why Families Choose June Women&apos;s Health for Adolescent Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -496,29 +513,29 @@ export default function PubertalCounsellingPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Mentor-Like, Friendly Consultation Style</strong>
-                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine communicates in an encouraging, warm manner that immediately diffuses adolescent anxiety, framing health discussions positively.</span>
+                      <strong className="block text-[16px] text-white">Empathetic, Mentor-Style Approach</strong>
+                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine connects warmly with adolescent patients, turning nervous hospital visits into comforting educational conversations.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Booking</strong>
-                      <span className="text-white/80 text-[14px]">We maintain a private clinic structure. All sessions are booked by prior appointment during dedicated hours, preventing waiting room crowds and securing patient privacy.</span>
+                      <strong className="block text-[16px] text-white">Non-Invasive Lifestyle Medicine First</strong>
+                      <span className="text-white/80 text-[14px]">We prioritize nutrition, stress management, and natural cycle regulation for teen PCOS and acne rather than relying on heavy medications.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Focus on Non-Invasive Lifestyle Medicine</strong>
-                      <span className="text-white/80 text-[14px]">We prioritize metabolic health, insulin resistance control, and menstrual regulation through dietary education and pelvic exercise before advising medicinal therapies.</span>
+                      <strong className="block text-[16px] text-white">Private Appointments in Sushant Golf City</strong>
+                      <span className="text-white/80 text-[14px]">Scheduled consultation slots ensure zero lobby crowds, complete confidentiality, and an unhurried clinical environment for teens.</span>
                     </div>
                   </li>
                 </ul>
@@ -529,7 +546,7 @@ export default function PubertalCounsellingPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

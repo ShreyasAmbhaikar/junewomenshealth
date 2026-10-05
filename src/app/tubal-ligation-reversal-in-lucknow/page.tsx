@@ -19,8 +19,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Tubal Ligation & Reversal in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get laparoscopic tubal ligation (tubectomy) or microsurgical tubal reversal under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Meticulous reconstructive care. Book today.",
+  title: "Best Tubal Ligation & Reversal Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Laparoscopic tubal ligation (tubectomy) & microsurgical tubal reversal under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book a consult.",
   alternates: {
     canonical: '/tubal-ligation-reversal-in-lucknow/',
   }
@@ -35,98 +35,115 @@ export default function TubalLigationPage() {
 
   const reversalFactors = [
     { 
-      title: "Original Sterilization Method", 
-      description: "Tubes blocked with medical clips or rings suffer the least damage and are easiest to reverse. Tubes closed using electrocautery (burning) have lower success rates.", 
+      title: "Sterilization Technique Used", 
+      description: "Tubes occluded with mechanical Hulka clips or Falope rings have minimal tissue destruction and yield the highest re-canalization success compared to extensive bipolar electrocautery.", 
       icon: <Scissors className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Remaining Tube Length", 
-      description: "For a successful microsurgical re-anastomosis, at least 4 cm of healthy, vascularized fallopian tube must remain on both sides to facilitate egg transport.", 
+      title: "Healthy Tubal Length (>4cm)", 
+      description: "Successful natural conception requires at least 4 to 5 cm of functional, vascularized fallopian tube with an intact fimbrial end to capture ovulated eggs from the ovary.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Maternal Age & Ovarian Reserve", 
-      description: "Maternal age directly dictates egg quality. Reversal outcomes are highest in women under 35 with confirmed normal reserves (AMH) and ovulation.", 
+      title: "Ovarian Reserve & Maternal Age", 
+      description: "Evaluating serum Anti-Müllerian Hormone (AMH) and antral follicle counts to confirm robust ovulatory reserve, with optimal reversal outcomes achieved in women under 38.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Partner's Semen Parameters", 
-      description: "Prior to undertaking a reversal, a complete semen analysis for the partner is mandatory to ensure natural conception is biologically feasible.", 
+      title: "Paternal Semen Parameters", 
+      description: "Conducting an updated semen analysis for the partner to ensure adequate sperm count and progressive motility before proceeding with surgical reconstruction.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepGuidelines = [
     { 
-      title: "Microsurgical Diagnostic Audit", 
-      description: "Retrieving previous surgery records and conducting a hysterosalpingogram (HSG dye test) to measure remaining tube segments and verify uterine health.", 
+      title: "Operative Record & HSG Audit", 
+      description: "Reviewing previous surgical discharge summaries and performing hysterosalpingography (HSG dye test) to measure proximal tubal stumps and cavity contour.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Sterilized Anesthesia Mapping", 
-      description: "Reversals require microsurgery under general anesthesia. Pre-anesthetic checkups (blood profiles, ECG, chest X-rays) are completed for physical fitness.", 
+      title: "Pre-Anesthesia Fitness Clearance", 
+      description: "Microsurgical tubal re-anastomosis is performed under general anesthesia. Pre-op blood counts, coagulation screens, ECG, and chest radiography ensure total safety.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Uterine Healing & Recovery Plan", 
-      description: "Following post-operative instructions: resting for 7-14 days at home, avoiding lifting objects, and maintaining clean, dry dressings over the mini-laparotomy cut.", 
+      title: "Convalescence & Rest Protocol", 
+      description: "Planning for 7 to 10 days of home rest, keeping the mini-laparotomy bikini incision clean and dry, and avoiding strenuous core exercise or heavy lifting for 3 weeks.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const processTimeline = [
     {
-      title: 'Step 1: Diagnostic Workup & Reversal Candidate Check',
-      description: 'Reviewing past surgical notes, performing transvaginal ultrasounds, testing ovulation AMH levels, and conducting semen assays for the partner.',
+      title: 'Step 1: Comprehensive Reversal Feasibility Assessment',
+      description: 'Dr. Shamim Sultana Yashine reviews past sterilization documents, performs pelvic sonography, tests maternal AMH, and verifies partner semen health.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Anesthesia & Mini-Laparotomy Access',
-      description: 'Under general anesthesia in a highly sterilized hospital environment, a small horizontal mini-laparotomy incision is made just above the pubic hairline.',
+      title: 'Step 2: General Anesthesia & Mini-Laparotomy Access',
+      description: 'Under general anesthesia, a discreet 4cm to 5cm cosmetic transverse mini-laparotomy incision is placed low along the pubic hairline.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Microsurgical Re-anastomosis',
-      description: 'Using high-magnification surgical scopes and ultra-fine sutures, Dr. Shamim Sultana Yashine carefully dissects scar tissue and re-aligns the inner layers of the fallopian tubes.',
+      title: 'Step 3: High-Magnification Microsurgical Re-Anastomosis',
+      description: 'Under microscopic magnification, scarred tubal ends are excised, the inner lumens are re-approximated, and delicate 8-0/9-0 sutures restore tubal continuity.',
       icon: <Scissors className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Dye Patency Verification & Closure',
-      description: 'A blue dye is flushed through the fallopian tubes (chromotubation) to confirm they are open and leak-free, followed by precise layer-by-layer closure.',
+      title: 'Step 4: Intraoperative Chromopertubation & Closure',
+      description: 'Dilute methylene blue dye is injected transcervically to visually verify bilateral tubal patency and watertight lumen repair before cosmetic sub-cuticular closure.',
       icon: <ShieldCheck className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What is tubal ligation and is it permanently effective?',
-      answer: 'Tubal ligation (female sterilization or tubectomy) is a permanent contraception method where the fallopian tubes are clipped, tied, cut, or sealed. This blocks the egg\'s pathway, boasting an effectiveness rating exceeding 99% against future pregnancies.'
+      question: 'What is the difference between tubal ligation and tubal reversal?',
+      answer: 'Tubal ligation (female sterilization or tubectomy) is a permanent birth control procedure where the fallopian tubes are clipped, tied, or sealed to prevent sperm from meeting the egg. Tubal ligation reversal (microsurgical tubal re-anastomosis) is a delicate reconstructive microsurgery that removes scar tissue, unblocks the remaining tube segments, and reconnects them to restore natural fertility.'
     },
     {
-      question: 'How is a laparoscopic tubal ligation performed?',
-      answer: 'Laparoscopic tubal ligation is a quick day-care procedure. Under general anesthesia, a small incision is made near the navel. A laparoscope is inserted, and the fallopian tubes are closed using medical clips, bands, or by cutting and tying them.'
+      question: 'What are the realistic pregnancy success rates after tubal ligation reversal in Lucknow?',
+      answer: 'Pregnancy success rates after microsurgical tubal reversal typically range between 50% and 75%. The highest success is seen in women under 35 with at least 4cm of remaining healthy tubal length and healthy partner semen parameters. Many couples successfully conceive naturally within 6 to 12 months following surgery.'
     },
     {
-      question: 'What are the pregnancy success rates after a tubal ligation reversal?',
-      answer: 'Pregnancy success rates after tubal reversal (tubal re-anastomosis) range from 40% to 80%. Success depends heavily on the mother\'s age, the remaining length of healthy fallopian tubes, and the sterilization method originally used.'
+      question: 'What is the cost of Laparoscopic Tubectomy and Tubal Reversal at June Women\'s Health?',
+      answer: 'We maintain 100% upfront financial clarity. A laparoscopic daycare tubal ligation ranges from ₹22,000 to ₹38,000. An advanced microsurgical tubal reversal (which requires specialized micro-instruments, high-magnification optics, general anesthesia, and hospital daycare stay) typically ranges from ₹65,000 to ₹1,15,000.'
     },
     {
-      question: 'What is the actual cost of Tubal Ligation and Tubal Reversal in Lucknow?',
-      answer: 'We maintain clear pricing transparency. A laparoscopic daycare tubal ligation (tubectomy) typically ranges from ₹25,000 to ₹40,000. An advanced microsurgical tubal ligation reversal (requiring hospital stay, microsurgical equipment, and general anesthesia) ranges from ₹70,000 to ₹1,20,000 depending on complexity.'
+      question: 'Should I choose Tubal Ligation Reversal or In Vitro Fertilization (IVF)?',
+      answer: 'Both are viable options. Tubal reversal is often preferred for women under 37 with good ovarian reserve who wish to conceive naturally multiple times without repetitive medical cycles. IVF is recommended if the remaining fallopian tube length is under 3cm, if there is severe male subfertility, or if maternal age is above 38 with diminished ovarian reserve.'
     },
     {
-      question: 'How long does recovery take after a ligation or reversal surgery?',
-      answer: 'For laparoscopic ligation, recovery takes 3 to 5 days, and most women return to light work within a week. Reversal surgery is more complex and may require 1 to 2 weeks of recovery time before returning to normal activities.'
+      question: 'What is the recovery period after tubal ligation and reversal surgery?',
+      answer: 'Following a laparoscopic tubectomy, patients walk home the same day and resume light work within 3 to 5 days. For microsurgical reversal via mini-laparotomy, hospital stay is usually 24 hours, with light desk work resuming after 7 to 10 days and full physical activity after 3 to 4 weeks.'
     },
     {
-      question: 'How do I schedule an appointment, and is the clinic open 24/7?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening hours. This is a private, single-doctor clinical setup designed to provide unhurried consultations and maintain a highly sterilized clinical environment, rather than a 24/7 walk-in model. Contact us directly to book a consult.'
+      question: 'How do I schedule a tubal reversal consultation with Dr. Shamim Sultana Yashine?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. Dr. Shamim Sultana Yashine reviews your previous sterilization discharge summary, performs baseline fertility testing, and discusses all natural conception and IVF options transparently.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Tubal Ligation & Reversal" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is Tubal Ligation & Reversal? (Cream bg) === */}
@@ -138,25 +155,25 @@ export default function TubalLigationPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/tubal-ligation-overview.webp" 
-                  alt="Anatomical representation of fallopian tubes ligation and microsurgical reversal" 
+                  alt="Anatomical representation of fallopian tubes ligation and microsurgical reversal in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Tubal Ligation & Reversal?" 
+                text="What is Tubal Ligation &amp; Microsurgical Reversal?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Tubal Ligation (Tubectomy)</strong> is a highly reliable, permanent surgical birth control method for women who decide their families are complete. Conversely, <strong>Tubal Reversal (microsurgical tubal re-anastomosis)</strong> is a delicate reconstructive surgery performed to reconnect blocked fallopian tube segments, helping women restore their natural fertility pathway if they decide they want more children.
+                  <strong>Tubal Ligation (Tubectomy)</strong> is a safe, permanent contraception method chosen by women who have completed their childbearing years. In contrast, <strong>Tubal Ligation Reversal (Microsurgical Tubal Re-anastomosis)</strong> is an intricate reconstructive surgical procedure designed to unblock and re-align previously tied or clipped fallopian tubes, reopening the natural biological pathway to spontaneous conception.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading center for gynecological surgery and family planning in Sushant Golf City and Lucknow, Lucknow, we support women through every reproductive phase. Dr. Shamim Sultana Yashine offers laparoscopic tubal ligation as a quick daycare procedure and performs highly advanced microsurgical tubal reversals to reconstruct fallopian pathways for couples planning a new pregnancy.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide compassionate, evidence-based reproductive surgery. Whether you are seeking a minimally invasive laparoscopic tubal ligation or exploring whether you are a suitable candidate for fallopian tube recanalization, Dr. Shamim Sultana Yashine provides candid clinical assessments.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a busy corporate hospital, your surgical planning and counseling are conducted personally by Dr. Shamim Sultana Yashine. We operate by prior appointments to ensure that every patient receives absolute privacy, meticulous attention, and clinical accuracy in a highly sterilized clinical environment.
+                  Serving families from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path ensures total confidentiality, unhurried evaluations, and state-of-the-art microsurgical hospital care.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -463,7 +480,7 @@ export default function TubalLigationPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Tubal Ligation & Reversal?
+                  Why Women Choose June Women&apos;s Health for Tubal Surgery
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -472,29 +489,29 @@ export default function TubalLigationPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Specialized Microsurgical Reconstructive Skills</strong>
-                      <span className="text-white/80 text-[14px]">Advanced surgical expertise in high-magnification fallopian reconstruction. Dr. Shamim Sultana Yashine conducts micro-suturing layer alignment with extreme clinical accuracy.</span>
+                      <strong className="block text-[16px] text-white">Microsurgical Reconstructive Precision</strong>
+                      <span className="text-white/80 text-[14px]">Advanced surgical expertise in high-magnification fallopian re-anastomosis using ultra-fine micro-sutures to restore natural lumen patency.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Daycare & Advanced Hospital Options</strong>
-                      <span className="text-white/80 text-[14px]">Laparoscopic permanent sterilizations are managed as quick daycare operations. Microsurgical reversals are conducted under strict sterile setups in leading tertiary centers.</span>
+                      <strong className="block text-[16px] text-white">Honest Fertility Feasibility Audits</strong>
+                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine conducts rigorous pre-op HSG and ovarian reserve checks, advising reversal only when natural pregnancy odds are realistically high.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Booking</strong>
-                      <span className="text-white/80 text-[14px]">We maintain a single-doctor clinical setup. We operate strictly by prior appointment during dedicated morning and evening timings, preventing waiting room crowds and securing patient privacy.</span>
+                      <strong className="block text-[16px] text-white">Private Surgical Planning in Sushant Golf City</strong>
+                      <span className="text-white/80 text-[14px]">All consultations are held strictly by prior appointment in our calm, sterilized clinic, with procedures scheduled in premier tertiary hospital theatres.</span>
                     </div>
                   </li>
                 </ul>
@@ -505,7 +522,7 @@ export default function TubalLigationPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

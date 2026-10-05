@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Contraception Advice & Family Planning in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get expert, safe contraception advice and family planning. IUD/Copper T insertion, oral birth control pills, and emergency contraception under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Contraception Advice & Family Planning Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Expert, safe contraception advice & family planning. IUD/Copper T insertion, oral birth control, and counseling under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/contraception-advice-in-lucknow/',
   }
@@ -34,64 +34,64 @@ export default function ContraceptionAdvicePage() {
 
   const contraceptiveServices = [
     { 
-      title: "Daily Oral Contraceptive Pills", 
-      description: "Prescribing modern, low-dose oral contraceptive pills (OCPs) that prevent ovulation, carefully customized to minimize hormonal side effects.", 
+      title: "Customized Oral Contraceptive Regimens", 
+      description: "Prescribing modern, ultralow-dose oral contraceptive pills (OCPs) tailored to regulate menstrual cycles and prevent pregnancy with minimal metabolic side effects.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Long-Acting IUD / Copper T", 
-      description: "High-precision, sterile in-clinic insertion and removal of hormone-free Copper T or advanced hormonal IUDs (Mirena) for long-term birth control.", 
+      title: "Intrauterine Devices (Copper T & Mirena IUD)", 
+      description: "High-precision, sterile in-clinic placement and painless removal of hormone-free Copper T (5/10 yr) and levonorgestrel-releasing Mirena IUDs.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Medium-Term Hormonal Injectables", 
-      description: "Administering quarterly contraceptive injections (such as Depo-Provera) that prevent pregnancy for three months, suitable for busy schedules.", 
+      title: "Quarterly Injectable Contraception", 
+      description: "Administering 3-month progestin depot injections (DMPA) for busy working women and nursing mothers seeking reliable birth control without daily pill compliance.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Emergency Backup Contraception", 
-      description: "Providing timely, professional guidance on morning-after pills or emergency copper IUD insertions within a strict post-intercourse window.", 
+      title: "Emergency Post-Coital Contraception", 
+      description: "Providing confidential, time-critical clinical advice on emergency hormonal contraception and emergency copper IUD insertions within post-intercourse safety windows.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const selectionGuidelines = [
     { 
-      title: "Efficacy Assessment", 
-      description: "Evaluating the pregnancy prevention rate of each method, which ranges from 91% for standard oral pills to over 99.9% for long-acting IUDs.", 
+      title: "Efficacy & Pearl Index Review", 
+      description: "Analyzing actual clinical failure rates, which range from ~91% for typical user oral pills to over 99.8% for sterile intrauterine devices (IUDs).", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Convenience & Lifestyle Audit", 
-      description: "Determining whether you prefer a daily pill routine or a long-term, hassle-free \"fit and forget\" intrauterine device (IUD) to suit your lifestyle.", 
+      title: "Lifestyle Routine & Compliance Audit", 
+      description: "Assessing whether you prefer an active daily pill schedule or a convenient, long-term 'fit-and-forget' intrauterine solution that requires zero daily tracking.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Hormonal Sensitivity Review", 
-      description: "Analyzing whether you have sensitivities to estrogen or progesterone, helping decide if a non-hormonal Copper T or hormone-free option is safest.", 
+      title: "Cardiovascular & Hormonal Screening", 
+      description: "Screening blood pressure, migraine history, hepatic function, and venous thromboembolism risk factors before selecting estrogen-containing options.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const journeySteps = [
     {
-      title: 'Step 1: Comprehensive Health Review',
-      description: 'Reviewing age, blood pressure, BMI, and medical history to screen for risk factors (like migraines or thromboembolism) before prescribing any hormonal methods.',
+      title: 'Step 1: Systemic Medical & History Audit',
+      description: 'A private evaluation with Dr. Shamim Sultana Yashine screening your blood pressure, metabolic profile, and medical history to ensure 100% safety.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Timeline & Family Planning Goals',
-      description: 'Discussing your spacing goals. We determine whether a short-acting daily method or a long-acting reversible contraceptive (LARC) matches your timeline.',
+      title: 'Step 2: Reproductive Spacing & Timeline Goals',
+      description: 'Discussing your family planning timeline to determine whether a temporary short-acting method or a long-acting reversible contraceptive (LARC) is ideal.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Personalized Method Selection',
-      description: 'Dr. Shamim Sultana Yashine explains the pros, cons, and potential side effects of suitable contraceptive methods, empowering you to make an informed selection.',
+      title: 'Step 3: Comparative Contraceptive Counseling',
+      description: 'Dr. Shamim Sultana Yashine explains the mechanisms, advantages, and possible minor adaptations of suitable methods, empowering your autonomous choice.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Safe Sterile Placement / Prescription',
-      description: 'Providing clear instructions and prescriptions for oral methods, or conducting sterile, high-precision IUD insertions in our private clinic room.',
+      title: 'Step 4: Sterile Placement or Precise Prescription',
+      description: 'Providing comprehensive dosage guidelines for oral methods or performing sterile, gentle in-clinic IUD insertion in our modern procedure room.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
@@ -101,56 +101,73 @@ export default function ContraceptionAdvicePage() {
       title: "Daily Oral Contraceptive Pills",
       theme: "secondary",
       items: [
-        { feature: "Daily Routine", isAvailable: "Must be taken at the exact same time every day to maintain efficacy." },
-        { feature: "Protection Span", isAvailable: "Short-term. Normal fertility returns immediately upon discontinuation." },
-        { feature: "Hormonal Profile", isAvailable: "Contains estrogen and progestin, or progestin-only formulations." },
-        { feature: "Non-Contraceptive Perks", isAvailable: "Highly effective at regulating cycles, reducing flow, and clearing acne." },
-        { feature: "Clinical Maintenance", isAvailable: "Requires regular pharmacy refills and self-disciplined tracking." }
+        { feature: "Daily Routine", isAvailable: "Must be ingested at the exact same hour daily to maintain peak hormonal efficacy." },
+        { feature: "Duration of Action", isAvailable: "Short-acting. Natural ovulatory fertility resumes immediately upon stopping." },
+        { feature: "Hormone Composition", isAvailable: "Combined estrogen + progestin, or progestin-only minipills (POPs)." },
+        { feature: "Non-Contraceptive Perks", isAvailable: "Regulates heavy bleeding, reduces dysmenorrhea, and improves hormonal acne." },
+        { feature: "Maintenance", isAvailable: "Requires monthly pharmacy purchases and disciplined personal tracking." }
       ]
     },
     {
       title: "Intrauterine Devices (IUD)",
       theme: "primary",
       items: [
-        { feature: "Daily Routine", isAvailable: "Hassle-free \"fit and forget\" method; zero daily tracking required." },
-        { feature: "Protection Span", isAvailable: "Long-term. Provides continuous protection for 3 to 10 years." },
-        { feature: "Hormonal Profile", isAvailable: "Available as hormonal (Mirena) or entirely hormone-free (Copper T)." },
-        { feature: "Non-Contraceptive Perks", isAvailable: "Hormonal IUDs (Mirena) significantly reduce heavy bleeding and cramping." },
-        { feature: "Clinical Maintenance", isAvailable: "Requires an initial clinic insertion, followed by minor annual checks." }
+        { feature: "Daily Routine", isAvailable: "Hassle-free 'fit-and-forget' protection; zero daily or weekly memory burden." },
+        { feature: "Duration of Action", isAvailable: "Long-term reversible. Provides uninterrupted contraception for 3 to 10 years." },
+        { feature: "Hormone Composition", isAvailable: "Available as hormone-free (Copper T) or localized progestin (Mirena IUD)." },
+        { feature: "Non-Contraceptive Perks", isAvailable: "Hormonal IUDs (Mirena) drastically reduce heavy menorrhagia and period cramps." },
+        { feature: "Maintenance", isAvailable: "Requires a single sterile in-clinic placement, followed by brief annual checks." }
       ]
     }
   ];
 
   const faqs = [
     {
-      question: 'What are the primary contraception options available at the clinic?',
-      answer: 'We provide temporary, short-term birth control options (daily oral pills, barrier methods), medium-term options (quarterly hormonal injections), and long-acting reversible contraceptives (such as Copper T and Mirena IUD insertions). Permanent sterilization (tubal ligation) is coordinated at our affiliated hospitals.'
+      question: 'What birth control and contraception options are available at June Women\'s Health?',
+      answer: 'We provide temporary short-term methods (combined oral contraceptive pills, progestin-only minipills, barrier methods), medium-term methods (3-month injectable progestins), and long-acting reversible contraceptives (Copper T 380A and hormonal Mirena IUDs). We also offer counseling for permanent laparoscopic tubal ligation.'
     },
     {
-      question: 'How does Dr. Shamim Sultana Yashine help determine the best birth control option for my body?',
-      answer: 'Dr. Shamim Sultana Yashine conducts a personalized medical screening checking your age, blood pressure, blood clotting history, cycle regularity, and future family planning timeline. We explain the side effects and match the method that fits your metabolic health and daily routine perfectly.'
+      question: 'How does Dr. Shamim Sultana Yashine help choose the safest contraceptive method?',
+      answer: 'Dr. Shamim Sultana Yashine evaluates your age, blood pressure, BMI, lactation status, medical/clotting history, and future pregnancy timeline. By matching clinical safety guidelines with your lifestyle preference, she helps you select the most convenient and well-tolerated method.'
     },
     {
-      question: 'What is the actual, genuine cost of contraceptive consultations and IUD fittings?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, transparency is paramount. A family planning and contraception consultation is ₹600. A standard Copper-T insertion (including the sterile device, local anesthetic block, and clinical insertion procedure) ranges from ₹2,500 to ₹4,500. Advanced hormonal IUD fittings (such as Mirena for heavy bleeding control) range from ₹6,500 to ₹9,500 depending on the device cost. Quarterly contraceptive injection administration is ₹600 per dose.'
+      question: 'What is the genuine cost of contraception advice and IUD placement in Lucknow?',
+      answer: 'We provide complete pricing transparency. A family planning and contraception consultation with Dr. Shamim Sultana Yashine is ₹600. A standard Copper-T insertion (including sterile device, local analgesic block, and procedure) is ₹2,500 to ₹4,000. Hormonal IUD placement (Mirena) ranges from ₹6,500 to ₹9,500 depending on device cost. Quarterly injectable contraception is ₹600 per dose.'
     },
     {
-      question: 'Are intrauterine devices (IUDs like Copper T) safe and how long do they last?',
-      answer: 'Yes, IUDs are over 99% effective, making them highly secure. Copper T is entirely hormone-free and lasts for 5 or 10 years, whereas Mirena hormonal IUD lasts for 5 years and helps manage heavy menstrual flows. They can be safely removed at our clinic at any time if you decide to plan a pregnancy.'
+      question: 'Are intrauterine devices (Copper T / Mirena) safe and will they cause long-term pain?',
+      answer: 'Yes, modern IUDs are over 99.8% effective and exceptionally safe. Copper T is non-hormonal and lasts 5 to 10 years, while Mirena releases micro-doses of localized progestin to reduce heavy periods. In-clinic insertion takes less than 10 minutes with mild cramping that subsides quickly.'
     },
     {
-      question: 'Will starting hormonal birth control affect my future fertility?',
-      answer: 'No, temporary and long-acting contraceptives do not affect your long-term fertility. Once you stop taking oral birth control pills or have the IUD removed, your natural ovulatory cycles return, and you can plan a healthy pregnancy immediately.'
+      question: 'Will taking birth control pills or using an IUD impact my future chances of pregnancy?',
+      answer: 'No. Reversible contraceptives do not harm your long-term fertility. Once you discontinue oral pills or have your IUD removed at our clinic, your natural menstrual and ovulatory cycles resume, allowing you to conceive normally.'
     },
     {
-      question: 'Can I walk in for emergency contraception advice and is the clinic open 24/7?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening hours to maintain a quiet, highly sterilized environment and protect patient privacy. We do not support 24/7 walk-in queues. Registered patients can contact our clinic coordinator for urgent guidance on emergency pills (morning-after pills) or backup emergency IUD insertion, which must be completed within 72 to 120 hours of unprotected intercourse.'
+      question: 'How do I book a confidential contraception consultation in Sushant Golf City?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. This guarantees complete confidentiality, zero waiting room crowds, and dedicated time with Dr. Shamim Sultana Yashine.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Contraception Advice" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Contraception Advice? (Cream bg) === */}
@@ -162,25 +179,25 @@ export default function ContraceptionAdvicePage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/contraception-overview.webp" 
-                  alt="Contraception methods layout including pills, calendar, and anatomical family planning models" 
+                  alt="Contraception methods layout including pills, calendar, and anatomical family planning models in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Contraception Advice?" 
+                text="What is Contraception Advice &amp; Family Planning?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Contraception Advice & Family Planning</strong> represents the clinical counseling, safety assessment, and medical placement of birth control methods designed to prevent unplanned pregnancies, manage menstrual cycles, and support maternal reproductive recovery. Selecting the correct method—whether temporary pills, injectable hormones, or long-acting reversible IUDs—is key to securing physical health and family-planning autonomy.
+                  <strong>Contraception Advice &amp; Family Planning</strong> delivers clinical guidance, health risk assessment, and precise medical placement of modern birth control methods. Choosing the right contraceptive—whether temporary daily pills, quarterly injections, or long-acting reversible intrauterine devices (IUDs)—empowers women to prevent unintended pregnancies, space births safely, and manage heavy menstrual cycles with autonomy.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the leading center for comprehensive obstetrics, family planning, and hormonal health in Sushant Golf City and Lucknow, Lucknow, we provide strictly confidential, patient-centered contraception advice. Dr. Shamim Sultana Yashine conducts detailed health screenings to rule out contraindications, offering clear explanations to help women select birth control with confidence.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, judgment-free contraception counseling. We serve women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with clinical excellence.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that you receive direct, personal, and supportive medical guidance at every visit. We coordinate all family planning checkups strictly by prior appointment during dedicated hours, maintaining a quiet, highly sterilized environment that eliminates anxiety and public waiting room stress.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain unhurried, comfortable, and strictly confidential, allowing for personalized health screenings and sterile in-clinic procedures.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -487,7 +504,7 @@ export default function ContraceptionAdvicePage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Contraception Advice?
+                  Why Women Choose June Women&apos;s Health for Family Planning
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -496,22 +513,22 @@ export default function ContraceptionAdvicePage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Absolute Confidentiality & Privacy</strong>
+                      <strong className="block text-[16px] text-white">Absolute Confidentiality &amp; Respect</strong>
                       <span className="text-white/80 text-[14px]">We maintain a strictly private, non-judgmental space where family planning goals and contraceptive decisions can be discussed with absolute anonymity.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Certified In-Clinic Fitting Expertise</strong>
-                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine exhibits specialized skills in the sterile, high-precision insertion and removal of long-term reversible contraceptives (Copper T/Mirena).</span>
+                      <strong className="block text-[16px] text-white">Sterile In-Clinic IUD Placement Mastery</strong>
+                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine exhibits specialized skills in the gentle, sterile, and high-precision insertion and removal of Copper T and Mirena IUDs.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
@@ -529,7 +546,7 @@ export default function ContraceptionAdvicePage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

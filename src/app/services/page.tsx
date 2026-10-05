@@ -20,8 +20,8 @@ import {
 import Link from "next/link";
 
 export const metadata = {
-  title: "Obstetrics & Gynecology Services in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Explore expert women's healthcare services at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Led by Dr. Shamim Sultana Yashine (15+ yrs exp; MBBS, DGO, PGDMCH), offering normal delivery, PCOD/PCOS care, high-risk pregnancy management, & IUI/IVF support.",
+  title: "Women's Health & Gynecological Services in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Explore comprehensive obstetric and gynecological treatments at June Women's Health, Sushant Golf City, Lucknow. Led by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon, 10+ yrs exp). Expert care in normal delivery, PCOD, infertility, and laparoscopy.",
   alternates: {
     canonical: "/services/",
   },
@@ -197,7 +197,7 @@ export default function ServicesPage() {
                 Specialized Gynecologist and Obstetric Treatments in Lucknow
               </h2>
               <p className="text-text mt-3 text-[16px]">
-                June Women's Health targets high-standard clinical care for women of all age brackets, specialized around Sushant Golf City, Vrindavan Yojna, Awadh Vihar, Muzaffarnagar Ghusval, and Lucknow.
+                June Women&apos;s Health delivers high-standard, compassionate clinical care for women across all stages of life, serving patients throughout Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Lulu Mall area, Awadh Vihar, and greater Lucknow.
               </p>
             </div>
 

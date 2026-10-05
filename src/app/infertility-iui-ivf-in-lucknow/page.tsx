@@ -27,8 +27,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Infertility, IUI & IVF Treatment in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Overcome infertility with expert IUI, IVF support, and personalized female fertility care by Dr. Shamim Sultana Yashine in Sushant Golf City & Lucknow, Lucknow. Transparent & evidence-based treatment. Book a consult today.",
+  title: "Best Infertility, IUI & IVF Specialist in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Consult Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) for expert IUI, IVF support, and female fertility care in Sushant Golf City, Lucknow. Transparent, ethical & evidence-based treatment.",
   alternates: {
     canonical: '/infertility-iui-ivf-in-lucknow/',
   }
@@ -43,23 +43,23 @@ export default function InfertilityIuiIvfPage() {
 
   const seekTreatmentData = [
     {
-      title: "Irregular or Absent Cycles",
-      description: "Often linked to PCOS/PCOD, irregular periods indicate inconsistent ovulation, making tracking fertile windows difficult without medical support.",
+      title: "Chronic Anovulation & Cycle Irregularity",
+      description: "Infrequent or unpredictable menstruation—commonly driven by PCOS or thyroid disorders—indicating that healthy eggs are not releasing predictably.",
       icon: <Calendar className="w-7 h-7" />
     },
     {
-      title: "Known Gynecological Conditions",
-      description: "Diagnosed issues like severe endometriosis, uterine fibroids, or blocked fallopian tubes directly impede fertilization or embryo implantation.",
+      title: "Pelvic Pathology & Tubal Obstruction",
+      description: "Clinical conditions including deep endometriosis, adenomyosis, submucosal fibroids, or fallopian tube blockage obstructing natural fertilization.",
       icon: <Stethoscope className="w-7 h-7" />
     },
     {
-      title: "Recurrent Pregnancy Loss",
-      description: "Experiencing multiple miscarriages warrants detailed evaluation of hormonal, anatomical, or genetic factors to secure future pregnancies.",
+      title: "Recurrent Implantation Failure & Miscarriages",
+      description: "Undergoing repeated early pregnancy losses requires comprehensive thrombophilia, uterine anatomical, and immunological diagnostic audits.",
       icon: <Heart className="w-7 h-7" />
     },
     {
-      title: "Low Ovarian Reserve & Age",
-      description: "Natural fertility declines with age. Low anti-müllerian hormone (AMH) levels require proactive planning and specialized fertility protocols.",
+      title: "Diminished Ovarian Reserve (Low AMH)",
+      description: "Declining anti-müllerian hormone (AMH) levels or maternal age above 35 requiring accelerated, individualized fertility management protocols.",
       icon: <Activity className="w-7 h-7" />
     }
   ];
@@ -69,30 +69,30 @@ export default function InfertilityIuiIvfPage() {
       title: "Intrauterine Insemination (IUI)",
       theme: "secondary",
       items: [
-        { feature: "Procedure", isAvailable: "Washed sperm is placed directly into the uterus." },
-        { feature: "Invasiveness", isAvailable: "Low; feels similar to a routine Pap smear." },
-        { feature: "Fertilization", isAvailable: "Occurs naturally inside the fallopian tubes." },
-        { feature: "Cost & Time", isAvailable: "Lower cost, shorter cycle duration." },
-        { feature: "Best For", isAvailable: "Mild male factor, unexplained infertility." }
+        { feature: "Core Process", isAvailable: "Processed, motile sperm is placed directly inside the uterine cavity." },
+        { feature: "Invasiveness", isAvailable: "Minimal; performed comfortably in outpatient room with zero sedation." },
+        { feature: "Fertilization", isAvailable: "Occurs naturally within maternal fallopian tubes." },
+        { feature: "Investment & Time", isAvailable: "Highly affordable, completed within a single natural or stimulated cycle." },
+        { feature: "Ideal Candidates", isAvailable: "Mild male factor, hostile cervical mucus, unexplained subfertility, mild PCOS." }
       ]
     },
     {
       title: "In Vitro Fertilization (IVF)",
       theme: "primary",
       items: [
-        { feature: "Procedure", isAvailable: "Eggs are retrieved and fertilized in a lab, then transferred." },
-        { feature: "Invasiveness", isAvailable: "Moderate; requires light sedation for egg retrieval." },
-        { feature: "Fertilization", isAvailable: "Occurs externally in a highly controlled laboratory." },
-        { feature: "Cost & Time", isAvailable: "Higher investment, requires 4-6 weeks per cycle." },
-        { feature: "Best For", isAvailable: "Blocked tubes, severe male factor, advanced age." }
+        { feature: "Core Process", isAvailable: "Oocytes are surgically aspirated, fertilized in lab, and transferred as embryos." },
+        { feature: "Invasiveness", isAvailable: "Moderate; involves short daycare sedation for transvaginal egg retrieval." },
+        { feature: "Fertilization", isAvailable: "Achieved externally inside state-of-the-art embryology incubators." },
+        { feature: "Investment & Time", isAvailable: "Higher financial commitment requiring 4 to 6 weeks per treatment cycle." },
+        { feature: "Ideal Candidates", isAvailable: "Bilateral tubal blockage, severe oligospermia/azoospermia, advanced age." }
       ]
     }
   ];
 
   const servicesStack = [
     {
-      title: "Ovulation Induction",
-      description: "Using safe, oral or injectable fertility medications to stimulate the ovaries to produce healthy mature eggs, combined with ultrasound tracking to identify the exact window of ovulation.",
+      title: "Controlled Ovulation Induction",
+      description: "Administering tailored low-dose oral aromatase inhibitors or gonadotropins to recruit healthy dominant follicles, verified by serial transvaginal ultrasound scans.",
       icon: <Activity className="w-9 h-9 text-[#C0354A]" />,
       iconBg: 'rgba(232, 71, 95, 0.15)',
       bgGradient: 'linear-gradient(135deg, #FDE8EC 0%, #F3E7E9 40%, #E3EEFF 100%)',
@@ -101,7 +101,7 @@ export default function InfertilityIuiIvfPage() {
     },
     {
       title: "Intrauterine Insemination (IUI)",
-      description: "A simple, outpatient procedure where washed, highly concentrated sperm is placed directly inside the uterus around ovulation, bypassing cervical barriers to enhance natural fertilization.",
+      description: "A precision daycare procedure where highly concentrated, washed sperm is deposited directly into the fundus of the uterus at the peak LH surge, boosting fertilization rates.",
       icon: <ShieldCheck className="w-9 h-9 text-[#5C35CC]" />,
       iconBg: 'rgba(124, 77, 255, 0.12)',
       bgGradient: 'linear-gradient(135deg, #EDE7F6 0%, #E0C3FC 40%, #8EC5FC 100%)',
@@ -109,8 +109,8 @@ export default function InfertilityIuiIvfPage() {
       textColor: 'rgba(26, 26, 94, 0.78)'
     },
     {
-      title: "Pre & Post IVF Support",
-      description: "Comprehensive medical preparation before an IVF cycle and supportive monitoring, hormone injections, and early pregnancy care after the embryo transfer to optimize successful implantation.",
+      title: "Comprehensive Pre & Post IVF Support",
+      description: "Optimizing endometrial thickness, hormonal supplementation, and luteal phase support before and after embryo transfer to maximize healthy clinical pregnancy outcomes.",
       icon: <Smile className="w-9 h-9 text-[#2E7D32]" />,
       iconBg: 'rgba(76, 175, 80, 0.15)',
       bgGradient: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 40%, #DCEDC8 100%)',
@@ -121,65 +121,82 @@ export default function InfertilityIuiIvfPage() {
 
   const treatmentJourney = [
     {
-      title: 'Step 1: Comprehensive Diagnostics',
-      description: 'We perform thorough screening including ovarian reserve testing (AMH), semen analysis, and tubal patency tests (HSG) to accurately diagnose fertility barriers.',
+      title: 'Phase 1: Dual Fertility Diagnostic Workup',
+      description: 'Evaluating ovarian reserve (serum AMH, antral follicle count), semen morphology and motility analysis, and verifying tubal patency via hysterosalpingography (HSG) or sonosalpingography.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Ovulation Induction & Stimulation',
-      description: 'Using low-dose hormone stimulation customized to your reserve, we encourage the development of healthy, mature eggs without risking ovarian overstimulation.',
+      title: 'Phase 2: Tailored Ovarian Stimulation',
+      description: 'Prescribing personalized low-dose ovulation induction agents to stimulate 1-2 mature follicles while safeguarding against ovarian hyperstimulation syndrome (OHSS).',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Follicular Study & Monitoring',
-      description: 'Through regular, precise transvaginal ultrasounds, we monitor the growth of follicles to identify the exact window of optimal ovulation.',
+      title: 'Phase 3: Serial Folliculometry (TVS)',
+      description: 'Conducting high-precision transvaginal ultrasound monitoring to measure follicle diameter and endometrial trilaminar pattern to time hCG/rhCG trigger administration.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Controlled Insemination or Support',
-      description: 'We trigger ovulation precisely, executing Intrauterine Insemination (IUI) in our sterile clinic using prepared sperm, or coordinating advanced IVF prep.',
+      title: 'Phase 4: Timed Insemination & Luteal Support',
+      description: 'Performing sterile intrauterine insemination (IUI) 36 hours post-trigger or coordinating advanced IVF transfer protocols supported with evidence-based luteal progesterone.',
       icon: <Heart className="w-5 h-5" />
     }
   ];
 
   const preparationCards = [
-    { title: "Nutrient-Rich Diet", description: "Focus on a balanced, anti-inflammatory diet rich in antioxidants, folic acid, and lean proteins to improve egg and sperm quality.", icon: <Apple className="w-6 h-6 text-accent" /> },
-    { title: "Lifestyle Optimization", description: "Maintain a healthy BMI, engage in gentle exercises like walking, and avoid habits that harm fertility like smoking or excess alcohol.", icon: <Activity className="w-6 h-6 text-accent" /> },
-    { title: "Pre-Conception Vitamins", description: "Take prescribed supplements such as prenatal vitamins, CoQ10, and Vitamin D to optimize your reproductive environment.", icon: <Sparkles className="w-6 h-6 text-accent" /> },
-    { title: "Stress Management", description: "Manage stress through yoga or meditation, as high stress levels can adversely impact reproductive hormones.", icon: <Smile className="w-6 h-6 text-accent" /> },
-    { title: "Open Communication", description: "Discussing your expectations, timelines, and options openly with Dr. Shamim Sultana Yashine helps build trust and reduces anxiety.", icon: <BookOpen className="w-6 h-6 text-accent" /> }
+    { title: "Antioxidant & Nutritional Priming", description: "Consuming a Mediterranean-style fertility diet packed with micronutrients, folate, and lean proteins to elevate oocyte and sperm cellular health.", icon: <Apple className="w-6 h-6 text-accent" /> },
+    { title: "Metabolic & Weight Optimization", description: "Balancing BMI through moderate physical workouts and insulin stabilization to optimize uterine endometrial receptivity.", icon: <Activity className="w-6 h-6 text-accent" /> },
+    { title: "Targeted Preconception Vitamins", description: "Supplementing with active methylfolate, CoQ10, Vitamin D3, and inositol to support mitochondrial vitality in developing gametes.", icon: <Sparkles className="w-6 h-6 text-accent" /> },
+    { title: "Stress & Endocrine Harmony", description: "Lowering systemic cortisol through structured sleep cycles and relaxation techniques to support gonadotropin pulsatility.", icon: <Smile className="w-6 h-6 text-accent" /> },
+    { title: "Transparent Treatment Alignment", description: "Discussing realistic cycle success probabilities, medical steps, and treatment costs with Dr. Shamim Sultana Yashine.", icon: <BookOpen className="w-6 h-6 text-accent" /> }
   ];
 
   const faqs = [
     {
-      question: 'What is the actual cost of IUI and IVF treatments in Lucknow?',
-      answer: 'Fertility treatment costs vary based on individual medical requirements. In Lucknow, a single IUI cycle cost typically ranges from ₹8,500 to ₹25,000, heavily depending on the type of medications required for ovarian stimulation. For IVF, the cost is naturally higher due to advanced embryology lab requirements, generally ranging between ₹1,20,000 and ₹2,00,000 per cycle. At Dr. Shamim Sultana Yashine\'s clinic, we provide a completely transparent breakdown of all diagnostic and support costs during your initial consultation so you can plan your finances without surprises.'
+      question: 'What is the actual cost of IUI and IVF fertility treatments in Lucknow?',
+      answer: 'At June Women\'s Health, we ensure complete cost transparency without hidden expenses. An IUI cycle in Lucknow generally ranges from ₹8,500 to ₹22,000, depending on whether oral medication or injectable gonadotropins are required. IVF cycle costs range from ₹1,20,000 to ₹1,90,000 depending on embryology laboratory procedures (ICSI, blastocyst culture). Dr. Shamim Sultana Yashine explains all diagnostic and procedural costs upfront before commencing treatment.'
     },
     {
-      question: 'Is the IUI procedure painful, and how long does it take?',
-      answer: 'IUI is a simple, outpatient procedure that is virtually painless—most women compare it to the sensation of a routine Pap smear. The actual insemination takes only a few minutes, and you can comfortably resume your normal daily activities almost immediately afterward.'
+      question: 'Is the IUI procedure painful, and what is the recovery period?',
+      answer: 'Intrauterine Insemination (IUI) is virtually painless and feels very similar to a routine cervical pap smear. The sterile catheter insertion takes only 2 to 3 minutes, requires no anesthesia, and allows you to walk out and resume your standard daily schedule immediately.'
     },
     {
-      question: 'What is the success rate of IUI treatment?',
-      answer: 'The success rate of IUI generally hovers around 10% to 20% per cycle. This rate depends heavily on variables such as the woman\'s age, the quality of the sperm, and the underlying cause of infertility. We typically recommend a trial of 3 to 4 IUI cycles before considering more advanced options like IVF.'
+      question: 'What is the realistic success rate of IUI treatment per cycle?',
+      answer: 'IUI success rates range between 12% and 20% per completed cycle, influenced by maternal age, sperm motile fraction, and tubal health. In clinical practice, undergoing a structured series of 3 to 4 IUI cycles yields cumulative pregnancy rates exceeding 40% to 50% before considering advanced IVF.'
     },
     {
-      question: 'How does PCOS affect my chances of getting pregnant?',
-      answer: 'PCOS (Polycystic Ovary Syndrome) causes hormonal imbalances that interrupt regular ovulation, making it harder to time conception. However, it is one of the most highly treatable causes of infertility. With customized lifestyle modifications, ovulation induction, and timed intercourse or IUI, the vast majority of women with PCOS successfully conceive.'
+      question: 'Can women with PCOS get pregnant through IUI or natural timed intercourse?',
+      answer: 'Yes! PCOS is one of the most treatable causes of subfertility. Because the primary challenge is anovulation (irregular egg release), gentle medical ovulation induction paired with ultrasound follicle tracking and timed intercourse or IUI leads to successful conception for the vast majority of PCOS patients.'
     },
     {
-      question: 'Do I need to visit an IVF center immediately if I can\'t get pregnant naturally?',
-      answer: 'Not necessarily. Most couples conceive with simpler, much less expensive interventions like lifestyle optimization, ovulation tracking, or IUI. During your detailed assessment, Dr. Shamim Sultana Yashine will evaluate your specific situation and will only recommend IVF if primary treatments are unsuccessful or if specific conditions (like severe bilateral tubal blockage) exist.'
+      question: 'When should a couple escalate from IUI to IVF?',
+      answer: 'We recommend moving to IVF if 3 to 4 well-monitored IUI cycles do not result in pregnancy, or if primary diagnostic evaluations reveal bilateral tubal blockage, severe male factor subfertility (very low sperm count/motility), or advanced maternal age with severely diminished ovarian reserve.'
     },
     {
-      question: 'Do I need to take complete bed rest after an IUI or IVF embryo transfer?',
-      answer: 'No, complete bed rest is a common myth. Strict medical guidelines suggest that routine, light daily activities are perfectly safe and are actually better for promoting healthy pelvic blood circulation. We advise avoiding heavy lifting or strenuous high-impact workouts, but confining yourself to bed does not improve success rates.'
+      question: 'Is complete bed rest necessary after an IUI or embryo transfer?',
+      answer: 'No! Scientific clinical trials have proven that strict bed rest does not improve implantation rates and may actually increase emotional stress and venous thrombosis risk. We recommend continuing light, normal daily routines while avoiding strenuous heavy lifting and high-impact exercises.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Infertility, IUI & IVF Support" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: Overview (Cream bg) === */}
@@ -191,7 +208,7 @@ export default function InfertilityIuiIvfPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[16/9] w-full max-h-[420px] group">
                 <Image 
                   src="/images/iui-vs-ivf.webp" 
-                  alt="IUI vs IVF Medical Diagram - Intrauterine Insemination and In Vitro Fertilization Processes" 
+                  alt="IUI vs IVF Medical Diagram - Intrauterine Insemination and In Vitro Fertilization Processes in Sushant Golf City Lucknow" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   priority
@@ -203,13 +220,13 @@ export default function InfertilityIuiIvfPage() {
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Infertility is generally defined as the inability to conceive naturally after 12 months of regular, unprotected intercourse (or after 6 months if you are over 35). <strong>IUI (Intrauterine Insemination)</strong> and <strong>IVF (In-Vitro Fertilization)</strong> are advanced assisted reproductive technologies designed to help couples overcome these challenges. IUI is a minimally invasive procedure that involves placing washed, highly motile sperm directly into the uterus during ovulation. IVF support involves comprehensive pre-cycle preparation, precise hormonal monitoring, and post-embryo transfer medical care to maximize the chances of a successful implantation.
+                  Infertility is medically defined as the inability to achieve clinical pregnancy after 12 months of consistent, unprotected intercourse (or after 6 months for women aged 35 or older). <strong>Intrauterine Insemination (IUI)</strong> and <strong>In-Vitro Fertilization (IVF)</strong> support are evidence-backed assisted reproductive technologies designed to overcome biological obstacles to conception. While IUI optimizes the natural fertilization journey by placing washed motile sperm directly inside the uterus at peak ovulation, IVF support delivers end-to-end medical preparation, follicular stimulation, and post-transfer luteal care.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading fertility care center in Sushant Golf City and Lucknow, we believe in an empathetic, step-by-step approach to parenthood. We escalate treatments only when medically justified. Our specialized fertility care focuses on advanced diagnostics, ovulation induction, and minimally invasive treatments like IUI. Through routine hormonal monitoring, follicular tracking (TVS), and personalized medical care, we ensure you are physically and emotionally prepared for a positive outcome.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we champion an ethical, stepped-care philosophy. We avoid rushing couples into invasive, expensive procedures, choosing instead to begin with comprehensive diagnostic mapping, ovulation induction, and timed IUI whenever clinically viable.
                 </p>
                 <p>
-                  Whether you are seeking initial evaluations for irregular periods, PCOS management, or looking for a trusted fertility specialist near you for IUI treatment, our evidence-based, compassionate care prioritizes your dream of building a family.
+                  Serving families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private single-doctor clinic near Lulu Mall on Shaheed Path provides compassionate, unhurried consultations and transparent guidance at every step of your fertility journey.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -539,7 +556,7 @@ export default function InfertilityIuiIvfPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Infertility & IVF Support?
+                  Why Couples Choose June Women&apos;s Health for Fertility &amp; IUI Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -548,29 +565,29 @@ export default function InfertilityIuiIvfPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Extensive Experience</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of clinical expertise managing complex female infertility cases, PCOS/PCOD, and guiding highly successful IUI cycles in Sushant Golf City, Lucknow, Lucknow.</span>
+                      <strong className="block text-[16px] text-white">Ethical Stepped-Care Approach</strong>
+                      <span className="text-white/80 text-[14px]">We exhaust gentle ovulation tracking and minimally invasive IUI procedures before considering invasive or costly ART cycles.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Personalized Fertility Care</strong>
-                      <span className="text-white/80 text-[14px]">We provide individualized, one-on-one consultations directly with Dr. Shamim Sultana Yashine. We ensure absolute transparency regarding treatment timelines and genuine costs, offering continuous emotional support without the rushed environment of corporate hospitals.</span>
+                      <strong className="block text-[16px] text-white">Direct Specialist Continuity</strong>
+                      <span className="text-white/80 text-[14px]">Every consultation, diagnostic ultrasound scan, and IUI procedure is personally executed by Dr. Shamim Sultana Yashine.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Patient-Centered Services</strong>
-                      <span className="text-white/80 text-[14px]">Our clinic strictly follows international evidence-based guidelines. We operate on a dedicated schedule to prioritize your time, focusing heavily on minimally invasive treatments before recommending advanced interventions.</span>
+                      <strong className="block text-[16px] text-white">Transparent &amp; Empathetic Guidance</strong>
+                      <span className="text-white/80 text-[14px]">We maintain 100% upfront financial clarity with zero hidden testing costs, offering compassionate support through your conception journey.</span>
                     </div>
                   </li>
                 </ul>
@@ -581,7 +598,7 @@ export default function InfertilityIuiIvfPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

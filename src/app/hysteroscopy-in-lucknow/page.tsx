@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Hysteroscopy Procedures in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get advanced diagnostic & operative hysteroscopy (uterine cavity evaluation) under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Safe, expert care. Book today.",
+  title: "Best Hysteroscopy Procedures Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Advanced diagnostic & operative hysteroscopy (uterine cavity evaluation & polyp removal) under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/hysteroscopy-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function HysteroscopyPage() {
 
   const clinicalIndications = [
     { 
-      title: "Abnormal Uterine Bleeding", 
-      description: "Investigating the root causes of exceptionally heavy periods, irregular intermenstrual spotting, or unexpected postmenopausal bleeding.", 
+      title: "Abnormal Uterine Bleeding (AUB)", 
+      description: "Directly inspecting the endometrial cavity to isolate the anatomical causes of prolonged menorrhagia, irregular intermenstrual bleeding, or postmenopausal spotting.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Infertility & IVF Optimization", 
-      description: "Identifying sub-clinical endometrial barriers to embryo implantation, such as uterine adhesions or chronic endometritis, to improve IVF success.", 
+      title: "Implantation & IVF Optimization", 
+      description: "Screening the endometrial lining for chronic endometritis, subtle micro-polyps, or synechiae before embryo transfer to dramatically boost IVF conception rates.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Uterine Polyps & Fibroids", 
-      description: "Direct visualization and guided micro-surgical removal of benign tissue growths within the uterine cavity that cause bleeding or reproductive failure.", 
+      title: "Endometrial Polyps & Submucosal Fibroids", 
+      description: "Visualizing and executing single-session micro-surgical resection (polypectomy/myomectomy) to relieve heavy pelvic pressure and restore normal bleeding patterns.", 
       icon: <Eye className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Uterine Septum & Adhesions", 
-      description: "Correcting congenital uterine septums (tissue dividers) or clearing intrauterine scar tissue (Asherman's Syndrome) that trigger recurrent miscarriages.", 
+      title: "Uterine Septum & Asherman's Syndrome", 
+      description: "Revising congenital uterine septa or dividing dense intra-uterine scar tissue (adhesiolysis) to treat recurrent miscarriages and restore gestational capacity.", 
       icon: <Scissors className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepGuidelines = [
     { 
-      title: "Menstrual Cycle Alignment", 
-      description: "Scheduling the procedure during the first week after your period ends (usually cycle days 5 to 10) when the uterine lining is thinnest, ensuring maximum visual clarity.", 
+      title: "Post-Menstrual Cycle Window", 
+      description: "Scheduling the procedure between cycle days 6 and 10—immediately after period cessation when the endometrium is ultra-thin—maximizing visual diagnostic clarity.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Pre-Procedural Fitness Profile", 
-      description: "Completing basic pelvic ultrasound mapping, blood work, and securing pre-anesthetic clearance if conscious sedation or general anesthesia is planned.", 
+      title: "Pre-Procedural Pelvic Mapping", 
+      description: "Undergoing transvaginal ultrasound imaging (TVS) and baseline complete blood counts to evaluate cavity dimensions before the outpatient procedure.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Strict Fasting & Escort Prep", 
-      description: "Adhering to a strict 6-hour fasting window (no food or water) before sedation. Patients must arrange for a family member to accompany them home.", 
+      title: "Daycare Fasting & Home Escort", 
+      description: "Observing a 6-hour fasting window if conscious sedation is planned, and arranging for a companion to accompany you home following daycare discharge.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const procedureTimeline = [
     {
-      title: 'Step 1: Clinical Check & Diagnostic Workup',
-      description: 'A private consultation with Dr. Shamim Sultana Yashine to review symptoms, conduct a baseline pelvic ultrasound, check menstrual cycle timing, and coordinate scheduling.',
+      title: 'Step 1: Clinical Mapping & Cycle Alignment',
+      description: 'Dr. Shamim Sultana Yashine reviews your bleeding history, conducts high-resolution baseline TVS imaging, and schedules the procedure during optimal endometrial thinning.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Gentle Anesthesia & Sterile Prep',
-      description: 'The procedure is carried out in a highly sterilized operating theatre. Local cervical blocks or gentle intravenous sedation are administered to guarantee patient comfort.',
+      title: 'Step 2: Gentle Paracervical Anesthesia',
+      description: 'Administering localized paracervical nerve blocks or gentle intravenous sedation in a sterile hospital suite to ensure a comfortable, painless experience.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Scope Insertion & Saline Distension',
-      description: 'A micro-thin, lighted hysteroscope is gently guided through the natural canal of the vagina and cervix. Sterile saline fluid is introduced to gently distend the uterine walls.',
+      title: 'Step 3: Micro-Scope Insertion & Saline Distension',
+      description: 'A 2.9mm to 4mm illuminated hysteroscope is guided through the natural cervix. Warm sterile saline gently distends the cavity walls for crystal-clear visualization.',
       icon: <Eye className="w-5 h-5" />
     },
     {
-      title: 'Step 4: HD Monitoring & Target Therapy',
-      description: 'Dr. Shamim Sultana Yashine visualizes the uterine cavity in high-definition on a monitor. For operative procedures, micro-instruments are passed through the scope to address abnormalities on the spot.',
+      title: 'Step 4: HD Cavity Inspection & Target Resection',
+      description: 'Panoramic 4K magnification reveals the uterine cavity in real time. Micro-scissors or miniature electrosurgical loops excise polyps, fibroids, or septa on the spot.',
       icon: <Scissors className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What is a hysteroscopy and when is it clinically necessary?',
-      answer: 'A hysteroscopy is a minimally invasive procedure where a thin, lighted telescope-like camera (hysteroscope) is inserted through the cervix into the uterine cavity. It allows direct visual inspection of the uterus without any incisions. It is clinically necessary to diagnose and treat abnormal uterine bleeding, recurrent miscarriages, uterine polyps, submucosal fibroids, or to optimize the uterine lining before IVF cycles.'
+      question: 'What is a hysteroscopy and when is it clinically indicated?',
+      answer: 'A hysteroscopy is a gold-standard minimally invasive procedure that uses a miniature, lighted camera telescope (hysteroscope) introduced naturally through the cervix into the uterus. Because it uses natural anatomical pathways, there are zero abdominal incisions. It is clinically indicated for investigating abnormal bleeding, recurrent pregnancy loss, removing endometrial polyps or submucosal fibroids, and optimizing uterine receptivity before IVF.'
     },
     {
-      question: 'Is a hysteroscopy procedure painful?',
-      answer: 'Most patients experience minimal discomfort. Diagnostic hysteroscopy is highly tolerable and often performed under a local anesthetic block. Operative hysteroscopy (such as polyp or fibroid removal) is carried out under conscious sedation or general anesthesia, making the entire procedure completely pain-free.'
+      question: 'Is a hysteroscopy procedure painful, and what anesthesia is used?',
+      answer: 'Diagnostic hysteroscopy is very gentle, causing only mild menstrual-like cramp sensations that are easily prevented with a local paracervical block or mild oral pain medication. Operative hysteroscopies (polyp removal, septum resection) are performed under conscious intravenous sedation or light short-acting anesthesia, ensuring you remain completely comfortable and pain-free.'
     },
     {
-      question: 'What is the actual, genuine cost of a hysteroscopy procedure in Lucknow?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, we believe in complete transparency. A diagnostic hysteroscopy ranges from ₹8,000 to ₹15,000. An operative hysteroscopy (including removal of polyps, fibroids, septum resection, or clearing intrauterine adhesions) typically ranges from ₹20,000 to ₹45,000 depending on the complexity of the case, surgical tools used, and anesthesia requirements.'
+      question: 'What is the genuine cost of diagnostic and operative hysteroscopy in Lucknow?',
+      answer: 'At June Women\'s Health, we maintain complete transparency in treatment costs. A diagnostic hysteroscopy ranges from ₹8,500 to ₹14,000. An operative hysteroscopy (including polypectomy, fibroid resection, or septum division) typically ranges from ₹22,000 to ₹42,000 depending on procedural complexity, pathology instrumentation, and anesthesia monitoring.'
     },
     {
-      question: 'What is the recovery time after a hysteroscopy procedure?',
-      answer: 'Hysteroscopy is an outpatient daycare procedure, meaning you can return home the same day. Most patients resume light, normal activities within 24 to 48 hours. Mild pelvic cramping and light spotting are normal for a few days. We advise avoiding vaginal inserts, swimming, and intercourse for 1 to 2 weeks post-procedure to ensure complete healing.'
+      question: 'What is the recovery timeline after an outpatient hysteroscopy?',
+      answer: 'Hysteroscopy is an outpatient daycare procedure. Patients rest in the recovery bay for 1 to 2 hours before walking home the same day. Most women resume light desk work and daily household routines within 24 to 48 hours. Mild spotting or pelvic cramping for 2 to 4 days is normal and subsides rapidly.'
     },
     {
-      question: 'Why is cycle timing important for scheduling a hysteroscopy?',
-      answer: 'A hysteroscopy is ideally scheduled during the first week after your menstrual period ends (typically cycle days 5 to 10). During this window, the endometrial lining is at its thinnest, which provides the clearest view of the uterine cavity and helps identify tiny polyps or structural defects that might otherwise be hidden.'
+      question: 'Why must hysteroscopy be scheduled between cycle days 6 and 10?',
+      answer: 'Scheduling hysteroscopy during the immediate post-menstrual window (days 6 to 10 of your cycle) ensures the endometrial lining is at its thinnest physiological state. This provides panoramic optical clarity, preventing thick tissue from obscuring tiny polyps, adhesions, or vascular anomalies.'
     },
     {
-      question: 'How do I book a session and does the clinic offer emergency 24/7 walk-ins?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic is a dedicated, single-doctor private practice designed to offer highly personalized, unhurried gynecological care. We operate strictly by prior appointment during dedicated morning and evening timings, rather than a 24/7 walk-in system. This prevents lobby crowds and maintains a highly sterilized clinical environment. You can schedule your consultation by calling our clinic line directly.'
+      question: 'How do I schedule a hysteroscopy consultation at June Women\'s Health?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. Dr. Shamim Sultana Yashine personally reviews your ultrasound scans, clarifies treatment indications, and schedules daycare procedures in certified hospital theatres.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Hysteroscopy Procedures" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is Hysteroscopy Procedure? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function HysteroscopyPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/hysteroscopy-overview.webp" 
-                  alt="Detailed medical cross-section illustration of hysteroscopy camera evaluating the uterine cavity" 
+                  alt="Detailed medical cross-section illustration of hysteroscopy camera evaluating the uterine cavity in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Hysteroscopy Procedure?" 
+                text="What are Diagnostic &amp; Operative Hysteroscopy Procedures?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  A <strong>Hysteroscopy</strong> is a highly advanced, minimally invasive gynecological procedure used to diagnose and treat structural abnormalities inside the uterus. By inserting a micro-thin, lighted camera telescope (hysteroscope) through the vagina and cervix, the surgeon gets direct visual access to the uterine cavity on a high-definition monitor. Because it utilizes natural pathways, there are absolutely no abdominal cuts, incisions, or surgical scars.
+                  <strong>Hysteroscopy</strong> is the definitive clinical procedure for direct visual examination and therapeutic treatment of the uterine cavity. Utilizing a micro-thin, high-definition illuminated camera passed gently through the natural cervical opening, it affords gynecologists an unobstructed view of the endometrium, tubal ostia, and endocervical canal without any external incisions or abdominal scars.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the premier center for specialized gynecological care in Sushant Golf City and Lucknow, Lucknow, we utilize hysteroscopy to deliver precise answers for reproductive concerns. Dr. Shamim Sultana Yashine performs both diagnostic hysteroscopy to evaluate uterine health and operative hysteroscopy to address polyps, submucosal fibroids, or structural septums.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we perform advanced hysteroscopic interventions. From diagnostic evaluations for abnormal bleeding to precision operative removal of endometrial polyps, submucous fibroids, and uterine septa, our focus is on anatomical restoration and fertility preservation.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that you receive highly personalized, individual care from diagnosis to recovery. We schedule all consultations strictly by prior appointment during dedicated clinical hours, ensuring a calm, sterile environment, absolute patient confidentiality, and minimal waiting room times.
+                  Serving patients across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, our private clinic near Lulu Mall on Shaheed Path provides thorough pre-procedure evaluations and seamless coordination for daycare hospital procedures.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function HysteroscopyPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Hysteroscopy Procedures?
+                  Why Women Choose June Women&apos;s Health for Hysteroscopy
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,29 +490,29 @@ export default function HysteroscopyPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Focused Single-Doctor Expert Care</strong>
-                      <span className="text-white/80 text-[14px]">You receive undivided, personal attention from Dr. Shamim Sultana Yashine throughout your journey. Your diagnostics and post-procedure counseling are never delegated.</span>
+                      <strong className="block text-[16px] text-white">Direct Senior Gynecologist Care</strong>
+                      <span className="text-white/80 text-[14px]">You consult directly with Dr. Shamim Sultana Yashine for comprehensive endometrial audits, clear ultrasound correlation, and post-procedure counseling.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Strict Prior-Appointment Scheduling</strong>
-                      <span className="text-white/80 text-[14px]">To preserve patient privacy and prevent lobby crowds, we coordinate all checkups strictly by prior appointment during dedicated morning and evening hours.</span>
+                      <strong className="block text-[16px] text-white">High-Definition Micro-Endoscopy</strong>
+                      <span className="text-white/80 text-[14px]">Utilizing modern micro-thin hysteroscopes (2.9mm) and isotonic saline distension for gentle, high-magnification cavity examination with minimal discomfort.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">State-of-the-Art Sterile Equipment</strong>
-                      <span className="text-white/80 text-[14px]">We utilize advanced micro-scopes and sterile diagnostic setups. Operative procedures are conducted at premier tertiary hospitals in Lucknow with certified anesthesiologists.</span>
+                      <strong className="block text-[16px] text-white">Sterile Daycare Scheduling</strong>
+                      <span className="text-white/80 text-[14px]">Operative sessions are scheduled in certified tertiary daycare operating suites in Lucknow, ensuring walk-in, walk-out recovery on the very same day.</span>
                     </div>
                   </li>
                 </ul>
@@ -506,7 +523,7 @@ export default function HysteroscopyPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

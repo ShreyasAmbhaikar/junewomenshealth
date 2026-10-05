@@ -23,8 +23,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "LSCS (Caesarean Section) Specialist in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Expert Caesarean section (LSCS) care, high-risk pregnancy management, and safe sterile delivery planning by June Women's Health in Sushant Golf City & Lucknow, Lucknow.",
+  title: "Best LSCS (Caesarean Section) Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Expert, sterile Caesarean section (LSCS) surgery and high-risk maternity delivery planning by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/lscs-caesarean-section-in-lucknow/',
   }
@@ -39,72 +39,72 @@ export default function LscsCaesareanPage() {
 
   const indicationsData = [
     {
-      title: "Fetal Distress",
-      description: "Changes in the baby's heart rate or oxygen levels during labor may indicate that an immediate, safe delivery is required.",
+      title: "Acute Fetal Distress & Decelerations",
+      description: "Sudden drops in fetal heart rate, abnormal CTG tracings, or meconium aspiration risk necessitating urgent, safe surgical delivery.",
       icon: <Activity className="w-7 h-7" />
     },
     {
-      title: "Breech or Abnormal Position",
-      description: "If the baby is positioned feet-first (breech), sideways (transverse), or in another complex position as your due date approaches.",
+      title: "Malpresentation (Breech or Transverse Lie)",
+      description: "When the fetus is positioned bottom-down (breech) or lying horizontally (transverse), preventing a safe head-first vaginal birth.",
       icon: <Baby className="w-7 h-7" />
     },
     {
-      title: "Previous Caesarean Delivery",
-      description: "Depending on the type of previous uterine scar and your current pregnancy health, a repeat elective C-section may be the safest route.",
+      title: "Repeat Caesarean & Thin Uterine Scars",
+      description: "Evaluating prior lower-segment surgical scar thickness on ultrasound to elect the safest delivery route and avert uterine dehiscence.",
       icon: <ShieldCheck className="w-7 h-7" />
     },
     {
-      title: "Multiple Pregnancies",
-      description: "Mothers carrying twins or higher-order multiples frequently require a Caesarean delivery depending on fetal positions and maternal wellness.",
+      title: "Multiple Gestations (Twins & Triplets)",
+      description: "Safeguarding mother and babies during twin or triplet deliveries, especially when the presenting twin is non-vertex.",
       icon: <HeartPulse className="w-7 h-7" />
     },
     {
-      title: "Placental Complications",
-      description: "Conditions such as placenta previa (placenta covering the cervix) or placental abruption make vaginal delivery unsafe.",
+      title: "Placental Abnormalities (Previa / Abruptio)",
+      description: "Low-lying placenta blocking the cervical os (placenta previa) or premature placental separation requiring planned surgical intervention.",
       icon: <Shield className="w-7 h-7" />
     },
     {
-      title: "Failure to Progress in Labor",
-      description: "When labor stalls and the cervix does not dilate adequately despite strong contractions, a C-section becomes a necessary intervention.",
+      title: "Labor Dystocia & Cephalopelvic Disproportion",
+      description: "When labor fails to progress despite adequate contractions or when fetal head dimensions exceed maternal pelvic capacity (CPD).",
       icon: <Clock className="w-7 h-7" />
     }
   ];
 
   const surgicalTimeline = [
     {
-      title: 'Step 1: Preoperative Preparation',
-      description: 'You will undergo routine wellness assessments, fetal heart rate monitoring, and a thorough anesthesia evaluation to ensure optimal safety before surgery.',
+      title: 'Step 1: Pre-Surgical Optimization & PAC Clearance',
+      description: 'Comprehensive clinical vitals check, fetal CTG tracking, complete blood count cross-matching, and pre-anesthetic consultation for total surgical safety.',
       icon: <ClipboardList className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Administration of Anesthesia',
-      description: 'A specialist anesthetist will typically administer spinal or epidural anesthesia, allowing you to remain awake, comfortable, and pain-free while your lower body is numbed.',
+      title: 'Step 2: Precision Regional Anesthesia',
+      description: 'Administration of targeted spinal or combined spinal-epidural anesthesia, ensuring complete lower-body pain block while the mother stays awake and aware.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Safe Delivery of the Baby',
-      description: 'A carefully planned, small incision is made in the lower abdomen to gently and safely deliver your baby, usually within the first 10-15 minutes of the procedure.',
+      title: 'Step 3: Delicate Lower-Segment Hysterotomy',
+      description: 'A precise, low-transverse bikini incision is created to gently deliver the newborn within minutes, followed by immediate cord clamping and pediatrician evaluation.',
       icon: <Baby className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Closure and Smooth Recovery',
-      description: 'After the baby and placenta are delivered, the incisions are meticulously closed with dissolvable stitches, and you are comfortably transferred to the recovery room for monitoring.',
+      title: 'Step 4: Cosmetic Subcuticular Closure & Golden Hour',
+      description: 'Meticulous anatomical layer-by-layer closure using absorbable sutures to minimize scarring, followed immediately by recovery room skin-to-skin newborn bonding.',
       icon: <Heart className="w-5 h-5" />
     }
   ];
 
   const preparationCards = [
-    { title: "Attend Regular Antenatal Checkups", description: "Routine prenatal appointments allow us to closely monitor your health and your baby’s development right up until the delivery date.", icon: <Stethoscope className="w-6 h-6 text-accent" /> },
-    { title: "Follow Pre-Surgery Instructions", description: "Your obstetrician will provide clear guidelines regarding fasting (usually 8 hours prior), medications, and your hospital admission schedule.", icon: <ClipboardList className="w-6 h-6 text-accent" /> },
-    { title: "Maintain Healthy Nutrition", description: "Eating a balanced, nutrient-rich diet leading up to your surgery supports better energy levels and faster tissue healing postpartum.", icon: <Apple className="w-6 h-6 text-accent" /> },
-    { title: "Pack Your Hospital Bag", description: "Prepare essentials for both mother and baby ahead of time, including comfortable loose clothing, maternity pads, and baby care items.", icon: <Home className="w-6 h-6 text-accent" /> },
-    { title: "Discuss Your Birth Plan", description: "Open communication with your doctor about the procedure, anesthesia options, and early newborn bonding helps you feel empowered and relaxed.", icon: <BookOpen className="w-6 h-6 text-accent" /> }
+    { title: "Structured Antenatal Workup", description: "Regular clinical assessments in Sushant Golf City tracking fetal maturity, placental location, and surgical eligibility.", icon: <Stethoscope className="w-6 h-6 text-accent" /> },
+    { title: "Pre-Operative Fasting Protocols", description: "Strictly adhering to 6 to 8-hour pre-surgery fasting guidelines to prevent anesthesia-related gastric aspiration.", icon: <ClipboardList className="w-6 h-6 text-accent" /> },
+    { title: "Metabolic & Hemoglobin Priming", description: "Optimizing iron reserves and hydration prior to surgery to accelerate postoperative wound healing and stamina.", icon: <Apple className="w-6 h-6 text-accent" /> },
+    { title: "Hospital Bag Organization", description: "Packing essential high-waisted post-surgical apparel, nursing bras, baby essentials, and insurance paperwork.", icon: <Home className="w-6 h-6 text-accent" /> },
+    { title: "Empowered Surgical Birth Plan", description: "Discussing skin-to-skin preferences, companion presence in the recovery suite, and immediate lactation goals.", icon: <BookOpen className="w-6 h-6 text-accent" /> }
   ];
 
   const recoveryCards = [
     {
-      title: "Gentle Incision Healing",
-      description: "Keep the surgical site clean and dry. We will provide detailed postoperative instructions on wound care, pain management, and preventing infections.",
+      title: "Incision Healing & Scar Care",
+      description: "Detailed instructions on keeping the bikini incision dry, recognizing signs of optimal healing, and safe waterproof dressings under Dr. Shamim Sultana Yashine's supervision.",
       icon: <ShieldCheck className="w-9 h-9 text-[#C0354A]" />,
       iconBg: 'rgba(232, 71, 95, 0.15)',
       bgGradient: 'linear-gradient(135deg, #FDE8EC 0%, #F3E7E9 40%, #E3EEFF 100%)',
@@ -112,8 +112,8 @@ export default function LscsCaesareanPage() {
       textColor: 'rgba(74, 21, 75, 0.78)'
     },
     {
-      title: "Breastfeeding Support & Positioning",
-      description: "You can usually begin breastfeeding shortly after delivery in the recovery room. We will guide you on comfortable nursing positions that avoid pressure on your incision.",
+      title: "Ergonomic Post-Surgical Nursing",
+      description: "Coaching on specialized nursing holds—such as the football clutch and side-lying positions—that relieve all direct pressure from your abdominal incision.",
       icon: <Baby className="w-9 h-9 text-[#5C35CC]" />,
       iconBg: 'rgba(124, 77, 255, 0.12)',
       bgGradient: 'linear-gradient(135deg, #EDE7F6 0%, #E0C3FC 40%, #8EC5FC 100%)',
@@ -121,8 +121,8 @@ export default function LscsCaesareanPage() {
       textColor: 'rgba(26, 26, 94, 0.78)'
     },
     {
-      title: "Physical & Emotional Restoration",
-      description: "Adequate rest, gradual walking to prevent blood clots, excellent hydration, and strong emotional support from family are vital for a smooth transition into motherhood.",
+      title: "Gradual Mobility & Core Restoration",
+      description: "Early gentle mobilization within 12-24 hours to stimulate blood circulation and intestinal motility, paired with supportive emotional post-birth care.",
       icon: <Smile className="w-9 h-9 text-[#2E7D32]" />,
       iconBg: 'rgba(76, 175, 80, 0.15)',
       bgGradient: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 40%, #DCEDC8 100%)',
@@ -133,38 +133,55 @@ export default function LscsCaesareanPage() {
 
   const faqs = [
     {
-      question: 'What is the difference between normal delivery and a Caesarean section?',
-      answer: 'A normal delivery occurs naturally through the birth canal, while a Caesarean section is a controlled surgical procedure where the baby is delivered through incisions in the mother\'s abdomen and uterus.'
+      question: 'When is an LSCS (Caesarean Section) clinically necessary?',
+      answer: 'An LSCS is recommended when a vaginal birth poses clinical hazards. Primary indications include fetal distress, breech or transverse presentations, placenta previa, severe maternal preeclampsia, cephalopelvic disproportion (baby too large for pelvis), failure to progress during active labor, or a prior uterine surgery requiring a planned elective delivery.'
     },
     {
-      question: 'Is a Caesarean section safe for me and my baby?',
-      answer: 'Yes. When performed by a highly qualified obstetrician under modern medical supervision, a Caesarean delivery is an extremely safe, life-saving procedure for both mother and child.'
+      question: 'Is a Caesarean section safe for both the mother and the baby?',
+      answer: 'Yes. Conducted by an experienced obstetric surgeon like Dr. Shamim Sultana Yashine in modern sterile operating suites, a Caesarean section is an exceptionally safe and life-saving procedure backed by advanced anesthesia and dedicated neonatal resuscitation teams.'
     },
     {
-      question: 'How long does a Caesarean section surgery take?',
-      answer: 'The actual surgical procedure typically takes only 45 to 60 minutes. Your baby is usually delivered within the first 15 minutes, while the remaining time is dedicated to safely closing the incisions.'
+      question: 'What is the standard surgical duration for an LSCS delivery?',
+      answer: 'The complete surgical procedure typically lasts 40 to 50 minutes. Your baby is gently delivered within the first 10 to 15 minutes, while the remaining time is dedicated to complete placental removal and meticulous anatomical layer closure with minimal scarring.'
     },
     {
-      question: 'How long does recovery take after a C-section?',
-      answer: 'Most mothers require approximately 4 to 6 weeks for significant physical recovery. However, complete internal healing may take a few months depending on individual health factors.'
+      question: 'What is the typical recovery timeline following a Caesarean delivery?',
+      answer: 'Most mothers walk comfortably within 24 hours and are discharged within 3 to 4 days. Full abdominal wall and tissue healing progresses over 4 to 6 weeks, during which heavy weight lifting should be avoided.'
     },
     {
-      question: 'Can I breastfeed immediately after a Caesarean delivery?',
-      answer: 'Absolutely. Most mothers are encouraged to begin skin-to-skin contact and breastfeeding shortly after delivery, with the dedicated support of our nursing team.'
+      question: 'Can I initiate breastfeeding immediately after a C-section?',
+      answer: 'Yes, absolutely! As soon as you enter the recovery suite, our clinical team assists you with comfortable nursing positions like the football hold or side-lying technique to facilitate immediate colostrum bonding without straining your incision.'
     },
     {
-      question: 'How much does a Caesarean section cost in Sushant Golf City?',
-      answer: 'The cost of a C-section in Sushant Golf City typically ranges between ₹70,000 and ₹1,50,000. This depends on the hospital chosen, room category, pregnancy complexity, required investigations, and the duration of your hospital stay.'
+      question: 'What is the estimated cost of an LSCS delivery in Sushant Golf City, Lucknow?',
+      answer: 'The total cost of a Caesarean delivery in Sushant Golf City generally ranges between ₹60,000 and ₹1,20,000 depending on the chosen partner hospital category, room selection (private/deluxe), surgical complexity, anesthesia, and neonatal nursery charges. We provide complete financial estimates during antenatal consultations.'
     },
     {
-      question: 'Is a normal delivery possible after a previous C-section?',
-      answer: 'Yes, many women are excellent candidates for a VBAC (Vaginal Birth After Caesarean). This depends heavily on your medical history, the type of previous uterine scar, and a thorough assessment of your current pregnancy.'
+      question: 'Can I attempt a normal delivery (VBAC) in my next pregnancy after this C-section?',
+      answer: 'Yes! Having one lower segment transverse C-section does not mandate surgical delivery for subsequent pregnancies. Under Dr. Shamim Sultana Yashine\'s evaluation, many mothers safely attempt and succeed at Vaginal Birth After Cesarean (VBAC).'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="LSCS (Caesarean Section)" breadcrumbs={breadcrumbs} bgImage="/images/lscs-header-indian.webp" />
 
         {/* === SECTION 1: Overview (Cream bg) === */}
@@ -176,7 +193,7 @@ export default function LscsCaesareanPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[16/9] w-full max-h-[420px] group">
                 <Image 
                   src="/images/lscs-overview-indian.webp" 
-                  alt="LSCS Caesarean Section Care in Sushant Golf City" 
+                  alt="LSCS Caesarean Section Care and Surgical Maternity in Sushant Golf City Lucknow" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   priority
@@ -188,17 +205,17 @@ export default function LscsCaesareanPage() {
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  LSCS (Lower Segment Caesarean Section), commonly known as a C-section or Caesarean delivery, is a safe surgical procedure used to deliver a baby through a careful incision in the mother's lower abdomen and uterus. It is typically recommended when a normal vaginal delivery poses potential risks to the mother, the baby, or both.
+                  <strong>Lower Segment Caesarean Section (LSCS)</strong>, commonly referred to as a C-section, is an essential surgical obstetric procedure where a newborn is safely delivered through a precise transverse incision made in the mother&apos;s lower abdominal wall and lower uterine segment. It is performed when natural vaginal delivery poses acute maternal or fetal risks.
                 </p>
                 <p>
-                  At June Women's Health, we provide comprehensive pregnancy care, advanced antenatal monitoring, and expert Caesarean section guidance for expectant mothers in Sushant Golf City, Lucknow, and surrounding areas in Lucknow. Our primary goal is to ensure a smooth, stress-free delivery experience while prioritizing the supreme health and safety of both mother and newborn.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we combine advanced surgical precision with deep empathetic care. We support mothers across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow through planned elective and emergency surgical deliveries.
                 </p>
                 <p>
-                  While many women successfully undergo normal deliveries, certain high-risk pregnancy conditions or sudden complications may necessitate a planned or emergency C-section. Through vigilant pregnancy checkups, continuous fetal monitoring, and compassionate obstetric care, we empower mothers to make informed, confident decisions about the safest delivery route.
+                  Whether your procedure is scheduled in advance due to breech presentation, multi-fetal gestation, or prior uterine surgery, or is performed during active labor, Dr. Shamim Sultana Yashine utilizes refined cosmetic suturing techniques to ensure minimal tissue trauma, rapid recovery, and discreet scarring.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
-                Book Your Pregnancy Consultation Today
+                Book a Consultation Today
               </Button>
             </div>
 
@@ -368,7 +385,7 @@ export default function LscsCaesareanPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Caesarean Section Care?
+                  Why Mothers Trust June Women&apos;s Health for Caesarean Section Delivery
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -377,29 +394,29 @@ export default function LscsCaesareanPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Extensive Obstetric Expertise</strong>
-                      <span className="text-white/80 text-[14px]">With over 10+ years of experience, we specialize in managing safe Caesarean deliveries, high-risk pregnancies, and VBAC cases across Sushant Golf City and Lucknow, Lucknow.</span>
+                      <strong className="block text-[16px] text-white">Surgical Precision &amp; Safety</strong>
+                      <span className="text-white/80 text-[14px]">Over 10+ years of surgical expertise ensuring meticulous anatomical lower-segment incisions, minimal blood loss, and discreet cosmetic healing.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Personalized Delivery Planning</strong>
-                      <span className="text-white/80 text-[14px]">Every mother's journey is unique. We provide tailored monitoring, evidence-based recommendations, and customized birth plans focused entirely on maternal and fetal safety.</span>
+                      <strong className="block text-[16px] text-white">Direct Specialist Attention</strong>
+                      <span className="text-white/80 text-[14px]">You consult Dr. Shamim Sultana Yashine personally from pre-operative planning to post-surgical discharge, ensuring total continuity.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Compassionate Maternity Support</strong>
-                      <span className="text-white/80 text-[14px]">From your first ultrasound through the operating room and your postpartum recovery, we provide continuous, empathetic, patient-centered maternity care.</span>
+                      <strong className="block text-[16px] text-white">Modern Hospital Facilities</strong>
+                      <span className="text-white/80 text-[14px]">Surgeries are conducted at premier affiliated tertiary hospitals in Lucknow equipped with advanced operating theaters, Level-III NICU, and adult ICU support.</span>
                     </div>
                   </li>
                 </ul>
@@ -410,7 +427,7 @@ export default function LscsCaesareanPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

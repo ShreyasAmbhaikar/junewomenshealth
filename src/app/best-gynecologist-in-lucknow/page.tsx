@@ -9,14 +9,14 @@ import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { FaqMapSection } from "@/components/landing/FaqMapSection";
 
 export const metadata = {
-  title: "Best Gynecologist in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Consult Dr. Shamim Sultana Yashine (MBBS, DGO, PGDMCH), Senior Consultant Gynecologist with 10+ years experience at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Specializing in normal delivery, pregnancy care, PCOD/PCOS treatment, & IUI/IVF care. Book an appointment today.",
+  title: "Best Gynecologist in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Consult Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) with 10+ years experience at June Women's Health, Felix Square, Sushant Golf City, Lucknow. Specializing in normal delivery, pregnancy care, PCOD/PCOS treatment, & IUI/IVF care. Book an appointment today.",
   alternates: {
     canonical: "/best-gynecologist-in-lucknow/",
   },
 };
 
-export default function GynecologistKeshavNagarPage() {
+export default function GynecologistLandingPage() {
   return (
     <>
       <main>

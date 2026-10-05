@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best MTP, D & E Services (Confidential Abortion) in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Safe, legal, and highly confidential Medical Termination of Pregnancy (MTP) and Dilation & Evacuation (D&E) under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Private gynecological care.",
+  title: "Best Confidential MTP & D&E Services in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Safe, legal, and confidential Medical Termination of Pregnancy (MTP) & D&E under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book today.",
   alternates: {
     canonical: '/mtp-d-e-services-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function MtpDePage() {
 
   const safetyLegalCards = [
     { 
-      title: "Strictly Confidential Care", 
-      description: "We guarantee complete confidentiality. Your identity, medical files, and consultations are protected, providing a safe, private environment for your healthcare decisions.", 
+      title: "100% Confidentiality & Patient Privacy", 
+      description: "We protect your identity and personal medical records with strict doctor-patient confidentiality, offering a non-judgmental, compassionate clinical haven.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Legally Compliant with MTP Act", 
-      description: "All procedures are performed fully in accordance with the Medical Termination of Pregnancy (MTP) Act of India, adhering strictly to legal guidelines and registration.", 
+      title: "Strict Compliance with MTP Act 2021", 
+      description: "All medical consultations and clinical procedures strictly adhere to the statutory guidelines and legal parameters outlined by the Government of India's MTP Act.", 
       icon: <Scale className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "No Over-The-Counter Pills", 
-      description: "Taking unprescribed abortion pills is dangerous. Self-medication can cause life-threatening internal hemorrhage, incomplete expulsions, and severe pelvic infections.", 
+      title: "Zero OTC Self-Medication Dangers", 
+      description: "Unsupervised counter pills risk life-threatening pelvic hemorrhage, septic shock, and incomplete tissue retention that can permanently compromise future fertility.", 
       icon: <AlertTriangle className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Ectopic Pregnancy Verification", 
-      description: "Dr. Shamim Sultana Yashine conducts a pre-procedure ultrasound scan to confirm gestational age and rule out ectopic pregnancy (outside the uterus), ensuring clinical safety.", 
+      title: "Mandatory Ectopic Ultrasound Audit", 
+      description: "Dr. Shamim Sultana Yashine performs an immediate transvaginal ultrasound to verify intrauterine sac location, safely ruling out ruptured ectopic pregnancies.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepGuidelines = [
     { 
-      title: "Diagnostic Screening Profile", 
-      description: "Completing vital blood counts, Rh compatibility checks (essential to prevent future pregnancy complications), and blood glucose profiling to establish safety.", 
+      title: "Diagnostic & Rh Factor Profiling", 
+      description: "Screening complete blood counts, hemoglobin, and Rh blood group (administering Anti-D immunoglobulin if Rh-negative to safeguard future pregnancies).", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Fasting & Sedation Timings", 
-      description: "For minor surgical evacuations, patients must maintain a strict 6-hour fasting window (no food or water) before the scheduled procedure to ensure safe sedation.", 
+      title: "Sedation & Fasting Protocols", 
+      description: "For daycare surgical D&E or suction evacuation, a 6-hour fasting window (no solid food or liquids) is required to ensure safe intravenous sedation.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Prescribed Support Partner", 
-      description: "Although the procedure is outpatient, patients should arrange for a trusted family member or partner to accompany them home after discharge for restful recovery.", 
+      title: "Supportive Companion Discharge", 
+      description: "While procedures are outpatient daycare, arranging for a trusted companion ensures a safe, relaxing, and comfortable journey home after recovery.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const protocolTimeline = [
     {
-      title: 'Step 1: Private Gynaecological Consult',
-      description: 'A quiet, non-judgmental private evaluation with Dr. Shamim Sultana Yashine. We review your medical history and conduct an ultrasound to confirm gestational timeline.',
+      title: 'Step 1: Private Consultation & Ultrasound Mapping',
+      description: 'A confidential, compassionate evaluation with Dr. Shamim Sultana Yashine including pelvic ultrasound to accurately date the pregnancy and confirm intrauterine location.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Custom Method Selection & Consent',
-      description: 'We discuss the safest clinical option (medical pill route or minor surgical D&E) depending on gestational age, followed by signing required legal consent forms.',
+      title: 'Step 2: Clinical Method Selection & Informed Consent',
+      description: 'Selecting either medically supervised pill regimens or minor daycare surgical evacuation (D&E) based on gestation, followed by standard statutory documentation.',
       icon: <Scale className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Safe Sterile Procedure Execution',
-      description: 'Medical termination utilizes precise pill dosing schedules. Surgical evacuations are performed in a highly sterilized clinical environment under gentle local blocks or sedation.',
+      title: 'Step 3: Sterile Daycare Procedure Execution',
+      description: 'Medical regimens are supervised with precise step-by-step guidance. Surgical evacuations are carried out in certified sterile suites under gentle sedation in 10-15 minutes.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Mandatory Follow-up Scan',
-      description: 'A follow-up consultation and pelvic ultrasound check are scheduled exactly 14 days later to confirm the uterus is entirely clear and mending successfully.',
+      title: 'Step 4: 14-Day Ultrasound Clearance Check',
+      description: 'A mandatory follow-up visit and sonography scan 14 days post-procedure to clinically confirm complete uterine clearance and normal endometrial recovery.',
       icon: <CheckCircle className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What are the legal boundaries for pregnancy termination (MTP) in India?',
-      answer: 'Under the Medical Termination of Pregnancy (MTP) Act of India, termination is legally permitted up to 20 weeks under specified physical or emotional criteria under a registered gynecologist\'s guidance. Terminations between 20 and 24 weeks are permitted for specific vulnerable categories under the evaluation of registered medical practitioners.'
+      question: 'What are the legal regulations governing pregnancy termination (MTP) in India?',
+      answer: 'Under the MTP Amendment Act 2021 in India, women can legally seek medical termination of pregnancy up to 20 weeks with the opinion of one registered gynecologist for reasons including contraceptive failure, maternal physical/mental health protection, or fetal abnormalities. Terminations between 20 and 24 weeks are permitted for specific vulnerable categories upon evaluation by two registered medical practitioners.'
     },
     {
-      question: 'What is the main difference between medical abortion (pills) and surgical abortion (D&E)?',
-      answer: 'Medical termination uses prescribed mifepristone and misoprostol tablets to induce uterine contractions, suitable up to 7 weeks of gestation. Surgical termination (Dilation and Evacuation or suction aspiration) is a quick clinical procedure to clear uterine tissues under light sedation, suitable up to 12 weeks of pregnancy.'
+      question: 'What is the difference between Medical Abortion (MTP pills) and Surgical D&E?',
+      answer: 'Medical abortion utilizes prescribed oral medication (mifepristone and misoprostol) to induce natural uterine shedding, recommended strictly up to 7 weeks of gestation under clinical supervision. Surgical abortion (Dilation and Evacuation / Suction Aspiration) is a minor 10-to-15 minute daycare procedure performed under light sedation to evacuate uterine contents safely, suitable up to 12 weeks of pregnancy.'
     },
     {
-      question: 'Why is taking over-the-counter (OTC) abortion pills highly dangerous?',
-      answer: 'Self-medicating with unprescribed pills carries severe risks including incomplete tissue expulsion (which causes severe pelvic infections), unrecognized ectopic rupture (leading to rapid, life-threatening internal bleeding), and massive uncontrolled bleeding without clinical support.'
+      question: 'Why is taking over-the-counter (OTC) abortion pills without a doctor dangerous?',
+      answer: 'Taking OTC abortion pills without a doctor\'s ultrasound and prescription is extremely dangerous. If the pregnancy is ectopic (lodged in the fallopian tube), pills will not terminate it and can cause fatal tubal rupture and internal bleeding. Unsupervised usage also leads to high rates of incomplete abortion, heavy hemorrhaging, and severe pelvic infections that cause tubal scarring and infertility.'
     },
     {
-      question: 'What is the actual cost of MTP and D&E services at Dr. Shamim Sultana Yashine\'s Women\'s Clinic?',
-      answer: 'We maintain clear pricing transparency. A standard pre-MTP diagnostic profile (consultation, pelvic ultrasound, CBC, and Rh typing) ranges from ₹3,500 to ₹5,500. A medical termination (pills route under supervision) ranges from ₹4,500 to ₹7,000. A minor surgical evacuation (D&E/suction under light sedation in a sterile setup) typically ranges from ₹12,000 to ₹22,000 depending on gestation and anesthesia needs.'
+      question: 'What is the genuine cost of MTP and D&E services at June Women\'s Health?',
+      answer: 'We maintain 100% transparent pricing with zero hidden charges. A pre-MTP evaluation (consultation, pelvic ultrasound scan, and basic blood profile) is ₹2,500 to ₹4,000. Supervised Medical MTP (including prescribed medication, support, and follow-up scan) ranges from ₹4,500 to ₹7,500. Daycare surgical evacuation (D&E / Suction under gentle sedation in a certified hospital suite) ranges from ₹14,000 to ₹24,000 depending on gestational duration and clinical requirements.'
     },
     {
-      question: 'How long does a surgical D&E take, and when can I return to normal work?',
-      answer: 'The active surgical evacuation (suction aspiration) takes approximately 10 to 15 minutes. Patients are monitored in a private room for 2 to 3 hours before same-day discharge. Most women return to light office work within 24 to 48 hours, avoiding strenuous activities and insertive vaginal products for 2 weeks.'
+      question: 'What is the recovery time following a surgical D&E or suction evacuation?',
+      answer: 'The surgical evacuation itself takes only 10 to 15 minutes. After resting in our comfortable daycare recovery room for 2 to 3 hours, you can return home. Most women resume desk work and normal routines within 24 to 48 hours. Mild spotting and slight cramping for a few days are normal. Strenuous exercise and intercourse should be avoided for 2 weeks.'
     },
     {
-      question: 'How do I schedule an appointment, and is the clinic open 24/7 for walk-ins?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic is a dedicated, single-doctor private practice designed for individualized, confidential patient care. We operate strictly by prior appointment during dedicated morning and evening timings, rather than a 24/7 emergency walk-in model. This ensures a quiet, highly sterilized clinical environment and zero lobby wait times. You can contact us directly to reserve your slot.'
+      question: 'How do I book a confidential consultation with Dr. Shamim Sultana Yashine?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. This ensures 100% privacy, zero crowded waiting rooms, and unhurried clinical attention. You can schedule your confidential appointment by calling our clinic directly.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="MTP, D & E Services" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is MTP, D & E Services? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function MtpDePage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/mtp-overview.webp" 
-                  alt="Confidential MTP and D&E medical documentation and clinical indicators" 
+                  alt="Confidential MTP and D&E medical documentation and clinical indicators in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is MTP, D & E Services?" 
+                text="What are Medical MTP &amp; D&amp;E Services?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Medical Termination of Pregnancy (MTP) and Dilation & Evacuation (D&E) are safe, legally approved clinical procedures designed to end an unplanned pregnancy or clear retained tissues following an incomplete miscarriage. Undergoing these procedures under registered medical supervision is critical to protecting maternal health safety and preserving future fertility.
+                  <strong>Medical Termination of Pregnancy (MTP)</strong> and <strong>Dilation &amp; Evacuation (D&amp;E)</strong> are safe, medically approved procedures performed to end an unintended pregnancy or complete the management of missed and incomplete miscarriages. Receiving professional clinical care from a registered gynecologist guarantees maternal safety, minimizes complications, and preserves future reproductive health.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading hormonal wellness and gynecological center in Sushant Golf City and Lucknow, Lucknow, we provide strictly confidential, safe, and legally compliant abortion services in accordance with the MTP Act of India. Dr. Shamim Sultana Yashine provides thorough, non-judgmental counseling, sterile procedures, and attentive post-operative support.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide strictly confidential, legally compliant reproductive healthcare under the MTP Act of India. We support women from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with non-judgmental counseling and sterile medical facilities.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a busy corporate hospital, your care is managed personally by Dr. Shamim Sultana Yashine. We operate by prior appointments to ensure that every patient receives absolute privacy, meticulous attention, and clinical accuracy in a highly sterilized clinical environment.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path ensures that your appointments remain private, unhurried, and completely secure from start to post-procedure recovery.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function MtpDePage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for MTP, D & E Services?
+                  Why Women Choose June Women&apos;s Health for MTP &amp; D&amp;E Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,29 +490,29 @@ export default function MtpDePage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Absolute Privacy & Anonymity</strong>
-                      <span className="text-white/80 text-[14px]">We maintain complete confidentiality. All consultations and medical documentation are managed privately by Dr. Shamim Sultana Yashine in a non-judgmental environment.</span>
+                      <strong className="block text-[16px] text-white">Guaranteed Confidentiality &amp; Compassion</strong>
+                      <span className="text-white/80 text-[14px]">You consult directly with Dr. Shamim Sultana Yashine in an empathetic, judgment-free setting where your privacy and records are 100% safeguarded.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">DCGI-Approved Clinical Safety</strong>
-                      <span className="text-white/80 text-[14px]">Utilization of strictly approved, legal medical termination kits and performing surgical aspirations under strict sterility in local tertiary centers.</span>
+                      <strong className="block text-[16px] text-white">Full MTP Act Legal &amp; Medical Safety</strong>
+                      <span className="text-white/80 text-[14px]">All clinical protocols follow the MTP Act of India with DCGI-approved regimens and sterile surgical daycare facilities in accredited tertiary hospitals.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Strict Prior-Appointment Scheduling</strong>
-                      <span className="text-white/80 text-[14px]">We coordinate all consultations strictly by prior appointment during dedicated morning and evening timings, preventing waiting room crowding and securing privacy.</span>
+                      <strong className="block text-[16px] text-white">Private Prior-Appointment Access</strong>
+                      <span className="text-white/80 text-[14px]">Consultations are scheduled strictly by prior appointment in Sushant Golf City, ensuring zero waiting room crowds, prompt entry, and rapid care.</span>
                     </div>
                   </li>
                 </ul>
@@ -506,7 +523,7 @@ export default function MtpDePage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

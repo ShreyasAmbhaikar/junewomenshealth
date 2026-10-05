@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Menstrual Hygiene & Health Clinic in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Learn safe menstrual hygiene, treat abnormal bleeding or severe cramps (dysmenorrhea), and get expert hormonal advice under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Menstrual Hygiene & Period Health Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Evidence-based menstrual hygiene advice, period cramp (dysmenorrhea) relief, and infection prevention under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow.",
   alternates: {
     canonical: '/menstrual-hygiene-in-lucknow/',
   }
@@ -34,123 +34,140 @@ export default function MenstrualHygienePage() {
 
   const menstrualServices = [
     { 
-      title: "Menstrual Hygiene Guidance", 
-      description: "Expert guidance on safely transitioning between sanitary pads, tampons, and reusable medical-grade silicone menstrual cups without risk of irritation.", 
+      title: "Menstrual Product & Hygiene Guidance", 
+      description: "Medical counseling on selecting and safely utilizing sanitary napkins, tampons, or medical-grade silicone menstrual cups without disrupting vaginal microflora.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Dysmenorrhea (Cramp) Investigation", 
-      description: "Investigating severe menstrual pain (dysmenorrhea) to diagnose potential underlying causes such as pelvic inflammatory disease, endometriosis, or uterine fibroids.", 
+      title: "Dysmenorrhea & Period Cramp Care", 
+      description: "Investigating the root causes of incapacitating pelvic cramps to distinguish primary dysmenorrhea from underlying endometriosis, adenomyosis, or pelvic infections.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Abnormal Bleeding Management", 
-      description: "Accurately diagnosing and treating heavy menstrual bleeding (menorrhagia), intermenstrual spotting, or skipped cycles caused by early PCOS or hormonal imbalance.", 
+      title: "Heavy Bleeding & Menorrhagia Therapy", 
+      description: "Evaluating prolonged periods (lasting >7 days) or heavy flooding flows associated with hormonal fluctuations, anovulatory cycles, or early uterine fibroids.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Vaginal & Urinary Infection Care", 
-      description: "Providing quick medical screening and targeted treatments for vaginal candidiasis, bacterial vaginosis, or UTIs resulting from sub-optimal hygiene habits.", 
+      title: "Vaginal Infection & UTI Prevention", 
+      description: "Targeted clinical diagnosis and treatment for recurrent bacterial vaginosis, candidiasis, and urinary tract infections triggered by suboptimal menstrual hygiene habits.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const selfCareGuidelines = [
     { 
-      title: "Hygiene Management Rules", 
-      description: "Changing sanitary pads every 4 to 6 hours (and tampons every 4 hours) to prevent bacterial overgrowth. Reusable cups must be emptied every 8 to 12 hours.", 
+      title: "Safe Absorbent Changing Intervals", 
+      description: "Replacing sanitary pads every 4 to 6 hours and tampons within 4 hours to avoid bacterial accumulation. Emptying and washing silicone cups every 8 to 10 hours.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Intimate Wash Guidelines", 
-      description: "Washing the external vulva with plain warm water only, wiping from front to back to prevent intestinal coliform transfer. Avoid douching or scented products.", 
+      title: "Front-to-Back Intimate Cleansing", 
+      description: "Washing only the external vulva with lukewarm plain water, always wiping from front to back to prevent transferring perianal bacteria into the vaginal vault.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Period Log & Medical Checklist", 
-      description: "Keeping a regular period log tracking cycle dates, flow volume, and cramp severity to help Dr. Shamim Sultana Yashine construct an accurate diagnostic map.", 
+      title: "Menstrual Symptom & Flow Logging", 
+      description: "Maintaining a detailed digital or physical log of cycle intervals, flow heaviness, and cramp intensity to enable accurate clinical pattern evaluation.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const journeySteps = [
     {
-      title: 'Step 1: Detailed Cycle Mapping',
-      description: 'A private consultation with Dr. Shamim Sultana Yashine to review cycle patterns, bleeding duration, flow volumes, and to discuss any specific lifestyle habits or symptoms.',
+      title: 'Step 1: In-Depth Menstrual History Review',
+      description: 'A private discussion with Dr. Shamim Sultana Yashine exploring cycle timing, duration, pain intensity, flow volume, and current hygiene practices.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Pelvic & Physical Assessment',
-      description: 'Conducting a gentle, non-invasive physical evaluation to check for signs of inflammation, pelvic tenderness, or indicator skin lesions.',
+      title: 'Step 2: Gentle Pelvic Examination',
+      description: 'Conducting a gentle, non-invasive pelvic assessment to inspect mucosal health, rule out local vulvovaginitis, and assess pelvic floor comfort.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Laboratory & Ultrasound Profiling',
-      description: 'Performing high-resolution pelvic ultrasounds to check uterine lining health and ordering basic blood work to audit hormone levels and rule out anemia.',
+      title: 'Step 3: Sonography & Hormonal Profiling',
+      description: 'High-resolution pelvic sonography to evaluate endometrial thickness and ovarian follicles, accompanied by blood tests for hemoglobin and thyroid levels.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Customized Therapeutic Plan',
-      description: 'Drafting a personalized recovery blueprint containing dietary changes, non-medicinal pelvic exercises, anti-inflammatory support, or hormonal therapy.',
+      title: 'Step 4: Individualized Management Blueprint',
+      description: 'Formulating a personalized treatment roadmap featuring targeted anti-inflammatories, cycle-regulating medical therapy, and customized hygiene counseling.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const comparisonData: [any, any] = [
     {
-      title: "Normal Menstruation Indicators",
+      title: "Healthy Menstruation Milestones",
       theme: "secondary",
       items: [
-        { feature: "Cycle Duration", isAvailable: "Cycles occurring regularly every 21 to 35 days." },
-        { feature: "Flow Span", isAvailable: "Menstrual bleeding lasts between 3 to 7 days." },
-        { feature: "Cramp Severity", isAvailable: "Mild pelvic pressure that responds well to warmth or rest." },
-        { feature: "Bleeding Volume", isAvailable: "Changing sanitary pads or tampons every 4 to 6 hours." },
-        { feature: "Intermenstrual Spotting", isAvailable: "No unexpected bleeding or spotting between cycle dates." }
+        { feature: "Cycle Rhythm", isAvailable: "Cycles recur reliably every 21 to 35 days." },
+        { feature: "Bleeding Duration", isAvailable: "Menstrual flow lasts between 3 to 7 days." },
+        { feature: "Pain Intensity", isAvailable: "Mild pelvic ache that resolves with rest or heating pads." },
+        { feature: "Product Usage", isAvailable: "Changing sanitary pads or tampons comfortably every 4 to 6 hours." },
+        { feature: "Between-Cycle Spotting", isAvailable: "Clean intervals with zero unexpected bleeding between periods." }
       ]
     },
     {
-      title: "Abnormal Signs (Seek Help)",
+      title: "Clinical Warning Signs (Seek Help)",
       theme: "primary",
       items: [
-        { feature: "Cycle Duration", isAvailable: "Cycles consistently shorter than 21 days or longer than 35 days." },
-        { feature: "Flow Span", isAvailable: "Bleeding consistently lasting longer than 7 days per cycle." },
-        { feature: "Cramp Severity", isAvailable: "Severe, debilitating pain causing school or work absences." },
-        { feature: "Bleeding Volume", isAvailable: "Soaking through pads or tampons every 1 to 2 hours." },
-        { feature: "Intermenstrual Spotting", isAvailable: "Frequent spotting, post-intercourse bleeding, or skipped periods." }
+        { feature: "Cycle Rhythm", isAvailable: "Cycles consistently shorter than 21 days or longer than 35 days." },
+        { feature: "Bleeding Duration", isAvailable: "Bleeding or spotting that continues for more than 7 to 8 days." },
+        { feature: "Pain Intensity", isAvailable: "Debilitating cramps causing absenteeism from school, college, or work." },
+        { feature: "Product Usage", isAvailable: "Soaking through pads or tampons every 1 to 2 hours or passing large clots." },
+        { feature: "Between-Cycle Spotting", isAvailable: "Unexplained intermenstrual spotting or bleeding after sexual intercourse." }
       ]
     }
   ];
 
   const faqs = [
     {
-      question: 'What are the basic guidelines for healthy menstrual hygiene?',
-      answer: 'Healthy menstrual hygiene involves changing sanitary pads or tampons every 4 to 6 hours, washing only the external vulva from front to back to prevent intestinal coliform bacteria from entering the vagina, wearing breathable cotton underwear, avoiding scented washes, and tracking your cycles regularly.'
+      question: 'What are the essential golden rules of healthy menstrual hygiene?',
+      answer: 'The core rules of menstrual hygiene include changing sanitary pads every 4 to 6 hours (and tampons within 4 hours), washing only the external vulva with clean warm water from front to back, wearing breathable cotton undergarments, avoiding harsh scented soaps or vaginal douches, and disposing of used sanitary products safely.'
     },
     {
-      question: 'Is it safe to use a menstrual cup and how do I sanitize it?',
-      answer: 'Yes, medical-grade silicone menstrual cups are highly safe, cost-effective, and eco-friendly. Wash the cup with clean water and mild soap when emptying it during your cycle. At the end of each cycle, sanitize it by boiling it in water for 5 to 10 minutes before storing it in a clean, breathable cotton pouch.'
+      question: 'Are menstrual cups safe to use and how should they be sterilized?',
+      answer: 'Yes, medical-grade silicone menstrual cups are clinically safe, eco-friendly, and cost-effective. While on your period, empty and rinse the cup with clean water and mild pH-balanced soap every 8 to 10 hours. Between cycles, sanitize the cup by boiling it in water for 5 to 10 minutes before storing it in a breathable cotton pouch.'
     },
     {
-      question: 'What is the actual, genuine cost of menstrual health consultations and diagnostic checks?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, transparency is paramount. A private menstrual health consultation is ₹600. A baseline screening pelvic ultrasound (to check for fibroids, adenomyosis, or cysts) ranges from ₹1,500 to ₹2,500. Standard blood panels (hemoglobin, thyroid, or hormone profiles) range from ₹1,200 to ₹3,000 depending on tests. Outpatient infection treatment kits range from ₹500 to ₹1,500.'
+      question: 'What is the genuine cost of menstrual health consultations at June Women\'s Health?',
+      answer: 'We maintain 100% transparent pricing. A comprehensive private consultation with Dr. Shamim Sultana Yashine is ₹600. A baseline screening pelvic ultrasound (TVS/TAS to check for uterine fibroids, adenomyosis, or ovarian cysts) is ₹1,500 to ₹2,200. Basic diagnostic blood panels (hemoglobin, thyroid TSH, and prolactin) range from ₹1,200 to ₹2,500.'
     },
     {
-      question: 'How much pain during periods is considered abnormal (dysmenorrhea)?',
-      answer: 'While mild cramping is common, severe, debilitating pain that forces you to miss work or school, or doesn\'t respond to heat pads and standard over-the-counter anti-inflammatories, is abnormal. This can indicate underlying gynecological conditions like endometriosis, adenomyosis, or fibroids, and should be clinically evaluated by Dr. Shamim Sultana Yashine.'
+      question: 'When is period pain (dysmenorrhea) considered abnormal and in need of medical evaluation?',
+      answer: 'While mild cramping during the first 24 to 48 hours of menstruation is normal, severe pain that impairs daily functioning, causes nausea or vomiting, or does not respond to standard pain relievers is abnormal. This severe pain may indicate underlying conditions such as endometriosis, adenomyosis, or pelvic infections.'
     },
     {
-      question: 'How does poor menstrual hygiene cause vaginal or urinary tract infections?',
-      answer: 'Leaving a sanitary pad or tampon in for too long creates a warm, moist environment that promotes rapid bacterial and fungal overgrowth, leading to Candidiasis, Bacterial Vaginosis, or urinary tract infections (UTIs). Always wipe from front to back to avoid transferring coliform bacteria into the vaginal opening.'
+      question: 'How can poor menstrual hygiene lead to vaginal and urinary tract infections?',
+      answer: 'Wearing sanitary pads or tampons for prolonged periods traps warmth, moisture, and blood, creating an ideal breeding ground for bacteria and yeast. This can cause Bacterial Vaginosis, Candida infections, and ascending UTIs. Wiping backwards can also introduce intestinal bacteria into the urethra.'
     },
     {
-      question: 'Can I walk in without an appointment for menstrual problems and is the clinic open 24/7?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic is a dedicated, single-doctor private clinic operating strictly by prior appointment during dedicated morning and evening timings. We do not support 24/7 walk-in emergency queues. This ensures that you receive a quiet, private, and unhurried consultation, avoiding long public waiting lines. Please contact our coordinator to schedule your slot.'
+      question: 'How do I book a menstrual wellness consultation in Sushant Golf City?',
+      answer: 'Consultations at our Sushant Golf City clinic operate strictly by prior appointment during dedicated morning and evening hours. Dr. Shamim Sultana Yashine personally conducts all consultations in a private, supportive, and sanitized clinic setting.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Menstrual Hygiene & Health" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Menstrual Hygiene & Health? (Cream bg) === */}
@@ -162,25 +179,25 @@ export default function MenstrualHygienePage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/menstrual-hygiene-overview.webp" 
-                  alt="Eco-friendly sanitary pad and medical-grade silicone menstrual cup on clean background" 
+                  alt="Eco-friendly sanitary pad and medical-grade silicone menstrual cup on clean background in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Menstrual Hygiene & Health?" 
+                text="What is Menstrual Hygiene &amp; Cycle Health?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Menstrual Hygiene & Health</strong> represents the safe, hygienic practices and medical management of menstrual cycles necessary to prevent pelvic infections, maintain reproductive health, and protect future fertility. Standard menstrual wellness involves managing cycle regularity, treating dysmenorrhea (severe period pain), menorrhagia (excessive bleeding), and diagnosing underlying conditions that cause menstrual dysfunction.
+                  <strong>Menstrual Hygiene &amp; Health</strong> encompasses the hygienic practices, sanitary management, and clinical care necessary to ensure pain-free periods, prevent ascending pelvic infections, and protect long-term reproductive health. Proper menstrual care involves managing cycle regularity, diagnosing dysmenorrhea (severe period pain), evaluating heavy bleeding (menorrhagia), and addressing underlying hormonal or structural disorders.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading center for adolescent health and hormonal balance in Sushant Golf City and Lucknow, Lucknow, we believe in breaking the silence and myths surrounding menstruation. Dr. Shamim Sultana Yashine provides highly informative, private consultations on proper hygiene, menstrual disorders, PCOD/PCOS cycle regulation, and pelvic wellness.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide compassionate, evidence-based guidance for adolescent girls and adult women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that you receive direct, personal, and supportive medical guidance at every visit. We coordinate all menstrual wellness checkups strictly by prior appointment during dedicated hours, maintaining a quiet, highly sterilized environment that eliminates anxiety and public waiting room stress.
+                  Our private single-doctor clinic near Lulu Mall on Shaheed Path provides an unhurried, reassuring environment where sensitive cycle irregularities, menstrual cup usage, and pelvic pain concerns are evaluated with total confidentiality.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -487,7 +504,7 @@ export default function MenstrualHygienePage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Menstrual Hygiene & Health?
+                  Why Women Choose June Women&apos;s Health for Period Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -496,29 +513,29 @@ export default function MenstrualHygienePage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Direct Specialist Attention & Privacy</strong>
-                      <span className="text-white/80 text-[14px]">You consult Dr. Shamim Sultana Yashine personally at every session. Sensitive details about cycle tracking, infection symptoms, and pelvic pain are discussed in a strictly confidential space.</span>
+                      <strong className="block text-[16px] text-white">Direct Senior Gynecologist Counseling</strong>
+                      <span className="text-white/80 text-[14px]">You consult Dr. Shamim Sultana Yashine directly for every checkup, ensuring private, non-judgmental guidance on menstrual cups, pads, and hygiene practices.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Schedule</strong>
-                      <span className="text-white/80 text-[14px]">We coordinate all checkups strictly by prior appointment during dedicated timings. This prevents waiting room crowding and ensures a calm, sterilized space.</span>
+                      <strong className="block text-[16px] text-white">Root-Cause Period Disorder Diagnostics</strong>
+                      <span className="text-white/80 text-[14px]">We don&apos;t just prescribe painkillers; we investigate severe cramps and heavy flows for underlying conditions like adenomyosis, PCOD, or pelvic infections.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Root-Cause Resolution Focus</strong>
-                      <span className="text-white/80 text-[14px]">We don&apos;t just manage period symptoms; we investigate for underlying conditions like pelvic inflammatory disease, PCOD, or endometriosis using advanced diagnostics.</span>
+                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Booking</strong>
+                      <span className="text-white/80 text-[14px]">Consultations in Sushant Golf City operate strictly by appointment, providing a calm, sterilized space without crowded lobbies.</span>
                     </div>
                   </li>
                 </ul>
@@ -529,7 +546,7 @@ export default function MenstrualHygienePage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

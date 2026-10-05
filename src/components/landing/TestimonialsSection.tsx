@@ -83,7 +83,7 @@ export const TestimonialsSection = () => {
               </span>
             </div>
             <h2 className="text-[32px] md:text-[46px] font-bold text-white leading-[1.2] tracking-tight -mt-1 max-w-[600px]">
-              Real experiences shared by real IVF patients
+              Real experiences from women &amp; families in Lucknow
             </h2>
           </div>
 

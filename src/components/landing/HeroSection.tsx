@@ -16,12 +16,12 @@ export const HeroSection = () => {
           <div className="w-full lg:w-[53%] relative z-10 lg:pr-[60px]">
             <AnimatedHeading 
               as="h1" 
-              text="Trusted Obstetrician & Gynecologist in Sushant Golf City"
+              text="Best Obstetrician & Gynecologist in Sushant Golf City, Lucknow"
               className="mb-[30px]"
             />
             
             <p className="text-[16px] text-text mb-[40px] max-w-[500px] leading-[1.6em]">
-              Led by Senior Consultant Dr. Shamim Sultana Yashine (MBBS, DGO, PGDMCH), we provide compassionate, state-of-the-art women's healthcare services, specializing in normal delivery, pregnancy care, infertility/IUI, PCOD, and laparoscopic procedures.
+              Led by Senior Consultant Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon), June Women&apos;s Health provides compassionate, advanced women&apos;s healthcare at Felix Square, Sushant Golf City, Lucknow. Specializing in normal delivery, personalized pregnancy care, infertility/IUI, PCOD/PCOS, and laparoscopic procedures.
             </p>
             
             {/* Stats */}
@@ -40,7 +40,7 @@ export const HeroSection = () => {
               </div>
               <div>
                 <h3 className="text-[32px] md:text-[36px] font-bold text-primary leading-[1.2em]">
-                  <Counter end={9} />
+                  <Counter end={11} />
                 </h3>
                 <p className="text-[14px] text-text">Google reviews</p>
               </div>

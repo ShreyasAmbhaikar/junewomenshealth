@@ -27,8 +27,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Normal Delivery Specialist in Sushant Golf City, Lucknow | June Women's Health",
-  description: "Looking for a trusted normal delivery doctor in Sushant Golf City & Lucknow, Lucknow? Dr. Shamim Sultana Yashine offers safe, personalized maternity care for natural childbirth. Book today!",
+  title: "Best Normal Delivery Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Consult Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) for safe, compassionate normal delivery and maternity care in Sushant Golf City, Lucknow. Prioritizing natural childbirth & patient safety. Book today!",
   alternates: {
     canonical: '/normal-delivery-in-lucknow/',
   }
@@ -43,72 +43,72 @@ export default function NormalDeliveryPage() {
 
   const benefitsData = [
     {
-      title: "Faster Postpartum Recovery",
-      description: "Mothers typically recover much faster after a natural childbirth, allowing them to walk, move, and return to their daily routines sooner than with surgical childbirth (C-section).",
+      title: "Accelerated Postnatal Recovery",
+      description: "Natural vaginal childbirth enables new mothers to mobilize and bond within hours of birth, experiencing faster uterine involution and a smoother return to daily life.",
       icon: <TrendingUp className="w-7 h-7" />
     },
     {
-      title: "Shorter Hospital Stay",
-      description: "A normal delivery generally requires only a 1 to 2-day hospital stay, meaning you and your newborn can return to the comfort of your home earlier.",
+      title: "Minimal Hospitalization Time",
+      description: "Uncomplicated normal deliveries typically require just a 24 to 48-hour hospital observation window, allowing your family to settle comfortably at home sooner.",
       icon: <Home className="w-7 h-7" />
     },
     {
-      title: "Immune System Benefits for the Baby",
-      description: "During a vaginal birth, the baby passes through the birth canal and ingests beneficial bacteria (microbiome). This naturally boosts the newborn’s immune system and digestive health.",
+      title: "Infant Immune Priming & Microbiome",
+      description: "Passing through the birth canal naturally coats the newborn with maternal probiotics, strengthening neonatal gut immunity and supporting long-term respiratory resistance.",
       icon: <Shield className="w-7 h-7" />
     },
     {
-      title: "Lower Risk of Surgical Complications",
-      description: "Opting for a normal delivery avoids major abdominal surgery, significantly reducing the risks associated with anesthesia, heavy bleeding, infections, and prolonged healing.",
+      title: "Eliminates Major Surgical Risks",
+      description: "Avoiding major abdominal incisions significantly minimizes the chances of heavy surgical blood loss, wound infections, anesthesia complications, and scar adhesions.",
       icon: <ShieldCheck className="w-7 h-7" />
     },
     {
-      title: "Better Future Pregnancy Outcomes",
-      description: "Women who have a successful vaginal delivery generally face fewer complications, such as placenta issues, in subsequent pregnancies.",
+      title: "Safer Subsequent Pregnancies",
+      description: "Delivering vaginally leaves the uterine muscle intact with zero uterine scars, dramatically lowering risks of placenta accreta or uterine rupture in future pregnancies.",
       icon: <Activity className="w-7 h-7" />
     },
     {
-      title: "Easier Breastfeeding Initiation",
-      description: "Immediate skin-to-skin contact right after a vaginal delivery promotes maternal hormones that help establish successful, early breastfeeding.",
+      title: "Seamless Lactation Establishment",
+      description: "Physiological birth triggers immediate surges of oxytocin and prolactin, facilitating effortless colostrum let-down and early mother-infant skin-to-skin bonding.",
       icon: <Droplets className="w-7 h-7" />
     }
   ];
 
   const laborTimeline = [
     {
-      title: 'Stage 1: Early & Active Labor',
-      description: 'The cervix gradually thins and opens (dilates) due to regular uterine contractions. You may experience lower back pain, increased pelvic pressure, or your "water breaking." This is the longest phase, during which our team closely monitors both mother and baby.',
+      title: 'Stage 1: Cervical Effacement & Active Dilation',
+      description: 'The cervix gradually thins and widens to 10 centimeters through rhythmic uterine contractions. Our clinical team continuously tracks maternal vitals and fetal heart rates to ensure steady, safe progress.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Stage 2: Birth of the Baby',
-      description: 'Once fully dilated, active pushing begins. Guided by your delivery doctor, you will work with your contractions to help your baby move through the birth canal and into the world.',
+      title: 'Stage 2: Active Pushing & Fetal Delivery',
+      description: 'With complete cervical dilation, the mother coordinates gentle bearing-down efforts guided by Dr. Shamim Sultana Yashine, easing the baby smoothly through the birth canal into the world.',
       icon: <Baby className="w-5 h-5" />
     },
     {
-      title: 'Stage 3: Delivery of the Placenta',
-      description: 'Shortly after your baby is born, you will experience mild contractions that help safely separate and deliver the placenta.',
+      title: 'Stage 3: Placental Expulsion & Uterine Tone Check',
+      description: 'Within minutes following birth, mild contractions detach the placenta and membranes safely, followed by careful inspection of the birth tract to prevent postpartum hemorrhage.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Stage 4: Immediate Recovery & Bonding',
-      description: 'The golden hours post-delivery focus on maternal stabilization, immediate newborn assessment, skin-to-skin bonding, and initiating breastfeeding.',
+      title: 'Stage 4: Postpartum Golden Hour & Neonatal Bonding',
+      description: 'Focus shifts immediately to skin-to-skin holding, newborn thermal regulation, first latch breastfeeding guidance, and close maternal hemodynamic observation.',
       icon: <Heart className="w-5 h-5" />
     }
   ];
 
   const preparationCards = [
-    { title: "Regular Pregnancy Checkups", description: "Consistent visits allow us to monitor fetal growth, amniotic fluid, blood pressure, and overall maternal health.", icon: <Stethoscope className="w-6 h-6 text-accent" /> },
-    { title: "Healthy Nutrition", description: "A balanced diet rich in protein, iron, and folic acid supports fetal development and gives you the stamina needed for labor.", icon: <Apple className="w-6 h-6 text-accent" /> },
-    { title: "Pregnancy Exercise", description: "Doctor-approved prenatal yoga, walking, and pelvic floor (Kegel) exercises strengthen the body and prepare the pelvis for natural childbirth.", icon: <Activity className="w-6 h-6 text-accent" /> },
-    { title: "Childbirth Education", description: "Learning breathing techniques, labor positioning, and relaxation methods helps manage labor pain effectively.", icon: <BookOpen className="w-6 h-6 text-accent" /> },
-    { title: "Birth Planning", description: "Discussing your delivery preferences—including options for painless normal delivery (epidurals)—with your obstetrician ensures you feel confident and prepared.", icon: <ClipboardList className="w-6 h-6 text-accent" /> }
+    { title: "Structured Antenatal Assessments", description: "Regular clinical checks in Sushant Golf City track fetal biometric milestones, placental maturity, and maternal blood pressure.", icon: <Stethoscope className="w-6 h-6 text-accent" /> },
+    { title: "Trimester-Specific Nutrition", description: "Targeted dietary plans rich in micronutrients, iron, calcium, and complex carbs provide sustained stamina for labor day.", icon: <Apple className="w-6 h-6 text-accent" /> },
+    { title: "Pelvic Floor & Prenatal Conditioning", description: "Supervised pelvic stretches, deep squatting postures, and Kegel workouts optimize pelvic floor flexibility and fetal descent.", icon: <Activity className="w-6 h-6 text-accent" /> },
+    { title: "Labor Breathwork & Pain Modulation", description: "Mastering rhythmic breathing and relaxation techniques helps reduce labor anxiety and enhances natural pain tolerance.", icon: <BookOpen className="w-6 h-6 text-accent" /> },
+    { title: "Personalized Birth Preference Plan", description: "Collaborative birth planning covers your preferences for gentle labor, mobility, partner support, and painless delivery (epidural analgesia).", icon: <ClipboardList className="w-6 h-6 text-accent" /> }
   ];
 
   const recoveryCards = [
     {
-      title: "Maternal Healing",
-      description: "Adequate rest, hydration, and nutrition are vital. Most women are encouraged to start light walking within hours of an uncomplicated delivery to promote blood circulation.",
+      title: "Maternal Physical Rejuvenation",
+      description: "Rest, balanced hydration, and gentle mobilization accelerate perineal healing and restore pelvic strength under Dr. Shamim Sultana Yashine's recovery protocols.",
       icon: <HeartPulse className="w-9 h-9 text-[#C0354A]" />,
       iconBg: 'rgba(232, 71, 95, 0.15)',
       bgGradient: 'linear-gradient(135deg, #FDE8EC 0%, #F3E7E9 40%, #E3EEFF 100%)',
@@ -116,8 +116,8 @@ export default function NormalDeliveryPage() {
       textColor: 'rgba(74, 21, 75, 0.78)'
     },
     {
-      title: "Breastfeeding Support",
-      description: "Our clinic provides guidance to ensure correct latching and comfortable feeding, which provides essential nutrition for the baby and aids in maternal uterine contraction.",
+      title: "Hands-on Lactation Guidance",
+      description: "Personalized latch assessment and feeding position coaching ensure pain-free breastfeeding while stimulating natural uterine contraction.",
       icon: <Baby className="w-9 h-9 text-[#5C35CC]" />,
       iconBg: 'rgba(124, 77, 255, 0.12)',
       bgGradient: 'linear-gradient(135deg, #EDE7F6 0%, #E0C3FC 40%, #8EC5FC 100%)',
@@ -125,8 +125,8 @@ export default function NormalDeliveryPage() {
       textColor: 'rgba(26, 26, 94, 0.78)'
     },
     {
-      title: "Emotional Well-Being",
-      description: "The \"baby blues\" are common due to hormonal shifts. We prioritize your emotional health through regular follow-ups and encourage strong family support during the postpartum period.",
+      title: "Postpartum Emotional Nurturing",
+      description: "Hormonal adjustments post-birth are completely natural. We provide a compassionate, judgment-free space to screen and support maternal mental wellness.",
       icon: <Smile className="w-9 h-9 text-[#2E7D32]" />,
       iconBg: 'rgba(76, 175, 80, 0.15)',
       bgGradient: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 40%, #DCEDC8 100%)',
@@ -137,38 +137,55 @@ export default function NormalDeliveryPage() {
 
   const faqs = [
     {
-      question: 'What are the signs that labor has started?',
-      answer: 'Common signs include regular, intensifying contractions, persistent lower back pain, the rupture of membranes (water breaking), passage of a mucus plug (bloody show), and increased pelvic pressure. If you notice these symptoms, contact your obstetrician for guidance.'
+      question: 'What are the clear clinical signs that true labor has started?',
+      answer: 'True labor is characterized by rhythmic, progressively intensifying uterine contractions that do not subside with rest, the release of the pinkish mucus plug (bloody show), amniotic sac rupture (water breaking), and steady lower back pressure radiating towards the pelvis. If your contractions occur every 5 minutes lasting 45-60 seconds, reach out to Dr. Shamim Sultana Yashine immediately.'
     },
     {
-      question: 'How can I increase my chances of having a normal delivery?',
-      answer: 'Maintaining a healthy weight, staying physically active with prenatal exercises, attending regular pregnancy checkups, following a balanced diet, and managing pregnancy-related conditions can improve the likelihood of a successful normal delivery.'
+      question: 'How does Dr. Shamim Sultana Yashine encourage and prepare women for normal delivery in Lucknow?',
+      answer: 'At June Women\'s Health, Dr. Shamim Sultana Yashine focuses on proactive antenatal preparation. We monitor fetal growth scans, guide pelvic floor conditioning exercises, optimize maternal hemoglobin, and maintain active labor mobility to encourage natural fetal descent without unnecessary medical rushing.'
     },
     {
-      question: 'Is normal delivery possible after a previous C-section?',
-      answer: 'Yes, many women are excellent candidates for a VBAC (Vaginal Birth After Caesarean). Eligibility depends on factors such as the type of previous uterine incision, maternal health, pregnancy progress, and individual medical assessment.'
+      question: 'Is a normal delivery (VBAC) possible if I had a previous Cesarean section?',
+      answer: 'Yes, Vaginal Birth After Cesarean (VBAC) is a safe, realistic option for many mothers who have a previous lower-segment transverse uterine incision. Dr. Shamim Sultana Yashine conducts an in-depth medical evaluation of your inter-pregnancy gap, scar thickness on ultrasound, and fetal positioning to determine if you are an ideal candidate for a safe trial of labor after cesarean (TOLAC).'
     },
     {
-      question: 'What are my options for a painless normal delivery?',
-      answer: 'Every woman\'s labor experience is different, and labor pain varies in intensity. We offer several pain management options during labor, including breathing techniques, relaxation methods, and medical pain relief such as epidural anesthesia (often referred to as painless normal delivery).'
+      question: 'What painless normal delivery options are available in Sushant Golf City?',
+      answer: 'We provide evidence-based pain management including continuous labor doula support, breath relaxation, and medical epidural analgesia (painless normal delivery). Administered by an experienced obstetric anesthesiologist, an epidural eases labor pain while preserving full motor sensation and pushing ability for an empowering delivery.'
     },
     {
-      question: 'Is a normal delivery possible after 40 weeks of pregnancy?',
-      answer: 'Yes. Many healthy pregnancies naturally continue beyond 40 weeks and still result in successful vaginal delivery. Your obstetrician will monitor fetal well-being, amniotic fluid levels, and maternal health to determine the safest timing for delivery.'
+      question: 'Can a mother safely attempt a normal delivery past 40 weeks?',
+      answer: 'Yes, post-dated pregnancies up to 41 weeks are common and can safely culminate in normal delivery provided biophysical profile scans, non-stress tests (NST), and amniotic fluid levels confirm that the fetus is thriving. Close monitoring ensures the exact right time for spontaneous labor or gentle induction.'
     },
     {
-      question: 'How much does normal delivery cost in Sushant Golf City?',
-      answer: 'The cost of a normal delivery in Sushant Golf City typically ranges between ₹40,000 and ₹80,000, depending on factors such as the hospital selected for delivery, room category, investigations required, pregnancy risk factors, and duration of hospital stay. A consultation can help provide a more personalized estimate.'
+      question: 'What is the estimated cost of normal delivery in Sushant Golf City, Lucknow?',
+      answer: 'The overall cost for normal delivery in Sushant Golf City typically ranges between ₹40,000 and ₹80,000 depending on the chosen affiliated hospital facility, room category, inclusion of epidural analgesia, and length of postpartum stay. We believe in 100% financial clarity and provide complete estimates during your antenatal visits.'
     },
     {
-      question: 'When should I go to the hospital during labor?',
-      answer: 'You should contact your doctor or visit the hospital if contractions become regular and stronger (e.g., coming every 5 minutes), your water breaks, you experience vaginal bleeding, or you notice reduced fetal movements.'
+      question: 'At what point should I leave for the maternity hospital during labor?',
+      answer: 'You should proceed to the hospital if you experience regular contractions 3 to 5 minutes apart, sudden amniotic fluid leakage (water breaking), bright red vaginal bleeding, or any noticeable decrease in baby movements.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Normal Delivery Care" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: Overview (Cream bg) === */}
@@ -180,7 +197,7 @@ export default function NormalDeliveryPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[16/9] w-full max-h-[420px] group">
                 <Image 
                   src="/images/normal-delivery.webp" 
-                  alt="Normal Delivery Care and Fetal Ultrasound Screening" 
+                  alt="Normal Delivery Care and Fetal Ultrasound Screening in Sushant Golf City Lucknow" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   priority
@@ -192,13 +209,13 @@ export default function NormalDeliveryPage() {
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Normal delivery, also known as vaginal delivery or natural childbirth, is the process of bringing your baby into the world through the birth canal without major surgical intervention. For most healthy pregnancies, this is the safest and most preferred method of childbirth, offering faster recovery times and lifelong health benefits for both the mother and the newborn.
+                  Natural childbirth represents the safest, most empowering route to motherhood for low-risk pregnancies. At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong> champions a physiologic, patient-first approach to normal vaginal delivery—prioritizing maternal comfort, fetal well-being, and gentle labor progression with minimal medical interventions.
                 </p>
                 <p>
-                  At June Women's Health, recognized as a leading maternity clinic in Sushant Golf City and Lucknow, we believe in empowering expectant mothers. Our comprehensive pregnancy care focuses on antenatal monitoring, labor preparation, and natural childbirth techniques. Through routine checkups, fetal monitoring, and personalized maternity care, we ensure you are physically and emotionally prepared for a positive birth experience.
+                  Throughout your antenatal journey, our clinic provides structured trimester screening, continuous fetal well-being tracking, and customized birth education. We guide families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow with comprehensive labor preparation, pelvic floor conditioning, and round-the-clock obstetric guidance.
                 </p>
                 <p>
-                  Whether you are planning your first pregnancy or seeking a trusted pregnancy doctor near you for a safe vaginal delivery, our evidence-based, compassionate care prioritizes the well-being of you and your baby.
+                  Whether you are planning your first natural birth or seeking a high-success VBAC (Vaginal Birth After Cesarean) specialist near Lulu Mall on Shaheed Path, our evidence-backed protocols ensure a safe, memorable, and dignified birth experience.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -372,28 +389,28 @@ export default function NormalDeliveryPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Normal Delivery?
+                  Why Families Choose June Women&apos;s Health for Normal Childbirth
                 </h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Extensive Experience</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of expertise managing normal deliveries, high-risk pregnancies, and VBAC cases in Sushant Golf City, Lucknow, Lucknow.</span>
+                      <strong className="block text-[16px] text-white">Proven Obstetric Mastery</strong>
+                      <span className="text-white/80 text-[14px]">Over 10+ years of dedicated clinical experience managing normal vaginal births, complex labor interventions, and VBAC cases across Lucknow.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Personalized Pregnancy Care</strong>
-                      <span className="text-white/80 text-[14px]">We provide individualized antenatal care, regular fetal monitoring, and customized birth planning.</span>
+                      <strong className="block text-[16px] text-white">Dedicated Antenatal Nurturing</strong>
+                      <span className="text-white/80 text-[14px]">Individualized trimester checkups, growth ultrasound assessments, non-stress testing, and continuous maternal support.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Compassionate Guidance</strong>
-                      <span className="text-white/80 text-[14px]">From your first consultation to postpartum recovery, we focus on patient-centered maternity care and labor preparation.</span>
+                      <strong className="block text-[16px] text-white">Natural Childbirth Philosophy</strong>
+                      <span className="text-white/80 text-[14px]">We actively promote physiologic labor progression, painless delivery options, and compassionate postpartum lactation coaching.</span>
                     </div>
                   </li>
                 </ul>
@@ -404,7 +421,7 @@ export default function NormalDeliveryPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

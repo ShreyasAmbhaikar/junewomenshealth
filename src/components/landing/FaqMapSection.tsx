@@ -8,24 +8,24 @@ import { AnimatedHeading } from "@/components/ui/AnimatedHeading";
 export const FaqMapSection = () => {
   const faqItems = [
     {
-      question: "Who is the best gynecologist in Sushant Golf City & Lucknow for pregnancy care?",
-      answer: "Dr. Shamim Sultana Yashine, director of June Women's Health, is widely trusted for prenatal care. As a Senior Consultant with over 10+ Years of clinical experience, she specializes in high-safety maternity monitoring, normal deliveries, and high-risk pregnancy care."
+      question: "Where is June Women's Health clinic located in Lucknow?",
+      answer: "June Women's Health is located at Felix Square (2nd Floor, Suite 212, above Axis Bank), Sushant Golf City, Lucknow 226030. The clinic is conveniently situated just 2 minutes from Lulu Mall along Amar Shaheed Path, making it easily accessible from Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, and Awadh Vihar."
     },
     {
-      question: "What treatments are offered at June Women's Health?",
-      answer: "We provide comprehensive women's healthcare, including normal delivery, Caesarean section (LSCS), PCOS/PCOD management, infertility diagnostics & IUI guidance, cervical cancer screening & HPV vaccination, and minimally invasive laparoscopic procedures."
+      question: "Who is the lead doctor at June Women's Health?",
+      answer: "The clinic is led by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon), a Senior Consultant with over 10+ years of dedicated clinical experience specializing in normal delivery, high-risk maternity care, PCOS/PCOD management, and fertility support."
     },
     {
-      question: "How is PCOS/PCOD diagnosed and treated at your clinic?",
-      answer: "We use a patient-centered clinical approach. After proper diagnostic checks (ultrasound & hormone panels), we manage PCOS/PCOD holistically using evidence-based medical treatments combined with personalized lifestyle and nutritional modifications."
+      question: "What specialized treatments are offered at June Women's Health?",
+      answer: "We provide comprehensive women's healthcare, including normal delivery, Caesarean section (LSCS), PCOS/PCOD management, infertility diagnostics & IUI guidance, cervical cancer screening & HPV vaccination, scarless hysterectomy (NDVH), and minimally invasive laparoscopic procedures."
     },
     {
-      question: "Is it possible to have a normal delivery after a previous C-section?",
-      answer: "Vaginal Birth After Caesarean (VBAC) is indeed possible for many women. This depends on factors like the type of previous uterine scar and baby's positioning, which we evaluate closely under strict safety guidelines."
+      question: "Is normal delivery prioritized for expectant mothers?",
+      answer: "Yes, absolutely. Dr. Shamim Sultana Yashine prioritizes natural, safe normal delivery through continuous labor monitoring and evidence-based obstetric protocols, reserving C-sections strictly for medically necessary situations."
     },
     {
-      question: "Do you offer preventative screening like Pap smears and HPV vaccines?",
-      answer: "Yes, preventative care is a priority. We offer HPV vaccinations for cervical cancer prevention, along with regular Pap smear diagnostics and general gynecological screenings to ensure long-term reproductive wellness."
+      question: "Do you offer PCOS/PCOD and fertility guidance?",
+      answer: "Yes. We offer personalized root-cause PCOS/PCOD programs combining low-GI dietary advice, hormonal balancing, and follicle tracking alongside comprehensive IUI and pre-conceptional fertility counselling for couples planning a family."
     }
   ];
 

@@ -26,8 +26,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best PCOD & PCOS Care in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get personalized PCOD & PCOS care, hormonal balance treatments, and metabolic wellness guidance under Dr. Shamim Sultana Yashine at Sushant Golf City & Lucknow, Lucknow. Transparent & evidence-based treatment. Book a consult today.",
+  title: "Best PCOD & PCOS Care in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Consult Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) for personalized PCOD & PCOS treatment in Sushant Golf City, Lucknow. Holistic hormonal balancing, weight management, and ovulation restoration.",
   alternates: {
     canonical: '/pcod-pcos-care-in-lucknow/',
   }
@@ -42,62 +42,62 @@ export default function PcodCarePage() {
 
   const symptomsData = [
     {
-      title: "Irregular Periods",
-      description: "Infrequent, irregular, or prolonged menstrual cycles, which are often the first sign of anovulatory cycles.",
+      title: "Oligomenorrhea & Irregular Cycles",
+      description: "Delayed, unpredictable, or infrequent menstrual cycles signaling chronic anovulation and delayed follicular maturation.",
       icon: <Calendar className="w-7 h-7" />
     },
     {
-      title: "Weight Gain",
-      description: "Rapid weight gain, particularly around the abdomen (visceral fat), which is closely linked to insulin resistance.",
+      title: "Visceral Adiposity & Metabolic Resistance",
+      description: "Stubborn weight accumulation around the lower abdomen and hips driven by cellular insulin resistance and impaired glucose utilization.",
       icon: <Heart className="w-7 h-7" />
     },
     {
-      title: "Excess Androgen",
-      description: "Elevated male hormone levels resulting in severe cystic acne, male-pattern hair thinning, and hirsutism.",
+      title: "Hyperandrogenism & Cystic Acne",
+      description: "Elevated circulating free testosterone causing persistent jawline acne, sebum overproduction, and androgenic scalp hair thinning.",
       icon: <AlertCircle className="w-7 h-7" />
     },
     {
-      title: "Hirsutism",
-      description: "Excessive, dark facial and body hair growth, especially on the chin, chest, upper back, and abdomen.",
+      title: "Hirsutism & Unwanted Hair Growth",
+      description: "Coarse terminal hair distribution along the chin, upper lip, chest, and central abdominal midline caused by ovarian androgen excess.",
       icon: <Activity className="w-7 h-7" />
     }
   ];
 
   const treatmentTimeline = [
     {
-      title: 'Step 1: Diagnostics & Hormone Profiling',
-      description: 'We conduct detailed hormone assays (LH, FSH, prolactin, fasting insulin, AMH) and high-resolution pelvic ultrasounds to evaluate follicular patterns and ovarian volume.',
+      title: 'Step 1: Endocrine Assays & Antral Follicle Scans',
+      description: 'Comprehensive serum hormone profiling (AMH, LH/FSH ratio, fasting insulin, DHEA-S, thyroid panel) paired with high-resolution pelvic ultrasound to evaluate ovarian stromal volume.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Low-GI Indian Dietary Mapping',
-      description: 'We design custom anti-inflammatory, low-glycemic dietary plans customized for Indian kitchens to prevent insulin spikes and balance hormones.',
+      title: 'Step 2: Low-Glycemic Anti-Inflammatory Nutrition',
+      description: 'Crafting tailored nutritional protocols calibrated for Indian households to stabilize post-prandial glycemic spikes, reduce visceral inflammation, and curb sugar cravings.',
       icon: <Apple className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Tailored Fitness & Activity Plans',
-      description: 'We formulate active fitness guidance combining strength training and aerobic exercises to improve insulin receptor sensitivity and burn visceral fat.',
+      title: 'Step 3: Insulin-Sensitizing Fitness Protocols',
+      description: 'Prescribing progressive resistance training and brisk interval cardio regimens to upregulate muscular GLUT-4 glucose transporters and restore metabolic rate.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Targeted Medical Management',
-      description: 'We prescribe evidence-based cycle regulators, insulin-sensitizing medications, or targeted ovulation induction protocols for patients attempting to conceive.',
+      title: 'Step 4: Targeted Ovulatory & Medical Management',
+      description: 'Prescribing evidence-based insulin sensitizers, cyclic micronized progesterone, or gentle ovulation induction protocols for patients actively planning pregnancy.',
       icon: <ShieldCheck className="w-5 h-5" />
     }
   ];
 
   const preparationCards = [
-    { title: "Custom Dietary Mapping", description: "Developing low-glycemic, anti-inflammatory whole-food meal plans adjusted for Indian kitchens to prevent insulin spikes.", icon: <Apple className="w-6 h-6 text-accent" /> },
-    { title: "Tailored Fitness Schedules", description: "Guiding you on strength training and active workouts (150 minutes weekly) to burn abdominal fat and improve insulin sensitivity.", icon: <Activity className="w-6 h-6 text-accent" /> },
-    { title: "Precise Medical Interventions", description: "Utilizing evidence-based insulin sensitizers, ovulation inductors, or cycle regulators based on your pregnancy plans.", icon: <Stethoscope className="w-6 h-6 text-accent" /> },
-    { title: "Stress & Cortisol Control", description: "Mitigating stress hormones through mindfulness, meditation, and healthy sleep hygiene to restore endocrine balance.", icon: <Clock className="w-6 h-6 text-accent" /> },
-    { title: "Regular Biochemical Audits", description: "Tracking follicular growth (TVS) and conducting periodic hormonal checks to measure progress and adjust treatments.", icon: <ClipboardList className="w-6 h-6 text-accent" /> }
+    { title: "Personalized Low-GI Meal Charting", description: "Eliminating refined starches and incorporating high-fiber complex grains to normalize post-meal insulin surges.", icon: <Apple className="w-6 h-6 text-accent" /> },
+    { title: "Progressive Muscle Conditioning", description: "Engaging in 150 minutes of weekly resistance and aerobic workouts to reduce abdominal fat and boost insulin sensitivity.", icon: <Activity className="w-6 h-6 text-accent" /> },
+    { title: "Precision Endocrine Therapy", description: "Administering targeted inositol blends, metformin, or ovulation-inducing medications tailored to your fertility goals.", icon: <Stethoscope className="w-6 h-6 text-accent" /> },
+    { title: "Cortisol & Circadian Optimization", description: "Implementing sleep hygiene and stress-reduction routines to lower adrenal androgens and stabilize hormonal rhythm.", icon: <Clock className="w-6 h-6 text-accent" /> },
+    { title: "Serial Follicular Surveillance (TVS)", description: "Tracking dominant follicle growth and endometrial receptivity to verify healthy, timely spontaneous ovulation.", icon: <ClipboardList className="w-6 h-6 text-accent" /> }
   ];
 
   const recoveryCards = [
     {
-      title: "Metabolic Stabilization",
-      description: "Focusing on reversing insulin resistance through targeted lifestyle shifts. Stabilizing blood sugar levels halts fat storage and begins lowering excess androgen production.",
+      title: "Metabolic & Glycemic Reset",
+      description: "Reversing cellular insulin resistance through structured nutrition. Stabilizing fasting insulin halts rapid weight gain and reduces testosterone synthesis within 8-12 weeks.",
       icon: <HeartPulse className="w-9 h-9 text-[#C0354A]" />,
       iconBg: 'rgba(232, 71, 95, 0.15)',
       bgGradient: 'linear-gradient(135deg, #FDE8EC 0%, #F3E7E9 40%, #E3EEFF 100%)',
@@ -105,8 +105,8 @@ export default function PcodCarePage() {
       textColor: 'rgba(74, 21, 75, 0.78)'
     },
     {
-      title: "Hormonal Cycle Reset",
-      description: "Restoring natural ovulatory cycles. Within 3-6 months of consistent habits and medical support, menstrual frequency mends and ovulation becomes regular.",
+      title: "Spontaneous Ovulatory Cycles",
+      description: "Achieving predictable menstrual rhythms and natural egg release without dependence on recurring withdrawal bleeds, significantly improving fertility potential.",
       icon: <ShieldCheck className="w-9 h-9 text-[#5C35CC]" />,
       iconBg: 'rgba(124, 77, 255, 0.12)',
       bgGradient: 'linear-gradient(135deg, #EDE7F6 0%, #E0C3FC 40%, #8EC5FC 100%)',
@@ -114,8 +114,8 @@ export default function PcodCarePage() {
       textColor: 'rgba(26, 26, 94, 0.78)'
     },
     {
-      title: "Long-term Remission Support",
-      description: "Sustaining a symptom-free status. Regular checks prevent long-term endocrine complications, such as gestational diabetes, hypertension, or endometrial health issues.",
+      title: "Sustained Endocrine Remission",
+      description: "Maintaining clear skin, healthy hair density, balanced metabolic markers, and long-term protection against type 2 diabetes and cardiovascular risks.",
       icon: <Smile className="w-9 h-9 text-[#2E7D32]" />,
       iconBg: 'rgba(76, 175, 80, 0.15)',
       bgGradient: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 40%, #DCEDC8 100%)',
@@ -126,34 +126,51 @@ export default function PcodCarePage() {
 
   const faqs = [
     {
-      question: 'What is the actual cost of PCOD and PCOS Care in Lucknow?',
-      answer: 'The total cost of PCOD and PCOS care in Lucknow typically ranges between ₹3,000 and ₹8,000 for initial diagnostics, which include complete hormone assays (AMH, LH, FSH, thyroid, prolactin, fasting insulin) and high-resolution pelvic ultrasounds for follicle studies. Ongoing management, including regular follow-up consultations, metabolic checks, and lifestyle/dietary guidance, averages between ₹1,000 and ₹3,000 per month. Dr. Shamim Sultana Yashine provides a fully transparent breakdown of diagnostic and medical options during your initial consultation.'
+      question: 'What is the diagnostic and treatment cost for PCOD and PCOS in Lucknow?',
+      answer: 'Initial diagnostic evaluation at June Women\'s Health typically ranges between ₹3,000 and ₹7,500, covering complete hormonal panels (AMH, LH, FSH, thyroid, prolactin, fasting insulin) and high-resolution pelvic ultrasound follicle imaging. Ongoing monthly management, including follow-up consultations and customized lifestyle therapy, averages between ₹1,000 and ₹2,500. Dr. Shamim Sultana Yashine maintains 100% transparent pricing with zero unnecessary testing.'
     },
     {
-      question: 'What is the main difference between PCOD and PCOS?',
-      answer: 'PCOD (Polycystic Ovarian Disease) is a common condition where the ovaries release immature or partially mature eggs due to a temporary hormonal imbalance, often managed effectively through diet and lifestyle shifts. PCOS (Polycystic Ovarian Syndrome) is a more complex endocrine and metabolic disorder involving elevated male hormone levels and insulin resistance, requiring medical treatment and long-term supervision to prevent metabolic complications.'
+      question: 'What is the clinical difference between PCOD and PCOS?',
+      answer: 'PCOD (Polycystic Ovarian Disease) is primarily an ovarian condition where immature eggs form small cysts due to temporary hormonal imbalances, readily corrected through nutrition and activity. PCOS (Polycystic Ovarian Syndrome) is a broader metabolic and endocrine disorder involving chronic insulin resistance, elevated androgens, and systemic metabolic risks requiring targeted medical therapy.'
     },
     {
-      question: 'Can PCOD or PCOS lead to infertility, and is natural conception possible?',
-      answer: 'Yes, both conditions can cause irregular periods and anovulation (lack of egg release), which is a common cause of infertility. However, natural conception is highly achievable. Under Dr. Shamim Sultana Yashine\'s guidance, lifestyle modification, weight loss, and low-dose ovulation induction medications successfully restore ovulation, allowing most patients to conceive naturally.'
+      question: 'Can women with PCOD or PCOS conceive naturally without IVF?',
+      answer: 'Yes, absolutely! The primary barrier to pregnancy in PCOS is anovulation (irregular or absent egg release). Under Dr. Shamim Sultana Yashine\'s specialized care, insulin sensitization combined with targeted low-dose ovulation induction and follicular tracking enables the vast majority of women to achieve natural conception.'
     },
     {
-      question: 'How does weight loss help in managing PCOD or PCOS symptoms?',
-      answer: 'Losing just 5% to 10% of your body weight is highly therapeutic. It significantly reduces insulin resistance, lowers androgen (male hormone) levels, regulates menstrual cycles, clears up skin issues, and significantly improves natural ovulation and fertility rates.'
+      question: 'Why does weight reduction dramatically improve PCOS symptoms?',
+      answer: 'Shedding even 5% to 8% of body weight significantly reduces circulating insulin levels. This reduction stops the ovaries from overproducing androgens, rapidly restoring spontaneous ovulation, regulating menstrual frequency, and clearing cystic acne.'
     },
     {
-      question: 'Is it possible to completely cure PCOD or PCOS?',
-      answer: 'PCOS is a chronic endocrine condition, meaning there is no permanent cure, but its symptoms can be highly controlled and put into remission. By maintaining healthy lifestyle choices, balanced nutrition, and appropriate medical support, you can live symptom-free and prevent long-term health risks.'
+      question: 'Can PCOD and PCOS be completely cured or reversed?',
+      answer: 'While PCOS is a genetic and metabolic predisposition without an overnight magic cure, it can be driven into complete long-term remission. With consistent low-glycemic eating, strength workouts, and appropriate medical support, women remain completely symptom-free and fertile throughout their lives.'
     },
     {
-      question: 'What foods should I absolutely avoid if I have PCOD or PCOS?',
-      answer: 'It is crucial to avoid processed sugars, refined carbohydrates (like white bread, maida), sweetened beverages, deep-fried snacks, and excess dairy. These foods trigger rapid spikes in blood glucose, which worsens insulin resistance and amplifies hormonal imbalances.'
+      question: 'Which dietary habits are most effective for managing PCOS in Indian kitchens?',
+      answer: 'Focus on high-fiber whole grains (millets, oats, brown rice), lean proteins (paneer, lentils, eggs, sprouts), green leafy vegetables, and healthy fats while eliminating refined flour (maida), bakery sweets, deep-fried snacks, and sugary drinks that trigger rapid insulin spikes.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="PCOD & PCOS Care" breadcrumbs={breadcrumbs} bgImage="/images/fertility-header.webp" />
 
         {/* === SECTION 1: What is PCOD & PCOS Care? (Cream bg) === */}
@@ -165,25 +182,25 @@ export default function PcodCarePage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[2/1] w-full max-h-[420px] max-w-[840px] mx-auto group bg-white border border-black/[0.03]">
                 <Image 
                   src="/images/pcod-overview.webp" 
-                  alt="Normal Ovary vs Polycystic Ovary (PCOS) Medical Diagram" 
+                  alt="Normal Ovary vs Polycystic Ovary (PCOS) Medical Diagram in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-4 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is PCOD & PCOS Care?" 
+                text="What is Comprehensive PCOD & PCOS Care?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Polycystic Ovarian Disease (PCOD) and Polycystic Ovarian Syndrome (PCOS) are highly prevalent endocrine and metabolic conditions affecting women of reproductive age. Driven by insulin resistance and hormonal imbalances, these conditions lead the ovaries to produce multiple fluid-filled follicles (cysts), which interrupt regular egg development. This can lead to irregular menstrual cycles, pelvic discomfort, unexplained weight gain, skin issues like severe acne, excessive hair growth, and difficulties with natural conception.
+                  Polycystic Ovarian Disease (PCOD) and Polycystic Ovarian Syndrome (PCOS) are complex metabolic and endocrine disorders impacting women across reproductive age. Underpinned by cellular insulin resistance and chronic hormonal dysregulation, the ovaries accumulate multiple immature antral follicles, disrupting regular ovulation. This presents as irregular menstrual periods, stubborn weight gain, persistent cystic acne, hirsutism, and subfertility.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading hormonal wellness and gynecological center in Sushant Golf City and Lucknow, we reject temporary quick-fixes. Dr. Shamim Sultana Yashine provides specialized, holistic medical care targeting the root metabolic causes of PCOD and PCOS. We focus on balancing insulin levels, correcting endocrine pathways, and restoring healthy ovulatory cycles naturally.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong> delivers holistic, root-cause medical therapies rather than temporary symptom-masking pills. Serving patients across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we focus on reversing insulin resistance, restoring spontaneous ovulation, and supporting natural conception.
                 </p>
                 <p>
-                  Because our clinic is a dedicated, single-doctor practice, you receive personal, unhurried consultations where your concerns are addressed in a private environment. Dr. Shamim Sultana Yashine designs customized lifestyle and medical plans to manage your symptoms safely and mends your long-term wellness.
+                  In our unhurried, private clinic near Lulu Mall on Shaheed Path, Dr. Shamim Sultana Yashine personally conducts your hormonal audits and ultrasound follicle tracking, creating a collaborative, sustainable pathway to permanent endocrine wellness.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -510,7 +527,7 @@ export default function PcodCarePage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for PCOD & PCOS Care?
+                  Why Women Choose June Women&apos;s Health for PCOD &amp; PCOS Care
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -519,29 +536,29 @@ export default function PcodCarePage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Root-Cause Metabolic Reset</strong>
-                      <span className="text-white/80 text-[14px]">Addressing underlying insulin resistance and hormonal cascades rather than simply suppressing symptoms with temporary pills.</span>
+                      <strong className="block text-[16px] text-white">Root-Cause Endocrine Optimization</strong>
+                      <span className="text-white/80 text-[14px]">We target the cellular insulin resistance and metabolic dysfunction driving your symptoms, avoiding reliance on temporary birth control pills.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Personalized Indian Lifestyle Maps</strong>
-                      <span className="text-white/80 text-[14px]">Providing practical low-GI dietary charts and activity structures adjusted for daily Indian household diets.</span>
+                      <strong className="block text-[16px] text-white">Culturally Tailored Indian Nutrition</strong>
+                      <span className="text-white/80 text-[14px]">We provide realistic, delicious low-glycemic dietary plans and active movement structures designed seamlessly for Indian lifestyles.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Focused Fertility Restoration</strong>
-                      <span className="text-white/80 text-[14px]">Tailoring follicle tracking and ovulation monitoring directly with Dr. Shamim Sultana Yashine for patients seeking natural conception.</span>
+                      <strong className="block text-[16px] text-white">Empowered Natural Fertility</strong>
+                      <span className="text-white/80 text-[14px]">Personalized follicular monitoring and gentle ovulation induction under Dr. Shamim Sultana Yashine for women aiming for spontaneous conception.</span>
                     </div>
                   </li>
                 </ul>
@@ -552,7 +569,7 @@ export default function PcodCarePage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

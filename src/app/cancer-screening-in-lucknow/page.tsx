@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Cancer Screening & Pap Smears in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get expert, painless cervical and breast cancer screenings under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Pap smears, HPV DNA tests, and clinical checks. Book today.",
+  title: "Best Gynecological Cancer Screening & Pap Smears in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Gentle cervical and breast cancer screenings under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Pap smears, HPV DNA tests, & breast exams. Book today.",
   alternates: {
     canonical: '/cancer-screening-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function CancerScreeningPage() {
 
   const subServices = [
     { 
-      title: "Liquid-Based Cytology (Pap Smear)", 
-      description: "A painless in-clinic swab test that collects cervical cells to detect early pre-cancerous or dysplastic cellular mutations.", 
+      title: "Liquid-Based Pap Smear (LBC)", 
+      description: "A gentle in-office cervical swab that isolates cellular layers to identify atypical pre-malignant dysplasias before they progress into invasive neoplasia.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "HPV DNA Molecular Testing", 
-      description: "Highly sensitive molecular diagnostic tests that check cervical fluid for high-risk HPV strains linked to cervical malignancies.", 
+      title: "High-Risk HPV DNA Testing", 
+      description: "PCR molecular assays detecting persistent oncogenic strains (HPV 16, 18, and related high-risk variants) responsible for cervical malignancies.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Clinical Breast Examination", 
-      description: "Professional check for breast lumps, texture anomalies, or node changes, along with training on self-breast exams.", 
+      title: "Clinical Breast Examination (CBE)", 
+      description: "Comprehensive physical palpation of breast tissue and axillary lymph nodes to identify discreet nodules or structural shifts, plus personalized self-exam instruction.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Pelvic & Endometrial Ultrasound", 
-      description: "High-resolution ultrasound scans to evaluate the ovaries and endometrial lining thickness for early structural anomalies.", 
+      title: "Pelvic & Endometrial Sonography", 
+      description: "High-definition transvaginal ultrasound imaging (TVS) assessing ovarian morphology, cyst architecture, and endometrial thickness to rule out uterine hyperplasia.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const safetyGuidelines = [
     { 
-      title: "Timing Your Screening", 
-      description: "Schedule your screening session 10 to 20 days after the first day of your period to ensure clear cervical cell collection and accuracy.", 
+      title: "Mid-Cycle Scheduling Window", 
+      description: "Plan your screening appointment 10 to 20 days after the onset of your menstrual period to ensure the clearest cytological specimen without red blood cell interference.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Avoid Intimate Products", 
-      description: "Do not use vaginal douches, contraceptive creams, vaginal suppositories, or insertive products for 48 hours prior to your Pap swab.", 
+      title: "Avoid Intravaginal Products", 
+      description: "Refrain from using vaginal washes, intimate douches, contraceptive jellies, or medicated suppositories for 48 hours prior to your Pap smear collection.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "No Intercourse Prior", 
-      description: "Refrain from sexual intercourse for 24 to 48 hours before the test to avoid cytological cell masking or altered test quality.", 
+      title: "Abstain from Intercourse", 
+      description: "Avoid sexual intercourse for 24 to 48 hours before testing to prevent temporary mucosal inflammation or residual fluid from altering laboratory cytology results.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const careProtocol = [
     {
-      title: 'Step 1: Confidential Consult & Risk Map',
-      description: 'A private discussion with Dr. Shamim Sultana Yashine to review personal and family medical history, age-related factors, and map your screening timeline.',
+      title: 'Step 1: Confidential Risk & Family History Audit',
+      description: 'A private consultation with Dr. Shamim Sultana Yashine reviewing gynecological history, familial cancer history, and mapping an individualized screening interval.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Gentle Specimen Swab',
-      description: 'While resting comfortably, Dr. Shamim Sultana Yashine uses a soft cytobrush to collect a clean sample from the cervix in a quick, painless step taking under a minute.',
+      title: 'Step 2: Gentle Clinical Swab & Exam',
+      description: 'While resting comfortably, Dr. Shamim Sultana Yashine uses sterile, soft cytobrushes to harvest cervical cells in a gentle, painless process taking under a minute.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Pathological DNA Profiling',
-      description: 'The specimen is processed using liquid-based cytology or molecular DNA profiling at high-precision accredited lab partners.',
+      title: 'Step 3: NABL-Accredited Molecular Profiling',
+      description: 'Samples are processed via advanced liquid-based cytology and PCR molecular diagnostics through high-precision NABL-accredited pathology partners.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Report Review & HPV Vaccine Plan',
-      description: 'Dr. Shamim Sultana Yashine explains your results. Routine follow-ups are planned for normal results, and we guide you through Gardasil vaccine scheduling.',
+      title: 'Step 4: Report Counseling & Preventive Roadmap',
+      description: 'Dr. Shamim Sultana Yashine interprets your findings in detail, outlines routine follow-up intervals, and guides you through HPV vaccination options if eligible.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'Why is regular gynecological cancer screening critical for women?',
-      answer: 'Regular screening is essential because many reproductive tract cancers, specifically cervical and endometrial, develop silently without any visible symptoms. Screenings like Pap smears and HPV DNA tests can identify cellular changes or viral infections years before cancer develops, making prevention and treatment highly successful.'
+      question: 'Why is proactive gynecological cancer screening essential for every woman?',
+      answer: 'Proactive screening is life-saving because reproductive tract malignancies—particularly cervical and early endometrial lesions—develop insidiously over several years without causing pain or visible symptoms. Liquid-based Pap smears and HPV DNA tests detect microscopic pre-cancerous transformations early, allowing complete curative treatment before cancer ever takes hold.'
     },
     {
-      question: 'What is the actual, genuine cost of cancer screening services at the clinic?',
-      answer: 'We believe in complete transparency. A preventative pelvic health consultation with Dr. Shamim Sultana Yashine is ₹600. A liquid-based Pap smear (cytology test) ranges from ₹1,200 to ₹1,800. A high-risk HPV DNA molecular test ranges from ₹2,000 to ₹3,500. A comprehensive cervical screening profile (Co-testing: Pap smear + HPV DNA) ranges from ₹3,000 to ₹4,800. A pelvic screening ultrasound to evaluate uterus and ovaries is ₹1,500 to ₹2,500.'
+      question: 'What is the genuine cost of cancer screening profiles at June Women\'s Health?',
+      answer: 'We maintain 100% upfront financial clarity. A comprehensive preventive gynecological consultation is ₹600. A Liquid-Based Cytology (LBC) Pap smear is ₹1,400 to ₹1,900. High-risk HPV DNA molecular testing is ₹3,000 to ₹4,200. Combined Co-testing (Pap Smear + HPV DNA) is ₹3,800 to ₹5,200. A screening pelvic ultrasound (TVS) to evaluate ovarian and endometrial thickness is ₹1,600 to ₹2,400.'
     },
     {
-      question: 'What is the difference between a Pap smear and an HPV DNA test?',
-      answer: 'A Pap smear checks for abnormal or pre-cancerous cell mutations on the cervix. The HPV DNA test is a molecular check that looks specifically for the presence of high-risk strains of Human Papillomavirus (HPV), which are the primary cause of cervical cancer, before any cellular abnormalities develop.'
+      question: 'What is the clinical difference between a Pap smear and an HPV DNA test?',
+      answer: 'A Pap smear examines the actual structure and shape of cervical cells under a microscope to identify cellular dysplasia (abnormal changes). An HPV DNA test is a molecular assay that checks for the genetic material of high-risk Human Papillomavirus strains that trigger those cellular changes in the first place.'
     },
     {
-      question: 'At what age should women start screening for breast and cervical cancers?',
-      answer: 'Women should begin cervical Pap screening at age 21, repeating it every 3 years. From age 30, co-testing with an HPV DNA test every 5 years is recommended. Clinical breast examinations should start in your late 20s or early 30s, and routine mammograms are advised starting at age 40, or earlier if you have a strong family history.'
+      question: 'At what age should women begin cervical and breast cancer screening?',
+      answer: 'Cervical Pap smear screening should begin at age 21, repeated every 3 years. From age 30 onwards, co-testing with an HPV DNA test every 5 years is recommended. Clinical breast examinations should begin in your 20s during routine annual checkups, and annual screening mammograms are advised starting at age 40 (or earlier with a family history).'
     },
     {
-      question: 'Can cervical cancer be prevented through screening and vaccination?',
-      answer: 'Yes, absolutely. Cervical cancer is one of the most preventable cancers. Regular Pap and HPV DNA screenings catch cell changes early, and the HPV vaccine (Gardasil, administered ideally between ages 9 and 26) provides robust immunity against the viral strains responsible for over 90% of cervical cancers.'
+      question: 'How do HPV vaccines complement routine cancer screening?',
+      answer: 'HPV vaccines (such as Gardasil 9 and Cervavac) build protective humoral antibodies against the primary oncogenic HPV strains responsible for up to 90% of cervical cancers. Combining vaccination with regular screening provides near-complete lifelong protection against cervical malignancies.'
     },
     {
-      question: 'What happens if my cervical screening report shows abnormal cells?',
-      answer: 'An abnormal result does not mean you have cancer. It simply indicates that unusual cell changes were found. Dr. Shamim Sultana Yashine will evaluate the findings and may recommend co-testing, a repeat swab, or a colposcopy (a specialized magnification test to inspect the cervix in detail).'
+      question: 'What happens if my Pap smear or HPV report shows abnormal cells?',
+      answer: 'An abnormal report is not a diagnosis of cancer; it simply highlights minor cellular changes (such as ASC-US or LSIL) that warrant closer medical observation. Dr. Shamim Sultana Yashine will review the specific findings and recommend repeat testing, colposcopic optical evaluation, or targeted biopsy.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Cancer Screening" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Cancer Screening? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function CancerScreeningPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/cancer-screening-overview.webp" 
-                  alt="Cervical cytobrush and pap smear screening collection kit in clinic" 
+                  alt="Cervical cytobrush and pap smear screening collection kit in clinic Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Cancer Screening?" 
+                text="What is Gynecological Cancer Screening?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Gynecological <strong>Cancer Screening</strong> is a vital, life-saving component of proactive female preventive healthcare. Many reproductive tract cancers, specifically cervical and ovarian cancers, develop slowly over several years. During these early, pre-malignant phases, they run silently without producing visible symptoms or physical pain, meaning that routine clinical screening is the only way to detect and resolve them.
+                  Gynecological <strong>Cancer Screening</strong> is a vital, life-saving component of proactive female preventive healthcare. Malignancies of the reproductive tract—specifically cervical, endometrial, and ovarian conditions—often develop silently over several years without causing initial pain or warning symptoms. Routine screening is the single most effective tool for early detection and total cure.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, the leading preventive care and family wellness clinic in Sushant Golf City and Lucknow, Lucknow, we emphasize stress-free, highly comfortable diagnostic screenings. Dr. Shamim Sultana Yashine provides gentle Pap smears, HPV DNA molecular tests, and clinical breast examinations in a supportive and private space.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide gentle, stress-free screening protocols. Serving women across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we perform painless Liquid-Based Pap smears, high-risk HPV DNA testing, pelvic ultrasound assessments, and clinical breast examinations.
                 </p>
                 <p>
-                  Our clinic is run single-handedly by Dr. Shamim Sultana Yashine, ensuring that you receive direct, personal, and highly confidential medical evaluations. All screenings are scheduled strictly by prior appointment during dedicated hours. This maintains a quiet, highly sterilized environment that eliminates waiting room crowds and protects your privacy.
+                  Our private single-doctor clinic near Lulu Mall on Amar Shaheed Path is structured to guarantee absolute confidentiality, gentle sample collection, and unhurried medical discussions in a sterile, welcoming environment.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function CancerScreeningPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Cancer Screening?
+                  Why Women Choose June Women&apos;s Health for Cancer Screening
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,29 +490,29 @@ export default function CancerScreeningPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Painless, Gentle Cytology Swabs</strong>
-                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine communicates gently during every step of the Pap smear, minimizing discomfort and physical anxiety.</span>
+                      <strong className="block text-[16px] text-white">Gentle Specimen Collection by Senior Specialist</strong>
+                      <span className="text-white/80 text-[14px]">Avoid delegated testing. Dr. Shamim Sultana Yashine personally conducts every cervical swab and breast exam with utmost gentleness and clinical precision.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">High-Precision Accredited Labs</strong>
-                      <span className="text-white/80 text-[14px]">We partner with premium NABL-accredited diagnostic labs to ensure accuracy in liquid-based cytology and high-risk HPV DNA testing.</span>
+                      <strong className="block text-[16px] text-white">NABL-Accredited Molecular Diagnostic Labs</strong>
+                      <span className="text-white/80 text-[14px]">Specimens are processed with advanced liquid-based cytology and real-time PCR HPV testing to guarantee absolute accuracy in cellular analysis.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Appointment Structure</strong>
-                      <span className="text-white/80 text-[14px]">All screenings are scheduled strictly by appointment, keeping the environment private, clean, and completely free of waiting room stress.</span>
+                      <strong className="block text-[16px] text-white">Confidential Prior-Appointment Setup</strong>
+                      <span className="text-white/80 text-[14px]">Consultations and preventative screenings in Sushant Golf City operate by prior appointment, ensuring zero lobby crowds and complete patient privacy.</span>
                     </div>
                   </li>
                 </ul>
@@ -506,7 +523,7 @@ export default function CancerScreeningPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

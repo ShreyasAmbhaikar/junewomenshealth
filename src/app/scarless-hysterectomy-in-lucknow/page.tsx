@@ -24,8 +24,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Scarless Hysterectomy (NDVH) in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get expert Non-Descent Vaginal Hysterectomy (NDVH) with no cuts or abdominal scars at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Transparent & evidence-based treatment. Book a consult today.",
+  title: "Best Scarless Hysterectomy (NDVH) Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Get expert Non-Descent Vaginal Hysterectomy (NDVH) with zero abdominal scars by Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book a consult today.",
   alternates: {
     canonical: '/scarless-hysterectomy-in-lucknow/',
   }
@@ -40,39 +40,39 @@ export default function ScarlessHysterectomyPage() {
 
   const procedureTimeline = [
     {
-      title: 'Step 1: Pre-Operative Diagnostic Evaluation',
-      description: 'Before surgery, Dr. Shamim Sultana Yashine conducts pelvic ultrasound scans to map the exact size of your uterus and confirm that it can safely pass through the vaginal canal.',
+      title: 'Step 1: Pelvic Anatomy & Uterine Mobility Audit',
+      description: 'Prior to surgery, Dr. Shamim Sultana Yashine performs transvaginal sonography and clinical pelvic mapping to verify uterine dimensions and confirm feasibility for natural vaginal extraction.',
       icon: <Stethoscope className="w-5 h-5" />
     },
     {
-      title: 'Step 2: Anesthesia & Internal Access',
-      description: 'The procedure is performed under general or spinal anesthesia, ensuring you are completely pain-free. A circular incision is made internally around the cervix at the top of the vaginal canal.',
+      title: 'Step 2: Anesthesia & Circumferential Mucosal Incision',
+      description: 'Under gentle regional spinal or general anesthesia, a precise circular mucosal incision is placed internally at the cervicovaginal junction, completely avoiding any abdominal skin incisions.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Step 3: Uterine Vessel Ligation',
-      description: 'Specialized surgical instruments are used to carefully clamp, tie off, and dissect the supporting blood vessels and ligaments holding the uterus in place.',
+      title: 'Step 3: Sequential Vessel & Ligament Ligation',
+      description: 'Using specialized vaginal surgical retractors and electrosurgical instruments, the uterine vessels, uterosacral, and cardinal ligaments are systematically secured and ligated.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Step 4: Uterine Extraction & Vault Closure',
-      description: 'The uterus (and cervix) is gently extracted through the vagina. The top of the vagina (the vault) is then sutured closed with dissolvable internal threads, leaving zero external marks.',
+      title: 'Step 4: Vaginal Retrieval & Peritoneal Vault Closure',
+      description: 'The uterus is extracted smoothly via the vaginal introitus (using morcellation/debulking if enlarged), followed by anatomically secure vaginal vault closure using absorbable sutures.',
       icon: <Heart className="w-5 h-5" />
     }
   ];
 
   const preparationCards = [
-    { title: "Pre-Anesthetic Screening", description: "Mandatory blood investigations, ECG, and general health evaluations are completed to ensure physical fitness.", icon: <ClipboardList className="w-6 h-6 text-accent" /> },
-    { title: "Strict Fasting Guidelines", description: "Expectant patients must follow strict fasting (no food or water) for 8 hours prior to the scheduled surgery.", icon: <Clock className="w-6 h-6 text-accent" /> },
-    { title: "Post-Operative Packing", description: "Pack personal essentials, including comfortable loose clothing, sanitary pads, and basic toiletries for a 2-day hospital stay.", icon: <Home className="w-6 h-6 text-accent" /> },
-    { title: "Discuss Medical List", description: "Inform Dr. Shamim Sultana Yashine of any daily medications (like blood-thinners or diabetic pills) to adjust dosages before surgery.", icon: <BookOpen className="w-6 h-6 text-accent" /> },
-    { title: "Support Planning", description: "Arrange for family support to assist you at home for the first few days after discharge to facilitate restful healing.", icon: <Smile className="w-6 h-6 text-accent" /> }
+    { title: "Pre-Surgical Anesthesia Clearance", description: "Completing comprehensive pre-operative blood panels, cardiac evaluation, coagulation assays, and chest X-rays to ensure total anesthesia safety.", icon: <ClipboardList className="w-6 h-6 text-accent" /> },
+    { title: "Strict Pre-Op Fasting Protocol", description: "Maintaining an 8-hour fasting window (nil per os) prior to scheduled surgery along with gentle bowel preparation for optimal pelvic visibility.", icon: <Clock className="w-6 h-6 text-accent" /> },
+    { title: "Daycare & Inpatient Preparation", description: "Packing loose comfortable clothing, supportive undergarments, and sanitary pads for a comfortable 24 to 48 hour postoperative recovery stay.", icon: <Home className="w-6 h-6 text-accent" /> },
+    { title: "Medication Reconciliation", description: "Reviewing daily anti-hypertensive, thyroid, or blood-thinning prescriptions with Dr. Shamim Sultana Yashine to adjust dosage schedules before surgery.", icon: <BookOpen className="w-6 h-6 text-accent" /> },
+    { title: "At-Home Convalescence Planning", description: "Organizing home support for the first 3 to 5 days post-discharge so you can rest comfortably without managing household chores or heavy lifting.", icon: <Smile className="w-6 h-6 text-accent" /> }
   ];
 
   const recoveryCards = [
     {
-      title: "Immediate Hospital Healing",
-      description: "During the first 24-48 hours, you will receive pain relief and hydration in the ward. Early light walking is encouraged to promote blood circulation and prevent blood clots.",
+      title: "In-Hospital Monitored Recovery",
+      description: "During the first 24 to 48 hours, intravenous hydration, anti-inflammatory pain relief, and early walking are instituted to restore pelvic circulation and bowel motility.",
       icon: <HeartPulse className="w-9 h-9 text-[#C0354A]" />,
       iconBg: 'rgba(232, 71, 95, 0.15)',
       bgGradient: 'linear-gradient(135deg, #FDE8EC 0%, #F3E7E9 40%, #E3EEFF 100%)',
@@ -80,8 +80,8 @@ export default function ScarlessHysterectomyPage() {
       textColor: 'rgba(74, 21, 75, 0.78)'
     },
     {
-      title: "At-Home Restoration",
-      description: "Avoid lifting heavy weights, climbing stairs excessively, or bending forward during the first 2-3 weeks. Follow a fiber-rich diet to prevent constipation, which can strain internal sutures.",
+      title: "Home Healing & Pelvic Protection",
+      description: "Avoid lifting heavy loads, climbing strenuous stairs, or bearing down during the first 2 to 3 weeks. Maintain a high-fiber diet and hydration to prevent constipation.",
       icon: <ShieldCheck className="w-9 h-9 text-[#5C35CC]" />,
       iconBg: 'rgba(124, 77, 255, 0.12)',
       bgGradient: 'linear-gradient(135deg, #EDE7F6 0%, #E0C3FC 40%, #8EC5FC 100%)',
@@ -89,8 +89,8 @@ export default function ScarlessHysterectomyPage() {
       textColor: 'rgba(26, 26, 94, 0.78)'
     },
     {
-      title: "Complete Internal Recovery",
-      description: "It takes about 4 to 6 weeks for internal tissues to fully mend. During this healing window, strict avoidance of sexual intercourse, swimming, or douching is mandatory.",
+      title: "Complete Internal Tissue Restoration",
+      description: "Internal vaginal vault healing completes within 4 to 6 weeks. Avoid sexual intercourse, vaginal douching, or vigorous core workouts until final clinical follow-up.",
       icon: <Smile className="w-9 h-9 text-[#2E7D32]" />,
       iconBg: 'rgba(76, 175, 80, 0.15)',
       bgGradient: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 40%, #DCEDC8 100%)',
@@ -101,34 +101,51 @@ export default function ScarlessHysterectomyPage() {
 
   const faqs = [
     {
-      question: 'What is the actual cost of a Scarless Hysterectomy (NDVH) in Lucknow?',
-      answer: 'The total cost of a Non-Descent Vaginal Hysterectomy (NDVH) in Lucknow typically ranges between ₹80,000 and ₹1,30,000. This estimate is highly transparent and covers the surgeon\'s professional fee, operating theatre charges, standard anesthesia fees, standard surgical disposables, and a 24-48 hour hospital stay in a semi-private or private room. The final cost varies slightly depending on the specific hospital chosen for the procedure and the patient\'s general health status. Dr. Shamim Sultana Yashine provides a fully itemized breakdown during your initial consultation.'
+      question: 'What is a Scarless Hysterectomy (NDVH) and what is the typical cost in Lucknow?',
+      answer: 'Non-Descent Vaginal Hysterectomy (NDVH)—popularly known as Scarless Hysterectomy—is a minimally invasive surgical procedure where the uterus is removed entirely through the natural vaginal canal without making a single cut on the abdominal skin. In Lucknow, the total cost for NDVH typically ranges between ₹75,000 and ₹1,25,000, covering surgical fees, operating room charges, standard anesthesia, disposables, and a 24-48 hour hospital stay. Dr. Shamim Sultana Yashine provides an itemized financial outline prior to scheduling.'
     },
     {
-      question: 'How does a scarless hysterectomy differ from a laparoscopic hysterectomy?',
-      answer: 'While both are minimally invasive, a laparoscopic hysterectomy still requires 3 to 4 small keyhole cuts on your abdomen to insert camera ports. In contrast, a scarless hysterectomy (NDVH) is performed entirely through the natural vaginal canal, leaving zero external incisions, zero scars on the abdomen, and resulting in even less post-operative abdominal soreness.'
+      question: 'How is a scarless vaginal hysterectomy different from a laparoscopic hysterectomy?',
+      answer: 'A laparoscopic hysterectomy requires 3 to 4 small keyhole incisions (0.5cm to 1cm) on your abdomen for camera and instrument access. In contrast, Scarless Hysterectomy (NDVH) utilizes the natural vaginal opening exclusively, leaving zero scars on your abdomen, eliminating incisional hernia risks, and delivering significantly reduced postoperative abdominal muscle soreness.'
     },
     {
-      question: 'Is a scarless hysterectomy possible for a large uterus or large fibroids?',
-      answer: 'Yes. In many cases, a scarless hysterectomy can still be performed for large fibroids or an enlarged uterus. Dr. Shamim Sultana Yashine utilizes advanced techniques such as bisection or morcellation (carefully dividing the uterus into smaller, manageable sections internally) to safely retrieve it through the vaginal pathway without needing abdominal incisions.'
+      question: 'Can a scarless hysterectomy be performed if I have large fibroids or an enlarged uterus?',
+      answer: 'Yes! Experienced pelvic surgeons like Dr. Shamim Sultana Yashine routinely perform NDVH on enlarged uteri (up to 12-16 weeks gestational size) by utilizing specialized internal debulking techniques (such as bisection, myomectomy, or coring) to extract the uterus safely without converting to an open abdominal incision.'
     },
     {
-      question: 'How painful is recovery after an NDVH procedure?',
-      answer: 'Since there are no cuts on the abdominal muscles, post-operative pain is significantly lower compared to open surgeries. Most patients describe a mild pelvic pressure or cramping sensation, which is easily managed with oral painkillers. Most women feel comfortable walking independently within 24 hours.'
+      question: 'How much pain should I expect after an NDVH procedure?',
+      answer: 'Because abdominal muscles and skin layers are untouched, postoperative pain is markedly lower than open abdominal surgery. Most patients experience mild pelvic tightness or menstrual-like cramping for 24-48 hours, readily relieved by mild oral analgesics. Most women walk comfortably within 12 to 24 hours.'
     },
     {
-      question: 'Who is not a candidate for a scarless hysterectomy?',
-      answer: 'NDVH may not be recommended for women with severe pelvic adhesions (from multiple previous surgeries or severe endometriosis), suspected gynecological cancers, or a highly narrow vaginal canal that makes internal access restricted. Dr. Shamim Sultana Yashine performs a comprehensive diagnostic check to determine candidate suitability.'
+      question: 'Who is not a candidate for Non-Descent Vaginal Hysterectomy?',
+      answer: 'NDVH may not be recommended for patients with known gynecological malignancies (ovarian or uterine cancer), severe frozen pelvis from extensive stage IV endometriosis, or extreme pelvic adhesions from multiple prior abdominal surgeries. A thorough pre-operative assessment with Dr. Shamim Sultana Yashine confirms your eligibility.'
     },
     {
-      question: 'Will I experience menopause immediately after a hysterectomy?',
-      answer: 'Not necessarily. A hysterectomy only removes the uterus (stopping menstrual cycles). If your ovaries are healthy and left intact, they will continue to produce hormones naturally, preventing immediate surgical menopause. Menopause only occurs if both ovaries are surgically removed (oophorectomy) during the procedure.'
+      question: 'Will undergoing a scarless hysterectomy trigger immediate surgical menopause?',
+      answer: 'Not if your ovaries are healthy and preserved! A hysterectomy only removes the uterus (ending monthly bleeding). When the ovaries are preserved, they continue producing estrogen and progesterone naturally, maintaining hormonal balance and avoiding immediate surgical menopause.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Scarless Hysterectomy (NDVH)" breadcrumbs={breadcrumbs} bgImage="/images/scarless-header.webp" />
 
         {/* === SECTION 1: What is Scarless Hysterectomy (NDVH)? (Cream bg) === */}
@@ -140,7 +157,7 @@ export default function ScarlessHysterectomyPage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[2.2/1] w-full max-h-[420px] bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/scarless-prep.webp" 
-                  alt="Non-Descent Vaginal Hysterectomy (NDVH) Scarless Uterus Removal Pelvic Anatomy Diagram" 
+                  alt="Non-Descent Vaginal Hysterectomy (NDVH) Scarless Uterus Removal Pelvic Anatomy Diagram in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain group-hover:scale-102 transition-transform duration-500"
                   priority
@@ -152,13 +169,13 @@ export default function ScarlessHysterectomyPage() {
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  Scarless Hysterectomy, clinically referred to as Non-Descent Vaginal Hysterectomy (NDVH), is a highly advanced, minimally invasive surgical technique for removing the uterus. By accessing the pelvic cavity entirely through the natural vaginal canal, it eliminates the need for any abdominal cuts, resulting in cosmetic preservation, dramatically less pain, and a much smoother recovery.
+                  <strong>Scarless Hysterectomy</strong>, medically designated as <strong>Non-Descent Vaginal Hysterectomy (NDVH)</strong>, represents the pinnacle of minimally invasive gynecological surgery. By removing the non-prolapsed uterus entirely through the natural vaginal canal, it completely avoids abdominal skin incisions, preserving abdominal wall aesthetics, minimizing surgical trauma, and accelerating post-operative healing.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a premier gynecological care center in Sushant Golf City and Lucknow, we specialize in offering NDVH for benign uterine conditions. Dr. Shamim Sultana Yashine provides compassionate counseling, rigorous pre-surgical assessments, and dedicated post-operative follow-up care to ensure that each patient mends quickly and safely.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we specialize in performing NDVH for benign gynecological conditions including uterine fibroids, adenomyosis, and abnormal uterine bleeding (AUB) resistant to medical therapy.
                 </p>
                 <p>
-                  We coordinate with leading local tertiary hospitals to execute all surgical procedures in fully sterile, advanced operating theatres. Our patient-first care philosophy ensures that you receive the highest medical standards, individualized attention, and transparent guidance at every step of your surgical path.
+                  Serving patients from Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, Dr. Shamim Sultana Yashine conducts detailed pre-operative assessments and surgical planning at our private single-doctor clinic near Lulu Mall on Shaheed Path, coordinating procedures in state-of-the-art sterile hospital theatres.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -438,7 +455,7 @@ export default function ScarlessHysterectomyPage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Scarless Hysterectomy Care?
+                  Why Women Choose June Women&apos;s Health for Scarless Hysterectomy
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -447,29 +464,29 @@ export default function ScarlessHysterectomyPage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Specialized Gynecological Surgery</strong>
-                      <span className="text-white/80 text-[14px]">Over 10+ years of clinical experience successfully performing minimally invasive vaginal surgeries (NDVH) in Sushant Golf City, Lucknow, Lucknow.</span>
+                      <strong className="block text-[16px] text-white">Surgical Mastery in NDVH Technique</strong>
+                      <span className="text-white/80 text-[14px]">Over 10+ years of clinical proficiency performing non-descent vaginal hysterectomies without abdominal cuts, even for enlarged uteri and fibroids.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Empathetic & Personalized Consultations</strong>
-                      <span className="text-white/80 text-[14px]">We provide direct, private one-on-one attention with Dr. Shamim Sultana Yashine at every appointment, ensuring transparent surgical guidance without rotating corporate clinic staff.</span>
+                      <strong className="block text-[16px] text-white">Empathetic One-on-One Surgical Care</strong>
+                      <span className="text-white/80 text-[14px]">Consult directly with Dr. Shamim Sultana Yashine for comprehensive pre-op mapping, transparent cost clarity, and compassionate bedside care.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Safe Tertiary Coordination</strong>
-                      <span className="text-white/80 text-[14px]">Dr. Shamim Sultana Yashine coordinates all surgical procedures in leading local tertiary hospitals, maintaining dedicated operating times and rigorous post-surgical follow-ups.</span>
+                      <strong className="block text-[16px] text-white">Dedicated Modern Hospital Theatres</strong>
+                      <span className="text-white/80 text-[14px]">Procedures are scheduled in accredited tertiary hospitals with advanced electrosurgical systems and 24/7 post-operative monitoring.</span>
                     </div>
                   </li>
                 </ul>
@@ -480,7 +497,7 @@ export default function ScarlessHysterectomyPage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

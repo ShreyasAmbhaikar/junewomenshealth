@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: "Best Pregnancy Care & Maternity Clinic in Sushant Golf City & Lucknow | June Women's Health",
-  description: "Get comprehensive pregnancy care (maternity care), routine prenatal scans, and personalized delivery planning under Dr. Shamim Sultana Yashine at June Women's Health in Sushant Golf City & Lucknow, Lucknow. Book today.",
+  title: "Best Pregnancy Care & Maternity Doctor in Sushant Golf City, Lucknow | June Women's Health",
+  description: "Get expert maternity care, prenatal checkups, ultrasound scans, and delivery planning under Dr. Shamim Sultana Yashine (MS - Obstetrician & Gynaecologist, Laparoscopic Surgeon) in Sushant Golf City, Lucknow. Book today.",
   alternates: {
     canonical: '/pregnancy-care-in-lucknow/',
   }
@@ -36,98 +36,115 @@ export default function PregnancyCarePage() {
 
   const maternalIndicators = [
     { 
-      title: "Hypertension & Preeclampsia Checks", 
-      description: "Consistent blood pressure monitoring at every antenatal checkup to detect and manage preeclampsia early, keeping both mother and fetus safe.", 
+      title: "Blood Pressure & Preeclampsia Surveillance", 
+      description: "Rigorous arterial pressure tracking and urine protein screening at each antenatal consultation to preempt gestational hypertension and protect placental blood flow.", 
       icon: <Activity className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Gestational Diabetes Screening", 
-      description: "Routine oral glucose tolerance testing between weeks 24 and 28 to identify and manage gestational blood sugar levels via diet and medical support.", 
+      title: "Gestational Glycemic Control", 
+      description: "Standard 75g oral glucose challenge profiling between weeks 24 and 28 to detect gestational diabetes early and formulate customized medical nutrition therapy.", 
       icon: <ShieldCheck className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Fetal Growth & Fluid Tracking", 
-      description: "Measuring fundal height, tracking amniotic fluid levels, and monitoring fetal movements to ensure healthy, uninterrupted baby development.", 
+      title: "Ultrasound Biometry & Amniotic Index", 
+      description: "Serial anatomical scans evaluating abdominal circumference, femur length, and amniotic fluid index (AFI) to safeguard steady fetal maturation.", 
       icon: <Heart className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Iron & Hemoglobin Optimization", 
-      description: "Frequent maternal blood profiling to prevent iron-deficiency anemia, supporting the healthy expansion of blood volume during pregnancy.", 
+      title: "Hematological & Iron Optimization", 
+      description: "Continuous maternal ferritin and complete blood count profiling to avert third-trimester fatigue, support blood volume expansion, and prepare for delivery.", 
       icon: <Sparkles className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const prepGuidelines = [
     { 
-      title: "Prenatal Health Diary", 
-      description: "Documenting pregnancy symptoms, dietary changes, and tracking kick counts after week 28 to keep a close log for your routine checkups.", 
+      title: "Antenatal Health Diary", 
+      description: "Recording daily fetal kick counts, blood pressure readings, and bodily changes after week 28 to review closely during your clinical checkups.", 
       icon: <Calendar className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Nutritional & Vitamin Schedule", 
-      description: "Strictly adhering to prescribed folic acid, iron, calcium, and vitamin D3 supplements, paired with a balanced, protein-rich maternal diet.", 
+      title: "Tailored Micronutrient Protocol", 
+      description: "Following prescribed methylfolate, elemental iron, calcium citrate, and DHA supplementation alongside a nutrient-dense, balanced maternal diet.", 
       icon: <Clock className="w-6 h-6 text-accent" /> 
     },
     { 
-      title: "Labor Preparation & Hospital Plan", 
-      description: "Reviewing labor warning signs, planning hospital logistics, and coordinating your birth plan with Dr. Shamim Sultana Yashine well before your estimated due date.", 
+      title: "Birth Readiness & Hospital Alignment", 
+      description: "Identifying early labor signs, organizing hospital documentation, and aligning birth preferences with Dr. Shamim Sultana Yashine well before your due date.", 
       icon: <ClipboardList className="w-6 h-6 text-accent" /> 
     }
   ];
 
   const trimesterTimeline = [
     {
-      title: 'First Trimester: Foundation Stage (Weeks 1-12)',
-      description: 'Confirming pregnancy via pelvic scan, calculating the estimated due date (EDD), checking the early fetal heartbeat, and prescribing essential folic acid. We provide guidance to manage early symptoms like morning sickness, nausea, and fatigue.',
+      title: 'First Trimester: Embryonic Foundation (Weeks 1-12)',
+      description: 'Confirming intrauterine gestational sac viability, dating ultrasound for accurate EDD calculation, baseline metabolic profiling, and starting essential neural tube folic acid supplementation while managing early nausea and fatigue.',
       icon: <Heart className="w-5 h-5" />
     },
     {
-      title: 'Second Trimester: Growth Stage (Weeks 13-28)',
-      description: 'The anomaly scan (fetal organ scan) is performed at weeks 18-20 to verify structural development. We conduct glucose tolerance checks for gestational diabetes and continue checking maternal blood pressure and iron stores.',
+      title: 'Second Trimester: Fetal Organogenesis & Growth (Weeks 13-28)',
+      description: 'Comprehensive Level-II anomaly scan (18-20 weeks) to assess fetal organ architecture, cervical length screening, glucose tolerance screening (GTT), and nutritional iron-calcium supplementation.',
       icon: <Activity className="w-5 h-5" />
     },
     {
-      title: 'Third Trimester: Fetal Maturation (Weeks 29-40)',
-      description: 'Checkups increase to twice a month, then weekly. We track fetal positioning, amniotic fluid volume, and cervical changes. We finalize delivery plans, identify labor indicators, and prepare for a safe, natural birth.',
+      title: 'Third Trimester: Fetal Maturation & Labor Prep (Weeks 29-40)',
+      description: 'Bi-weekly then weekly clinical evaluations, fetal Doppler flow studies, non-stress testing (NST), pelvic maturity checks, and finalizing your personalized normal or planned birth strategy.',
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
-      title: 'Postpartum: Recovery & Lactation Support (Weeks 1-6)',
-      description: 'Maternal recovery assessments, guidance on pelvic floor healing, mental wellness checks, and dedicated clinical support for successful breastfeeding and newborn care.',
+      title: 'Postnatal Phase: Healing & Lactation Mastery (Weeks 1-6)',
+      description: 'Comprehensive postpartum physical evaluation, uterine involution checks, emotional wellness screening, and specialized one-on-one lactation coaching.',
       icon: <Sparkles className="w-5 h-5" />
     }
   ];
 
   const faqs = [
     {
-      question: 'What does comprehensive pregnancy care (maternity care) include?',
-      answer: 'Pregnancy care at our clinic includes routine antenatal consultations, due date estimation, tracking fetal growth and heart rate, monitoring maternal vitals (blood pressure and blood sugar), prescribing essential prenatal supplements (folic acid, iron, and calcium), coordinating screening scans, and helping you prepare a personalized birth and delivery plan.'
+      question: 'What is included in comprehensive pregnancy care at June Women\'s Health?',
+      answer: 'Our maternity program covers complete antenatal clinical visits, precision ultrasound growth tracking, maternal hemodynamic monitoring (blood pressure and blood sugar), evidence-based micronutrient prescriptions, high-resolution anomaly scans, and personalized delivery planning under Dr. Shamim Sultana Yashine.'
     },
     {
-      question: 'What is the standard schedule for routine prenatal checkups?',
-      answer: 'For a low-risk, healthy pregnancy, we recommend one clinical visit every 4 weeks up to week 28 of pregnancy. From week 28 to week 36, consultations are scheduled every 2 weeks. From week 36 until your delivery, checks are scheduled weekly to monitor baby positioning and prepare for labor.'
+      question: 'What is the recommended frequency for prenatal visits during pregnancy?',
+      answer: 'In an uncomplicated, healthy pregnancy, appointments are scheduled every 4 weeks until week 28, every 2 weeks from weeks 28 to 36, and weekly from week 36 onwards until delivery to closely monitor fetal presentation, amniotic fluid, and labor readiness.'
     },
     {
-      question: 'What is the actual, genuine cost of pregnancy care and delivery in Lucknow?',
-      answer: 'At Dr. Shamim Sultana Yashine\'s Women\'s Clinic, we practice absolute transparency. Individual pregnancy consultations are ₹600. A standard trimester antenatal lab profile (CBC, blood group, blood sugar, urine routine, thyroid profile) ranges from ₹3,500 to ₹5,500. Standard delivery packages at our affiliated hospital partners in Lucknow typically range from ₹35,000 to ₹55,000 for normal vaginal deliveries, and ₹50,000 to ₹75,000 for a Caesarean section (LSCS) depending on the hospital category and room selections.'
+      question: 'What are the consultation and pregnancy care fees at the clinic in Sushant Golf City?',
+      answer: 'At June Women\'s Health, we maintain complete fee clarity. A private antenatal consultation with Dr. Shamim Sultana Yashine is ₹600. Routine trimester laboratory panels range from ₹3,500 to ₹5,500. Hospital delivery packages with our affiliated tertiary hospitals in Lucknow range from ₹35,000 to ₹55,000 for normal deliveries and ₹50,000 to ₹75,000 for cesarean births depending on room category.'
     },
     {
-      question: 'How do I contact the doctor in case of non-emergency queries or urgent symptoms?',
-      answer: 'Our single-doctor practice offers a highly valued direct line of communication. Registered pregnancy care patients can connect directly with Dr. Shamim Sultana Yashine via phone or WhatsApp for quick clarifications. For urgent warning signs (like bleeding, severe cramping, high fever, or decreased baby movement), patients are guided directly to our affiliated multi-specialty hospital partner where Dr. Shamim Sultana Yashine coordinates immediate care.'
+      question: 'How do registered patients reach the doctor for urgent questions or concerns?',
+      answer: 'Registered antenatal patients receive direct communication channels with Dr. Shamim Sultana Yashine for non-emergency guidance. If acute symptoms occur—such as bright bleeding, fluid leakage, or severe abdominal pain—patients are admitted immediately to our affiliated tertiary hospital for round-the-clock emergency obstetric care.'
     },
     {
-      question: 'What are the essential scans and screening tests required during pregnancy?',
-      answer: 'Critical screens include: 1. Dating scan (weeks 6-8) to confirm heartbeat; 2. NT scan & Double Marker (weeks 11-13) for chromosomal screening; 3. Anomaly scan (weeks 18-20) to check organ development; 4. Oral Glucose Tolerance Test (weeks 24-28) to screen for diabetes; and 5. Fetal growth and Doppler scans in the third trimester to verify fluid levels and baby size.'
+      question: 'Which prenatal scans and blood tests are essential during each trimester?',
+      answer: 'Essential milestones include: 1. Early viability dating scan (weeks 6-8); 2. NT Scan and Dual Marker blood screen (weeks 11-13.6) for chromosomal safety; 3. Detailed Level-II Anomaly Scan (weeks 18-20); 4. Oral Glucose Tolerance Test (weeks 24-28); and 5. Third-trimester Growth & Color Doppler scans to evaluate placental circulation.'
     },
     {
-      question: 'Do you offer 24/7 emergency walk-in maternity services at the clinic?',
-      answer: 'Dr. Shamim Sultana Yashine\'s Women\'s Clinic operates strictly by prior appointment during dedicated morning and evening hours to provide a quiet, highly sterilized, and unhurried clinical experience. We are not a 24/7 walk-in emergency hospital. For planned deliveries and active labor, patients are admitted directly to our affiliated tertiary care hospital facilities in Lucknow, where Dr. Shamim Sultana Yashine personally conducts the delivery.'
+      question: 'How are hospital deliveries conducted under Dr. Shamim Sultana Yashine?',
+      answer: 'Routine prenatal consultations and outpatient monitoring occur in our clinic in Sushant Golf City. When labor begins, deliveries and procedures are conducted by Dr. Shamim Sultana Yashine at top affiliated hospitals in Lucknow equipped with state-of-the-art labor suites, adult ICUs, and advanced Level-III NICU facilities.'
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   return (
     <>
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         <PageHeader title="Pregnancy Care (Maternity)" breadcrumbs={breadcrumbs} bgImage="/images/maternity_header.webp" />
 
         {/* === SECTION 1: What is Pregnancy Care (Maternity)? (Cream bg) === */}
@@ -139,25 +156,25 @@ export default function PregnancyCarePage() {
               <div className="mb-[30px] lg:mb-[40px] rounded-[24px] overflow-hidden shadow-md relative aspect-[926/418] w-full max-h-[420px] max-w-[926px] mx-auto bg-white p-4 border border-black/[0.03] group">
                 <Image 
                   src="/images/pregnancy-overview.webp" 
-                  alt="Detailed medical 3D illustration showing a healthy pregnant uterus with developing fetus in head-down position" 
+                  alt="Detailed medical 3D illustration showing a healthy pregnant uterus with developing fetus in head-down position in Sushant Golf City Lucknow" 
                   fill
                   className="object-contain p-2 group-hover:scale-102 transition-transform duration-500"
                   priority
                 />
               </div>
               <AnimatedHeading 
-                text="What is Pregnancy Care (Maternity)?" 
+                text="What is Comprehensive Pregnancy Care?" 
                 className="text-[28px] md:text-[34px] font-bold text-primary mb-[20px] leading-tight mt-6"
               />
               <div className="text-text space-y-4 leading-relaxed mb-[30px]">
                 <p>
-                  <strong>Pregnancy Care (Maternity Care)</strong> represents the comprehensive clinical, emotional, and physical support provided to a mother-to-be from conception until postpartum. Routine antenatal care involves monitoring fetal development, checking maternal health indicators, coordinating screening scans, and formulating a safe delivery plan. Consistent monitoring is essential to prevent complications and support a healthy, natural pregnancy journey.
+                  <strong>Pregnancy Care (Maternity Care)</strong> represents the proactive clinical, nutritional, and emotional framework designed to nurture maternal health and foster optimal fetal growth from conception through postpartum recovery. Consistent antenatal evaluations prevent complications, detect subtle maternal-fetal changes early, and build confidence for childbirth.
                 </p>
                 <p>
-                  At <strong>June Women's Health</strong>, recognized as a leading center for comprehensive family planning and gynaecological care in Sushant Golf City and Lucknow, Lucknow, we treat pregnancy as a deeply personal journey. Dr. Shamim Sultana Yashine provides individualized care, explaining every ultrasound finding and baseline test clearly, putting first-time mothers completely at ease.
+                  At <strong>June Women&apos;s Health</strong> in Sushant Golf City, Lucknow, led by <strong>Dr. Shamim Sultana Yashine (MS - Obstetrician &amp; Gynaecologist, Laparoscopic Surgeon)</strong>, we provide personalized, unhurried maternity care. Serving families across Sushant Golf City, Vrindavan Yojna, Omaxe City, Arjunganj, Nilmatha, Awadh Vihar Yojna, and greater Lucknow, we ensure every mother understands her ultrasound milestones and test reports in a calm, supportive setting.
                 </p>
                 <p>
-                  Because we run a focused, single-doctor private clinic rather than a crowded corporate hospital, you receive direct, personal attention from Dr. Shamim Sultana Yashine at every visit. We operate strictly by prior appointment during dedicated morning and evening timings to maintain a quiet, highly sterilized clinical environment and eliminate long waiting room delays.
+                  Operating as a dedicated single-doctor practice near Lulu Mall on Shaheed Path, our clinic guarantees direct continuity of care with Dr. Shamim Sultana Yashine at every appointment, ensuring zero lobby crowds and a pristine, highly sterilized clinical atmosphere.
                 </p>
               </div>
               <Button href="/contact-us" variant="primary" icon>
@@ -464,7 +481,7 @@ export default function PregnancyCarePage() {
               <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
               <div className="w-full md:w-[65%] lg:w-[70%] flex flex-col gap-6 relative z-10">
                 <h3 className="text-[26px] font-bold text-white leading-tight">
-                  Why Choose June Women's Health for Pregnancy Care (Maternity)?
+                  Why Expectant Mothers Choose June Women&apos;s Health in Lucknow
                 </h3>
                 
                 {/* Google Rating (Mobile Only - Below Heading) */}
@@ -473,29 +490,29 @@ export default function PregnancyCarePage() {
                     <div className="text-[42px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[13px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[14px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[14px] text-white/80">Based on 11 Reviews</p>
                 </div>
 
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Direct Medical Access & Continuity of Care</strong>
-                      <span className="text-white/80 text-[14px]">Because we run a single-doctor practice, you consult Dr. Shamim Sultana Yashine at every visit. Our patients get direct phone guidance for non-emergency pregnancy questions.</span>
+                      <strong className="block text-[16px] text-white">Direct One-on-One Physician Relationship</strong>
+                      <span className="text-white/80 text-[14px]">You are seen personally by Dr. Shamim Sultana Yashine at every single antenatal appointment, guaranteeing unhurried consultations and medical continuity.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Dedicated Prior-Appointment Schedule</strong>
-                      <span className="text-white/80 text-[14px]">We coordinate all prenatal checks strictly by prior appointment during dedicated hours, preventing waiting-room crowds and securing a sterile space.</span>
+                      <strong className="block text-[16px] text-white">Calm &amp; Private Clinical Environment</strong>
+                      <span className="text-white/80 text-[14px]">Dedicated appointment slots eliminate crowded hospital lobbies, ensuring a peaceful, sterilized space for expectant mothers and families.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent mt-1 shrink-0" />
                     <div>
-                      <strong className="block text-[16px] text-white">Affiliated Tertiary Hospital Networks</strong>
-                      <span className="text-white/80 text-[14px]">While routine monitoring takes place in our clinic, planned deliveries are carried out at leading fully equipped hospitals in Lucknow, with Dr. Shamim Sultana Yashine conducting the birth.</span>
+                      <strong className="block text-[16px] text-white">Premier Hospital Delivery Partnerships</strong>
+                      <span className="text-white/80 text-[14px]">Deliveries are conducted by Dr. Shamim Sultana Yashine at top-tier tertiary hospitals across Lucknow with 24/7 neonatal intensive care (NICU) backup.</span>
                     </div>
                   </li>
                 </ul>
@@ -506,7 +523,7 @@ export default function PregnancyCarePage() {
                     <div className="text-[52px] font-bold text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.6)] leading-none">5.0</div>
                   </div>
                   <p className="text-[14px] font-bold uppercase tracking-wider text-white/90 mb-1">Google Rating</p>
-                  <p className="text-[15px] text-white/80">Based on 9 Reviews</p>
+                  <p className="text-[15px] text-white/80">Based on 11 Reviews</p>
                 </div>
               </div>
             </div>

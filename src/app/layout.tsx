@@ -43,17 +43,19 @@ export default function RootLayout({
 }>) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Physician",
+    "@type": ["MedicalClinic", "Physician", "LocalBusiness"],
     "name": siteConfig.name,
     "url": siteConfig.url,
     "logo": `${siteConfig.url}${siteConfig.logo}`,
     "image": `${siteConfig.url}${siteConfig.logo}`,
     "description": siteConfig.description,
     "telephone": siteConfig.contact.phone,
+    "priceRange": "₹₹",
+    "hasMap": siteConfig.contact.mapsLink,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": siteConfig.contact.address,
-      "addressLocality": "Lucknow",
+      "addressLocality": "Sushant Golf City, Lucknow",
       "addressRegion": "Uttar Pradesh",
       "postalCode": "226030",
       "addressCountry": "IN"
@@ -64,12 +66,45 @@ export default function RootLayout({
       "longitude": "80.9897343"
     },
     "openingHours": siteConfig.contact.hoursShort,
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": siteConfig.reviews.rating,
-      "reviewCount": siteConfig.reviews.count
+      "reviewCount": siteConfig.reviews.count,
+      "bestRating": "5",
+      "worstRating": "1"
     },
-    "medicalSpecialty": "ObstetricianGynecologist"
+    "medicalSpecialty": [
+      "ObstetricianGynecologist",
+      "GynecologicSurgery",
+      "InfertilitySpecialist"
+    ],
+    "areaServed": siteConfig.serviceAreas.secondary.map((area) => ({
+      "@type": "AdministrativeArea",
+      "name": area
+    })),
+    "physician": {
+      "@type": "Physician",
+      "name": siteConfig.doctor.name,
+      "jobTitle": siteConfig.doctor.role,
+      "honorificPrefix": "Dr.",
+      "description": `${siteConfig.doctor.name} (${siteConfig.doctor.qualifications}) is a Senior Consultant Obstetrician, Gynaecologist & Laparoscopic Surgeon with ${siteConfig.doctor.experience} experience specializing in normal delivery, high risk pregnancy, PCOD care, and laparoscopic surgeries in Sushant Golf City, Lucknow.`
+    }
   };
 
   return (
